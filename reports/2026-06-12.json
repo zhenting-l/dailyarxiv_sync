@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-12",
-  "exportedAt": "2026-06-18T06:55:51.307Z",
+  "exportedAt": "2026-06-18T15:37:22.208Z",
   "papers": [
     {
       "arxivId": "2606.11493",
@@ -17,7 +17,7 @@
       "primaryCategory": "math.OC",
       "publishedAt": "2026-06-09",
       "updatedAt": "2026-06-14",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.11493",
       "pdfUrl": "https://arxiv.org/pdf/2606.11493",
       "keywords": [
@@ -26,10 +26,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "58072512-d7f6-4e5c-8087-816daff15483",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "58072512-d7f6-4e5c-8087-816daff15483"
     },
     {
       "arxivId": "2606.13481",
@@ -44,17 +41,14 @@
       "primaryCategory": "math.OC",
       "publishedAt": "2026-06-11",
       "updatedAt": "2026-06-13",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.13481",
       "pdfUrl": "https://arxiv.org/pdf/2606.13481",
       "keywords": [],
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "912501e1-1682-423b-ab2f-cb5e8ce91c63",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "912501e1-1682-423b-ab2f-cb5e8ce91c63"
     },
     {
       "arxivId": "2606.12336",
@@ -72,17 +66,14 @@
       "primaryCategory": "eess.SY",
       "publishedAt": "2026-06-10",
       "updatedAt": "2026-06-13",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.12336",
       "pdfUrl": "https://arxiv.org/pdf/2606.12336",
       "keywords": [],
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "e4963594-c896-40ae-867a-3afe73be8d2d",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "e4963594-c896-40ae-867a-3afe73be8d2d"
     },
     {
       "arxivId": "2606.12327",
@@ -98,17 +89,14 @@
       "primaryCategory": "eess.SY",
       "publishedAt": "2026-06-10",
       "updatedAt": "2026-06-16",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.12327",
       "pdfUrl": "https://arxiv.org/pdf/2606.12327",
       "keywords": [],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c0388f2a-ba98-4669-b1ae-cdef6db30c7a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c0388f2a-ba98-4669-b1ae-cdef6db30c7a"
     },
     {
       "arxivId": "2606.11191",
@@ -135,10 +123,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c6354c15-d243-49c3-84d3-b28392f8b12f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c6354c15-d243-49c3-84d3-b28392f8b12f"
     },
     {
       "arxivId": "2606.11339",
@@ -169,10 +154,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "1e640561-7607-4f45-8f88-ee14f3377f0b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "1e640561-7607-4f45-8f88-ee14f3377f0b"
     },
     {
       "arxivId": "2606.11426",
@@ -196,10 +178,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "625aa1c2-48db-4010-8769-e3b68fcae214",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "625aa1c2-48db-4010-8769-e3b68fcae214"
     },
     {
       "arxivId": "2606.11494",
@@ -225,10 +204,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "ae51e316-5584-4f68-a7a1-5750ed3dcd9a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "ae51e316-5584-4f68-a7a1-5750ed3dcd9a"
     },
     {
       "arxivId": "2606.11513",
@@ -252,10 +228,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "9a9b95a1-ee13-4acd-b712-6cccb95e4390",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "9a9b95a1-ee13-4acd-b712-6cccb95e4390"
     },
     {
       "arxivId": "2606.11515",
@@ -284,10 +257,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6f456ff6-2b00-417b-9a69-3e95850a38c9",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "6f456ff6-2b00-417b-9a69-3e95850a38c9"
     },
     {
       "arxivId": "2606.11538",
@@ -310,10 +280,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "d52013fe-385e-44fb-b90a-548d118ac62b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "d52013fe-385e-44fb-b90a-548d118ac62b"
     },
     {
       "arxivId": "2606.11773",
@@ -336,10 +303,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "cf1afb0e-eb8a-4eeb-a936-31fdc295e37f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "cf1afb0e-eb8a-4eeb-a936-31fdc295e37f"
     },
     {
       "arxivId": "2606.11791",
@@ -363,10 +327,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "d49cfa9f-94eb-406d-b1a0-949ed02e712b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "d49cfa9f-94eb-406d-b1a0-949ed02e712b"
     },
     {
       "arxivId": "2606.11800",
@@ -392,10 +353,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "b369f4f7-d347-4979-b5a4-ebf230b3e9f1",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "b369f4f7-d347-4979-b5a4-ebf230b3e9f1"
     },
     {
       "arxivId": "2606.11820",
@@ -420,10 +378,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "acac5b34-d4ea-456e-afa2-68e3d9cee78f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "acac5b34-d4ea-456e-afa2-68e3d9cee78f"
     },
     {
       "arxivId": "2606.11855",
@@ -449,10 +404,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "79f122c0-d9f2-4fef-b40f-b58f03479cad",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "79f122c0-d9f2-4fef-b40f-b58f03479cad"
     },
     {
       "arxivId": "2606.11981",
@@ -476,10 +428,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "7690ca46-63f9-45fe-8081-359d6f741feb",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "7690ca46-63f9-45fe-8081-359d6f741feb"
     },
     {
       "arxivId": "2606.12108",
@@ -503,10 +452,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "dfd4e59c-587c-4d9e-8fbb-8847700acb68",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "dfd4e59c-587c-4d9e-8fbb-8847700acb68"
     },
     {
       "arxivId": "2606.12124",
@@ -534,10 +480,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "21f5cfd5-fb3a-4080-9b58-380183659473",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "21f5cfd5-fb3a-4080-9b58-380183659473"
     },
     {
       "arxivId": "2606.12163",
@@ -562,10 +505,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "aade1fe8-0ef4-48ca-a196-12014142f9ea",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "aade1fe8-0ef4-48ca-a196-12014142f9ea"
     },
     {
       "arxivId": "2606.12165",
@@ -590,10 +530,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "8c7a8d4e-0902-4d4d-8771-1633f4516124",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "8c7a8d4e-0902-4d4d-8771-1633f4516124"
     },
     {
       "arxivId": "2606.12177",
@@ -620,10 +557,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0238d7c1-04a1-4e53-9205-52a63a624d92",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "0238d7c1-04a1-4e53-9205-52a63a624d92"
     },
     {
       "arxivId": "2606.12266",
@@ -648,10 +582,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "d06bea8c-7129-48b2-b70f-1780fd5203c4",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "d06bea8c-7129-48b2-b70f-1780fd5203c4"
     },
     {
       "arxivId": "2606.12345",
@@ -678,10 +609,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "330a5c11-a46c-4c3b-b955-24efb165207f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "330a5c11-a46c-4c3b-b955-24efb165207f"
     },
     {
       "arxivId": "2606.11192",
@@ -706,10 +634,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "00c415a4-1364-4793-ad44-8992b969cb09",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "00c415a4-1364-4793-ad44-8992b969cb09"
     },
     {
       "arxivId": "2606.11194",
@@ -732,10 +657,7 @@
       "subfield": "组合优化 / 整数规划",
       "score": 7.3,
       "recommendationReason": "命中关键词 Tensor。",
-      "id": "812a9e02-2ae2-47b1-a7ce-aad1885ccb7d",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "812a9e02-2ae2-47b1-a7ce-aad1885ccb7d"
     },
     {
       "arxivId": "2606.11347",
@@ -760,10 +682,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "5926115a-d3f1-4492-86b7-4b9fce095440",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "5926115a-d3f1-4492-86b7-4b9fce095440"
     },
     {
       "arxivId": "2606.11433",
@@ -787,10 +706,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "ee9c2245-e968-4ad5-97bf-4812b199c272",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "ee9c2245-e968-4ad5-97bf-4812b199c272"
     },
     {
       "arxivId": "2606.11566",
@@ -815,10 +731,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "226da576-34ff-4b29-9cb4-6fdb10203748",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "226da576-34ff-4b29-9cb4-6fdb10203748"
     },
     {
       "arxivId": "2606.11798",
@@ -844,10 +757,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "bb3ef5b1-cc2d-4bf3-b863-c7feefc51cc9",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "bb3ef5b1-cc2d-4bf3-b863-c7feefc51cc9"
     },
     {
       "arxivId": "2606.11852",
@@ -872,10 +782,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "cc057182-c43d-4407-b9cc-a8016b8e4c16",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "cc057182-c43d-4407-b9cc-a8016b8e4c16"
     },
     {
       "arxivId": "2606.11971",
@@ -905,10 +812,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c3052032-2b60-4bb2-a748-ea349ed32dac",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c3052032-2b60-4bb2-a748-ea349ed32dac"
     },
     {
       "arxivId": "2606.12120",
@@ -932,10 +836,7 @@
       "subfield": "非凸优化",
       "score": 9.8,
       "recommendationReason": "命中关键词 low-rank。",
-      "id": "67616477-fa8f-4480-abb1-29cf58229e43",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "67616477-fa8f-4480-abb1-29cf58229e43"
     },
     {
       "arxivId": "2606.12131",
@@ -960,10 +861,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "23640419-3035-40a2-9b48-f22d5fa15725",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "23640419-3035-40a2-9b48-f22d5fa15725"
     },
     {
       "arxivId": "2606.12182",
@@ -991,10 +889,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "a6234c9c-c89a-4862-973a-89f9d760c41a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "a6234c9c-c89a-4862-973a-89f9d760c41a"
     },
     {
       "arxivId": "2502.14104",
@@ -1020,10 +915,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "aff4b4bd-e2bc-4a60-aa79-6d60f59b451a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "aff4b4bd-e2bc-4a60-aa79-6d60f59b451a"
     },
     {
       "arxivId": "2504.06967",
@@ -1049,10 +941,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "f0b965ca-ffb8-4194-9bbd-9b35aefdd19b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "f0b965ca-ffb8-4194-9bbd-9b35aefdd19b"
     },
     {
       "arxivId": "2507.07428",
@@ -1077,10 +966,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "260e4478-f6c7-4979-9227-d946302ad225",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "260e4478-f6c7-4979-9227-d946302ad225"
     },
     {
       "arxivId": "2507.12831",
@@ -1104,10 +990,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "8b9a6b5a-9f37-4973-9316-44557d809e00",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "8b9a6b5a-9f37-4973-9316-44557d809e00"
     },
     {
       "arxivId": "2507.17983",
@@ -1130,10 +1013,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "6e7f1ec8-f956-47de-af84-3c8692b12081",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "6e7f1ec8-f956-47de-af84-3c8692b12081"
     },
     {
       "arxivId": "2512.21620",
@@ -1157,10 +1037,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "81176afa-83dc-4695-8d86-b749a5dfbdc0",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "81176afa-83dc-4695-8d86-b749a5dfbdc0"
     },
     {
       "arxivId": "2603.14762",
@@ -1187,10 +1064,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "03f22dab-3608-4877-90c5-6b11e8ecc0b3",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "03f22dab-3608-4877-90c5-6b11e8ecc0b3"
     },
     {
       "arxivId": "2604.10615",
@@ -1218,10 +1092,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "20c85709-0b4b-475f-8b0a-cb1119c96fd4",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "20c85709-0b4b-475f-8b0a-cb1119c96fd4"
     },
     {
       "arxivId": "2606.00283",
@@ -1245,10 +1116,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "94af1cc7-4aee-44cf-a6dd-da305cbbbfc5",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "94af1cc7-4aee-44cf-a6dd-da305cbbbfc5"
     },
     {
       "arxivId": "2606.10203",
@@ -1273,10 +1141,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "6c56a115-273e-4201-a102-f33d09b54a76",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "6c56a115-273e-4201-a102-f33d09b54a76"
     },
     {
       "arxivId": "2606.10339",
@@ -1298,10 +1163,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "948ac2f9-6710-4a1f-bdc6-f0b801e5e48f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "948ac2f9-6710-4a1f-bdc6-f0b801e5e48f"
     },
     {
       "arxivId": "2606.10966",
@@ -1325,10 +1187,7 @@
       "subfield": "组合优化 / 整数规划",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "342cbd02-b702-4072-8234-631e4cf94a7b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "342cbd02-b702-4072-8234-631e4cf94a7b"
     },
     {
       "arxivId": "2401.08188",
@@ -1353,10 +1212,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "1e474fa3-fc33-4230-9cc9-a83511981b02",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "1e474fa3-fc33-4230-9cc9-a83511981b02"
     },
     {
       "arxivId": "2411.13579",
@@ -1384,10 +1240,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "76debf20-4184-4ad7-bf79-28b21058f5cf",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "76debf20-4184-4ad7-bf79-28b21058f5cf"
     },
     {
       "arxivId": "2311.12517",
@@ -1412,10 +1265,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "5dc2e888-0abf-463b-bbc6-691f8e9655ce",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "5dc2e888-0abf-463b-bbc6-691f8e9655ce"
     },
     {
       "arxivId": "2401.14672",
@@ -1441,10 +1291,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "9ae6c550-8acf-4ae8-b1be-3924f7a163f7",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "9ae6c550-8acf-4ae8-b1be-3924f7a163f7"
     },
     {
       "arxivId": "2505.24861",
@@ -1474,10 +1321,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c529dfea-21ab-41b4-90e9-7d006565f59b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c529dfea-21ab-41b4-90e9-7d006565f59b"
     },
     {
       "arxivId": "2506.03045",
@@ -1505,10 +1349,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "5dab5af1-ee8d-4c20-a32b-6fe054d4e118",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "5dab5af1-ee8d-4c20-a32b-6fe054d4e118"
     },
     {
       "arxivId": "2510.02149",
@@ -1535,10 +1376,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "e16b62c6-7174-4354-8d55-b1b5108e0813",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "e16b62c6-7174-4354-8d55-b1b5108e0813"
     },
     {
       "arxivId": "2512.19912",
@@ -1567,10 +1405,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "fcae8f33-651a-45d7-88d1-39853fdcd3d5",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "fcae8f33-651a-45d7-88d1-39853fdcd3d5"
     },
     {
       "arxivId": "2601.12210",
@@ -1596,10 +1431,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "886fe425-c21c-4ec3-a34f-2ff89822e07c",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "886fe425-c21c-4ec3-a34f-2ff89822e07c"
     },
     {
       "arxivId": "2602.10456",
@@ -1624,10 +1456,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "1149ed7c-063d-4297-b7c5-c4694dc3fe99",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "1149ed7c-063d-4297-b7c5-c4694dc3fe99"
     },
     {
       "arxivId": "2605.23770",
@@ -1656,10 +1485,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "5613e190-e8e0-4f0c-9dd3-344955cb7599",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "5613e190-e8e0-4f0c-9dd3-344955cb7599"
     },
     {
       "arxivId": "2606.11118",
@@ -1689,10 +1515,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "b70a8c1c-81f5-4535-ac26-7ddc02c28915",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "b70a8c1c-81f5-4535-ac26-7ddc02c28915"
     },
     {
       "arxivId": "2606.12675",
@@ -1716,10 +1539,7 @@
       "subfield": "分布式优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "7502d115-40b1-4b0a-b72f-c41cb9b05bea",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "7502d115-40b1-4b0a-b72f-c41cb9b05bea"
     },
     {
       "arxivId": "2606.12777",
@@ -1743,10 +1563,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "27985b82-f54a-41ab-a417-075f6d126339",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "27985b82-f54a-41ab-a417-075f6d126339"
     },
     {
       "arxivId": "2606.12868",
@@ -1770,10 +1587,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "e6b80d99-d35c-4794-8af3-e9f58e52ef96",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "e6b80d99-d35c-4794-8af3-e9f58e52ef96"
     },
     {
       "arxivId": "2606.12875",
@@ -1795,10 +1609,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c2d8534a-ff30-4a80-9a6f-23463e0f718a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c2d8534a-ff30-4a80-9a6f-23463e0f718a"
     },
     {
       "arxivId": "2606.13012",
@@ -1824,10 +1635,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "e776a7a9-c4d6-4736-b6bb-400601a5dd02",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "e776a7a9-c4d6-4736-b6bb-400601a5dd02"
     },
     {
       "arxivId": "2606.13031",
@@ -1850,10 +1658,7 @@
       "subfield": "组合优化 / 整数规划",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "129077c2-6ba6-4420-826d-71fcac5a2945",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "129077c2-6ba6-4420-826d-71fcac5a2945"
     },
     {
       "arxivId": "2606.13058",
@@ -1879,10 +1684,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "fc9f22c7-d7f1-4025-a874-5d3dc0bc8ef1",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "fc9f22c7-d7f1-4025-a874-5d3dc0bc8ef1"
     },
     {
       "arxivId": "2606.13198",
@@ -1908,10 +1710,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 9.6,
       "recommendationReason": "作者 Defeng Sun 在你的偏好名单中。",
-      "id": "df318aae-a874-4022-b857-84369e83defc",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "df318aae-a874-4022-b857-84369e83defc"
     },
     {
       "arxivId": "2606.13343",
@@ -1937,10 +1736,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "db54baae-2b6d-4c4d-a614-ccf12dc066eb",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "db54baae-2b6d-4c4d-a614-ccf12dc066eb"
     },
     {
       "arxivId": "2606.13418",
@@ -1966,10 +1762,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "add38ab9-b60d-4c22-9a7b-65957c025f0f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "add38ab9-b60d-4c22-9a7b-65957c025f0f"
     },
     {
       "arxivId": "2606.13524",
@@ -1993,10 +1786,7 @@
       "subfield": "分布式优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0ddb0d04-6e4a-4ad5-a32a-eccf006ad9f4",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "0ddb0d04-6e4a-4ad5-a32a-eccf006ad9f4"
     },
     {
       "arxivId": "2606.13577",
@@ -2021,10 +1811,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "46e95b42-5f0f-467f-8367-3a749bfca067",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "46e95b42-5f0f-467f-8367-3a749bfca067"
     },
     {
       "arxivId": "2606.13579",
@@ -2050,10 +1837,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "647b8786-f516-47b1-bc08-ee6b390cdad5",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "647b8786-f516-47b1-bc08-ee6b390cdad5"
     },
     {
       "arxivId": "2606.13605",
@@ -2083,10 +1867,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "03594789-53dd-4b43-aa52-005a7557203b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "03594789-53dd-4b43-aa52-005a7557203b"
     },
     {
       "arxivId": "2606.12691",
@@ -2117,10 +1898,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "8fb2e0e6-150c-44f3-b6b9-9ed19d2bc7fc",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "8fb2e0e6-150c-44f3-b6b9-9ed19d2bc7fc"
     },
     {
       "arxivId": "2606.12710",
@@ -2152,10 +1930,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "1ddb9f8a-f1b5-4f90-83db-3549fddb41fe",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "1ddb9f8a-f1b5-4f90-83db-3549fddb41fe"
     },
     {
       "arxivId": "2606.13087",
@@ -2180,10 +1955,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "d4651cf7-f5f8-4e9e-8e7e-98ca274140f8",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "d4651cf7-f5f8-4e9e-8e7e-98ca274140f8"
     },
     {
       "arxivId": "2606.13287",
@@ -2211,10 +1983,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "9cebf466-8c3b-458e-9b44-5727068e63b7",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "9cebf466-8c3b-458e-9b44-5727068e63b7"
     },
     {
       "arxivId": "2407.18150",
@@ -2236,10 +2005,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "4cbc9cee-fba0-4f4c-8819-153809ba780b",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "4cbc9cee-fba0-4f4c-8819-153809ba780b"
     },
     {
       "arxivId": "2410.07870",
@@ -2267,10 +2033,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c16d1910-4b51-4137-971b-90e2279d01c6",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c16d1910-4b51-4137-971b-90e2279d01c6"
     },
     {
       "arxivId": "2505.06374",
@@ -2298,10 +2061,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "7c52de82-27b3-477c-a936-86cbf86d369a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "7c52de82-27b3-477c-a936-86cbf86d369a"
     },
     {
       "arxivId": "2509.00895",
@@ -2326,10 +2086,7 @@
       "subfield": "组合优化 / 整数规划",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c4ad5fe4-80e6-4325-ad8b-eaedc34db5d7",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c4ad5fe4-80e6-4325-ad8b-eaedc34db5d7"
     },
     {
       "arxivId": "2510.19416",
@@ -2358,10 +2115,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "081eaa1b-74a0-4b8a-a236-3f434fcbcab2",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "081eaa1b-74a0-4b8a-a236-3f434fcbcab2"
     },
     {
       "arxivId": "2602.10022",
@@ -2383,10 +2137,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "781c787c-9ec7-4287-8bf1-cfa6dff093a2",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "781c787c-9ec7-4287-8bf1-cfa6dff093a2"
     },
     {
       "arxivId": "2602.23725",
@@ -2409,10 +2160,7 @@
       "subfield": "半定规划 / 锥优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "615db545-5b16-4b2c-9471-cd3dab4a8c7a",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "615db545-5b16-4b2c-9471-cd3dab4a8c7a"
     },
     {
       "arxivId": "2603.03017",
@@ -2440,10 +2188,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c1081f3d-7dca-48c9-9613-1ef6e06e2463",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c1081f3d-7dca-48c9-9613-1ef6e06e2463"
     },
     {
       "arxivId": "2603.21850",
@@ -2467,10 +2212,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "1eaf771c-ed39-41c8-b7f5-145000696489",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "1eaf771c-ed39-41c8-b7f5-145000696489"
     },
     {
       "arxivId": "2501.04823",
@@ -2498,10 +2240,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c2ecfe0a-9262-4327-bc87-e5b3c483b42c",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "c2ecfe0a-9262-4327-bc87-e5b3c483b42c"
     },
     {
       "arxivId": "2508.05854",
@@ -2526,10 +2265,7 @@
       "subfield": "半定规划 / 锥优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "602f09db-3f52-4a20-8e70-3c3575545a45",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "602f09db-3f52-4a20-8e70-3c3575545a45"
     },
     {
       "arxivId": "2511.03142",
@@ -2557,10 +2293,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6f0177fb-ab34-4284-9945-58f35d106916",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "6f0177fb-ab34-4284-9945-58f35d106916"
     },
     {
       "arxivId": "2512.23566",
@@ -2588,10 +2321,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "afd4a2d8-c6ba-476f-be56-dfbc16c751e5",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "afd4a2d8-c6ba-476f-be56-dfbc16c751e5"
     },
     {
       "arxivId": "2301.08102",
@@ -2620,10 +2350,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "e945d54b-5de1-4cbe-938d-d2aaf7d08fd2",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "e945d54b-5de1-4cbe-938d-d2aaf7d08fd2"
     },
     {
       "arxivId": "2304.00423",
@@ -2651,10 +2378,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "682a074f-0430-4d7e-a083-1b2e01f48a0f",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "682a074f-0430-4d7e-a083-1b2e01f48a0f"
     },
     {
       "arxivId": "2603.01860",
@@ -2684,10 +2408,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "fd7917de-9915-48fb-9116-4eec31393a99",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "fd7917de-9915-48fb-9116-4eec31393a99"
     },
     {
       "arxivId": "2603.17527",
@@ -2715,10 +2436,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "17b460ca-f0c7-47d4-b622-535a8e1c9523",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "17b460ca-f0c7-47d4-b622-535a8e1c9523"
     },
     {
       "arxivId": "2605.24242",
@@ -2742,10 +2460,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "a0f54f79-c003-49e2-9f5e-05d71b1a88b3",
-      "status": "unread",
-      "isStarred": false,
-      "notes": ""
+      "id": "a0f54f79-c003-49e2-9f5e-05d71b1a88b3"
     }
   ]
 }
