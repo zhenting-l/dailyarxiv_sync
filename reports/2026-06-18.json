@@ -1,7 +1,105 @@
 {
   "reportDate": "2026-06-18",
-  "exportedAt": "2026-06-18T13:21:00.296Z",
+  "exportedAt": "2026-06-18T15:37:08.237Z",
   "papers": [
+    {
+      "arxivId": "2606.14709",
+      "title": "A Discrete KKT Variational Characterization of the Local Minimality of the Mahler Volume in Centrally Symmetric Polytopes",
+      "authors": [
+        "Daniel Martín Jiménez Cuevas"
+      ],
+      "abstract": "We present a discrete parametric characterization of the Mahler functional $\\mathcal{V}_M$ for centrally symmetric polytopes in $\\mathbb{R}^n$. By formulating the first variation of the volume with respect to the radial immersions of the vertices, we derive an exact KKT stationarity condition. Through this formalism, we demonstrate that the Hanner orbit constitutes a strict local minimum in the stratum of radial dilations modulo $GL(n, \\mathbb{R})$, for all dimensions $n \\ge 2$. Spectral analysis of the second variation reveals that the radial Hessian matrix is analytically equivalent to a positive semi-definite discrete Graph Laplacian. Coupling this isochoric result with a simplicial truncation analysis in the Hausdorff topology, we establish a quadratic quantitative stability bound against local polyhedral perturbations. This discrete framework eludes the degenerations of traditional smooth continuous analysis, providing an explicit algebraic resolution for the strict local minimality of this geometric configuration and its topological isolation in the subspace of polytopes.",
+      "categories": [
+        "math.OC",
+        "math.MG"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-04-10",
+      "updatedAt": "2026-06-16",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2606.14709",
+      "pdfUrl": "https://arxiv.org/pdf/2606.14709",
+      "keywords": [],
+      "subfield": "凸优化",
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "a1a5c539-c4e5-4853-b6ef-4109cd414ab5"
+    },
+    {
+      "arxivId": "2606.15195",
+      "title": "A Feasible-Velocity Framework for Local Controllability of Nonlinear Systems with Zero-Excluding Input Constraints",
+      "authors": [
+        "Amal Bouazza",
+        "Mohamed Boutayeb",
+        "Mustapha Oudani"
+      ],
+      "abstract": "This paper studies local controllability of nonlinear control-affine systems subject to state-dependent box constraints that strictly exclude the zero input. Such constraints arise naturally in cable-driven robots and other systems with strictly positive actuation, but fall outside classical small-time local controllability theory and existing frameworks for positive or cone-constrained controls. We introduce the admissible balancing set, an input-space object that classifies reference states without requiring the control distribution to have full rank. When an admissible balancing input lies in the interior of the input set, a locally uniform input shift recovers a symmetric-control system, allowing classical accessibility and small-time local controllability criteria to be applied. When no admissible balancing input exists, the feasible-velocity set is strictly separated from the origin. We show that the resulting separating covector defines a local barrier functional that increases at a uniform positive rate along every admissible trajectory, thereby providing a quantitative obstruction to small-time local controllability. This obstruction does not exclude finite-time reachability through trajectories leaving the barrier neighborhood, which motivates the notion of admissible excursions. The framework is illustrated on an underactuated planar cable-driven parallel robot, for which the barrier is certified numerically over a prescribed state neighborhood.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-13",
+      "updatedAt": "2026-06-16",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2606.15195",
+      "pdfUrl": "https://arxiv.org/pdf/2606.15195",
+      "keywords": [
+        "online"
+      ],
+      "subfield": "在线优化 / 动态优化",
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "4808a02b-ad43-4e61-b710-12b46b90adfc"
+    },
+    {
+      "arxivId": "2606.14954",
+      "title": "Representation Costs in Data Science: Foundations and the Quasi-Banach Spaces of Deep Neural Networks",
+      "authors": [
+        "Greg Ongie",
+        "Rahul Parhi"
+      ],
+      "abstract": "We develop a general framework for analyzing representation costs of parametric data-fitting methods through their parameter-space regularizers. From this abstract perspective, we define representation costs for arbitrary parametric models and reveal their induced (native) function spaces. This unifies recent function-space views of data-fitting methods. We also prove that many natural results hold in this abstract setting, including representer theorems for parametric methods on their native spaces. The framework also rigorously connects parametric methods with their equivalent nonparametric descriptions under sufficient overparameterization. Classical methods and their native spaces, such as kernel methods / reproducing kernel Hilbert spaces, wavelets / Besov spaces, and shallow neural networks / variation spaces emerge as special cases of our abstract framework. A byproduct of \"axiomatizing\" the study of representation costs is that we also immediately obtain new results for deep neural networks: For depth-$L$ feedforward ReLU networks, their induced native spaces are $p$-normable quasi-Banach spaces with $p = 2/L$. This reveals that the inductive bias of deep neural networks (as given by the representation cost) cannot be captured by norms for depths $L > 2$.",
+      "categories": [
+        "math.FA",
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "math.FA",
+      "publishedAt": "2026-06-12",
+      "updatedAt": "2026-06-16",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2606.14954",
+      "pdfUrl": "https://arxiv.org/pdf/2606.14954",
+      "keywords": [],
+      "subfield": "优化与机器学习",
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "d6475556-9da3-4a4e-87eb-7a0ab00f0c82"
+    },
+    {
+      "arxivId": "2606.15249",
+      "title": "A universal support theorem for 1-Wasserstein optimal transport",
+      "authors": [
+        "Ze-An Ng"
+      ],
+      "abstract": "We show that every optimal transport plan for the $1$-Wasserstein distance in $\\mathbb R^n$ is supported on a closed $n+1$ rectifiable set. In particular, the support of any optimal plan has Hausdorff dimension at most $n+1$.",
+      "categories": [
+        "math.CA",
+        "math.OC"
+      ],
+      "primaryCategory": "math.CA",
+      "publishedAt": "2026-06-13",
+      "updatedAt": "2026-06-16",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2606.15249",
+      "pdfUrl": "https://arxiv.org/pdf/2606.15249",
+      "keywords": [],
+      "subfield": "凸优化",
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "695d6978-ffce-481a-abb9-d10cfa447b80"
+    },
     {
       "arxivId": "2606.17208",
       "title": "On the Strong Duality in Continuous-time and Discrete-time Linear Quadratic Regulators",
@@ -24,9 +122,9 @@
         "nonconvex"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 nonconvex。",
-      "id": "75e13edf-8998-4d9e-8845-2a7668af38c0"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "5313d191-9c85-4756-ab49-20f27065c0e1"
     },
     {
       "arxivId": "2606.17260",
@@ -55,7 +153,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "21cf921b-251b-419a-a342-8f9930803a3e"
+      "id": "0e227a82-d8c8-4d8f-bb18-f4dcbd708167"
     },
     {
       "arxivId": "2606.17285",
@@ -81,9 +179,9 @@
         "online"
       ],
       "subfield": "随机优化",
-      "score": 8.5,
-      "recommendationReason": "命中关键词 nonconvex、stochastic、proximal。",
-      "id": "3f9085ce-ca91-4f58-b345-7277f02895b7"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "95e55348-0183-4b2f-8668-9259056f3ad6"
     },
     {
       "arxivId": "2606.17400",
@@ -108,7 +206,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "7f5b1848-404f-4bfd-93b1-e1b6d9dff013"
+      "id": "baaab159-d7a3-459d-86f4-2d6192057909"
     },
     {
       "arxivId": "2606.17466",
@@ -132,9 +230,9 @@
         "robust"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 robust。",
-      "id": "41ac8fef-1c56-4b27-884d-de1a0e8638bd"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "521e49b0-d09c-4472-b4a4-8b5f79ed8a37"
     },
     {
       "arxivId": "2606.17523",
@@ -158,7 +256,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "f1bfb8df-d66a-4f2a-a34f-112f0c43a7a9"
+      "id": "ee76b99d-9b49-4fe7-b363-dcee47e95e96"
     },
     {
       "arxivId": "2606.17552",
@@ -184,7 +282,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "00634a78-200e-4126-9626-7e067236e909"
+      "id": "df8e2530-1c75-4227-bffc-ee1555a9739d"
     },
     {
       "arxivId": "2606.17608",
@@ -207,7 +305,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "b02a3df4-52ca-4809-8107-a315dec15e68"
+      "id": "230cf8c8-4bf2-45a8-807b-5d6c817c5f58"
     },
     {
       "arxivId": "2606.17640",
@@ -229,7 +327,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "fc0ca590-0905-46c1-b8b1-a899af04f2c8"
+      "id": "2684f5dc-c4bd-4fdf-a204-eb8b0c1f08cd"
     },
     {
       "arxivId": "2606.17643",
@@ -253,9 +351,9 @@
         "robust"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 robust。",
-      "id": "47231218-fdab-45dd-ad55-8ab265f23546"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "b1003513-2779-43f6-8056-d6c44fd8e2f7"
     },
     {
       "arxivId": "2606.17726",
@@ -279,9 +377,9 @@
         "stochastic"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "9000ae09-07f1-4b93-94e8-76eaf3572ef6"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "f815b184-7f8a-439a-9a28-d57fadecdf0d"
     },
     {
       "arxivId": "2606.17762",
@@ -308,7 +406,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "1b5f6e90-fbd5-43f3-b99a-12eb17c6ac39"
+      "id": "e1d5d026-aa9e-45b4-96ab-7ae1ef17504d"
     },
     {
       "arxivId": "2606.17766",
@@ -334,7 +432,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "64ad64fb-42be-4760-a9de-78129a151285"
+      "id": "3907f979-0c5e-4fe8-bd09-5e0fb1decc6f"
     },
     {
       "arxivId": "2606.17768",
@@ -356,7 +454,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "3e150d98-92a7-4195-9070-ac0f44aa7376"
+      "id": "5b47b4ac-c08b-447f-b6fa-4c760bf3f48f"
     },
     {
       "arxivId": "2606.17769",
@@ -381,9 +479,9 @@
         "bilevel"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 bilevel。",
-      "id": "34dff300-0aaf-41b7-8f61-5ed1d1e9a454"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "60ae1ff6-7ddf-43c7-9ecb-2aaea13bff52"
     },
     {
       "arxivId": "2606.17788",
@@ -407,7 +505,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "274871bd-20bb-42a0-8360-c1d958bab232"
+      "id": "2dbcfa8d-7aae-467b-a140-d39236b18502"
     },
     {
       "arxivId": "2606.17797",
@@ -432,9 +530,9 @@
         "online"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 robust。",
-      "id": "cbf6ff03-30da-4a0f-b1dc-857dc29ae93d"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "02a6dce8-fdb7-46b6-a724-9efa35c33093"
     },
     {
       "arxivId": "2606.17814",
@@ -456,7 +554,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "2202a1cd-8cca-4b96-a682-b8a77b630a9a"
+      "id": "54574f93-e424-4866-a05c-b44de0af1269"
     },
     {
       "arxivId": "2606.17941",
@@ -487,9 +585,9 @@
         "online"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 robust。",
-      "id": "032bc22c-b61a-4212-ae99-c27a43120848"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "f82d0486-f293-4f34-b6e6-279add23a774"
     },
     {
       "arxivId": "2606.17125",
@@ -514,9 +612,9 @@
         "robust"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 robust。",
-      "id": "bd1c4c0a-8930-4d64-8ffe-06a83135f47d"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "8738f68c-833b-49c0-9d90-20ba1a5d5a8c"
     },
     {
       "arxivId": "2606.17219",
@@ -540,7 +638,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "e031c1cf-e7ec-4979-998c-119d44a4ef3f"
+      "id": "f478cb76-df07-4f1f-b123-b203b58bf5e9"
     },
     {
       "arxivId": "2606.17280",
@@ -566,7 +664,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "38801dba-5fd8-47c4-b4e9-7420e8142b46"
+      "id": "a459caac-57c5-46ae-a8f8-796a42279d03"
     },
     {
       "arxivId": "2606.17317",
@@ -595,9 +693,9 @@
         "online"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 8.1,
-      "recommendationReason": "命中关键词 nonconvex、robust。",
-      "id": "f0a4a6a3-944a-44d8-b136-a0406ee8dbde"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "5eb0f758-bc6d-45ac-8267-98a72691bee8"
     },
     {
       "arxivId": "2606.17364",
@@ -622,9 +720,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "155b5ee4-6685-44be-a324-4b8cbd4da540"
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "426e4119-6972-4048-a3e6-230ae859be0c"
     },
     {
       "arxivId": "2606.17594",
@@ -648,7 +746,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "352ce84b-cf12-484e-927d-6d969601ad1c"
+      "id": "568be665-2057-468b-a109-b5a831d37890"
     },
     {
       "arxivId": "2606.17743",
@@ -674,9 +772,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "0763c109-110a-42ab-b5fe-c42ce5b96144"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "a83d4fd4-4095-4ea6-bd77-f1eea5261655"
     },
     {
       "arxivId": "2606.18116",
@@ -700,7 +798,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "35e7f9da-80ba-419b-9803-f5eacd7ba03a"
+      "id": "61c86f21-6f82-4784-a115-1faa7de8aed3"
     },
     {
       "arxivId": "2606.18173",
@@ -727,7 +825,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c9af11f7-9bf7-4db0-b7cd-91329ff32581"
+      "id": "0478386d-133f-4938-8eee-7867b3a0a1f2"
     },
     {
       "arxivId": "2606.18194",
@@ -752,9 +850,9 @@
         "proximal"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 robust、proximal。",
-      "id": "359cea93-27ca-45f0-afe4-e69bab40b487"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "9bd74e25-eb1e-4978-9ec0-91716a292025"
     },
     {
       "arxivId": "2606.18218",
@@ -782,9 +880,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "f11c5f6b-8b9c-42fe-8291-a92a47f7f1f2"
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "88cc483e-a396-48c4-ae92-ac6931e5f351"
     },
     {
       "arxivId": "2410.17706",
@@ -809,9 +907,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "99f9e74c-1175-45ef-bfb8-2354c9d1bdd8"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "fd8ffdba-0a9c-405d-b664-50f8cc395a36"
     },
     {
       "arxivId": "2410.19350",
@@ -833,7 +931,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "ce92a1a0-ddd9-426a-a772-9162cd787f58"
+      "id": "f010f3e9-fbfe-4fef-95bc-d37575843017"
     },
     {
       "arxivId": "2411.03461",
@@ -858,7 +956,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "7dfbc610-e74b-4d7f-abd4-34c62ca149cd"
+      "id": "621a139f-91c0-475f-80c2-8380fe80dc2f"
     },
     {
       "arxivId": "2411.07331",
@@ -882,7 +980,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "25af604d-c8ef-4f17-9d06-a40c0a69ea1d"
+      "id": "ee5aa923-f520-4e90-9c64-e53eac93dff7"
     },
     {
       "arxivId": "2504.15752",
@@ -904,9 +1002,9 @@
         "proximal"
       ],
       "subfield": "非凸优化",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 proximal。",
-      "id": "40ca66c3-6f5d-46d6-b398-70017a329273"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "d6239eba-a4ac-412e-84ad-72b5c93c605a"
     },
     {
       "arxivId": "2509.04264",
@@ -930,9 +1028,9 @@
         "proximal"
       ],
       "subfield": "凸优化",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 proximal。",
-      "id": "1326f709-6548-4a83-b108-3d38240dca4f"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "ed96158d-7e9e-4109-aed2-97fd0e4607c5"
     },
     {
       "arxivId": "2510.05779",
@@ -955,9 +1053,9 @@
         "proximal"
       ],
       "subfield": "凸优化",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 proximal。",
-      "id": "991685d0-391e-4ff1-bb77-940b48773f6c"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "5099e0ad-83b4-4a24-afcd-3e8490919b1c"
     },
     {
       "arxivId": "2601.06976",
@@ -980,7 +1078,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "5809b04b-8d0c-4a6c-b727-1fb0ec0869d0"
+      "id": "752a75e1-fa86-4c5a-a539-4cfa562c26cc"
     },
     {
       "arxivId": "2603.27812",
@@ -1004,9 +1102,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "362c4375-05c0-4a39-8a4f-1d8b8f6114b2"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "0448bb94-0f71-4091-8d0d-50719497e452"
     },
     {
       "arxivId": "2604.06531",
@@ -1034,9 +1132,9 @@
         "nonconvex"
       ],
       "subfield": "非凸优化",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 nonconvex。",
-      "id": "0009bf16-370f-471a-bc8b-9a4be471d4a6"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "0ea10b13-1289-40f5-8e8b-32f9ba2ede85"
     },
     {
       "arxivId": "2606.08675",
@@ -1061,56 +1159,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "c1872ca7-9b33-42eb-9049-1531c7ad7746"
-    },
-    {
-      "arxivId": "2606.14709",
-      "title": "A Discrete KKT Variational Characterization of the Local Minimality of the Mahler Volume in Centrally Symmetric Polytopes",
-      "authors": [
-        "Daniel Martín Jiménez Cuevas"
-      ],
-      "abstract": "We present a discrete parametric characterization of the Mahler functional $\\mathcal{V}_M$ for centrally symmetric polytopes in $\\mathbb{R}^n$. By formulating the first variation of the volume with respect to the radial immersions of the vertices, we derive an exact KKT stationarity condition. Through this formalism, we demonstrate that the Hanner orbit constitutes a strict local minimum in the stratum of radial dilations modulo $GL(n, \\mathbb{R})$, for all dimensions $n \\ge 2$. Spectral analysis of the second variation reveals that the radial Hessian matrix is analytically equivalent to a positive semi-definite discrete Graph Laplacian. Coupling this isochoric result with a simplicial truncation analysis in the Hausdorff topology, we establish a quadratic quantitative stability bound against local polyhedral perturbations. This discrete framework eludes the degenerations of traditional smooth continuous analysis, providing an explicit algebraic resolution for the strict local minimality of this geometric configuration and its topological isolation in the subspace of polytopes.",
-      "categories": [
-        "math.OC",
-        "math.MG"
-      ],
-      "primaryCategory": "math.OC",
-      "publishedAt": "2026-04-10",
-      "updatedAt": "2026-06-16",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.14709",
-      "pdfUrl": "https://arxiv.org/pdf/2606.14709",
-      "keywords": [],
-      "subfield": "凸优化",
-      "score": 8.1,
-      "recommendationReason": "",
-      "id": "fe219808-3cd0-4c11-b089-3ba0b2041b8a"
-    },
-    {
-      "arxivId": "2606.15195",
-      "title": "A Feasible-Velocity Framework for Local Controllability of Nonlinear Systems with Zero-Excluding Input Constraints",
-      "authors": [
-        "Amal Bouazza",
-        "Mohamed Boutayeb",
-        "Mustapha Oudani"
-      ],
-      "abstract": "This paper studies local controllability of nonlinear control-affine systems subject to state-dependent box constraints that strictly exclude the zero input. Such constraints arise naturally in cable-driven robots and other systems with strictly positive actuation, but fall outside classical small-time local controllability theory and existing frameworks for positive or cone-constrained controls. We introduce the admissible balancing set, an input-space object that classifies reference states without requiring the control distribution to have full rank. When an admissible balancing input lies in the interior of the input set, a locally uniform input shift recovers a symmetric-control system, allowing classical accessibility and small-time local controllability criteria to be applied. When no admissible balancing input exists, the feasible-velocity set is strictly separated from the origin. We show that the resulting separating covector defines a local barrier functional that increases at a uniform positive rate along every admissible trajectory, thereby providing a quantitative obstruction to small-time local controllability. This obstruction does not exclude finite-time reachability through trajectories leaving the barrier neighborhood, which motivates the notion of admissible excursions. The framework is illustrated on an underactuated planar cable-driven parallel robot, for which the barrier is certified numerically over a prescribed state neighborhood.",
-      "categories": [
-        "math.OC"
-      ],
-      "primaryCategory": "math.OC",
-      "publishedAt": "2026-06-13",
-      "updatedAt": "2026-06-16",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.15195",
-      "pdfUrl": "https://arxiv.org/pdf/2606.15195",
-      "keywords": [
-        "online"
-      ],
-      "subfield": "在线优化 / 动态优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "85b14510-3bfb-4af8-b632-48f5b245f003"
+      "id": "291d4fc1-386b-4874-80ff-e0bea76dd883"
     },
     {
       "arxivId": "2405.20912",
@@ -1136,9 +1185,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "55931c9f-746d-4bdb-b0b1-9705991772fe"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "47e11cb6-e4da-4aa1-b97d-f3e1dbaaf58a"
     },
     {
       "arxivId": "2507.20708",
@@ -1166,7 +1215,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "7d298810-6e49-47bc-94a2-a2dfb117be8c"
+      "id": "d9b1851c-93f2-4f5b-9a5a-7bcac557a157"
     },
     {
       "arxivId": "2602.06014",
@@ -1193,9 +1242,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "e6237638-f4a8-4c10-ae69-ebdf97127f74"
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "5db06671-828d-4e5e-8272-a0fd079020aa"
     },
     {
       "arxivId": "2602.15279",
@@ -1224,7 +1273,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "33e987d2-daf7-47f7-ba81-a2c30feda381"
+      "id": "b84d1b27-9147-4f8d-bdde-712e1094db25"
     },
     {
       "arxivId": "2605.14743",
@@ -1250,9 +1299,9 @@
         "robust"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 8.1,
-      "recommendationReason": "命中关键词 stochastic、robust。",
-      "id": "87437a6d-65af-48b0-b160-111555e798b2"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "ea83887e-9b3c-4d8a-be32-53e25055f144"
     },
     {
       "arxivId": "2606.12327",
@@ -1275,56 +1324,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "4776779b-92f1-4108-bf3b-c34973d4ffd3"
-    },
-    {
-      "arxivId": "2606.14954",
-      "title": "Representation Costs in Data Science: Foundations and the Quasi-Banach Spaces of Deep Neural Networks",
-      "authors": [
-        "Greg Ongie",
-        "Rahul Parhi"
-      ],
-      "abstract": "We develop a general framework for analyzing representation costs of parametric data-fitting methods through their parameter-space regularizers. From this abstract perspective, we define representation costs for arbitrary parametric models and reveal their induced (native) function spaces. This unifies recent function-space views of data-fitting methods. We also prove that many natural results hold in this abstract setting, including representer theorems for parametric methods on their native spaces. The framework also rigorously connects parametric methods with their equivalent nonparametric descriptions under sufficient overparameterization. Classical methods and their native spaces, such as kernel methods / reproducing kernel Hilbert spaces, wavelets / Besov spaces, and shallow neural networks / variation spaces emerge as special cases of our abstract framework. A byproduct of \"axiomatizing\" the study of representation costs is that we also immediately obtain new results for deep neural networks: For depth-$L$ feedforward ReLU networks, their induced native spaces are $p$-normable quasi-Banach spaces with $p = 2/L$. This reveals that the inductive bias of deep neural networks (as given by the representation cost) cannot be captured by norms for depths $L > 2$.",
-      "categories": [
-        "math.FA",
-        "cs.LG",
-        "math.OC",
-        "stat.ML"
-      ],
-      "primaryCategory": "math.FA",
-      "publishedAt": "2026-06-12",
-      "updatedAt": "2026-06-16",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.14954",
-      "pdfUrl": "https://arxiv.org/pdf/2606.14954",
-      "keywords": [],
-      "subfield": "优化与机器学习",
-      "score": 4.7,
-      "recommendationReason": "",
-      "id": "bb142006-d9d8-4e28-b972-74181f638f46"
-    },
-    {
-      "arxivId": "2606.15249",
-      "title": "A universal support theorem for 1-Wasserstein optimal transport",
-      "authors": [
-        "Ze-An Ng"
-      ],
-      "abstract": "We show that every optimal transport plan for the $1$-Wasserstein distance in $\\mathbb R^n$ is supported on a closed $n+1$ rectifiable set. In particular, the support of any optimal plan has Hausdorff dimension at most $n+1$.",
-      "categories": [
-        "math.CA",
-        "math.OC"
-      ],
-      "primaryCategory": "math.CA",
-      "publishedAt": "2026-06-13",
-      "updatedAt": "2026-06-16",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.15249",
-      "pdfUrl": "https://arxiv.org/pdf/2606.15249",
-      "keywords": [],
-      "subfield": "凸优化",
-      "score": 8.1,
-      "recommendationReason": "",
-      "id": "75b998ab-8faa-4cf9-b546-dfef8d9eed3e"
+      "id": "c0388f2a-ba98-4669-b1ae-cdef6db30c7a"
     },
     {
       "arxivId": "2606.18438",
@@ -1349,9 +1349,9 @@
         "stochastic"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "c5c9f9e6-5396-48b9-b245-dac7166af1b2"
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "0a5610ce-23c6-4c42-985c-b41ba1c3f4a3"
     },
     {
       "arxivId": "2606.18475",
@@ -1375,9 +1375,9 @@
         "bilevel"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 bilevel。",
-      "id": "92d7cf0d-3c7d-4fcf-8e72-0555c1ed9aae"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "502d7a53-20b2-4670-8ac2-498ef9d970ef"
     },
     {
       "arxivId": "2606.18724",
@@ -1400,7 +1400,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "5face695-ad45-4baa-8e15-f3e25b3bd341"
+      "id": "8b45e7f5-959c-4517-9cea-660ff02827d4"
     },
     {
       "arxivId": "2606.18818",
@@ -1422,7 +1422,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0a52076d-5788-411d-bd34-3d338b84d7de"
+      "id": "9d6f9b05-a2d1-4b99-aaad-ac1c949de29c"
     },
     {
       "arxivId": "2606.18830",
@@ -1447,7 +1447,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "289a3341-41fe-4158-8d77-4f5e81bd2e41"
+      "id": "eb7eabed-9c1d-4446-8351-b2b3eba3270d"
     },
     {
       "arxivId": "2606.18935",
@@ -1472,9 +1472,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "64b90a9b-96b3-43ec-be72-ca642c1fb012"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "666fea4e-e772-40df-92cf-ebd2df44faa5"
     },
     {
       "arxivId": "2606.19050",
@@ -1498,9 +1498,9 @@
         "proximal"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 8.1,
-      "recommendationReason": "命中关键词 robust、proximal。",
-      "id": "70a747dd-d961-43d1-89de-66abf4d79391"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "9c7b2347-bf7d-4a3b-8300-49381ccc6709"
     },
     {
       "arxivId": "2606.19109",
@@ -1526,9 +1526,9 @@
         "online"
       ],
       "subfield": "非凸优化",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 nonconvex。",
-      "id": "abbcac9a-6bc9-48c4-b7a9-0bb3569926a2"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "15b3e61a-5a7f-487c-b949-6eec9dfb5570"
     },
     {
       "arxivId": "2606.19143",
@@ -1551,9 +1551,9 @@
         "bilevel"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 bilevel。",
-      "id": "02c65350-fa2c-4a72-bad0-107400ec14f5"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "6158ee91-d81e-4717-a453-f9f6b0620ab3"
     },
     {
       "arxivId": "2606.19278",
@@ -1577,7 +1577,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "3fe0cbef-537b-491e-bf9e-34870bb3f2d0"
+      "id": "6661f0fc-dc8e-4df9-8877-d79784682b8d"
     },
     {
       "arxivId": "2606.19284",
@@ -1601,9 +1601,9 @@
         "online"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "36f3fbd7-b3af-4a39-81ab-243feac5454c"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "a1e46b66-e121-40f2-a31b-47a2cdc697e6"
     },
     {
       "arxivId": "2606.19332",
@@ -1629,7 +1629,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "076c5890-e6ba-440c-bb1e-34f866ff7ac4"
+      "id": "9fa15e23-bb2e-4a6c-bb61-827d562e90dd"
     },
     {
       "arxivId": "2606.18504",
@@ -1657,7 +1657,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "7125fce2-5db5-4d29-ab98-16c1c33bd1b7"
+      "id": "0797e12b-b2f6-403e-b672-601dcffdf3f2"
     },
     {
       "arxivId": "2606.18568",
@@ -1682,9 +1682,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "c6b26982-fdfb-457b-a0a0-b3efab0dd65d"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "57707087-26b1-442a-bd63-5684a2bd2626"
     },
     {
       "arxivId": "2606.18679",
@@ -1714,7 +1714,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "95eca714-48ec-4cc4-a9db-de7c111241fd"
+      "id": "2ce1abd9-5f8f-49ed-aa5e-47af6244edde"
     },
     {
       "arxivId": "2606.18730",
@@ -1742,9 +1742,9 @@
         "bilevel"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 bilevel。",
-      "id": "a79c8365-a2e5-4e88-9cc4-921fa9f6bf8f"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "ad2bda77-f464-45af-9035-1ae3a47c4d4c"
     },
     {
       "arxivId": "2606.18799",
@@ -1770,7 +1770,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "034776cb-545b-4ad8-9c43-ba70e925a8f8"
+      "id": "4472e962-8869-4828-b2db-8f587f813f86"
     },
     {
       "arxivId": "2606.18863",
@@ -1798,7 +1798,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "433b3569-11ce-4e60-b1bd-8977c4385d56"
+      "id": "4848aa84-8df7-4041-a404-8630efd622c1"
     },
     {
       "arxivId": "2606.18905",
@@ -1823,7 +1823,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "4d267357-e087-4744-bf56-8c68b21dd741"
+      "id": "64852535-649b-45ab-91ab-c8d5f0046e3a"
     },
     {
       "arxivId": "2606.18913",
@@ -1848,7 +1848,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "3d078cf3-131f-4f31-8312-bace77a9c353"
+      "id": "68cb4a5b-532d-4ff9-93fa-61d29e382168"
     },
     {
       "arxivId": "2606.18980",
@@ -1874,7 +1874,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "b05ca3ed-71fd-4a93-840d-26dd178ed4fb"
+      "id": "5d38404c-7037-44d3-9588-a4aa2de502c1"
     },
     {
       "arxivId": "2606.19179",
@@ -1902,9 +1902,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "6e2981cb-240e-4dcb-80ec-e4f662f07815"
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "026d4470-cfa7-4424-85f6-3935c9ff7244"
     },
     {
       "arxivId": "2207.10325",
@@ -1929,7 +1929,7 @@
       "subfield": "组合优化 / 整数规划",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "48671b8a-a19c-4d2a-aa14-99447c663867"
+      "id": "ebced5b1-c4d8-447e-9c7c-4462d59a6342"
     },
     {
       "arxivId": "2501.17577",
@@ -1954,9 +1954,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "1890939f-1fef-404b-84ab-23cdb2cf57a4"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "70dc5154-7fcd-4fb1-89f3-67454125cf92"
     },
     {
       "arxivId": "2507.20386",
@@ -1978,9 +1978,9 @@
       "pdfUrl": "https://arxiv.org/pdf/2507.20386",
       "keywords": [],
       "subfield": "半定规划 / 锥优化",
-      "score": 8.1,
-      "recommendationReason": "",
-      "id": "b3555dff-5adb-4806-bcae-1bc6c6632c1f"
+      "score": 9.8,
+      "recommendationReason": "命中关键词 low-rank。",
+      "id": "98dac0bb-5d46-4448-b6b5-7b3cf8fcd7f5"
     },
     {
       "arxivId": "2508.20880",
@@ -2001,9 +2001,9 @@
       "pdfUrl": "https://arxiv.org/pdf/2508.20880",
       "keywords": [],
       "subfield": "凸优化",
-      "score": 8.1,
-      "recommendationReason": "",
-      "id": "3fd06f40-4177-466b-870a-4da8730faf70"
+      "score": 9.8,
+      "recommendationReason": "命中关键词 low-rank。",
+      "id": "9f63438a-90b5-4f4c-974c-859c1e73711a"
     },
     {
       "arxivId": "2603.20503",
@@ -2027,9 +2027,9 @@
         "robust"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 7.3,
-      "recommendationReason": "命中关键词 robust。",
-      "id": "ceab64a5-185f-4156-a1cb-d69d92a907f2"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "20186ec5-6e2e-4fb4-9de9-58d9b1528a05"
     },
     {
       "arxivId": "2604.13302",
@@ -2055,7 +2055,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "38098985-932d-4631-8891-5a2101ecd1e6"
+      "id": "c4f538c6-def4-4e72-863e-2eefe63f2598"
     },
     {
       "arxivId": "2507.09928",
@@ -2081,9 +2081,9 @@
         "stochastic"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
-      "score": 9.8,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "18ae0660-778a-4e2b-8bc3-b88e298a3f2c"
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "8470aba9-fc7d-4958-b537-3fc0a35e3b86"
     },
     {
       "arxivId": "2509.14969",
@@ -2109,9 +2109,9 @@
         "stochastic"
       ],
       "subfield": "随机优化",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 stochastic。",
-      "id": "6f3062b7-1be8-4863-912d-d485fb93950e"
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "f7d14c40-0116-47e9-bbe3-fc09c90e880b"
     },
     {
       "arxivId": "2510.14805",
@@ -2135,7 +2135,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "5ca2e0e7-c712-4c39-a6ca-8a14e899ab1c"
+      "id": "b1e1c0eb-a061-4f7c-84ab-21cc10793f66"
     },
     {
       "arxivId": "2601.09223",
@@ -2164,7 +2164,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "11eb7e88-27fb-4902-a2a1-6ed3cc010b40"
+      "id": "1434a469-4271-4f5b-830c-c44cec936092"
     },
     {
       "arxivId": "2603.04895",
@@ -2191,7 +2191,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "4f82d19e-7637-46dd-b595-8e85416d7a04"
+      "id": "7a803c0f-1bf9-4c85-8d96-fe3729faf129"
     },
     {
       "arxivId": "2603.21241",
@@ -2217,7 +2217,7 @@
       "subfield": "半定规划 / 锥优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "db04f525-81ef-4803-9616-40ea8c7720d9"
+      "id": "241a47eb-e2e3-4c45-97cd-948e2e1df639"
     },
     {
       "arxivId": "2605.04267",
@@ -2241,7 +2241,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "30726536-5433-46e4-8293-ad5caeff01b6"
+      "id": "17f38c2a-12dc-4d47-9f7f-520fa3f70dc1"
     }
   ]
 }
