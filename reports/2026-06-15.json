@@ -1,34 +1,54 @@
 {
   "reportDate": "2026-06-15",
-  "exportedAt": "2026-06-18T15:37:19.597Z",
+  "exportedAt": "2026-06-18T15:51:26.970Z",
   "papers": [
     {
-      "arxivId": "2606.14095",
-      "title": "Lyapunov-Based Sample Complexity Analysis for Weakly-Coupled MDPs",
+      "arxivId": "2606.06756",
+      "title": "A Primal--Dual Penalty Algorithm and Optimal Control of the Double Integrator",
       "authors": [
-        "Tianhao Wu",
-        "Matthew Zurek",
-        "Weina Wang",
-        "Qiaomin Xie"
+        "Regina S. Burachik",
+        "C. Yalçın Kaya",
+        "Xuemei Liu"
       ],
-      "abstract": "We study the sample complexity of learning in average-reward weakly-coupled Markov decision processes (WCMDPs) and Restless Bandits (RBs) under a generative model. Naive reduction to a tabular MDP leads to high complexity bounds as the state-action space is exponentially large in the number of arms $N$. By exploiting the weakly coupled structure, we show that near-optimal policies can be learned with sample and computational complexities that are polynomial in $N$. Specifically, we analyze the plug-in approach, which applies an efficient planning algorithm to an empirical model estimated from data. For fully heterogeneous WCMDPs, we establish the first finite-sample PAC guarantee with polynomial complexity and an $O(1/\\sqrt{N})$ optimality gap. For homogeneous RBs, we further prove that a smaller optimality gap is achievable under mild structural assumptions. A primary technical contribution of our work is a novel Lyapunov-based analysis framework. Unlike classical approaches that rely on the difficult-to-control bias function, our framework uses an explicitly constructed Lyapunov function along with a drift transfer technique between the true and empirical models. A key step of independent interest in our framework is a fine-grained perturbation analysis for the underlying linear programming (LP) relaxation, which provides a general tool for analyzing LP-based policies and weakly-coupled systems.",
+      "abstract": "We investigate the behaviour of a primal--dual penalty scheme applied to all possible instances, i.e., boundary conditions, of an optimal control problem involving the double integrator. The proposed duality-based framework enables us to derive closed-form expressions for the associated dual functions as well as for the optimal control variables. Furthermore, we provide a complete characterization of the least exact penalty parameter for this problem. The iteration dynamics of the algorithm are examined by constructing and analyzing the trajectories of the constraint functions for every admissible instance of the problem. Finally, we compare the two step-size rules employed in our primal--dual algorithm with two alternative Polyak-type step-size strategies.",
       "categories": [
-        "cs.LG",
-        "math.OC",
-        "math.PR",
-        "stat.ML"
+        "math.OC"
       ],
-      "primaryCategory": "cs.LG",
-      "publishedAt": "2026-06-12",
-      "updatedAt": "2026-06-15",
-      "announcementType": "new",
-      "arxivUrl": "https://arxiv.org/abs/2606.14095",
-      "pdfUrl": "https://arxiv.org/pdf/2606.14095",
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-04",
+      "updatedAt": "2026-06-12",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.06756",
+      "pdfUrl": "https://arxiv.org/pdf/2606.06756",
       "keywords": [],
       "subfield": "最优控制",
-      "score": 4.7,
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "7041714d-93fa-482b-a53d-683d27283b8c"
+      "id": "27bd67a4-21e4-45ed-9451-126896006771"
+    },
+    {
+      "arxivId": "2606.08803",
+      "title": "Some Essential Constructive Foundations for Systems and Control",
+      "authors": [
+        "Pavel Osinenko"
+      ],
+      "abstract": "This work develops several constructive foundations for systems and control within Bishop-style constructive mathematics. For an engineer, the guiding principle is that an object claimed to exist, such as a trajectory, an optimal control law, a selector, or a viable solution, should come with finite data and an operation computing approximations to any prescribed precision. The style remains close to classical analysis, but existential statements are organized so that their computational content is visible. The paper begins with elementary geometric data in finite-dimensional Euclidean spaces: blocks, multiblocks, representable sets, regular functions, and certified integrals. This set-first integration route is meant to complement, rather than replace, abstract constructive integration theories such as Daniell-type or integration-space approaches. The developed apparatus is then applied to a constructive functional extremum-value theorem, selector extraction for multifunctions, Filippov-type and viable solutions of differential inclusions, regular probability densities, controlled Markov chains, and empirical density certificates. A short account of resolvent projectors and linear stability is included for completeness.",
+      "categories": [
+        "eess.SY",
+        "math.DS",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-06-07",
+      "updatedAt": "2026-06-11",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.08803",
+      "pdfUrl": "https://arxiv.org/pdf/2606.08803",
+      "keywords": [],
+      "subfield": "最优控制",
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "528ac114-2167-476c-b432-c1eb74105ece"
     },
     {
       "arxivId": "2606.13825",
@@ -56,7 +76,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "50f54b72-3fb6-4859-a7a9-5ef189a3e7a4"
+      "id": "76018867-cd47-4fbc-8a9e-cea7b2fb9706"
     },
     {
       "arxivId": "2606.13897",
@@ -79,7 +99,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "d97fb874-7c29-4c54-b869-0019f1d2659d"
+      "id": "4cb9e623-22e4-460a-ad2c-3d56dc317c46"
     },
     {
       "arxivId": "2606.13987",
@@ -101,7 +121,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "c7434287-84c0-4c7c-8e41-c5f7f0284a14"
+      "id": "7df65cad-6143-42fe-b383-5d602f091734"
     },
     {
       "arxivId": "2606.14041",
@@ -128,7 +148,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "eac27d8c-1ede-4342-ac22-c21ab5eee9b7"
+      "id": "a85c6b57-dd27-4542-bfa9-48b5bac914a9"
     },
     {
       "arxivId": "2606.14050",
@@ -155,7 +175,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0ae15924-0362-41eb-899d-4df8265957d4"
+      "id": "145f3f58-1929-4f55-b186-3a90e7039819"
     },
     {
       "arxivId": "2606.14220",
@@ -182,7 +202,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "d929e4ff-cc49-4384-be52-85c9ad91dbdf"
+      "id": "394df477-4cb8-4f27-872e-f2cfe2fa762c"
     },
     {
       "arxivId": "2606.14289",
@@ -216,7 +236,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "41366bbe-392c-46e7-bed2-f89cff41a4ac"
+      "id": "d350f2cc-25c2-4e48-be50-236f306ecc95"
     },
     {
       "arxivId": "2606.14410",
@@ -238,7 +258,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6518a0f3-a7c5-4c24-b57c-dfc6e5ca15e4"
+      "id": "5ca31c34-6f3d-43c3-969d-765c698e5813"
     },
     {
       "arxivId": "2606.14560",
@@ -266,7 +286,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "5b4b0ad5-68e4-46d5-a86f-e86395854676"
+      "id": "1b0b97cc-9f7e-4c25-8e07-71c9c63dc9b8"
     },
     {
       "arxivId": "2606.13903",
@@ -290,7 +310,35 @@
       "subfield": "半定规划 / 锥优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "52f9116b-d1fe-4fd1-a104-18886da7bc3f"
+      "id": "bf0720e5-6114-470a-a609-50b885cde3d4"
+    },
+    {
+      "arxivId": "2606.14095",
+      "title": "Lyapunov-Based Sample Complexity Analysis for Weakly-Coupled MDPs",
+      "authors": [
+        "Tianhao Wu",
+        "Matthew Zurek",
+        "Weina Wang",
+        "Qiaomin Xie"
+      ],
+      "abstract": "We study the sample complexity of learning in average-reward weakly-coupled Markov decision processes (WCMDPs) and Restless Bandits (RBs) under a generative model. Naive reduction to a tabular MDP leads to high complexity bounds as the state-action space is exponentially large in the number of arms $N$. By exploiting the weakly coupled structure, we show that near-optimal policies can be learned with sample and computational complexities that are polynomial in $N$. Specifically, we analyze the plug-in approach, which applies an efficient planning algorithm to an empirical model estimated from data. For fully heterogeneous WCMDPs, we establish the first finite-sample PAC guarantee with polynomial complexity and an $O(1/\\sqrt{N})$ optimality gap. For homogeneous RBs, we further prove that a smaller optimality gap is achievable under mild structural assumptions. A primary technical contribution of our work is a novel Lyapunov-based analysis framework. Unlike classical approaches that rely on the difficult-to-control bias function, our framework uses an explicitly constructed Lyapunov function along with a drift transfer technique between the true and empirical models. A key step of independent interest in our framework is a fine-grained perturbation analysis for the underlying linear programming (LP) relaxation, which provides a general tool for analyzing LP-based policies and weakly-coupled systems.",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "math.PR",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-06-12",
+      "updatedAt": "2026-06-15",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2606.14095",
+      "pdfUrl": "https://arxiv.org/pdf/2606.14095",
+      "keywords": [],
+      "subfield": "最优控制",
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "7e8a3d90-b11c-4b1d-b063-66d6388b0456"
     },
     {
       "arxivId": "2606.14128",
@@ -315,7 +363,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "6ca9946c-6da0-4688-836a-f2346f6d3303"
+      "id": "e12bb1f6-a476-44db-a9a2-9fcaf2925180"
     },
     {
       "arxivId": "2606.14188",
@@ -347,7 +395,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "13838f64-ebf6-4a39-b7ba-d28ff6d476d9"
+      "id": "8509b0b9-7acb-4bf6-91e7-59b77fb963e1"
     },
     {
       "arxivId": "2606.14195",
@@ -372,7 +420,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "63617b72-574a-40aa-9187-6bc45779602e"
+      "id": "7e59a0aa-e850-4455-9c62-f0a7a09455ff"
     },
     {
       "arxivId": "2606.14436",
@@ -401,7 +449,7 @@
       "subfield": "优化与机器学习",
       "score": 6.5,
       "recommendationReason": "命中关键词 low-rank。",
-      "id": "c95979c1-b364-431e-bdba-4770797abaf7"
+      "id": "945d20b4-8ad1-438c-97f8-af8752413201"
     },
     {
       "arxivId": "2606.14471",
@@ -427,7 +475,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "a87bec06-d79e-44c3-93c5-6c42f47ce8bf"
+      "id": "8db3de4d-ecd8-4c53-894a-4ccc0a17e980"
     },
     {
       "arxivId": "2606.14500",
@@ -451,7 +499,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "7ddae787-49ea-4d4b-be6a-13cb5a7d10d8"
+      "id": "a455a2df-ec3c-40a3-b715-63a83cca9d70"
     },
     {
       "arxivId": "2606.14601",
@@ -477,7 +525,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "b2106e92-1f0b-4fc6-ab70-837b51621781"
+      "id": "282c5f59-d9a4-4328-86f7-5aff7983f394"
     },
     {
       "arxivId": "2606.14648",
@@ -505,7 +553,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "045ac6fa-2fed-4d11-b7dc-e74416041c9a"
+      "id": "05053a1d-8503-463c-bb18-763a211b2cfe"
     },
     {
       "arxivId": "2606.14679",
@@ -534,7 +582,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "e527be67-8dc1-47df-9525-b1de0838f57a"
+      "id": "1c4d3f7f-8d99-42d6-8cbd-62d7dce601ad"
     },
     {
       "arxivId": "2606.14687",
@@ -561,7 +609,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "43bf274f-28be-408a-815d-7d83c68d4d71"
+      "id": "3e9e16de-38f6-4772-a067-c9a16553823b"
     },
     {
       "arxivId": "2504.00701",
@@ -589,7 +637,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "b3256726-ee88-4ccd-aba5-eeefefbfa61a"
+      "id": "6cc6ea48-c33e-4c41-9047-6ec764ddf383"
     },
     {
       "arxivId": "2504.13006",
@@ -616,7 +664,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "b6f28133-1101-4a85-8eb9-bb3e6a17967e"
+      "id": "c183a731-4cd0-46b4-83b1-20150810a895"
     },
     {
       "arxivId": "2509.20145",
@@ -641,7 +689,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "1b18ab1c-85f6-40a6-87e0-ce4dfee902e8"
+      "id": "a46a9ccf-53c7-4018-86b6-49a521b0e568"
     },
     {
       "arxivId": "2601.16683",
@@ -669,7 +717,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "611bce95-19cc-4b80-94c9-288e0d4214f9"
+      "id": "16761605-4286-4a04-862a-19243a1da592"
     },
     {
       "arxivId": "2603.18703",
@@ -693,7 +741,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "56ea1c43-62f0-4576-bf2e-d5da78bd94a0"
+      "id": "448140ab-454c-406f-ade2-e40db23283e6"
     },
     {
       "arxivId": "2605.24795",
@@ -722,31 +770,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "d305ab76-08b3-4d24-aa81-e4d55aaf1537"
-    },
-    {
-      "arxivId": "2606.06756",
-      "title": "A Primal--Dual Penalty Algorithm and Optimal Control of the Double Integrator",
-      "authors": [
-        "Regina S. Burachik",
-        "C. Yalçın Kaya",
-        "Xuemei Liu"
-      ],
-      "abstract": "We investigate the behaviour of a primal--dual penalty scheme applied to all possible instances, i.e., boundary conditions, of an optimal control problem involving the double integrator. The proposed duality-based framework enables us to derive closed-form expressions for the associated dual functions as well as for the optimal control variables. Furthermore, we provide a complete characterization of the least exact penalty parameter for this problem. The iteration dynamics of the algorithm are examined by constructing and analyzing the trajectories of the constraint functions for every admissible instance of the problem. Finally, we compare the two step-size rules employed in our primal--dual algorithm with two alternative Polyak-type step-size strategies.",
-      "categories": [
-        "math.OC"
-      ],
-      "primaryCategory": "math.OC",
-      "publishedAt": "2026-06-04",
-      "updatedAt": "2026-06-12",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.06756",
-      "pdfUrl": "https://arxiv.org/pdf/2606.06756",
-      "keywords": [],
-      "subfield": "最优控制",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "27bd67a4-21e4-45ed-9451-126896006771"
+      "id": "b5f1b58b-ab7d-402a-8286-541ffa8b9901"
     },
     {
       "arxivId": "2506.16321",
@@ -772,7 +796,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "aade9643-500d-462e-be9e-9ba60aa190e2"
+      "id": "8982f081-8ac4-4e4e-89b7-2dab5c038b84"
     },
     {
       "arxivId": "2511.02153",
@@ -800,7 +824,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "98c70fe3-32e9-4d2d-aa62-43eba9f9c7af"
+      "id": "cc09f58f-c138-4581-8911-e055d1a58f0f"
     },
     {
       "arxivId": "2511.19656",
@@ -828,31 +852,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "767e2ecd-f209-4470-8a90-ac1bce2acdb5"
-    },
-    {
-      "arxivId": "2606.08803",
-      "title": "Some Essential Constructive Foundations for Systems and Control",
-      "authors": [
-        "Pavel Osinenko"
-      ],
-      "abstract": "This work develops several constructive foundations for systems and control within Bishop-style constructive mathematics. For an engineer, the guiding principle is that an object claimed to exist, such as a trajectory, an optimal control law, a selector, or a viable solution, should come with finite data and an operation computing approximations to any prescribed precision. The style remains close to classical analysis, but existential statements are organized so that their computational content is visible. The paper begins with elementary geometric data in finite-dimensional Euclidean spaces: blocks, multiblocks, representable sets, regular functions, and certified integrals. This set-first integration route is meant to complement, rather than replace, abstract constructive integration theories such as Daniell-type or integration-space approaches. The developed apparatus is then applied to a constructive functional extremum-value theorem, selector extraction for multifunctions, Filippov-type and viable solutions of differential inclusions, regular probability densities, controlled Markov chains, and empirical density certificates. A short account of resolvent projectors and linear stability is included for completeness.",
-      "categories": [
-        "eess.SY",
-        "math.DS",
-        "math.OC"
-      ],
-      "primaryCategory": "eess.SY",
-      "publishedAt": "2026-06-07",
-      "updatedAt": "2026-06-11",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.08803",
-      "pdfUrl": "https://arxiv.org/pdf/2606.08803",
-      "keywords": [],
-      "subfield": "最优控制",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "528ac114-2167-476c-b432-c1eb74105ece"
+      "id": "a9d1e568-56a5-4487-8ba7-15cb5bfc06e3"
     }
   ]
 }
