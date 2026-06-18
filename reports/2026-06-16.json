@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-16",
-  "exportedAt": "2026-06-18T15:40:34.842Z",
+  "exportedAt": "2026-06-18T15:42:15.690Z",
   "papers": [
     {
       "arxivId": "2606.07413",
@@ -437,7 +437,7 @@
       "primaryCategory": "cs.LG",
       "publishedAt": "2026-06-12",
       "updatedAt": "2026-06-15",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.14095",
       "pdfUrl": "https://arxiv.org/pdf/2606.14095",
       "keywords": [],
@@ -1054,7 +1054,7 @@
       "primaryCategory": "math.OC",
       "publishedAt": "2026-04-10",
       "updatedAt": "2026-06-16",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.14709",
       "pdfUrl": "https://arxiv.org/pdf/2606.14709",
       "keywords": [],
@@ -1237,7 +1237,7 @@
       "primaryCategory": "math.OC",
       "publishedAt": "2026-06-13",
       "updatedAt": "2026-06-16",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.15195",
       "pdfUrl": "https://arxiv.org/pdf/2606.15195",
       "keywords": [
@@ -1804,7 +1804,7 @@
       "primaryCategory": "math.FA",
       "publishedAt": "2026-06-12",
       "updatedAt": "2026-06-16",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.14954",
       "pdfUrl": "https://arxiv.org/pdf/2606.14954",
       "keywords": [],
@@ -1853,7 +1853,7 @@
       "primaryCategory": "math.CA",
       "publishedAt": "2026-06-13",
       "updatedAt": "2026-06-16",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.15249",
       "pdfUrl": "https://arxiv.org/pdf/2606.15249",
       "keywords": [],
