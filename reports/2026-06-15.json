@@ -1,55 +1,7 @@
 {
   "reportDate": "2026-06-15",
-  "exportedAt": "2026-06-18T15:51:26.970Z",
+  "exportedAt": "2026-06-18T16:56:26.558Z",
   "papers": [
-    {
-      "arxivId": "2606.06756",
-      "title": "A Primal--Dual Penalty Algorithm and Optimal Control of the Double Integrator",
-      "authors": [
-        "Regina S. Burachik",
-        "C. Yalçın Kaya",
-        "Xuemei Liu"
-      ],
-      "abstract": "We investigate the behaviour of a primal--dual penalty scheme applied to all possible instances, i.e., boundary conditions, of an optimal control problem involving the double integrator. The proposed duality-based framework enables us to derive closed-form expressions for the associated dual functions as well as for the optimal control variables. Furthermore, we provide a complete characterization of the least exact penalty parameter for this problem. The iteration dynamics of the algorithm are examined by constructing and analyzing the trajectories of the constraint functions for every admissible instance of the problem. Finally, we compare the two step-size rules employed in our primal--dual algorithm with two alternative Polyak-type step-size strategies.",
-      "categories": [
-        "math.OC"
-      ],
-      "primaryCategory": "math.OC",
-      "publishedAt": "2026-06-04",
-      "updatedAt": "2026-06-12",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.06756",
-      "pdfUrl": "https://arxiv.org/pdf/2606.06756",
-      "keywords": [],
-      "subfield": "最优控制",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "27bd67a4-21e4-45ed-9451-126896006771"
-    },
-    {
-      "arxivId": "2606.08803",
-      "title": "Some Essential Constructive Foundations for Systems and Control",
-      "authors": [
-        "Pavel Osinenko"
-      ],
-      "abstract": "This work develops several constructive foundations for systems and control within Bishop-style constructive mathematics. For an engineer, the guiding principle is that an object claimed to exist, such as a trajectory, an optimal control law, a selector, or a viable solution, should come with finite data and an operation computing approximations to any prescribed precision. The style remains close to classical analysis, but existential statements are organized so that their computational content is visible. The paper begins with elementary geometric data in finite-dimensional Euclidean spaces: blocks, multiblocks, representable sets, regular functions, and certified integrals. This set-first integration route is meant to complement, rather than replace, abstract constructive integration theories such as Daniell-type or integration-space approaches. The developed apparatus is then applied to a constructive functional extremum-value theorem, selector extraction for multifunctions, Filippov-type and viable solutions of differential inclusions, regular probability densities, controlled Markov chains, and empirical density certificates. A short account of resolvent projectors and linear stability is included for completeness.",
-      "categories": [
-        "eess.SY",
-        "math.DS",
-        "math.OC"
-      ],
-      "primaryCategory": "eess.SY",
-      "publishedAt": "2026-06-07",
-      "updatedAt": "2026-06-11",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.08803",
-      "pdfUrl": "https://arxiv.org/pdf/2606.08803",
-      "keywords": [],
-      "subfield": "最优控制",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "528ac114-2167-476c-b432-c1eb74105ece"
-    },
     {
       "arxivId": "2606.13825",
       "title": "Scalable Deep Unfolding of Conic Optimizers",
@@ -71,12 +23,18 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.13825",
       "keywords": [
         "robust",
-        "online"
+        "online",
+        "semidefinite",
+        "sdp",
+        "cone program",
+        "second order cone"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 4.7,
-      "recommendationReason": "",
-      "id": "76018867-cd47-4fbc-8a9e-cea7b2fb9706"
+      "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 semidefinite、cone program，且与 arXiv 分类线索一致。",
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "873e93c5-453d-4f6e-8968-f9cea25e1b27"
     },
     {
       "arxivId": "2606.13897",
@@ -96,10 +54,12 @@
       "arxivUrl": "https://arxiv.org/abs/2606.13897",
       "pdfUrl": "https://arxiv.org/pdf/2606.13897",
       "keywords": [],
-      "subfield": "凸优化",
+      "subfield": "双层优化 / 博弈 / 变分不等式",
+      "secondarySubfields": [],
+      "classificationReason": "主方向与 双层优化 / 博弈 / 变分不等式 的语义描述最接近，且与 arXiv 分类线索一致。",
       "score": 8.1,
-      "recommendationReason": "",
-      "id": "4cb9e623-22e4-460a-ad2c-3d56dc317c46"
+      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
+      "id": "42fbbd1d-2e0b-4a2c-8ad0-138caebbedec"
     },
     {
       "arxivId": "2606.13987",
@@ -118,10 +78,12 @@
       "arxivUrl": "https://arxiv.org/abs/2606.13987",
       "pdfUrl": "https://arxiv.org/pdf/2606.13987",
       "keywords": [],
-      "subfield": "凸优化",
+      "subfield": "双层优化 / 博弈 / 变分不等式",
+      "secondarySubfields": [],
+      "classificationReason": "主方向与 双层优化 / 博弈 / 变分不等式 的语义描述最接近，且与 arXiv 分类线索一致。",
       "score": 8.1,
-      "recommendationReason": "",
-      "id": "7df65cad-6143-42fe-b383-5d602f091734"
+      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
+      "id": "d6ba2941-bc51-4a08-8c56-9dfa34524ed6"
     },
     {
       "arxivId": "2606.14041",
@@ -143,12 +105,20 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.14041",
       "keywords": [
         "robust",
-        "proximal"
+        "proximal",
+        "convex",
+        "nonsmooth",
+        "composite optimization"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "a85c6b57-dd27-4542-bfa9-48b5bac914a9"
+      "secondarySubfields": [
+        "凸优化",
+        "非凸优化"
+      ],
+      "classificationReason": "主方向命中 robust，且与 arXiv 分类线索一致；副方向候选：凸优化、非凸优化。",
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "b013252f-a070-4690-aaae-da1433cba962"
     },
     {
       "arxivId": "2606.14050",
@@ -171,11 +141,18 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.14050",
       "pdfUrl": "https://arxiv.org/pdf/2606.14050",
-      "keywords": [],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "keywords": [
+        "mixed integer",
+        "uncertainty"
+      ],
+      "subfield": "组合优化 / 整数规划",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "145f3f58-1929-4f55-b186-3a90e7039819"
+      "id": "e842ea83-9445-4147-b008-4cc5a0bb4350"
     },
     {
       "arxivId": "2606.14220",
@@ -197,12 +174,20 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.14220",
       "keywords": [
         "robust",
-        "online"
+        "online",
+        "convex",
+        "strongly convex",
+        "primal dual",
+        "saddle point"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "394df477-4cb8-4f27-872e-f2cfe2fa762c"
+      "subfield": "凸优化",
+      "secondarySubfields": [
+        "非凸优化"
+      ],
+      "classificationReason": "主方向命中 convex、primal dual，且与 arXiv 分类线索一致；副方向候选：非凸优化。",
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 凸优化。",
+      "id": "7372347a-203d-45ce-9359-0243ae297965"
     },
     {
       "arxivId": "2606.14289",
@@ -231,12 +216,20 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.14289",
       "keywords": [
         "nonconvex",
-        "stochastic"
+        "stochastic",
+        "consensus",
+        "convex",
+        "operator splitting"
       ],
-      "subfield": "随机优化",
-      "score": 4.7,
-      "recommendationReason": "",
-      "id": "d350f2cc-25c2-4e48-be50-236f306ecc95"
+      "subfield": "非凸优化",
+      "secondarySubfields": [
+        "分布式优化",
+        "凸优化"
+      ],
+      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致；副方向候选：分布式优化、凸优化。",
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 非凸优化。",
+      "id": "35d45d00-620c-41b1-b474-88ce591cc45f"
     },
     {
       "arxivId": "2606.14410",
@@ -254,11 +247,17 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.14410",
       "pdfUrl": "https://arxiv.org/pdf/2606.14410",
-      "keywords": [],
-      "subfield": "最优控制",
+      "keywords": [
+        "distributed"
+      ],
+      "subfield": "分布式优化",
+      "secondarySubfields": [
+        "最优控制"
+      ],
+      "classificationReason": "主方向命中 distributed，且与 arXiv 分类线索一致；副方向候选：最优控制。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "5ca31c34-6f3d-43c3-969d-765c698e5813"
+      "id": "0aa2dfd4-79cb-46a8-a2a7-9dd63a45c2a3"
     },
     {
       "arxivId": "2606.14560",
@@ -281,12 +280,21 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14560",
       "pdfUrl": "https://arxiv.org/pdf/2606.14560",
       "keywords": [
-        "stochastic"
+        "stochastic",
+        "non convex",
+        "stationarity",
+        "rl",
+        "large language model"
       ],
-      "subfield": "随机优化",
-      "score": 4.7,
-      "recommendationReason": "",
-      "id": "1b0b97cc-9f7e-4c25-8e07-71c9c63dc9b8"
+      "subfield": "非凸优化",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "随机优化"
+      ],
+      "classificationReason": "主方向命中 non convex、stationarity，且与 arXiv 分类线索一致；副方向候选：优化与机器学习、随机优化。",
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 非凸优化。",
+      "id": "319a1121-0b0f-4917-a91e-9434aabdfa06"
     },
     {
       "arxivId": "2606.13903",
@@ -306,11 +314,16 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.13903",
       "pdfUrl": "https://arxiv.org/pdf/2606.13903",
-      "keywords": [],
+      "keywords": [
+        "semidefinite",
+        "sum of squares"
+      ],
       "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 semidefinite、sum of squares，且与 arXiv 分类线索一致。",
       "score": 8.1,
-      "recommendationReason": "",
-      "id": "bf0720e5-6114-470a-a609-50b885cde3d4"
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "aee79004-2b22-4154-8f8b-6eca180ebadc"
     },
     {
       "arxivId": "2606.14095",
@@ -334,11 +347,18 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.14095",
       "pdfUrl": "https://arxiv.org/pdf/2606.14095",
-      "keywords": [],
-      "subfield": "最优控制",
+      "keywords": [
+        "bandit",
+        "rl"
+      ],
+      "subfield": "在线优化 / 动态优化",
+      "secondarySubfields": [
+        "优化与机器学习"
+      ],
+      "classificationReason": "主方向命中 bandit，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "7e8a3d90-b11c-4b1d-b063-66d6388b0456"
+      "id": "e1230d42-7b27-459f-917e-1e97105c01b3"
     },
     {
       "arxivId": "2606.14128",
@@ -360,10 +380,12 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14128",
       "pdfUrl": "https://arxiv.org/pdf/2606.14128",
       "keywords": [],
-      "subfield": "凸优化",
-      "score": 8.1,
+      "subfield": "组合优化 / 整数规划",
+      "secondarySubfields": [],
+      "classificationReason": "主方向与 组合优化 / 整数规划 的语义描述最接近，且与 arXiv 分类线索一致。",
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "e12bb1f6-a476-44db-a9a2-9fcaf2925180"
+      "id": "6833e89e-6597-4bb3-8e76-974d2b27a25c"
     },
     {
       "arxivId": "2606.14188",
@@ -390,12 +412,19 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14188",
       "pdfUrl": "https://arxiv.org/pdf/2606.14188",
       "keywords": [
-        "robust"
+        "robust",
+        "model predictive control",
+        "mpc",
+        "uncertainty"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "subfield": "最优控制",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 model predictive control，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "8509b0b9-7acb-4bf6-91e7-59b77fb963e1"
+      "id": "7ea7a61c-e63a-4bc3-ada3-93c736c65060"
     },
     {
       "arxivId": "2606.14195",
@@ -417,10 +446,12 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14195",
       "pdfUrl": "https://arxiv.org/pdf/2606.14195",
       "keywords": [],
-      "subfield": "优化与机器学习",
+      "subfield": "随机优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向与 随机优化 的语义描述最接近，且与 arXiv 分类线索一致。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "7e59a0aa-e850-4455-9c62-f0a7a09455ff"
+      "id": "d8dc902b-14eb-4045-ae24-3c0c36868a78"
     },
     {
       "arxivId": "2606.14436",
@@ -445,11 +476,19 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.14436",
       "pdfUrl": "https://arxiv.org/pdf/2606.14436",
-      "keywords": [],
-      "subfield": "优化与机器学习",
-      "score": 6.5,
-      "recommendationReason": "命中关键词 low-rank。",
-      "id": "945d20b4-8ad1-438c-97f8-af8752413201"
+      "keywords": [
+        "convex optimization",
+        "convex",
+        "rl"
+      ],
+      "subfield": "凸优化",
+      "secondarySubfields": [
+        "优化与机器学习"
+      ],
+      "classificationReason": "主方向命中 convex optimization，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
+      "score": 9.8,
+      "recommendationReason": "主方向属于你关注的 凸优化，命中关键词 Low Rank、low-rank。",
+      "id": "bf5f7a9b-af4b-4602-9e26-cf8790064f6b"
     },
     {
       "arxivId": "2606.14471",
@@ -470,12 +509,21 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14471",
       "pdfUrl": "https://arxiv.org/pdf/2606.14471",
       "keywords": [
-        "robust"
+        "robust",
+        "uncertainty",
+        "convex",
+        "projected gradient",
+        "dynamical system"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "8db3de4d-ecd8-4c53-894a-4ccc0a17e980"
+      "secondarySubfields": [
+        "凸优化",
+        "最优控制"
+      ],
+      "classificationReason": "主方向命中 robust、uncertainty，且与 arXiv 分类线索一致；副方向候选：凸优化、最优控制。",
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "a204e4d0-db1a-438c-943e-0d92f56850d4"
     },
     {
       "arxivId": "2606.14500",
@@ -495,11 +543,15 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.14500",
       "pdfUrl": "https://arxiv.org/pdf/2606.14500",
-      "keywords": [],
+      "keywords": [
+        "control system"
+      ],
       "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 control system，且与 arXiv 分类线索一致。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "a455a2df-ec3c-40a3-b715-63a83cca9d70"
+      "id": "d2ca84c2-6b3e-4548-85ed-19c3f368ebba"
     },
     {
       "arxivId": "2606.14601",
@@ -521,11 +573,18 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.14601",
       "pdfUrl": "https://arxiv.org/pdf/2606.14601",
-      "keywords": [],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "keywords": [
+        "reinforcement learning",
+        "dro"
+      ],
+      "subfield": "优化与机器学习",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 reinforcement learning，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "282c5f59-d9a4-4328-86f7-5aff7983f394"
+      "id": "f48db9b8-8695-4e1a-ac3a-772af81fd30a"
     },
     {
       "arxivId": "2606.14648",
@@ -548,12 +607,17 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14648",
       "pdfUrl": "https://arxiv.org/pdf/2606.14648",
       "keywords": [
-        "robust"
+        "robust",
+        "robust optimization",
+        "uncertainty set",
+        "uncertainty"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 robust optimization、uncertainty，且与 arXiv 分类线索一致。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "05053a1d-8503-463c-bb18-763a211b2cfe"
+      "id": "d37f2e3f-adf3-4462-a8c6-42a6a64a5dd9"
     },
     {
       "arxivId": "2606.14679",
@@ -577,12 +641,17 @@
       "pdfUrl": "https://arxiv.org/pdf/2606.14679",
       "keywords": [
         "stochastic",
-        "online"
+        "online",
+        "online convex optimization",
+        "regret",
+        "dynamic regret"
       ],
-      "subfield": "随机优化",
+      "subfield": "在线优化 / 动态优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 online convex optimization、regret，且与 arXiv 分类线索一致。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "1c4d3f7f-8d99-42d6-8cbd-62d7dce601ad"
+      "id": "eced9a8c-bb92-4961-bd1c-3da4a99bb2ad"
     },
     {
       "arxivId": "2606.14687",
@@ -604,12 +673,17 @@
       "arxivUrl": "https://arxiv.org/abs/2606.14687",
       "pdfUrl": "https://arxiv.org/pdf/2606.14687",
       "keywords": [
-        "online"
+        "online",
+        "semidefinite programming",
+        "semidefinite",
+        "sdp"
       ],
-      "subfield": "在线优化 / 动态优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "3e9e16de-38f6-4772-a067-c9a16553823b"
+      "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致。",
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "5f8b6389-aa39-4854-80d7-e302de246bc2"
     },
     {
       "arxivId": "2504.00701",
@@ -632,12 +706,15 @@
       "arxivUrl": "https://arxiv.org/abs/2504.00701",
       "pdfUrl": "https://arxiv.org/pdf/2504.00701",
       "keywords": [
-        "stochastic"
+        "stochastic",
+        "mpc"
       ],
-      "subfield": "随机优化",
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 mpc，且与 arXiv 分类线索一致。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6cc6ea48-c33e-4c41-9047-6ec764ddf383"
+      "id": "9596d5e3-5fcd-485c-b76e-7593b0df07b9"
     },
     {
       "arxivId": "2504.13006",
@@ -659,12 +736,19 @@
       "pdfUrl": "https://arxiv.org/pdf/2504.13006",
       "keywords": [
         "robust",
-        "online"
+        "online",
+        "mpc",
+        "complementarity"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "c183a731-4cd0-46b4-83b1-20150810a895"
+      "subfield": "最优控制",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "双层优化 / 博弈 / 变分不等式"
+      ],
+      "classificationReason": "主方向命中 mpc，且与 arXiv 分类线索一致；副方向候选：在线优化 / 动态优化、双层优化 / 博弈 / 变分不等式。",
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "12a09e34-738b-4851-a619-164a7e930746"
     },
     {
       "arxivId": "2509.20145",
@@ -684,12 +768,17 @@
       "arxivUrl": "https://arxiv.org/abs/2509.20145",
       "pdfUrl": "https://arxiv.org/pdf/2509.20145",
       "keywords": [
-        "robust"
+        "robust",
+        "rl"
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [
+        "优化与机器学习"
+      ],
+      "classificationReason": "主方向命中 robust，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "a46a9ccf-53c7-4018-86b6-49a521b0e568"
+      "id": "4c345003-a520-41c6-b702-ce55af62f1e2"
     },
     {
       "arxivId": "2601.16683",
@@ -712,12 +801,18 @@
       "arxivUrl": "https://arxiv.org/abs/2601.16683",
       "pdfUrl": "https://arxiv.org/pdf/2601.16683",
       "keywords": [
-        "nonconvex"
+        "nonconvex",
+        "convex",
+        "projected gradient"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "16761605-4286-4a04-862a-19243a1da592"
+      "subfield": "非凸优化",
+      "secondarySubfields": [
+        "凸优化"
+      ],
+      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 非凸优化。",
+      "id": "20c53f8e-d630-4458-b178-10fa5c00ebec"
     },
     {
       "arxivId": "2603.18703",
@@ -737,11 +832,18 @@
       "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2603.18703",
       "pdfUrl": "https://arxiv.org/pdf/2603.18703",
-      "keywords": [],
+      "keywords": [
+        "stabilization",
+        "distributed"
+      ],
       "subfield": "最优控制",
+      "secondarySubfields": [
+        "分布式优化"
+      ],
+      "classificationReason": "主方向命中 stabilization，且与 arXiv 分类线索一致；副方向候选：分布式优化。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "448140ab-454c-406f-ade2-e40db23283e6"
+      "id": "1dea207e-638b-42b8-981b-10e5dcb91e9a"
     },
     {
       "arxivId": "2605.24795",
@@ -768,9 +870,42 @@
         "stochastic"
       ],
       "subfield": "随机优化",
+      "secondarySubfields": [
+        "最优控制",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：最优控制、鲁棒优化 / 分布鲁棒优化。",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "b5f1b58b-ab7d-402a-8286-541ffa8b9901"
+      "id": "7b30dba9-31ab-400d-bc0c-0001b5d2dfad"
+    },
+    {
+      "arxivId": "2606.06756",
+      "title": "A Primal--Dual Penalty Algorithm and Optimal Control of the Double Integrator",
+      "authors": [
+        "Regina S. Burachik",
+        "C. Yalçın Kaya",
+        "Xuemei Liu"
+      ],
+      "abstract": "We investigate the behaviour of a primal--dual penalty scheme applied to all possible instances, i.e., boundary conditions, of an optimal control problem involving the double integrator. The proposed duality-based framework enables us to derive closed-form expressions for the associated dual functions as well as for the optimal control variables. Furthermore, we provide a complete characterization of the least exact penalty parameter for this problem. The iteration dynamics of the algorithm are examined by constructing and analyzing the trajectories of the constraint functions for every admissible instance of the problem. Finally, we compare the two step-size rules employed in our primal--dual algorithm with two alternative Polyak-type step-size strategies.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-04",
+      "updatedAt": "2026-06-12",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.06756",
+      "pdfUrl": "https://arxiv.org/pdf/2606.06756",
+      "keywords": [
+        "optimal control"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "1d3fcf36-fcdd-4bbb-bd10-a9c36b64dbf8"
     },
     {
       "arxivId": "2506.16321",
@@ -794,9 +929,11 @@
       "pdfUrl": "https://arxiv.org/pdf/2506.16321",
       "keywords": [],
       "subfield": "凸优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
       "score": 8.1,
-      "recommendationReason": "",
-      "id": "8982f081-8ac4-4e4e-89b7-2dab5c038b84"
+      "recommendationReason": "主方向属于你关注的 凸优化。",
+      "id": "5845a500-878c-4489-a59e-9b5f47427015"
     },
     {
       "arxivId": "2511.02153",
@@ -822,9 +959,11 @@
         "online"
       ],
       "subfield": "在线优化 / 动态优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致。",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "cc09f58f-c138-4581-8911-e055d1a58f0f"
+      "id": "8a563cb1-537e-45b6-86e4-de447f47e136"
     },
     {
       "arxivId": "2511.19656",
@@ -847,12 +986,44 @@
       "keywords": [
         "bilevel",
         "nonconvex",
-        "stochastic"
+        "stochastic",
+        "lower level",
+        "min max"
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 bilevel、min max，且与 arXiv 分类线索一致。",
       "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
+      "id": "c3790e95-51ab-4153-bc3d-f6d97a8e978c"
+    },
+    {
+      "arxivId": "2606.08803",
+      "title": "Some Essential Constructive Foundations for Systems and Control",
+      "authors": [
+        "Pavel Osinenko"
+      ],
+      "abstract": "This work develops several constructive foundations for systems and control within Bishop-style constructive mathematics. For an engineer, the guiding principle is that an object claimed to exist, such as a trajectory, an optimal control law, a selector, or a viable solution, should come with finite data and an operation computing approximations to any prescribed precision. The style remains close to classical analysis, but existential statements are organized so that their computational content is visible. The paper begins with elementary geometric data in finite-dimensional Euclidean spaces: blocks, multiblocks, representable sets, regular functions, and certified integrals. This set-first integration route is meant to complement, rather than replace, abstract constructive integration theories such as Daniell-type or integration-space approaches. The developed apparatus is then applied to a constructive functional extremum-value theorem, selector extraction for multifunctions, Filippov-type and viable solutions of differential inclusions, regular probability densities, controlled Markov chains, and empirical density certificates. A short account of resolvent projectors and linear stability is included for completeness.",
+      "categories": [
+        "eess.SY",
+        "math.DS",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-06-07",
+      "updatedAt": "2026-06-11",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.08803",
+      "pdfUrl": "https://arxiv.org/pdf/2606.08803",
+      "keywords": [
+        "optimal control"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "a9d1e568-56a5-4487-8ba7-15cb5bfc06e3"
+      "id": "63bf0785-4c06-4961-84b6-4f54836dd310"
     }
   ]
 }
