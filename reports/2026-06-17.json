@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-17",
-  "exportedAt": "2026-06-18T15:37:11.594Z",
+  "exportedAt": "2026-06-18T15:38:41.309Z",
   "papers": [
     {
       "arxivId": "2606.14705",
@@ -2405,7 +2405,7 @@
       "primaryCategory": "cs.LG",
       "publishedAt": "2026-06-12",
       "updatedAt": "2026-06-15",
-      "announcementType": "new",
+      "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.14095",
       "pdfUrl": "https://arxiv.org/pdf/2606.14095",
       "keywords": [],
@@ -2413,6 +2413,54 @@
       "score": 4.7,
       "recommendationReason": "",
       "id": "7041714d-93fa-482b-a53d-683d27283b8c"
+    },
+    {
+      "arxivId": "2606.08675",
+      "title": "Explainable Optimization: A Call for Interdisciplinary Action",
+      "authors": [
+        "Nurşen Aydın",
+        "Ş. İlker Birbil",
+        "İlker Küçükparlak",
+        "Altuğ Yalçıntaş"
+      ],
+      "abstract": "Operations research and management science models support decisions that affect patients, workers, citizens, and public institutions. Decision-makers, such as clinicians approving surgical schedules, planners allocating disaster relief resources, or managers designing workforce rotations, increasingly require clear and actionable justifications that bridge the gap between mathematical optimization outputs and the intuitive reasoning stakeholders need to trust, contest, and implement recommended decisions. Yet the field has traditionally evaluated optimization models through computational criteria such as feasibility, optimality, scalability, and solution time, while treating explanation as a secondary concern. Mathematical transparency, provided through access to objectives, constraints, shadow prices, or sensitivity reports, does not automatically offer the forms of justification that stakeholders need to understand, trust, contest, or implement optimization-based decisions. This paper calls for the development of explainable optimization (XOpt) as a distinct interdisciplinary area that moves beyond algorithmic efficiency and incorporates behavioral, cognitive, and pragmatic perspectives to address this explanatory deficit.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-07",
+      "updatedAt": "2026-06-16",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.08675",
+      "pdfUrl": "https://arxiv.org/pdf/2606.08675",
+      "keywords": [],
+      "subfield": "凸优化",
+      "score": 8.1,
+      "recommendationReason": "",
+      "id": "291d4fc1-386b-4874-80ff-e0bea76dd883"
+    },
+    {
+      "arxivId": "2606.12327",
+      "title": "From the Linear Quadratic Regulator (LQR) to the (Deterministic) Kalman Filter in Two Easy Steps",
+      "authors": [
+        "Bassam Bamieh"
+      ],
+      "abstract": "This note is a tutorial on the deterministic version of the Kalman filter (state estimator), which is formulated as finding the state trajectory consistent with the system's equations with the minimal amount of $L^2$ process and measurement uncertainty. As stated, this is an input signal design problem with linear dynamics and an objective that is affine-quadratic in the state and inputs. The first step is to convert this problem to one with a purely quadratic objective by embedding in a larger system using ``homogeneous coordinates''. This converts the problem to a purely quadratic (i.e. an LQR) problem, but with non-standard initial or final state constraints. This latter problem can then be solved using a version of the matrix Differential Riccati Equation (DRE) for the larger LQR problem. The second step is a partitioning of this larger problem, which then yields the optimal dynamic observer and the DRE of the traditional Kalman filter. For comparison, the solution of the traditional LQ-tracking (Servomechanism) problem is also treated using a similar construction.",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-06-10",
+      "updatedAt": "2026-06-16",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.12327",
+      "pdfUrl": "https://arxiv.org/pdf/2606.12327",
+      "keywords": [],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "c0388f2a-ba98-4669-b1ae-cdef6db30c7a"
     },
     {
       "arxivId": "2606.17208",
@@ -2438,7 +2486,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "5313d191-9c85-4756-ab49-20f27065c0e1"
+      "id": "7d86449c-84a7-4bfa-9018-c7da7b97b8a7"
     },
     {
       "arxivId": "2606.17260",
@@ -2467,7 +2515,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "0e227a82-d8c8-4d8f-bb18-f4dcbd708167"
+      "id": "17979f56-495b-456f-aa8b-d828ce972512"
     },
     {
       "arxivId": "2606.17285",
@@ -2495,7 +2543,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "95e55348-0183-4b2f-8668-9259056f3ad6"
+      "id": "d8fb2950-eb48-4d3e-bb9c-1cffbfe37ba3"
     },
     {
       "arxivId": "2606.17400",
@@ -2520,7 +2568,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "baaab159-d7a3-459d-86f4-2d6192057909"
+      "id": "cf52a795-c45a-471d-bacf-312a11b39d57"
     },
     {
       "arxivId": "2606.17466",
@@ -2546,7 +2594,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "521e49b0-d09c-4472-b4a4-8b5f79ed8a37"
+      "id": "2ccdfd73-5036-401b-ac3a-4e9216cbbedd"
     },
     {
       "arxivId": "2606.17523",
@@ -2570,7 +2618,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "ee76b99d-9b49-4fe7-b363-dcee47e95e96"
+      "id": "36643a84-b3a6-469d-a79a-1909d7b6ac46"
     },
     {
       "arxivId": "2606.17552",
@@ -2596,7 +2644,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "df8e2530-1c75-4227-bffc-ee1555a9739d"
+      "id": "1a1a26d8-72d8-4e60-83de-f25f68593742"
     },
     {
       "arxivId": "2606.17608",
@@ -2619,7 +2667,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "230cf8c8-4bf2-45a8-807b-5d6c817c5f58"
+      "id": "08297359-4379-4869-99df-2c98633cbf80"
     },
     {
       "arxivId": "2606.17640",
@@ -2641,7 +2689,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "2684f5dc-c4bd-4fdf-a204-eb8b0c1f08cd"
+      "id": "2cfa8668-d878-4eca-a6ee-4b9623144df0"
     },
     {
       "arxivId": "2606.17643",
@@ -2667,7 +2715,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "b1003513-2779-43f6-8056-d6c44fd8e2f7"
+      "id": "65f111e6-2fc4-4cb8-837c-3b89829e7cc4"
     },
     {
       "arxivId": "2606.17726",
@@ -2693,7 +2741,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "f815b184-7f8a-439a-9a28-d57fadecdf0d"
+      "id": "1ca51da4-3084-494d-8d07-f01f537173f6"
     },
     {
       "arxivId": "2606.17762",
@@ -2720,7 +2768,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "e1d5d026-aa9e-45b4-96ab-7ae1ef17504d"
+      "id": "8f46f63d-d8ca-4be6-8829-3a8e7257c43d"
     },
     {
       "arxivId": "2606.17766",
@@ -2746,7 +2794,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "3907f979-0c5e-4fe8-bd09-5e0fb1decc6f"
+      "id": "b8f59ef2-c6bf-430a-a126-19829eacdac5"
     },
     {
       "arxivId": "2606.17768",
@@ -2768,7 +2816,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "5b47b4ac-c08b-447f-b6fa-4c760bf3f48f"
+      "id": "21a2a07e-2352-4d09-873f-a9f436dd12bf"
     },
     {
       "arxivId": "2606.17769",
@@ -2795,7 +2843,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "60ae1ff6-7ddf-43c7-9ecb-2aaea13bff52"
+      "id": "4d32ed7a-fc02-4c16-b9ef-80e61c220678"
     },
     {
       "arxivId": "2606.17788",
@@ -2819,7 +2867,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "2dbcfa8d-7aae-467b-a140-d39236b18502"
+      "id": "bf54dc97-2aec-4c76-a463-259cbda49714"
     },
     {
       "arxivId": "2606.17797",
@@ -2846,7 +2894,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "02a6dce8-fdb7-46b6-a724-9efa35c33093"
+      "id": "e2d18d9d-ff6d-448a-b857-152d1b5975ff"
     },
     {
       "arxivId": "2606.17814",
@@ -2868,7 +2916,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "54574f93-e424-4866-a05c-b44de0af1269"
+      "id": "47e2deb7-3f93-442a-a102-c655dc29d11c"
     },
     {
       "arxivId": "2606.17941",
@@ -2901,7 +2949,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "f82d0486-f293-4f34-b6e6-279add23a774"
+      "id": "6c6baed9-3e88-4a20-af3f-d3ea68589a32"
     },
     {
       "arxivId": "2606.17125",
@@ -2928,7 +2976,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "8738f68c-833b-49c0-9d90-20ba1a5d5a8c"
+      "id": "6d1d1e5a-310b-4220-a4b0-f67c9d5b9b10"
     },
     {
       "arxivId": "2606.17219",
@@ -2952,7 +3000,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "f478cb76-df07-4f1f-b123-b203b58bf5e9"
+      "id": "2b3b90b3-167e-4576-ba9a-6fb76b4d0746"
     },
     {
       "arxivId": "2606.17280",
@@ -2978,7 +3026,7 @@
       "subfield": "在线优化 / 动态优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "a459caac-57c5-46ae-a8f8-796a42279d03"
+      "id": "79456135-8032-4162-a091-e37c1a4a9d9e"
     },
     {
       "arxivId": "2606.17317",
@@ -3009,7 +3057,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "5eb0f758-bc6d-45ac-8267-98a72691bee8"
+      "id": "a85bd959-383c-402d-8f3c-05e25369dc48"
     },
     {
       "arxivId": "2606.17364",
@@ -3036,7 +3084,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "426e4119-6972-4048-a3e6-230ae859be0c"
+      "id": "b3423bd4-777d-4070-9572-0a3ce0d22133"
     },
     {
       "arxivId": "2606.17594",
@@ -3060,7 +3108,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "568be665-2057-468b-a109-b5a831d37890"
+      "id": "62582c74-9295-4b6a-b127-e82193cd33c7"
     },
     {
       "arxivId": "2606.17743",
@@ -3088,7 +3136,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "a83d4fd4-4095-4ea6-bd77-f1eea5261655"
+      "id": "10a38078-724d-44ef-9df1-0496291114ac"
     },
     {
       "arxivId": "2606.18116",
@@ -3112,7 +3160,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "61c86f21-6f82-4784-a115-1faa7de8aed3"
+      "id": "583ac08e-58b7-4b9d-9c15-4b9088fb0900"
     },
     {
       "arxivId": "2606.18173",
@@ -3139,7 +3187,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0478386d-133f-4938-8eee-7867b3a0a1f2"
+      "id": "20a63238-f717-4c5e-8bd0-6a39fd7547d2"
     },
     {
       "arxivId": "2606.18194",
@@ -3166,7 +3214,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "9bd74e25-eb1e-4978-9ec0-91716a292025"
+      "id": "39ffbcc1-4258-465c-9c53-1670a4a5e645"
     },
     {
       "arxivId": "2606.18218",
@@ -3196,7 +3244,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "88cc483e-a396-48c4-ae92-ac6931e5f351"
+      "id": "979a4d1c-537b-4666-bf90-43463f312064"
     },
     {
       "arxivId": "2410.17706",
@@ -3223,7 +3271,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "fd8ffdba-0a9c-405d-b664-50f8cc395a36"
+      "id": "ed2a1202-5a44-4ec7-9883-f558641c3852"
     },
     {
       "arxivId": "2410.19350",
@@ -3245,7 +3293,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "f010f3e9-fbfe-4fef-95bc-d37575843017"
+      "id": "d6fbeff6-2548-47a0-a787-f00ab2c5c838"
     },
     {
       "arxivId": "2411.03461",
@@ -3270,7 +3318,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "621a139f-91c0-475f-80c2-8380fe80dc2f"
+      "id": "13d7baaf-552f-4fc3-ae5b-7bc7738b2454"
     },
     {
       "arxivId": "2411.07331",
@@ -3294,7 +3342,7 @@
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "ee5aa923-f520-4e90-9c64-e53eac93dff7"
+      "id": "af50ee75-6d6f-412f-9cbb-f57400457b4a"
     },
     {
       "arxivId": "2504.15752",
@@ -3318,7 +3366,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "d6239eba-a4ac-412e-84ad-72b5c93c605a"
+      "id": "1161f38a-eef4-4d98-97ad-50c5774364ec"
     },
     {
       "arxivId": "2509.04264",
@@ -3344,7 +3392,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "ed96158d-7e9e-4109-aed2-97fd0e4607c5"
+      "id": "753202c7-a9f2-40d1-8942-bbc71c774ef7"
     },
     {
       "arxivId": "2510.05779",
@@ -3369,7 +3417,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "5099e0ad-83b4-4a24-afcd-3e8490919b1c"
+      "id": "20f8a88d-7f16-49ff-a6fd-8cb6dc92cb5d"
     },
     {
       "arxivId": "2601.06976",
@@ -3392,7 +3440,7 @@
       "subfield": "凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "752a75e1-fa86-4c5a-a539-4cfa562c26cc"
+      "id": "6061a696-7ce5-475c-a16f-e4102945fec8"
     },
     {
       "arxivId": "2603.27812",
@@ -3418,7 +3466,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0448bb94-0f71-4091-8d0d-50719497e452"
+      "id": "2735c811-8053-4662-bf19-cb327d42b532"
     },
     {
       "arxivId": "2604.06531",
@@ -3448,32 +3496,7 @@
       "subfield": "非凸优化",
       "score": 8.1,
       "recommendationReason": "",
-      "id": "0ea10b13-1289-40f5-8e8b-32f9ba2ede85"
-    },
-    {
-      "arxivId": "2606.08675",
-      "title": "Explainable Optimization: A Call for Interdisciplinary Action",
-      "authors": [
-        "Nurşen Aydın",
-        "Ş. İlker Birbil",
-        "İlker Küçükparlak",
-        "Altuğ Yalçıntaş"
-      ],
-      "abstract": "Operations research and management science models support decisions that affect patients, workers, citizens, and public institutions. Decision-makers, such as clinicians approving surgical schedules, planners allocating disaster relief resources, or managers designing workforce rotations, increasingly require clear and actionable justifications that bridge the gap between mathematical optimization outputs and the intuitive reasoning stakeholders need to trust, contest, and implement recommended decisions. Yet the field has traditionally evaluated optimization models through computational criteria such as feasibility, optimality, scalability, and solution time, while treating explanation as a secondary concern. Mathematical transparency, provided through access to objectives, constraints, shadow prices, or sensitivity reports, does not automatically offer the forms of justification that stakeholders need to understand, trust, contest, or implement optimization-based decisions. This paper calls for the development of explainable optimization (XOpt) as a distinct interdisciplinary area that moves beyond algorithmic efficiency and incorporates behavioral, cognitive, and pragmatic perspectives to address this explanatory deficit.",
-      "categories": [
-        "math.OC"
-      ],
-      "primaryCategory": "math.OC",
-      "publishedAt": "2026-06-07",
-      "updatedAt": "2026-06-16",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.08675",
-      "pdfUrl": "https://arxiv.org/pdf/2606.08675",
-      "keywords": [],
-      "subfield": "凸优化",
-      "score": 8.1,
-      "recommendationReason": "",
-      "id": "291d4fc1-386b-4874-80ff-e0bea76dd883"
+      "id": "de55bd5d-94f2-47cd-b117-8bf2a5d7d09d"
     },
     {
       "arxivId": "2405.20912",
@@ -3501,7 +3524,7 @@
       "subfield": "随机优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "47e11cb6-e4da-4aa1-b97d-f3e1dbaaf58a"
+      "id": "055fd738-0865-4175-9bc8-68da3a990603"
     },
     {
       "arxivId": "2507.20708",
@@ -3529,7 +3552,7 @@
       "subfield": "优化与机器学习",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "d9b1851c-93f2-4f5b-9a5a-7bcac557a157"
+      "id": "4cbe45c4-e1ad-4723-b0c3-88ca7088557c"
     },
     {
       "arxivId": "2602.06014",
@@ -3558,7 +3581,7 @@
       "subfield": "随机优化",
       "score": 4.7,
       "recommendationReason": "",
-      "id": "5db06671-828d-4e5e-8272-a0fd079020aa"
+      "id": "012132b1-db43-4e70-a698-065e938047d4"
     },
     {
       "arxivId": "2602.15279",
@@ -3587,7 +3610,7 @@
       "subfield": "最优控制",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "b84d1b27-9147-4f8d-bdde-712e1094db25"
+      "id": "97b49077-21c4-41b2-b780-53c0e31c93f6"
     },
     {
       "arxivId": "2605.14743",
@@ -3615,30 +3638,7 @@
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "score": 5.5,
       "recommendationReason": "",
-      "id": "ea83887e-9b3c-4d8a-be32-53e25055f144"
-    },
-    {
-      "arxivId": "2606.12327",
-      "title": "From the Linear Quadratic Regulator (LQR) to the (Deterministic) Kalman Filter in Two Easy Steps",
-      "authors": [
-        "Bassam Bamieh"
-      ],
-      "abstract": "This note is a tutorial on the deterministic version of the Kalman filter (state estimator), which is formulated as finding the state trajectory consistent with the system's equations with the minimal amount of $L^2$ process and measurement uncertainty. As stated, this is an input signal design problem with linear dynamics and an objective that is affine-quadratic in the state and inputs. The first step is to convert this problem to one with a purely quadratic objective by embedding in a larger system using ``homogeneous coordinates''. This converts the problem to a purely quadratic (i.e. an LQR) problem, but with non-standard initial or final state constraints. This latter problem can then be solved using a version of the matrix Differential Riccati Equation (DRE) for the larger LQR problem. The second step is a partitioning of this larger problem, which then yields the optimal dynamic observer and the DRE of the traditional Kalman filter. For comparison, the solution of the traditional LQ-tracking (Servomechanism) problem is also treated using a similar construction.",
-      "categories": [
-        "eess.SY",
-        "math.OC"
-      ],
-      "primaryCategory": "eess.SY",
-      "publishedAt": "2026-06-10",
-      "updatedAt": "2026-06-16",
-      "announcementType": "revised",
-      "arxivUrl": "https://arxiv.org/abs/2606.12327",
-      "pdfUrl": "https://arxiv.org/pdf/2606.12327",
-      "keywords": [],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "c0388f2a-ba98-4669-b1ae-cdef6db30c7a"
+      "id": "4a94aa69-bf00-4545-a147-3580d08f0fef"
     }
   ]
 }
