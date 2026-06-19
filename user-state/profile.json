@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T08:56:57.031Z",
+  "updatedAt": "2026-06-19T08:56:59.572Z",
   "papers": {
     "2606.14705": {
       "status": "unread",
@@ -879,9 +879,9 @@
     },
     "2606.19143": {
       "status": "unread",
-      "isStarred": true,
+      "isStarred": false,
       "notes": "",
-      "updatedAt": "2026-06-19T08:56:57.031Z"
+      "updatedAt": "2026-06-19T08:56:59.572Z"
     },
     "2606.19278": {
       "status": "unread",
