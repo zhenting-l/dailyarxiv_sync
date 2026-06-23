@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-23",
-  "exportedAt": "2026-06-23T09:42:49.648Z",
+  "exportedAt": "2026-06-23T09:43:59.811Z",
   "papers": [
     {
       "arxivId": "2606.14471",
@@ -32,7 +32,54 @@
         "凸优化",
         "最优控制"
       ],
-      "classificationReason": "主方向命中 robust、uncertainty，且与 arXiv 分类线索一致；副方向候选：凸优化、最优控制。",
+      "classificationReason": "主方向命中 robust、uncertainty，且与 arXiv 分类线索一致；副方向候选：凸优化、最优控制；分类置信度 66%。",
+      "classificationConfidence": 0.66,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 8.36,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 7.53,
+          "confidence": 0.9,
+          "matchedSignals": [
+            "convex",
+            "projected gradient"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 5.64,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 2.05,
+          "confidence": 0.25,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "鲁棒",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
       "id": "a204e4d0-db1a-438c-943e-0d92f56850d4"
@@ -63,7 +110,54 @@
       ],
       "subfield": "凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 convex、primal dual，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 convex、primal dual，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 10.48,
+          "confidence": 1,
+          "matchedSignals": [
+            "primal dual",
+            "convex"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 7,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 5.51,
+          "confidence": 0.53,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 4.48,
+          "confidence": 0.43,
+          "matchedSignals": [
+            "matching"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "随机",
+        "在线/动态"
+      ],
+      "methodTags": [
+        "primal-dual"
+      ],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
       "id": "b9f0548c-3a16-4c79-9807-0b19bafe5829"
@@ -93,12 +187,55 @@
         "online",
         "distributed"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "分布式优化",
         "最优控制"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：分布式优化、最优控制。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、分布式优化、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.42,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.76,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 4.38,
+          "confidence": 0.92,
+          "matchedSignals": [
+            "distributed"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.62,
+          "confidence": 0.55,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.3,
+          "confidence": 0.27,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑",
+        "在线/动态",
+        "分布式/联邦"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
       "id": "c34efd15-1e76-40a0-b234-f806cc2588db"
@@ -126,11 +263,51 @@
       "keywords": [
         "uncertainty"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 uncertainty，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化",
+        "在线优化 / 动态优化",
+        "双层优化 / 博弈 / 变分不等式"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、在线优化 / 动态优化、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.64,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.49,
+          "confidence": 1,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.93,
+          "confidence": 0.55,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.92,
+          "confidence": 0.55,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.79,
+          "confidence": 0.51,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
       "id": "ef1e8f72-e4ad-47b4-abb7-6310d543b12b"
     },
     {
@@ -160,7 +337,51 @@
       "secondarySubfields": [
         "凸优化"
       ],
-      "classificationReason": "主方向命中 stochastic optimization，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "classificationReason": "主方向命中 stochastic optimization，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 9.32,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic approximation",
+            "stochastic optimization",
+            "stochastic"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 6.1,
+          "confidence": 0.65,
+          "matchedSignals": [
+            "strongly convex",
+            "convex"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.01,
+          "confidence": 0.22,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.99,
+          "confidence": 0.21,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "随机"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
       "id": "58e79a17-19c1-472e-aa0c-a46f0a1f6dbd"
@@ -191,13 +412,59 @@
         "rl",
         "matching"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "优化与机器学习",
         "组合优化 / 整数规划"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：优化与机器学习、组合优化 / 整数规划。",
-      "score": 4.7,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、优化与机器学习、组合优化 / 整数规划；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.39,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.04,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 4.93,
+          "confidence": 0.98,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 4.08,
+          "confidence": 0.81,
+          "matchedSignals": [
+            "matching"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.55,
+          "confidence": 0.5,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
       "id": "c6a1779f-fdb8-4c47-8214-6ddc37ab3d58"
     },
@@ -225,13 +492,54 @@
         "regret",
         "matching"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "组合优化 / 整数规划",
         "优化与机器学习"
       ],
-      "classificationReason": "主方向命中 regret，且与 arXiv 分类线索一致；副方向候选：组合优化 / 整数规划、优化与机器学习。",
-      "score": 4.7,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、组合优化 / 整数规划、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.64,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.3,
+          "confidence": 1,
+          "matchedSignals": [
+            "regret"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 3.18,
+          "confidence": 0.74,
+          "matchedSignals": [
+            "matching"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.39,
+          "confidence": 0.56,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.13,
+          "confidence": 0.49,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
       "id": "709f75de-a6a4-4178-b096-cf6abd3a5843"
     },
@@ -259,10 +567,51 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 10.07,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.8,
+          "confidence": 0.58,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.91,
+          "confidence": 0.19,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.91,
+          "confidence": 0.19,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "4011f3d6-143a-472d-b364-4e5fa7019af7"
+      "id": "73e9c8b8-37f4-40da-8b57-fbc7801afd1a"
     },
     {
       "arxivId": "2606.21153",
@@ -291,10 +640,58 @@
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 bilevel，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 bilevel，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 19.63,
+          "confidence": 1,
+          "matchedSignals": [
+            "bilevel",
+            "lower level"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 15.07,
+          "confidence": 0.77,
+          "matchedSignals": [
+            "decentralized",
+            "multi agent"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 4.22,
+          "confidence": 0.22,
+          "matchedSignals": [
+            "stationarity"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.39,
+          "confidence": 0.17,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "分布式/联邦",
+        "双层"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "49ba8234-16d4-4d79-ae01-51311b051909"
+      "id": "950437f4-e49c-403f-a9db-3d62f81d04f6"
     },
     {
       "arxivId": "2606.21176",
@@ -321,10 +718,47 @@
       ],
       "subfield": "组合优化 / 整数规划",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 integer programming，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 integer programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 8.5,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer",
+            "integer programming"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.9,
+          "confidence": 0.22,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.21,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.76,
+          "confidence": 0.21,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "4b344fec-e044-484b-bdd0-d1db14d541af"
+      "id": "4891e7b9-6df6-49db-8d2f-f1203b147fbb"
     },
     {
       "arxivId": "2606.21354",
@@ -357,10 +791,61 @@
         "鲁棒优化 / 分布鲁棒优化",
         "优化与机器学习"
       ],
-      "classificationReason": "主方向命中 stochastic optimization、sgd，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化、优化与机器学习。",
+      "classificationReason": "主方向命中 stochastic optimization、sgd，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化、优化与机器学习；分类置信度 94%。",
+      "classificationConfidence": 0.94,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 8.37,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic optimization",
+            "stochastic",
+            "sgd"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.7,
+          "confidence": 0.68,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 5.33,
+          "confidence": 0.64,
+          "matchedSignals": [
+            "rl",
+            "large language model"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 4.8,
+          "confidence": 0.57,
+          "matchedSignals": [
+            "weakly convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "非光滑",
+        "随机",
+        "鲁棒"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "aaac394f-80e2-42ec-9118-7c0956f3df28"
+      "id": "c83c8a03-9385-4cf6-b61d-4214c106c8e0"
     },
     {
       "arxivId": "2606.21382",
@@ -388,10 +873,51 @@
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 variational inequality、game，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 variational inequality、game，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 12.39,
+          "confidence": 1,
+          "matchedSignals": [
+            "variational inequality",
+            "game",
+            "min max"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.87,
+          "confidence": 0.15,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.6,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.6,
+          "confidence": 0.13,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束",
+        "minimax"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "73458ef7-0fc6-4851-859b-501ff612a3dd"
+      "id": "bce9a95b-d095-4a43-8453-aec85096609d"
     },
     {
       "arxivId": "2606.21482",
@@ -416,10 +942,49 @@
       ],
       "subfield": "凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 convex、primal dual，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 convex、primal dual，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 10.86,
+          "confidence": 1,
+          "matchedSignals": [
+            "primal dual",
+            "convex"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.87,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.84,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.77,
+          "confidence": 0.16,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸"
+      ],
+      "methodTags": [
+        "primal-dual"
+      ],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "6794ee1b-0e79-4e06-913e-6ef087ea0ca1"
+      "id": "14e9b66e-5f65-4e10-a41c-319a1ea2fac4"
     },
     {
       "arxivId": "2606.21483",
@@ -443,12 +1008,50 @@
       "keywords": [
         "rl"
       ],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 rl。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "f4e142cb-25d0-44b7-9b9c-0e02055c0053"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "在线优化 / 动态优化",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、在线优化 / 动态优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.45,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 3.38,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.1,
+          "confidence": 0.62,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.07,
+          "confidence": 0.61,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.96,
+          "confidence": 0.58,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "db167c6c-a93a-47da-90b2-fb06824dd636"
     },
     {
       "arxivId": "2606.21486",
@@ -477,10 +1080,58 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 9.77,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control",
+            "trajectory optimization"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.77,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.77,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 2.04,
+          "confidence": 0.21,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "在线/动态",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [
+        "interior point"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "f044d64a-07af-4182-8396-f0a0c6d47815"
+      "id": "35c98a59-aa9b-4eb0-a618-d0d1155254bc"
     },
     {
       "arxivId": "2606.21528",
@@ -511,10 +1162,58 @@
       ],
       "subfield": "随机优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 stochastic、variance reduction，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 stochastic、variance reduction，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 13.8,
+          "confidence": 1,
+          "matchedSignals": [
+            "variance reduction",
+            "stochastic"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.28,
+          "confidence": 0.45,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 5.16,
+          "confidence": 0.37,
+          "matchedSignals": [
+            "min max"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.2,
+          "confidence": 0.16,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "在线/动态",
+        "约束",
+        "minimax"
+      ],
+      "methodTags": [
+        "variance reduction"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "b10a51d0-b653-4f31-841d-ef4cf9acd7e4"
+      "id": "d2d95c38-23ad-4c04-8682-facc0b7cbd82"
     },
     {
       "arxivId": "2606.21573",
@@ -541,15 +1240,66 @@
         "non convex",
         "game"
       ],
-      "subfield": "凸优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "凸优化",
         "非凸优化",
         "双层优化 / 博弈 / 变分不等式"
       ],
-      "classificationReason": "主方向命中 convex optimization，且与 arXiv 分类线索一致；副方向候选：非凸优化、双层优化 / 博弈 / 变分不等式。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "35ad106a-cd6e-4c41-9b9e-b9c5bc422e1c"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、非凸优化、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.89,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 6.05,
+          "confidence": 1,
+          "matchedSignals": [
+            "convex optimization",
+            "convex"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 4.82,
+          "confidence": 0.8,
+          "matchedSignals": [
+            "non convex"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 4.64,
+          "confidence": 0.77,
+          "matchedSignals": [
+            "game"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 3.61,
+          "confidence": 0.6,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "约束",
+        "控制",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "博弈/经济"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "09bbdd5a-cb1a-46bf-b33b-b5774aa6653f"
     },
     {
       "arxivId": "2606.21575",
@@ -574,14 +1324,55 @@
         "stochastic",
         "nonsmooth"
       ],
-      "subfield": "随机优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "凸优化"
+        "随机优化",
+        "凸优化",
+        "双层优化 / 博弈 / 变分不等式"
       ],
-      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、凸优化、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.63,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 6.15,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.05,
+          "confidence": 0.82,
+          "matchedSignals": [
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.91,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.8,
+          "confidence": 0.29,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑",
+        "随机"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "68810935-de08-4906-bcc6-fa988af21227"
+      "id": "6d29a7ab-9db8-43e4-b197-005f3ed78788"
     },
     {
       "arxivId": "2606.21581",
@@ -604,14 +1395,55 @@
         "non convex",
         "convex"
       ],
-      "subfield": "非凸优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "凸优化"
+        "非凸优化",
+        "凸优化",
+        "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 non convex，且与 arXiv 分类线索一致；副方向候选：凸优化。",
-      "score": 9.8,
-      "recommendationReason": "主方向属于你关注的 非凸优化，命中关键词 singular value。",
-      "id": "f95518f0-deb2-4bde-b6f7-ae04448896e3"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：非凸优化、凸优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.41,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 4.66,
+          "confidence": 1,
+          "matchedSignals": [
+            "non convex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.23,
+          "confidence": 0.91,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.93,
+          "confidence": 0.41,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.39,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非凸"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.2,
+      "recommendationReason": "副方向与偏好 非凸优化 接近，命中关键词 singular value。",
+      "id": "8aa4a918-44be-4ef2-b50b-b6f2b97b635d"
     },
     {
       "arxivId": "2606.21643",
@@ -633,12 +1465,52 @@
       "keywords": [
         "online"
       ],
-      "subfield": "在线优化 / 动态优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "6e9f29b1-07ae-4dd8-a745-278ef481b54f"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "最优控制",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、最优控制、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.76,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.55,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 1.89,
+          "confidence": 0.34,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.83,
+          "confidence": 0.33,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.32,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "58b57c75-d5b0-4f52-91ea-233ad9a2b70f"
     },
     {
       "arxivId": "2606.21765",
@@ -664,10 +1536,52 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 12.64,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.78,
+          "confidence": 0.46,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.05,
+          "confidence": 0.16,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.88,
+          "confidence": 0.15,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "80002b3f-73c1-4e72-8441-feec8a609709"
+      "id": "86c9129a-619f-4082-a6f9-8e53699ac7c4"
     },
     {
       "arxivId": "2606.21823",
@@ -694,10 +1608,51 @@
       ],
       "subfield": "半定规划 / 锥优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 16.15,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite",
+            "sdp"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.22,
+          "confidence": 0.14,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.11,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.63,
+          "confidence": 0.1,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "140c43c8-a70f-483e-8464-ed283dcedec3"
+      "id": "2c17db01-36b9-4702-8765-5825ba8858de"
     },
     {
       "arxivId": "2606.21925",
@@ -725,10 +1680,52 @@
       "secondarySubfields": [
         "随机优化"
       ],
-      "classificationReason": "主方向命中 reinforcement learning；副方向候选：随机优化。",
+      "classificationReason": "主方向命中 reinforcement learning；副方向候选：随机优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 7.65,
+          "confidence": 1,
+          "matchedSignals": [
+            "reinforcement learning",
+            "rl"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 5.37,
+          "confidence": 0.7,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.01,
+          "confidence": 0.26,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.91,
+          "confidence": 0.25,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "强化学习"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "25b9dba9-6074-4db0-af54-4471fd54cd5a"
+      "id": "c56c3cf7-b9c4-481a-9110-3d4a4951318f"
     },
     {
       "arxivId": "2606.21948",
@@ -754,14 +1751,55 @@
         "online",
         "uncertainty"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "鲁棒优化 / 分布鲁棒优化"
+        "在线优化 / 动态优化",
+        "鲁棒优化 / 分布鲁棒优化",
+        "半定规划 / 锥优化"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "7860c9b1-879b-4f86-9968-485d1435262d"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、鲁棒优化 / 分布鲁棒优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.82,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.1,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.93,
+          "confidence": 0.64,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.08,
+          "confidence": 0.34,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 2.02,
+          "confidence": 0.33,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "eb0c9546-8280-44ae-ac0b-06d89ea7e803"
     },
     {
       "arxivId": "2606.22018",
@@ -783,12 +1821,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.22018",
       "pdfUrl": "https://arxiv.org/pdf/2606.22018",
       "keywords": [],
-      "subfield": "半定规划 / 锥优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 半定规划 / 锥优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "ba68da7d-a7de-4702-a1bf-7d37c6bee4e4"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "最优控制",
+        "组合优化 / 整数规划"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、最优控制、组合优化 / 整数规划；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.18,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.15,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.88,
+          "confidence": 0.87,
+          "matchedSignals": []
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 1.84,
+          "confidence": 0.85,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.84,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "01c3e8f7-0509-43ce-8a01-14d94d561e01"
     },
     {
       "arxivId": "2606.22157",
@@ -815,10 +1891,60 @@
       ],
       "subfield": "半定规划 / 锥优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 semidefinite、second order cone，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 semidefinite、second order cone，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 12.91,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite",
+            "second order cone"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 8.7,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.79,
+          "confidence": 0.29,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.96,
+          "confidence": 0.23,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "约束"
+      ],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [
+        "控制系统",
+        "博弈/经济"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "473319da-fcb0-41e6-a945-ee98a477c908"
+      "id": "37765e90-b35e-4035-b148-fabb28bb8442"
     },
     {
       "arxivId": "2606.22192",
@@ -840,12 +1966,50 @@
       "keywords": [
         "stabilization"
       ],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 stabilization，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "bfbfb331-8a62-4592-98e7-154385babbd6"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.7,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 3.73,
+          "confidence": 1,
+          "matchedSignals": [
+            "stabilization"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.97,
+          "confidence": 0.53,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.86,
+          "confidence": 0.5,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.78,
+          "confidence": 0.48,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "d2dcfb2e-11ee-432e-9f22-7f5dc52db076"
     },
     {
       "arxivId": "2606.22326",
@@ -871,10 +2035,61 @@
       ],
       "subfield": "非凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 11.65,
+          "confidence": 1,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 7.77,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "convex optimization",
+            "convex",
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.55,
+          "confidence": 0.56,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 5.94,
+          "confidence": 0.51,
+          "matchedSignals": [
+            "neural network",
+            "rl"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "非光滑",
+        "在线/动态",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "f3c757c4-c20a-4c10-b9b7-47f102d1393c"
+      "id": "19244d33-2389-444b-8eda-b30db97fb744"
     },
     {
       "arxivId": "2606.22392",
@@ -895,12 +2110,54 @@
       "keywords": [
         "rl"
       ],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 rl。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "8b29602d-caa5-41a4-bf84-8380df404557"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "半定规划 / 锥优化",
+        "双层优化 / 博弈 / 变分不等式"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、半定规划 / 锥优化、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.09,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.27,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.83,
+          "confidence": 0.8,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.79,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.79,
+          "confidence": 0.79,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑"
+      ],
+      "methodTags": [
+        "operator splitting"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "c7b1d89c-dd1d-4667-aac2-9a966157b060"
     },
     {
       "arxivId": "2606.22467",
@@ -924,12 +2181,63 @@
         "robust",
         "variational inequality"
       ],
-      "subfield": "双层优化 / 博弈 / 变分不等式",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 variational inequality，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "63ee25de-ecf3-441d-88d0-587dbd9f8c8a"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "鲁棒优化 / 分布鲁棒优化",
+        "凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、鲁棒优化 / 分布鲁棒优化、凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.92,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 9.2,
+          "confidence": 1,
+          "matchedSignals": [
+            "variational inequality"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.46,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.52,
+          "confidence": 0.27,
+          "matchedSignals": [
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2,
+          "confidence": 0.22,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑",
+        "鲁棒",
+        "约束"
+      ],
+      "methodTags": [
+        "ADMM",
+        "augmented Lagrangian"
+      ],
+      "applicationTags": [
+        "信号处理"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "91d27c57-d638-478c-a776-43ba4c03f69e"
     },
     {
       "arxivId": "2606.22542",
@@ -949,12 +2257,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.22542",
       "pdfUrl": "https://arxiv.org/pdf/2606.22542",
       "keywords": [],
-      "subfield": "双层优化 / 博弈 / 变分不等式",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 双层优化 / 博弈 / 变分不等式 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "ed9a4971-9efc-41ac-afa2-8a1bf790c6e0"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.11,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.94,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.6,
+          "confidence": 0.89,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.6,
+          "confidence": 0.89,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "能源系统"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "c2602250-d3e8-488e-b4d1-302639173b58"
     },
     {
       "arxivId": "2606.22690",
@@ -980,10 +2326,51 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 11.97,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 3.85,
+          "confidence": 0.32,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.85,
+          "confidence": 0.15,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.83,
+          "confidence": 0.15,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "eaafae25-8c80-435a-8914-b1567be28753"
+      "id": "55ebccdc-1ff9-4e16-8c4c-d2a7ac8170af"
     },
     {
       "arxivId": "2606.22869",
@@ -1006,10 +2393,49 @@
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 equilibrium problem，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 equilibrium problem，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 18.42,
+          "confidence": 1,
+          "matchedSignals": [
+            "equilibrium problem"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.61,
+          "confidence": 0.14,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.78,
+          "confidence": 0.1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.74,
+          "confidence": 0.09,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "14f48066-14d9-4982-b1de-f65d4d5ca2da"
+      "id": "6845d868-f192-4fb5-957b-2e2f9d4ad315"
     },
     {
       "arxivId": "2606.22894",
@@ -1038,10 +2464,54 @@
       ],
       "subfield": "半定规划 / 锥优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 semidefinite programming、cone constraint，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 semidefinite programming、cone constraint，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 20.51,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite",
+            "sdp",
+            "cone constraint"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.37,
+          "confidence": 0.12,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.09,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.63,
+          "confidence": 0.08,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "约束"
+      ],
+      "methodTags": [
+        "augmented Lagrangian"
+      ],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "e49925a8-54b5-44d0-b76f-90581c792474"
+      "id": "4a137a65-d672-4353-99f4-373b45b71ab1"
     },
     {
       "arxivId": "2606.22990",
@@ -1061,14 +2531,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.22990",
       "pdfUrl": "https://arxiv.org/pdf/2606.22990",
       "keywords": [],
-      "subfield": "随机优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "在线优化 / 动态优化"
+        "随机优化",
+        "在线优化 / 动态优化",
+        "最优控制"
       ],
-      "classificationReason": "主方向与 随机优化 的语义描述最接近，且与 arXiv 分类线索一致；副方向候选：在线优化 / 动态优化。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、在线优化 / 动态优化、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 2.49,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.37,
+          "confidence": 0.95,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 2.18,
+          "confidence": 0.88,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.17,
+          "confidence": 0.87,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "57bda239-8d01-4489-b2ab-05aa24e9e941"
+      "id": "8fd5b222-3390-4f7c-b027-33bcb448471a"
     },
     {
       "arxivId": "2606.23072",
@@ -1098,10 +2604,51 @@
       "secondarySubfields": [
         "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化。",
+      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化；分类置信度 63%。",
+      "classificationConfidence": 0.63,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 5.92,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.03,
+          "confidence": 0.85,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.38,
+          "confidence": 0.4,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.99,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "能源系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "1c6472ab-796b-45bb-abd4-93500e45961b"
+      "id": "059d7b7d-fc8c-4269-bd4c-fea495b01e89"
     },
     {
       "arxivId": "2606.23149",
@@ -1125,15 +2672,64 @@
         "control system",
         "convex"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "最优控制",
         "凸优化"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：最优控制、凸优化。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、最优控制、凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.5,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.59,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 4.81,
+          "confidence": 0.86,
+          "matchedSignals": [
+            "control system"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.07,
+          "confidence": 0.73,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.24,
+          "confidence": 0.4,
+          "matchedSignals": [
+            "rl"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "e1edce58-57d8-45e5-b156-398e9d3c7cc6"
+      "id": "e170d8f3-8fd1-4116-a7f1-d807f0459300"
     },
     {
       "arxivId": "2606.23198",
@@ -1157,15 +2753,54 @@
       "keywords": [
         "convex"
       ],
-      "subfield": "凸优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "凸优化",
         "鲁棒优化 / 分布鲁棒优化",
         "非凸优化"
       ],
-      "classificationReason": "主方向命中 convex，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化、非凸优化。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "7d7c47ef-3050-4c57-a88e-77fb9a8e3e71"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、鲁棒优化 / 分布鲁棒优化、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.67,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 4.86,
+          "confidence": 1,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.74,
+          "confidence": 0.56,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.67,
+          "confidence": 0.55,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.63,
+          "confidence": 0.54,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "97e8348f-3d1b-40ea-95cf-cf2d9199e86c"
     },
     {
       "arxivId": "2606.23218",
@@ -1188,14 +2823,52 @@
       "keywords": [
         "dro"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "最优控制"
+        "鲁棒优化 / 分布鲁棒优化",
+        "最优控制",
+        "在线优化 / 动态优化"
       ],
-      "classificationReason": "主方向命中 dro，且与 arXiv 分类线索一致；副方向候选：最优控制。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、最优控制、在线优化 / 动态优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.74,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.55,
+          "confidence": 1,
+          "matchedSignals": [
+            "dro"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.98,
+          "confidence": 0.54,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.92,
+          "confidence": 0.35,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.32,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "3a65ee8e-ef60-46b9-8883-64c0cbbfcd2e"
+      "id": "682c6613-554d-4943-afb0-eaf820415422"
     },
     {
       "arxivId": "2606.23229",
@@ -1219,12 +2892,54 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23229",
       "pdfUrl": "https://arxiv.org/pdf/2606.23229",
       "keywords": [],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 最优控制 的语义描述最接近，且与 arXiv 分类线索一致。",
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、优化与机器学习、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.13,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 2.29,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.2,
+          "confidence": 0.96,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.85,
+          "confidence": 0.81,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.83,
+          "confidence": 0.8,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "4d3242a9-3c94-4eca-9b6c-35ecb17d4e5b"
+      "id": "6e989855-4cee-482e-8131-21160a69c926"
     },
     {
       "arxivId": "2606.23235",
@@ -1246,14 +2961,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23235",
       "pdfUrl": "https://arxiv.org/pdf/2606.23235",
       "keywords": [],
-      "subfield": "最优控制",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "随机优化"
+        "最优控制",
+        "随机优化",
+        "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向与 最优控制 的语义描述最接近，且与 arXiv 分类线索一致；副方向候选：随机优化。",
-      "score": 4.7,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、随机优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.2,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 2.47,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.46,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.05,
+          "confidence": 0.83,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.91,
+          "confidence": 0.77,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "e54fedeb-d48f-4e0e-804b-0fa476ab9e48"
+      "id": "7676db49-1b46-4db5-9880-8a3df5141e1e"
     },
     {
       "arxivId": "2606.23250",
@@ -1276,10 +3027,51 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 9.4,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 4.33,
+          "confidence": 0.46,
+          "matchedSignals": [
+            "distributed"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.05,
+          "confidence": 0.22,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.19,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "分布式/联邦",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "ca4bcea2-e928-4fd1-8281-c692ed40b9cc"
+      "id": "c7e9a63a-93e5-424e-b707-d8636afff73a"
     },
     {
       "arxivId": "2606.23400",
@@ -1306,10 +3098,46 @@
       ],
       "subfield": "组合优化 / 整数规划",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 8.52,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 2.27,
+          "confidence": 0.27,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.14,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.04,
+          "confidence": 0.24,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "能源系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "990f8f5f-e217-44b9-9b59-df931a8eb5a6"
+      "id": "7f7e4f15-68ac-496f-af21-5a27c9fe8d39"
     },
     {
       "arxivId": "2606.23408",
@@ -1333,14 +3161,54 @@
         "hjb",
         "rl"
       ],
-      "subfield": "最优控制",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "优化与机器学习"
+        "最优控制",
+        "优化与机器学习",
+        "双层优化 / 博弈 / 变分不等式"
       ],
-      "classificationReason": "主方向命中 hjb，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "9418ae73-fe39-4221-ac1e-c281beb97081"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、优化与机器学习、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.56,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 3.44,
+          "confidence": 1,
+          "matchedSignals": [
+            "hjb"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.58,
+          "confidence": 0.75,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.52,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.8,
+          "confidence": 0.52,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "af05852c-d48e-4b06-8e5c-316c8e85ea93"
     },
     {
       "arxivId": "2606.23549",
@@ -1362,12 +3230,52 @@
       "keywords": [
         "dynamical system"
       ],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 dynamical system，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "9cecb1b5-fc0e-4f29-8619-918cdb5f4a7b"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.59,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 3.23,
+          "confidence": 1,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.94,
+          "confidence": 0.6,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.78,
+          "confidence": 0.55,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.63,
+          "confidence": 0.5,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "58441cd8-db4c-4ac7-a042-7496be7cf1f5"
     },
     {
       "arxivId": "2606.23560",
@@ -1394,10 +3302,50 @@
       "secondarySubfields": [
         "凸优化"
       ],
-      "classificationReason": "主方向命中 robust，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "classificationReason": "主方向命中 robust，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 86%。",
+      "classificationConfidence": 0.86,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 6.48,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.14,
+          "confidence": 0.64,
+          "matchedSignals": [
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.02,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.91,
+          "confidence": 0.29,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "非光滑",
+        "鲁棒",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "9659fc6a-2c98-4811-87d6-75e1d76e22c1"
+      "id": "a339fb6b-e93e-436d-a5fc-5dd7d5e3a90b"
     },
     {
       "arxivId": "2606.20519",
@@ -1423,10 +3371,51 @@
       ],
       "subfield": "半定规划 / 锥优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 18.09,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 4.29,
+          "confidence": 0.24,
+          "matchedSignals": [
+            "game"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 1.1,
+          "confidence": 0.06,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 0.96,
+          "confidence": 0.05,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "41cf5837-c41a-434a-97fd-4bbb5351915d"
+      "id": "1381c8ce-782d-49d4-b59d-c3cec34b2939"
     },
     {
       "arxivId": "2606.20640",
@@ -1455,10 +3444,52 @@
       ],
       "subfield": "优化与机器学习",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 reinforcement learning、large language model，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 reinforcement learning、large language model，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 9.61,
+          "confidence": 1,
+          "matchedSignals": [
+            "reinforcement learning",
+            "rl",
+            "large language model"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.47,
+          "confidence": 0.15,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.4,
+          "confidence": 0.15,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.39,
+          "confidence": 0.14,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "强化学习"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "a6d28e41-6c76-43ee-913a-7d0c02a6593c"
+      "id": "c521b56c-6b1f-408c-afbd-ed9362b10fde"
     },
     {
       "arxivId": "2606.20903",
@@ -1490,10 +3521,59 @@
         "非凸优化",
         "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 reinforcement learning；副方向候选：非凸优化、鲁棒优化 / 分布鲁棒优化。",
+      "classificationReason": "主方向命中 reinforcement learning；副方向候选：非凸优化、鲁棒优化 / 分布鲁棒优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 7.67,
+          "confidence": 1,
+          "matchedSignals": [
+            "reinforcement learning",
+            "actor critic"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 6.64,
+          "confidence": 0.86,
+          "matchedSignals": [
+            "saddle point"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.65,
+          "confidence": 0.61,
+          "matchedSignals": [
+            "risk sensitive"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 3.39,
+          "confidence": 0.44,
+          "matchedSignals": [
+            "game"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "非凸",
+        "随机",
+        "minimax",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "强化学习",
+        "博弈/经济"
+      ],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 非凸优化 接近。",
-      "id": "cddc81f8-a04a-4c11-9a02-3aa34290cfa1"
+      "id": "28fcd5de-c483-4ea6-8ca3-cc60d3f07da7"
     },
     {
       "arxivId": "2606.21092",
@@ -1516,15 +3596,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.21092",
       "pdfUrl": "https://arxiv.org/pdf/2606.21092",
       "keywords": [],
-      "subfield": "优化与机器学习",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "优化与机器学习",
         "分布式优化",
         "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向与 优化与机器学习 的语义描述最接近，且与 arXiv 分类线索一致；副方向候选：分布式优化、鲁棒优化 / 分布鲁棒优化。",
-      "score": 4.7,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、分布式优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.13,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.84,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 2.49,
+          "confidence": 0.88,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.37,
+          "confidence": 0.83,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.27,
+          "confidence": 0.8,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "15c6411c-0d4b-42d8-9e42-dfe19b1a458f"
+      "id": "41c4b63d-b7be-41cb-bcca-3cf4f0d94971"
     },
     {
       "arxivId": "2606.21236",
@@ -1555,10 +3670,52 @@
       "secondarySubfields": [
         "在线优化 / 动态优化"
       ],
-      "classificationReason": "主方向命中 neural network、rl；副方向候选：在线优化 / 动态优化。",
+      "classificationReason": "主方向命中 neural network、rl；副方向候选：在线优化 / 动态优化；分类置信度 79%。",
+      "classificationConfidence": 0.79,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 6.3,
+          "confidence": 1,
+          "matchedSignals": [
+            "neural network",
+            "rl"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.6,
+          "confidence": 0.73,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.99,
+          "confidence": 0.16,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.89,
+          "confidence": 0.14,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "50044247-1d0b-461b-af82-c9d64c0b78ef"
+      "id": "583c022a-efc4-467c-9497-f19957515442"
     },
     {
       "arxivId": "2606.21391",
@@ -1584,14 +3741,55 @@
         "convex",
         "sum of squares"
       ],
-      "subfield": "凸优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "半定规划 / 锥优化"
+        "凸优化",
+        "半定规划 / 锥优化",
+        "随机优化"
       ],
-      "classificationReason": "主方向命中 convex，且与 arXiv 分类线索一致；副方向候选：半定规划 / 锥优化。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "ff9f26f0-4c4a-4431-827e-7405b954e50b"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、半定规划 / 锥优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.22,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 3.8,
+          "confidence": 1,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 3.47,
+          "confidence": 0.92,
+          "matchedSignals": [
+            "sum of squares"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 1.55,
+          "confidence": 0.41,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.08,
+          "confidence": 0.29,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "1a686bca-3aa0-4b93-a732-77b60120a42e"
     },
     {
       "arxivId": "2606.21440",
@@ -1616,10 +3814,53 @@
       ],
       "subfield": "组合优化 / 整数规划",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 11.23,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 3.85,
+          "confidence": 0.34,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.58,
+          "confidence": 0.23,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.54,
+          "confidence": 0.23,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "能源系统",
+        "运筹应用"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "c900131d-4dbf-4cca-a78f-7165a8a1df86"
+      "id": "9519e69f-6b99-4e01-9b10-b16334a1bc75"
     },
     {
       "arxivId": "2606.22156",
@@ -1640,12 +3881,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.22156",
       "pdfUrl": "https://arxiv.org/pdf/2606.22156",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "bc459515-7467-45e8-af1a-afbe90a3e448"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "双层优化 / 博弈 / 变分不等式",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、双层优化 / 博弈 / 变分不等式、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.92,
+          "confidence": 0.92,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.9,
+          "confidence": 0.9,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.85,
+          "confidence": 0.85,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 0.8,
+          "confidence": 0.8,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "56e756d0-c220-498b-bc78-e98a9e9bb0e4"
     },
     {
       "arxivId": "2606.22466",
@@ -1679,10 +3958,66 @@
       "secondarySubfields": [
         "随机优化"
       ],
-      "classificationReason": "主方向命中 distributed、decentralized、federated，且与 arXiv 分类线索一致；副方向候选：随机优化。",
+      "classificationReason": "主方向命中 distributed、decentralized、federated，且与 arXiv 分类线索一致；副方向候选：随机优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "分布式优化",
+          "score": 15.28,
+          "confidence": 1,
+          "matchedSignals": [
+            "decentralized",
+            "federated",
+            "distributed"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 13.57,
+          "confidence": 0.89,
+          "matchedSignals": [
+            "variance reduction",
+            "vr",
+            "sgd"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 8.87,
+          "confidence": 0.58,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.92,
+          "confidence": 0.39,
+          "matchedSignals": [
+            "strongly convex",
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "在线/动态",
+        "分布式/联邦",
+        "机器学习"
+      ],
+      "methodTags": [
+        "variance reduction",
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "fdeec3ea-89b4-4d40-af68-ed5fa5a50c07"
+      "id": "4a1fd302-de84-4a5f-95e7-39f628fff290"
     },
     {
       "arxivId": "2606.22536",
@@ -1717,10 +4052,66 @@
       "secondarySubfields": [
         "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 integer programming、matching、facility location，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化。",
+      "classificationReason": "主方向命中 integer programming、matching、facility location，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 13.61,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer",
+            "integer programming",
+            "matching",
+            "facility location"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 11.04,
+          "confidence": 0.81,
+          "matchedSignals": [
+            "robust",
+            "worst case",
+            "uncertainty set",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 6.3,
+          "confidence": 0.46,
+          "matchedSignals": [
+            "neural network",
+            "rl"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.47,
+          "confidence": 0.4,
+          "matchedSignals": [
+            "online"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "在线/动态",
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统",
+        "运筹应用"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "e48f7fd2-f562-4d28-805a-47bab49b5507"
+      "id": "6fc28ca5-96fa-4275-8a13-7ff2b75de7e8"
     },
     {
       "arxivId": "2606.22669",
@@ -1747,15 +4138,60 @@
         "convex",
         "uncertainty"
       ],
-      "subfield": "随机优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "随机优化",
         "凸优化",
         "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：凸优化、鲁棒优化 / 分布鲁棒优化。",
-      "score": 5.6,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、凸优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.41,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 5.79,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.08,
+          "confidence": 0.88,
+          "matchedSignals": [
+            "convex optimization",
+            "convex"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.32,
+          "confidence": 0.75,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.59,
+          "confidence": 0.45,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "随机"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "ee0a357a-b562-4794-a322-0d95bbc2d511"
+      "id": "6cc193db-bec2-4769-97e5-e5a282b7538c"
     },
     {
       "arxivId": "2606.22671",
@@ -1776,12 +4212,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.22671",
       "pdfUrl": "https://arxiv.org/pdf/2606.22671",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "622d70ba-ae22-411a-b17c-3fee158e11c5"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "双层优化 / 博弈 / 变分不等式",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、双层优化 / 博弈 / 变分不等式、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.09,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.9,
+          "confidence": 0.83,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.86,
+          "confidence": 0.79,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 0.8,
+          "confidence": 0.74,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "信号处理"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "db3028e5-6954-4fd7-9809-c017656bcdcc"
     },
     {
       "arxivId": "2606.23034",
@@ -1802,12 +4276,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23034",
       "pdfUrl": "https://arxiv.org/pdf/2606.23034",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "2594248e-db7a-4aaf-b681-51ec53bb1897"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "随机优化",
+        "半定规划 / 锥优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、半定规划 / 锥优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 1.22,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.12,
+          "confidence": 0.92,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 0.92,
+          "confidence": 0.76,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.9,
+          "confidence": 0.74,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "df3497ab-3488-4001-b100-d956ea5d51ce"
     },
     {
       "arxivId": "2606.23257",
@@ -1840,10 +4352,53 @@
       "secondarySubfields": [
         "分布式优化"
       ],
-      "classificationReason": "主方向命中 reinforcement learning，且与 arXiv 分类线索一致；副方向候选：分布式优化。",
+      "classificationReason": "主方向命中 reinforcement learning，且与 arXiv 分类线索一致；副方向候选：分布式优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 9.53,
+          "confidence": 1,
+          "matchedSignals": [
+            "reinforcement learning",
+            "rl"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 6.4,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "multi agent"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.05,
+          "confidence": 0.21,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.04,
+          "confidence": 0.21,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "分布式/联邦",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "强化学习"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "ada0a5f7-5675-4252-82bf-f5d38d903899"
+      "id": "2166f28e-089e-49a4-b899-fa40ab2a906a"
     },
     {
       "arxivId": "2606.23268",
@@ -1864,12 +4419,48 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23268",
       "pdfUrl": "https://arxiv.org/pdf/2606.23268",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "0dda51dd-b392-4b52-b6d2-60ea78ce5826"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.02,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.93,
+          "confidence": 0.91,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.88,
+          "confidence": 0.86,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 0.83,
+          "confidence": 0.82,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "4d62900a-f46c-42ab-bf78-d7cd182f5f1b"
     },
     {
       "arxivId": "2606.23282",
@@ -1892,12 +4483,52 @@
       "keywords": [
         "robust"
       ],
-      "subfield": "鲁棒优化 / 分布鲁棒优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 robust，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "db47d4ed-6369-4859-8637-cfc8165ca3ad"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化",
+        "半定规划 / 锥优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、半定规划 / 锥优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.76,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.71,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.25,
+          "confidence": 0.27,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.09,
+          "confidence": 0.23,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.94,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "鲁棒"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "188b4968-45aa-453c-850a-653c4a5d8f5d"
     },
     {
       "arxivId": "2606.23355",
@@ -1922,12 +4553,55 @@
       "keywords": [
         "optimal control"
       ],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "鲁棒优化 / 分布鲁棒优化",
+        "分布式优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、鲁棒优化 / 分布鲁棒优化、分布式优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.94,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 8.68,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.05,
+          "confidence": 0.12,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.04,
+          "confidence": 0.12,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.02,
+          "confidence": 0.12,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "28f76d58-1510-4b55-a15f-25c52d4496aa"
+      "id": "55e96a2a-3355-4be0-87b6-41db148cc786"
     },
     {
       "arxivId": "2606.23364",
@@ -1950,12 +4624,54 @@
       "keywords": [
         "neural network"
       ],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 neural network，且与 arXiv 分类线索一致。",
-      "score": 4.7,
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、鲁棒优化 / 分布鲁棒优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.68,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 5.96,
+          "confidence": 1,
+          "matchedSignals": [
+            "neural network"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2,
+          "confidence": 0.34,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.98,
+          "confidence": 0.33,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.9,
+          "confidence": 0.32,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "e7371242-bcba-4ee9-9eb7-83422f9f0122"
+      "id": "37fbd310-cefb-49b4-9787-f020cb150343"
     },
     {
       "arxivId": "2506.24120",
@@ -1985,10 +4701,54 @@
       ],
       "subfield": "优化与机器学习",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 neural network、rl、large language model，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 neural network、rl、large language model，且与 arXiv 分类线索一致；分类置信度 95%。",
+      "classificationConfidence": 0.95,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 11.72,
+          "confidence": 1,
+          "matchedSignals": [
+            "neural network",
+            "fine tuning",
+            "rl",
+            "large language model"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 4.87,
+          "confidence": 0.42,
+          "matchedSignals": [
+            "distributed"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.58,
+          "confidence": 0.22,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.49,
+          "confidence": 0.21,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "分布式/联邦",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "a7b6f359-2e6d-4a00-befa-5db4282fac3f"
+      "id": "20ec2db6-862d-4497-bfea-6fb90328ce64"
     },
     {
       "arxivId": "2606.23365",
@@ -2011,12 +4771,56 @@
       "keywords": [
         "sample average"
       ],
-      "subfield": "随机优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 sample average，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "43cb51d0-ab2c-4f5c-9e03-3462f422ef72"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "随机优化",
+        "优化与机器学习",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、优化与机器学习、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.2,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 2.88,
+          "confidence": 1,
+          "matchedSignals": [
+            "sample average"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.2,
+          "confidence": 0.76,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.28,
+          "confidence": 0.44,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.1,
+          "confidence": 0.38,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "9def9d4f-dc9c-47dd-9c1d-8e6c3ec5118c"
     },
     {
       "arxivId": "2606.23367",
@@ -2039,12 +4843,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23367",
       "pdfUrl": "https://arxiv.org/pdf/2606.23367",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "56fb01ae-293f-4eca-be3a-8ea2dad43491"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "分布式优化",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、分布式优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.3,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.25,
+          "confidence": 0.96,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.15,
+          "confidence": 0.88,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.12,
+          "confidence": 0.86,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "84d8c7ba-49ea-4570-9e71-282dfaa8fa8e"
     },
     {
       "arxivId": "2606.23485",
@@ -2064,12 +4906,48 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23485",
       "pdfUrl": "https://arxiv.org/pdf/2606.23485",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "acb8e5c4-fff5-42c5-b17f-9d4f707b46e7"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "随机优化",
+        "非凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、随机优化、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.94,
+          "confidence": 0.94,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.88,
+          "confidence": 0.88,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 0.86,
+          "confidence": 0.86,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.85,
+          "confidence": 0.85,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "f54028b7-a217-4dc3-9246-5737830e2ffc"
     },
     {
       "arxivId": "2606.23637",
@@ -2092,12 +4970,50 @@
       "arxivUrl": "https://arxiv.org/abs/2606.23637",
       "pdfUrl": "https://arxiv.org/pdf/2606.23637",
       "keywords": [],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 优化与机器学习 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 4.7,
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、鲁棒优化 / 分布鲁棒优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.08,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2,
+          "confidence": 0.96,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.9,
+          "confidence": 0.91,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.79,
+          "confidence": 0.86,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "0425214d-c54e-495c-9b90-e23e57cbd377"
+      "id": "26620812-f9a6-4a98-940d-10259475596d"
     },
     {
       "arxivId": "2606.23648",
@@ -2120,12 +5036,50 @@
       "keywords": [
         "rl"
       ],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 rl。",
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "随机优化",
+        "最优控制"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、随机优化、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.13,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.25,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 1.5,
+          "confidence": 0.67,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.03,
+          "confidence": 0.46,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.9,
+          "confidence": 0.4,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "15992392-a526-4788-af94-aad1fb2c5823"
+      "id": "7a398df4-73c6-489f-a776-df3b7cf5a3cb"
     },
     {
       "arxivId": "2606.23676",
@@ -2155,14 +5109,59 @@
         "large language model",
         "pretraining"
       ],
-      "subfield": "随机优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "优化与机器学习"
+        "随机优化",
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
-      "score": 4.7,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、优化与机器学习、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.43,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 6.35,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 5.58,
+          "confidence": 0.88,
+          "matchedSignals": [
+            "large language model",
+            "pretraining"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.45,
+          "confidence": 0.39,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.09,
+          "confidence": 0.33,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "90085559-3b5b-4dbf-9ca2-3789da4a56f0"
+      "id": "6cae6781-ec16-49c9-848c-33cecc502a6f"
     },
     {
       "arxivId": "2110.03950",
@@ -2189,10 +5188,54 @@
       ],
       "subfield": "非凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 11.54,
+          "confidence": 1,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 6.22,
+          "confidence": 0.54,
+          "matchedSignals": [
+            "min max"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.75,
+          "confidence": 0.33,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.68,
+          "confidence": 0.23,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "minimax"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "6452d7ba-a13f-4f41-a253-941b3b86acd7"
+      "id": "d5217791-b1bb-4517-b1a7-ab580eff27ba"
     },
     {
       "arxivId": "2404.12574",
@@ -2215,12 +5258,55 @@
       "keywords": [
         "optimal control"
       ],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "36ed5bcc-5d40-4d09-b25f-66c73b55fe97"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.93,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 8.12,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.84,
+          "confidence": 0.23,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.84,
+          "confidence": 0.23,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.82,
+          "confidence": 0.22,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "minimax",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "54183119-3c45-4142-b2e8-a8ed099b28ad"
     },
     {
       "arxivId": "2410.11959",
@@ -2249,10 +5335,57 @@
       "secondarySubfields": [
         "分布式优化"
       ],
-      "classificationReason": "主方向命中 model predictive control，且与 arXiv 分类线索一致；副方向候选：分布式优化。",
+      "classificationReason": "主方向命中 model predictive control，且与 arXiv 分类线索一致；副方向候选：分布式优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 8.92,
+          "confidence": 1,
+          "matchedSignals": [
+            "model predictive control",
+            "mpc"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 5.91,
+          "confidence": 0.66,
+          "matchedSignals": [
+            "distributed"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.4,
+          "confidence": 0.61,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "分布式/联邦",
+        "控制"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6d522e5f-b392-4b3f-9e01-b72ea1d83766"
+      "id": "a4d93960-3fdb-4488-8a91-3b5c70adf2f9"
     },
     {
       "arxivId": "2411.19771",
@@ -2275,12 +5408,48 @@
       "arxivUrl": "https://arxiv.org/abs/2411.19771",
       "pdfUrl": "https://arxiv.org/pdf/2411.19771",
       "keywords": [],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 最优控制 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "f3c78732-2793-4386-bb1a-de1016715ef2"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "半定规划 / 锥优化",
+        "双层优化 / 博弈 / 变分不等式"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、半定规划 / 锥优化、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.17,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 2.04,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.96,
+          "confidence": 0.96,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.95,
+          "confidence": 0.95,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.76,
+          "confidence": 0.86,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "592d3294-974d-4296-be11-4447a1072768"
     },
     {
       "arxivId": "2502.20291",
@@ -2306,10 +5475,54 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 trajectory optimization，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 trajectory optimization，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 10.58,
+          "confidence": 1,
+          "matchedSignals": [
+            "trajectory optimization"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.42,
+          "confidence": 0.51,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.44,
+          "confidence": 0.23,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.14,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [
+        "Newton/quasi-Newton",
+        "augmented Lagrangian",
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "d5b7183f-2fc9-4959-9693-9122db02066b"
+      "id": "055716b0-8da6-4915-9555-9e51af14961a"
     },
     {
       "arxivId": "2503.14015",
@@ -2332,14 +5545,55 @@
         "regret",
         "convex"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "凸优化"
+        "在线优化 / 动态优化",
+        "凸优化",
+        "半定规划 / 锥优化"
       ],
-      "classificationReason": "主方向命中 regret，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、凸优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.42,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.7,
+          "confidence": 1,
+          "matchedSignals": [
+            "regret"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.46,
+          "confidence": 0.95,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.04,
+          "confidence": 0.43,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.04,
+          "confidence": 0.43,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "46fcd3e6-9171-4b74-86a7-0abb3b22f3c5"
+      "id": "16dcd17d-6bac-4fac-9404-a3167bb01ca7"
     },
     {
       "arxivId": "2503.15093",
@@ -2367,15 +5621,65 @@
         "composite optimization",
         "proximal gradient"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "非凸优化",
         "最优控制"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：非凸优化、最优控制。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、非凸优化、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.73,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.1,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 5.21,
+          "confidence": 0.86,
+          "matchedSignals": [
+            "composite optimization",
+            "proximal gradient"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 3.28,
+          "confidence": 0.54,
+          "matchedSignals": []
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.9,
+          "confidence": 0.48,
+          "matchedSignals": [
+            "rl"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑",
+        "在线/动态",
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [
+        "proximal"
+      ],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统"
+      ],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 非凸优化 接近。",
-      "id": "056b6499-8e01-490b-9ee4-90e6589adbc2"
+      "id": "f45307d3-fde7-42c4-a2cf-549684bb360c"
     },
     {
       "arxivId": "2505.01426",
@@ -2394,12 +5698,48 @@
       "arxivUrl": "https://arxiv.org/abs/2505.01426",
       "pdfUrl": "https://arxiv.org/pdf/2505.01426",
       "keywords": [],
-      "subfield": "半定规划 / 锥优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 半定规划 / 锥优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "a629bcda-2edb-4fa2-b63c-055c920027b8"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "双层优化 / 博弈 / 变分不等式",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、双层优化 / 博弈 / 变分不等式、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.15,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.98,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.91,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.6,
+          "confidence": 0.81,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.6,
+          "confidence": 0.81,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "91895313-c34b-4905-b29e-4d1b1f438be4"
     },
     {
       "arxivId": "2506.02647",
@@ -2426,10 +5766,59 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 11.68,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 7.74,
+          "confidence": 0.66,
+          "matchedSignals": [
+            "stochastic",
+            "mini batch"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.53,
+          "confidence": 0.39,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 4.44,
+          "confidence": 0.38,
+          "matchedSignals": [
+            "distributed"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "分布式/联邦",
+        "控制"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "967bd648-8e18-4466-82dd-3b02d4d13cc0"
+      "id": "de899ffa-75e8-47f6-aa6d-4e7234e54516"
     },
     {
       "arxivId": "2506.17465",
@@ -2454,12 +5843,54 @@
       "keywords": [
         "online"
       ],
-      "subfield": "在线优化 / 动态优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "3244b1e9-fc7a-4f29-964f-ce382fc21f26"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.78,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.73,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.3,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.61,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "信号处理"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "25ba90ce-b877-4d5c-8540-29717450cc30"
     },
     {
       "arxivId": "2509.04426",
@@ -2487,10 +5918,49 @@
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nash equilibrium、game，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nash equilibrium、game，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 13.74,
+          "confidence": 1,
+          "matchedSignals": [
+            "nash equilibrium",
+            "game"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.5,
+          "confidence": 0.18,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.98,
+          "confidence": 0.14,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.73,
+          "confidence": 0.13,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "minimax"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "331ef1e8-ad3c-49ca-ad76-32d7c06744b9"
+      "id": "b9c989cc-59ee-4061-beed-791f4af30aee"
     },
     {
       "arxivId": "2509.19639",
@@ -2517,10 +5987,49 @@
       "secondarySubfields": [
         "在线优化 / 动态优化"
       ],
-      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致；副方向候选：在线优化 / 动态优化。",
+      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致；副方向候选：在线优化 / 动态优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 8.97,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.11,
+          "confidence": 0.68,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.22,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.11,
+          "confidence": 0.24,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "df741908-999f-494d-8ec0-3df0a9e9f678"
+      "id": "e51e1f21-51f1-45b5-beff-2d78766e0e7f"
     },
     {
       "arxivId": "2510.25363",
@@ -2544,14 +6053,56 @@
         "online",
         "sgd"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "随机优化"
+        "在线优化 / 动态优化",
+        "随机优化",
+        "半定规划 / 锥优化"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：随机优化。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "0cd24d62-550c-4812-9246-657cce3d9484"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、随机优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.82,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.02,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 3.83,
+          "confidence": 0.64,
+          "matchedSignals": [
+            "sgd"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.36,
+          "confidence": 0.39,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.96,
+          "confidence": 0.33,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "1c9e3a6b-4d60-4c26-85f9-325dfacc7ba4"
     },
     {
       "arxivId": "2511.05045",
@@ -2572,12 +6123,48 @@
       "arxivUrl": "https://arxiv.org/abs/2511.05045",
       "pdfUrl": "https://arxiv.org/pdf/2511.05045",
       "keywords": [],
-      "subfield": "双层优化 / 博弈 / 变分不等式",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 双层优化 / 博弈 / 变分不等式 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "487f3d4a-e266-429c-9041-d82fa5533dbc"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.12,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.83,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.93,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.64,
+          "confidence": 0.89,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.6,
+          "confidence": 0.87,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "cf32e887-ce8c-4037-935f-72a7d7346c1e"
     },
     {
       "arxivId": "2511.06675",
@@ -2610,10 +6197,62 @@
       "secondarySubfields": [
         "凸优化"
       ],
-      "classificationReason": "主方向命中 stochastic、mini batch，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "classificationReason": "主方向命中 stochastic、mini batch，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 88%。",
+      "classificationConfidence": 0.88,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 9.11,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic",
+            "mini batch",
+            "sgd"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 6.13,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "strongly convex",
+            "convex"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 4.99,
+          "confidence": 0.55,
+          "matchedSignals": [
+            "distributed"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 3.58,
+          "confidence": 0.39,
+          "matchedSignals": [
+            "neural network"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "随机",
+        "分布式/联邦",
+        "机器学习"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 5.6,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "1ae123ab-9c7e-4ca0-9ade-5640d1571bb5"
+      "id": "759d33aa-1b0f-412e-b545-64c4edf1612d"
     },
     {
       "arxivId": "2511.11466",
@@ -2639,10 +6278,55 @@
       ],
       "subfield": "随机优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 variance reduction、sgd，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 variance reduction、sgd，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 12.97,
+          "confidence": 1,
+          "matchedSignals": [
+            "variance reduction",
+            "sgd"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 6.81,
+          "confidence": 0.53,
+          "matchedSignals": [
+            "neural network",
+            "rl"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.61,
+          "confidence": 0.2,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.6,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "机器学习"
+      ],
+      "methodTags": [
+        "variance reduction",
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 7.3,
       "recommendationReason": "命中关键词 Low Rank、low-rank。",
-      "id": "b0a81890-2e3c-4df1-9bdb-628ceea7d4fc"
+      "id": "2a6cc2cb-e7ad-49db-bf45-c9123840544e"
     },
     {
       "arxivId": "2512.09678",
@@ -2673,10 +6357,56 @@
       ],
       "subfield": "优化与机器学习",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 deep learning、rl，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 deep learning、rl，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 9.06,
+          "confidence": 1,
+          "matchedSignals": [
+            "deep learning",
+            "rl"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.68,
+          "confidence": 0.52,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.34,
+          "confidence": 0.48,
+          "matchedSignals": [
+            "sgd"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.41,
+          "confidence": 0.27,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "机器学习"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "67118352-9cb9-4ac6-b55c-185310de2a9a"
+      "id": "f7c3ef8e-c030-40a6-914f-094f3cd7a8ea"
     },
     {
       "arxivId": "2512.10255",
@@ -2696,12 +6426,50 @@
       "arxivUrl": "https://arxiv.org/abs/2512.10255",
       "pdfUrl": "https://arxiv.org/pdf/2512.10255",
       "keywords": [],
-      "subfield": "半定规划 / 锥优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 半定规划 / 锥优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "1882edc7-6728-41e5-b78c-d0eb1ab81eb0"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "随机优化",
+        "双层优化 / 博弈 / 变分不等式"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、随机优化、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.19,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.28,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.97,
+          "confidence": 0.86,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.87,
+          "confidence": 0.82,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.78,
+          "confidence": 0.78,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "23c47924-a5a4-46c9-8b7e-41f95354cc45"
     },
     {
       "arxivId": "2601.02347",
@@ -2729,10 +6497,49 @@
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nash equilibrium、game，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nash equilibrium、game，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 13.73,
+          "confidence": 1,
+          "matchedSignals": [
+            "nash equilibrium",
+            "game"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.05,
+          "confidence": 0.15,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.8,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.6,
+          "confidence": 0.12,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "4b23381e-1501-4b91-be2c-553dd92da51c"
+      "id": "2164ea05-ce7f-4892-8067-edfb8b973d18"
     },
     {
       "arxivId": "2412.06990",
@@ -2759,10 +6566,48 @@
       ],
       "subfield": "双层优化 / 博弈 / 变分不等式",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nash equilibrium、game，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nash equilibrium、game，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 13.64,
+          "confidence": 1,
+          "matchedSignals": [
+            "nash equilibrium",
+            "game"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.62,
+          "confidence": 0.12,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.4,
+          "confidence": 0.1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.35,
+          "confidence": 0.1,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "博弈/经济"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "ae461e4f-0f6b-48ec-bef5-88fde0ee3cbc"
+      "id": "0d57319b-53b9-4df5-a7ea-379547708c6e"
     },
     {
       "arxivId": "2601.14839",
@@ -2786,12 +6631,55 @@
       "keywords": [
         "control system"
       ],
-      "subfield": "最优控制",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 control system，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "e5b61a34-c83a-4a8c-9199-498362b6a48b"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "双层优化 / 博弈 / 变分不等式",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、双层优化 / 博弈 / 变分不等式、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.82,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 5.06,
+          "confidence": 1,
+          "matchedSignals": [
+            "control system"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.92,
+          "confidence": 0.38,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.82,
+          "confidence": 0.36,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "能源系统"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "b811aa89-03df-4189-9771-0a4ac9247316"
     },
     {
       "arxivId": "2601.21166",
@@ -2818,10 +6706,51 @@
       ],
       "subfield": "非凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nonconvex、stationarity，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nonconvex、stationarity，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 13.48,
+          "confidence": 1,
+          "matchedSignals": [
+            "nonconvex",
+            "stationarity"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 7.35,
+          "confidence": 0.55,
+          "matchedSignals": [
+            "convex optimization",
+            "convex"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.1,
+          "confidence": 0.16,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.99,
+          "confidence": 0.15,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "3e3736e2-644c-4d33-9454-375e502e2d7c"
+      "id": "80152e48-fcec-456c-877e-0e1825f677d5"
     },
     {
       "arxivId": "2602.07217",
@@ -2843,12 +6772,52 @@
       "keywords": [
         "scheduling"
       ],
-      "subfield": "组合优化 / 整数规划",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 scheduling，且与 arXiv 分类线索一致。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "5d110926-7d4f-4383-8b27-9ec6e76ea312"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "组合优化 / 整数规划",
+        "双层优化 / 博弈 / 变分不等式",
+        "在线优化 / 动态优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：组合优化 / 整数规划、双层优化 / 博弈 / 变分不等式、在线优化 / 动态优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.71,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 4.55,
+          "confidence": 1,
+          "matchedSignals": [
+            "scheduling"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 0.4,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.76,
+          "confidence": 0.39,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.37,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "运筹应用"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "98fd2b20-4d6c-4b10-bf4e-eb0d1efe2a92"
     },
     {
       "arxivId": "2603.16055",
@@ -2867,12 +6836,48 @@
       "arxivUrl": "https://arxiv.org/abs/2603.16055",
       "pdfUrl": "https://arxiv.org/pdf/2603.16055",
       "keywords": [],
-      "subfield": "双层优化 / 博弈 / 变分不等式",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 双层优化 / 博弈 / 变分不等式 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 双层优化 / 博弈 / 变分不等式。",
-      "id": "78684315-7f9c-4492-8597-fcbac7cc5c2e"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.11,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.8,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.94,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.62,
+          "confidence": 0.9,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.6,
+          "confidence": 0.89,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "e22acf8f-bb4d-4b84-ad64-5402629ba306"
     },
     {
       "arxivId": "2604.23613",
@@ -2896,15 +6901,64 @@
         "convex",
         "strongly convex"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "凸优化",
         "随机优化"
       ],
-      "classificationReason": "主方向命中 bandit，且与 arXiv 分类线索一致；副方向候选：凸优化、随机优化。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、凸优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.83,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 7.11,
+          "confidence": 1,
+          "matchedSignals": [
+            "bandit"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 6.16,
+          "confidence": 0.87,
+          "matchedSignals": [
+            "strongly convex",
+            "convex"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.37,
+          "confidence": 0.61,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.2,
+          "confidence": 0.31,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "随机",
+        "在线/动态",
+        "机器学习"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "ae6c1b2a-dddb-4adb-81f2-f28048a2e1cf"
+      "id": "2b554545-e5f2-4c83-a1ae-b870c9389cbd"
     },
     {
       "arxivId": "2605.26547",
@@ -2931,10 +6985,51 @@
       "secondarySubfields": [
         "凸优化"
       ],
-      "classificationReason": "主方向命中 non convex、stationarity，且与 arXiv 分类线索一致；副方向候选：凸优化。",
+      "classificationReason": "主方向命中 non convex、stationarity，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 90%。",
+      "classificationConfidence": 0.9,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 7.93,
+          "confidence": 1,
+          "matchedSignals": [
+            "non convex",
+            "stationarity"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.72,
+          "confidence": 0.6,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 2.09,
+          "confidence": 0.26,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.93,
+          "confidence": 0.24,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "38ffee93-9294-46b9-b23b-45a9efd14e8f"
+      "id": "9c931be9-88c8-4d7f-b5aa-d22473531a3d"
     },
     {
       "arxivId": "2605.12820",
@@ -2961,10 +7056,50 @@
       ],
       "subfield": "凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 convex，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 convex，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 8.44,
+          "confidence": 1,
+          "matchedSignals": [
+            "strongly convex",
+            "convex"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.53,
+          "confidence": 0.3,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.38,
+          "confidence": 0.28,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.09,
+          "confidence": 0.25,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "547e9cc0-270b-47cf-bb62-ae7d2570c12f"
+      "id": "efc85ee4-dc7c-470a-974a-f4a27ca287d7"
     },
     {
       "arxivId": "2605.18106",
@@ -2991,14 +7126,59 @@
         "deep learning",
         "neural network"
       ],
-      "subfield": "优化与机器学习",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "随机优化"
+        "优化与机器学习",
+        "随机优化",
+        "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 deep learning，且与 arXiv 分类线索一致；副方向候选：随机优化。",
-      "score": 4.7,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、随机优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.64,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 6.98,
+          "confidence": 1,
+          "matchedSignals": [
+            "deep learning",
+            "neural network"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 6.15,
+          "confidence": 0.88,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.69,
+          "confidence": 0.39,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.37,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机",
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
       "recommendationReason": "",
-      "id": "4fba0039-e7f8-41eb-a686-aceb00433746"
+      "id": "cfb17c67-7c47-46c3-9d52-2c0ec71b8dd3"
     },
     {
       "arxivId": "2605.20875",
@@ -3024,14 +7204,55 @@
         "stochastic",
         "rl"
       ],
-      "subfield": "随机优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "优化与机器学习"
+        "随机优化",
+        "优化与机器学习",
+        "非凸优化"
       ],
-      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "897de6cb-bfd6-4c33-9021-16d5eead66a2"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、优化与机器学习、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.66,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 5.25,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.6,
+          "confidence": 0.49,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.07,
+          "confidence": 0.39,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.92,
+          "confidence": 0.36,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 非凸优化 接近。",
+      "id": "eeacffb8-6346-4dec-a58a-015d869f053f"
     },
     {
       "arxivId": "2605.30853",
@@ -3062,10 +7283,55 @@
       ],
       "subfield": "鲁棒优化 / 分布鲁棒优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 robust optimization、uncertainty，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 robust optimization、uncertainty，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 15.67,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust optimization",
+            "robust",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 8.98,
+          "confidence": 0.57,
+          "matchedSignals": [
+            "combinatorial optimization"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 4.67,
+          "confidence": 0.3,
+          "matchedSignals": [
+            "networked"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 3.99,
+          "confidence": 0.25,
+          "matchedSignals": [
+            "landscape"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "75393efe-bd17-49ca-ba80-a4a34d489748"
+      "id": "840e316c-4a5b-450c-b865-78fbadd75615"
     },
     {
       "arxivId": "2606.09291",
@@ -3092,10 +7358,51 @@
       ],
       "subfield": "随机优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；分类置信度 76%。",
+      "classificationConfidence": 0.76,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 6.71,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 3.02,
+          "confidence": 0.45,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.27,
+          "confidence": 0.34,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.23,
+          "confidence": 0.33,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "约束"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "521e98c6-2119-405d-986f-9054802520ed"
+      "id": "5a6baa2e-0f35-4aeb-822f-88e6de960c4b"
     },
     {
       "arxivId": "2606.10075",
@@ -3118,12 +7425,52 @@
       "keywords": [
         "semidefinite"
       ],
-      "subfield": "半定规划 / 锥优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 semidefinite，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "ef2a14d0-eed9-48c0-9447-711058efdcf1"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "双层优化 / 博弈 / 变分不等式",
+        "最优控制"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、双层优化 / 博弈 / 变分不等式、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.89,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 8.99,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.84,
+          "confidence": 0.2,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.77,
+          "confidence": 0.2,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.61,
+          "confidence": 0.18,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "interior point"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "3a1b1603-b3a2-403a-bcb7-2dee17a3f398"
     },
     {
       "arxivId": "2606.10161",
@@ -3152,10 +7499,55 @@
       "secondarySubfields": [
         "随机优化"
       ],
-      "classificationReason": "主方向命中 convex，且与 arXiv 分类线索一致；副方向候选：随机优化。",
+      "classificationReason": "主方向命中 convex，且与 arXiv 分类线索一致；副方向候选：随机优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 7.84,
+          "confidence": 1,
+          "matchedSignals": [
+            "strongly convex",
+            "convex"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 5.5,
+          "confidence": 0.7,
+          "matchedSignals": [
+            "stochastic optimization",
+            "stochastic"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.29,
+          "confidence": 0.29,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.16,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "随机"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "19fb1f77-3e73-4ba2-95b6-d8b360280584"
+      "id": "e21974fb-58e8-428b-864d-339283f5a0f1"
     },
     {
       "arxivId": "2411.07724",
@@ -3183,10 +7575,63 @@
       ],
       "subfield": "非凸优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 nonconvex、critical point，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 nonconvex、critical point，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 11.83,
+          "confidence": 1,
+          "matchedSignals": [
+            "nonconvex",
+            "critical point"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 6.1,
+          "confidence": 0.52,
+          "matchedSignals": [
+            "stochastic optimization",
+            "stochastic",
+            "sgd"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.88,
+          "confidence": 0.24,
+          "matchedSignals": [
+            "neural network"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.56,
+          "confidence": 0.22,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "随机",
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "15131d7b-c22e-43c5-aac7-92c938f369a8"
+      "id": "68ea7b9f-0e6c-4ac8-bf1c-c86a64d788e6"
     },
     {
       "arxivId": "2501.03882",
@@ -3208,12 +7653,50 @@
       "arxivUrl": "https://arxiv.org/abs/2501.03882",
       "pdfUrl": "https://arxiv.org/pdf/2501.03882",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "c18cee8f-4e80-41ee-a383-7c736be9c7bc"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "最优控制",
+        "双层优化 / 博弈 / 变分不等式"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、最优控制、双层优化 / 博弈 / 变分不等式；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.22,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.14,
+          "confidence": 0.94,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.9,
+          "confidence": 0.74,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.89,
+          "confidence": 0.73,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "c95eaacf-2ad2-456f-bc14-a0d558849500"
     },
     {
       "arxivId": "2504.01932",
@@ -3240,10 +7723,47 @@
       ],
       "subfield": "半定规划 / 锥优化",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 15.79,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 2.68,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.1,
+          "confidence": 0.07,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.03,
+          "confidence": 0.06,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "d57b3eff-a424-4041-bad1-6653fa552312"
+      "id": "dad62d06-7c87-40d1-8fd8-a0889566f855"
     },
     {
       "arxivId": "2505.00909",
@@ -3268,15 +7788,65 @@
         "game",
         "hjb"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "双层优化 / 博弈 / 变分不等式",
         "最优控制"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：双层优化 / 博弈 / 变分不等式、最优控制。",
-      "score": 5.6,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、双层优化 / 博弈 / 变分不等式、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.49,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.46,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 4.75,
+          "confidence": 0.87,
+          "matchedSignals": [
+            "game"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 3.96,
+          "confidence": 0.72,
+          "matchedSignals": [
+            "hjb"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.51,
+          "confidence": 0.64,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非光滑",
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "信号处理",
+        "博弈/经济"
+      ],
+      "score": 6.4,
       "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
-      "id": "f9060561-d35e-4e82-8a5c-2673584244de"
+      "id": "293d8f73-d5d3-4f57-8d69-bbc2fdc499e7"
     },
     {
       "arxivId": "2505.07264",
@@ -3300,15 +7870,58 @@
         "vr",
         "rl"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
+        "在线优化 / 动态优化",
         "随机优化",
         "优化与机器学习"
       ],
-      "classificationReason": "主方向命中 online，且与 arXiv 分类线索一致；副方向候选：随机优化、优化与机器学习。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、随机优化、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.42,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.72,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.3,
+          "confidence": 0.91,
+          "matchedSignals": [
+            "vr"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 3.1,
+          "confidence": 0.66,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.96,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "信号处理"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "b5d9b4ca-94d1-48c6-83ac-7b41e1d1a28c"
+      "id": "5f62d595-6071-41a2-8de8-a96abb4a4d1a"
     },
     {
       "arxivId": "2509.09075",
@@ -3335,10 +7948,51 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 13.84,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.58,
+          "confidence": 0.33,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.35,
+          "confidence": 0.1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.34,
+          "confidence": 0.1,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "35c6b531-d38a-4e37-b48c-6398cb88d066"
+      "id": "666f4056-a491-4210-8ab7-06bea8960302"
     },
     {
       "arxivId": "2509.13793",
@@ -3369,10 +8023,56 @@
         "在线优化 / 动态优化",
         "优化与机器学习"
       ],
-      "classificationReason": "主方向命中 monotone operator，且与 arXiv 分类线索一致；副方向候选：在线优化 / 动态优化、优化与机器学习。",
+      "classificationReason": "主方向命中 monotone operator，且与 arXiv 分类线索一致；副方向候选：在线优化 / 动态优化、优化与机器学习；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 6.13,
+          "confidence": 1,
+          "matchedSignals": [
+            "monotone operator"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.07,
+          "confidence": 0.83,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 3.59,
+          "confidence": 0.58,
+          "matchedSignals": [
+            "neural network"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.55,
+          "confidence": 0.42,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "机器学习"
+      ],
+      "methodTags": [
+        "operator splitting"
+      ],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统"
+      ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "25558423-518c-4668-9641-4d2d1ec2e80e"
+      "id": "c086297b-f985-4c7e-aa1c-25cf38a8f38d"
     },
     {
       "arxivId": "2512.05553",
@@ -3395,12 +8095,48 @@
       "arxivUrl": "https://arxiv.org/abs/2512.05553",
       "pdfUrl": "https://arxiv.org/pdf/2512.05553",
       "keywords": [],
-      "subfield": "凸优化",
-      "secondarySubfields": [],
-      "classificationReason": "主方向与 凸优化 的语义描述最接近，且与 arXiv 分类线索一致。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "9a03f129-22e7-487a-b558-12694fe8bc8f"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化 / 博弈 / 变分不等式",
+        "鲁棒优化 / 分布鲁棒优化",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化 / 博弈 / 变分不等式、鲁棒优化 / 分布鲁棒优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 0.9,
+          "confidence": 0.9,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 0.86,
+          "confidence": 0.86,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.85,
+          "confidence": 0.85,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.8,
+          "confidence": 0.8,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "c96bb194-2bd1-433e-9cd5-37b1ae07a59f"
     },
     {
       "arxivId": "2512.06216",
@@ -3428,10 +8164,50 @@
       "secondarySubfields": [
         "随机优化"
       ],
-      "classificationReason": "主方向命中 worst case、uncertainty，且与 arXiv 分类线索一致；副方向候选：随机优化。",
+      "classificationReason": "主方向命中 worst case、uncertainty，且与 arXiv 分类线索一致；副方向候选：随机优化；分类置信度 79%。",
+      "classificationConfidence": 0.79,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 6.51,
+          "confidence": 1,
+          "matchedSignals": [
+            "worst case",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 5.51,
+          "confidence": 0.85,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.16,
+          "confidence": 0.18,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.09,
+          "confidence": 0.17,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "鲁棒"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0f9b5acd-0ce7-47cc-90d6-c2b6a76e0d6b"
+      "id": "d893cfa8-3e82-4e64-9186-b644d48fff0f"
     },
     {
       "arxivId": "2602.18917",
@@ -3455,12 +8231,50 @@
       "keywords": [
         "rl"
       ],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 rl。",
-      "score": 5.5,
-      "recommendationReason": "",
-      "id": "404faa72-e004-4e8c-b53d-71e6d0f560f8"
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "双层优化 / 博弈 / 变分不等式",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、双层优化 / 博弈 / 变分不等式、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.35,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.23,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "双层优化 / 博弈 / 变分不等式",
+          "score": 1.09,
+          "confidence": 0.49,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.05,
+          "confidence": 0.47,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 0.86,
+          "confidence": 0.39,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 双层优化 / 博弈 / 变分不等式 接近。",
+      "id": "d1d4bf75-da6e-4921-9c79-b9c2d176eecf"
     },
     {
       "arxivId": "2603.02607",
@@ -3489,14 +8303,55 @@
         "rl",
         "generalization"
       ],
-      "subfield": "半定规划 / 锥优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "优化与机器学习"
+        "半定规划 / 锥优化",
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化"
       ],
-      "classificationReason": "主方向命中 sdp，且与 arXiv 分类线索一致；副方向候选：优化与机器学习。",
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "daf28497-db18-4a10-8254-4e328354523b"
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、优化与机器学习、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.89,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 8.09,
+          "confidence": 1,
+          "matchedSignals": [
+            "sdp"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 5.86,
+          "confidence": 0.72,
+          "matchedSignals": [
+            "rl",
+            "generalization"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.33,
+          "confidence": 0.29,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.9,
+          "confidence": 0.23,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 半定规划 / 锥优化 接近。",
+      "id": "bd8e6820-bf0e-43ea-9323-77ed24102a8d"
     },
     {
       "arxivId": "2604.14484",
@@ -3519,12 +8374,52 @@
       "keywords": [
         "generalization"
       ],
-      "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 generalization，且与 arXiv 分类线索一致。",
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "最优控制",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、最优控制、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.38,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.36,
+          "confidence": 1,
+          "matchedSignals": [
+            "generalization"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 1.28,
+          "confidence": 0.54,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.17,
+          "confidence": 0.5,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.05,
+          "confidence": 0.44,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "0bc9016f-b1fa-4779-b8fb-614290eac280"
+      "id": "c3e2d04b-4e9b-46b3-989d-5a14e315e8bc"
     },
     {
       "arxivId": "2605.15285",
@@ -3553,10 +8448,57 @@
       ],
       "subfield": "最优控制",
       "secondarySubfields": [],
-      "classificationReason": "主方向命中 optimal control、hjb，且与 arXiv 分类线索一致。",
+      "classificationReason": "主方向命中 optimal control、hjb，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 10.62,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control",
+            "hjb"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.74,
+          "confidence": 0.54,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.91,
+          "confidence": 0.27,
+          "matchedSignals": [
+            "generalization"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.1,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统",
+        "信号处理"
+      ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "6fa549c8-a9f8-4293-9cc3-0540d445f5d5"
+      "id": "48f7cf45-a0fc-498e-b3dc-0032e320f7e3"
     },
     {
       "arxivId": "2606.12120",
@@ -3580,14 +8522,59 @@
         "mirror descent",
         "landscape"
       ],
-      "subfield": "在线优化 / 动态优化",
+      "subfield": "无法确定分类",
       "secondarySubfields": [
-        "非凸优化"
+        "在线优化 / 动态优化",
+        "非凸优化",
+        "优化与机器学习"
       ],
-      "classificationReason": "主方向命中 mirror descent，且与 arXiv 分类线索一致；副方向候选：非凸优化。",
-      "score": 8.2,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、非凸优化、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.9,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.9,
+          "confidence": 1,
+          "matchedSignals": [
+            "mirror descent"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 3.99,
+          "confidence": 0.58,
+          "matchedSignals": [
+            "landscape"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.59,
+          "confidence": 0.38,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.13,
+          "confidence": 0.31,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "mirror descent",
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 9,
       "recommendationReason": "副方向与偏好 非凸优化 接近，命中关键词 Low Rank、low-rank。",
-      "id": "5a2985e7-03c4-4353-a1dc-c813a47d6823"
+      "id": "2e061e60-f97f-48f8-aab9-ef7d5cf1f31f"
     }
   ]
 }
