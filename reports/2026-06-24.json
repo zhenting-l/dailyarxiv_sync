@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-24",
-  "exportedAt": "2026-06-24T09:54:42.344Z",
+  "exportedAt": "2026-06-24T12:11:51.557Z",
   "papers": [
     {
       "arxivId": "2606.19332",
@@ -3739,7 +3739,15 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "6df4b0f3-954a-457b-bc4e-672da5c06d41"
+      "id": "6df4b0f3-954a-457b-bc4e-672da5c06d41",
+      "abstractTranslation": {
+        "language": "zh-CN",
+        "text": "多凸包络，用于变分法和弹性理论，被 Dacorogna 逐点表示为 $m\\times n$ 矩阵空间上有限原子测度的线性规划。Weizsäcker 和 Winkler 证明了 Borel 测度上相应的线性规划在极点上取值而不增加下确界。结合两者，可以加速基于网格的算法，并给出多凸包络可以通过矩平方和层次结构计算的新证明。受这些应用启发，我们抓住了矩问题中极点的本质。首先，我们通过约束映射在包含它们的最小面上的单射性来刻画仿射约束凸集的极点。然后我们研究有限个矩约束。在自然假设下，极点是具有仿射独立性质的有限原子测度。我们用简化的证明重新得到了这一已知结果，并将其应用于概率单纯形的面，其中包括 Radon 测度的面。反之，我们发现单纯形的假设是多余的。Richter-Tchakaloff 定理使我们能够证明积分泛函的下确界在极点上取值而不增加下确界，这不仅适用于已知的 Radon 测度情况，也适用于任何包含点测度的概率测度凸集。",
+        "sourceHash": "148b904cfc94c8e177f1a38705ef618e0bbe2bf89a76ed2da6826b43256fb0bf",
+        "provider": "glm",
+        "model": "general_translation",
+        "translatedAt": "2026-06-24T12:11:47.234Z"
+      }
     },
     {
       "arxivId": "2606.21440",
