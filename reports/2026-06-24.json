@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-06-24",
-  "exportedAt": "2026-06-24T12:12:39.475Z",
+  "exportedAt": "2026-06-25T06:22:07.945Z",
   "papers": [
     {
       "arxivId": "2606.19332",
@@ -80,7 +80,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "b19ba0bd-41b7-4343-bd83-07222b251b97"
+      "id": "b19ba0bd-41b7-4343-bd83-07222b251b97",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2601.09223",
@@ -394,7 +395,7 @@
       "authors": [
         "Yunbei Xu"
       ],
-      "abstract": "We develop Bellman-sufficient information complexity, a representation-level framework for studying information-theoretic complexity in sequential decision making. The primitive object is an environment space $Ω$ and an admissible algorithm class. The intrinsic object is a Bellman-sufficient state representation together with an information index $Y=χ(Ω)$, often the optimal decision or value object rather than the full environment. This replaces syntactic model realizability with representation-level sufficiency for decision making. On the upper-bound side, learning is organized as a dynamic program on the sufficient state with a logarithmic information potential for the index. In fixed-truth analysis this potential is represented by the coordinate log loss $γ\\log(1/q_t(χ(ω^\\star)))$; in the indexed Algorithmic Information Ratio (AIR) regret identities it gives rise to the log-posterior telescope, and after Bayesian posterior averaging it corresponds to an entropy term. On the lower side, a Bellman-Fano certificate uses the same state and index to compare the indexed information telescope with the ghost-good mass of low-regret reference trajectories. The central matching statement is therefore a conditional Bellman information-risk sandwich when the log-penalized Bellman upper value and the ghost-quantile lower certificate close on the same representation and at the same radius. UCB, E2D/DEC, and AMS/EBO then appear as tractable certificates or relaxations of this same log-potential Bellman program, rather than as separate notions of information complexity.",
+      "abstract": "We develop Bellman-sufficient information complexity, a formal representation-level framework for sequential decision making. The primitive benchmark is a fixed-truth environment space $Ω$ with unrestricted nonanticipating algorithms. The intrinsic object is a Bellman-sufficient state representation, serving as an interactive notion of sufficient statistics, together with an information index $Y=χ(Ω)$, often the optimal decision or value object rather than the full environment. On the upper-bound side, learning is organized as a dynamic program on the sufficient state, equipped with a logarithmic information potential for the index. On the lower-bound side, a Bellman-Fano certificate uses the same state representation and information index, but propagates separate Bellman recursions for information gain and ghost mass. The central matching statement is therefore a conditional Bellman information-risk sandwich: when the log-penalized Bellman upper value and the ghost-quantile lower certificate close at the same radius, they certify the same complexity scale. Popular algorithms then appear as tractable certificates or relaxations of this common log-potential Bellman program, rather than as separate notions of information complexity.",
       "categories": [
         "cs.LG",
         "cond-mat.stat-mech",
@@ -404,56 +405,55 @@
       ],
       "primaryCategory": "cs.LG",
       "publishedAt": "2026-06-09",
-      "updatedAt": "2026-06-22",
+      "updatedAt": "2026-06-24",
       "announcementType": "revised",
       "arxivUrl": "https://arxiv.org/abs/2606.11171",
       "pdfUrl": "https://arxiv.org/pdf/2606.11171",
       "keywords": [
-        "regret",
-        "matching"
+        "lower bound"
       ],
       "subfield": "无法确定分类",
       "secondarySubfields": [
-        "在线优化 / 动态优化",
+        "通用算法理论与复杂度",
         "组合优化 / 整数规划",
         "优化与机器学习"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、组合优化 / 整数规划、优化与机器学习；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.64,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、组合优化 / 整数规划、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.94,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
         {
-          "name": "在线优化 / 动态优化",
-          "score": 4.3,
+          "name": "通用算法理论与复杂度",
+          "score": 7.11,
           "confidence": 1,
           "matchedSignals": [
-            "regret"
+            "lower bound"
           ]
         },
         {
           "name": "组合优化 / 整数规划",
-          "score": 3.18,
-          "confidence": 0.74,
+          "score": 3.26,
+          "confidence": 0.46,
           "matchedSignals": [
             "matching"
           ]
         },
         {
           "name": "优化与机器学习",
-          "score": 2.39,
-          "confidence": 0.56,
+          "score": 2.33,
+          "confidence": 0.33,
           "matchedSignals": []
         },
         {
           "name": "鲁棒优化 / 分布鲁棒优化",
-          "score": 2.13,
-          "confidence": 0.49,
+          "score": 2.1,
+          "confidence": 0.3,
           "matchedSignals": []
         }
       ],
       "uncertaintyReason": "未命中足够明确的优化结构关键词。",
       "crossTags": [
-        "在线/动态"
+        "算法复杂度"
       ],
       "methodTags": [],
       "applicationTags": [
@@ -461,7 +461,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "bf0fe176-30f1-4cfc-8deb-08ba93e3c3e4"
+      "id": "bf0fe176-30f1-4cfc-8deb-08ba93e3c3e4",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.21031",
@@ -8807,9 +8808,9 @@
       "secondarySubfields": [
         "最优控制",
         "在线优化 / 动态优化",
-        "鲁棒优化 / 分布鲁棒优化"
+        "低秩优化"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、在线优化 / 动态优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、在线优化 / 动态优化、低秩优化；未命中足够明确的优化结构关键词。",
       "classificationConfidence": 0.95,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
@@ -8830,15 +8831,15 @@
           ]
         },
         {
-          "name": "鲁棒优化 / 分布鲁棒优化",
-          "score": 2.25,
-          "confidence": 0.27,
+          "name": "低秩优化",
+          "score": 2.45,
+          "confidence": 0.29,
           "matchedSignals": []
         },
         {
-          "name": "半定规划 / 锥优化",
-          "score": 2.17,
-          "confidence": 0.26,
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.25,
+          "confidence": 0.27,
           "matchedSignals": []
         }
       ],
@@ -8856,7 +8857,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "6db13d56-a4ff-4c3b-a33a-318b22f94cc0"
+      "id": "6db13d56-a4ff-4c3b-a33a-318b22f94cc0",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.23841",
@@ -8937,7 +8939,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "f9c55551-95ac-429d-8a67-be5d079b213e"
+      "id": "f9c55551-95ac-429d-8a67-be5d079b213e",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.23939",
@@ -8997,9 +9000,9 @@
           ]
         },
         {
-          "name": "鲁棒优化 / 分布鲁棒优化",
-          "score": 2.52,
-          "confidence": 0.21,
+          "name": "低秩优化",
+          "score": 2.68,
+          "confidence": 0.23,
           "matchedSignals": []
         }
       ],
@@ -9018,7 +9021,8 @@
       ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "7397860d-05fe-4b75-b071-e9b4f0e75f04"
+      "id": "7397860d-05fe-4b75-b071-e9b4f0e75f04",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.23976",
@@ -9037,49 +9041,56 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.23976",
       "pdfUrl": "https://arxiv.org/pdf/2606.23976",
-      "keywords": [],
+      "keywords": [
+        "optimal transport"
+      ],
       "subfield": "无法确定分类",
       "secondarySubfields": [
+        "最优传输",
         "双层优化",
-        "变分分析",
-        "半定规划 / 锥优化"
+        "变分分析"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化、变分分析、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.12,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优传输、双层优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.93,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
         {
+          "name": "最优传输",
+          "score": 9.08,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal transport"
+          ]
+        },
+        {
           "name": "双层优化",
           "score": 1.91,
-          "confidence": 1,
+          "confidence": 0.21,
           "matchedSignals": []
         },
         {
           "name": "变分分析",
           "score": 1.8,
-          "confidence": 0.94,
+          "confidence": 0.2,
           "matchedSignals": []
         },
         {
           "name": "半定规划 / 锥优化",
           "score": 1.7,
-          "confidence": 0.89,
-          "matchedSignals": []
-        },
-        {
-          "name": "鲁棒优化 / 分布鲁棒优化",
-          "score": 1.6,
-          "confidence": 0.84,
+          "confidence": 0.19,
           "matchedSignals": []
         }
       ],
       "uncertaintyReason": "未命中足够明确的优化结构关键词。",
-      "crossTags": [],
+      "crossTags": [
+        "最优传输"
+      ],
       "methodTags": [],
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "55c6f380-ebdd-4b3e-9768-a66a1d5cca22"
+      "id": "55c6f380-ebdd-4b3e-9768-a66a1d5cca22",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2511.05227",
@@ -9099,22 +9110,28 @@
       "arxivUrl": "https://arxiv.org/abs/2511.05227",
       "pdfUrl": "https://arxiv.org/pdf/2511.05227",
       "keywords": [
-        "convex"
+        "optimal transport",
+        "kantorovich"
       ],
-      "subfield": "无法确定分类",
-      "secondarySubfields": [
-        "凸优化",
-        "变分分析",
-        "双层优化"
-      ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、变分分析、双层优化；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.6,
-      "classificationStatus": "uncertain",
+      "subfield": "最优传输",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal transport，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
       "candidateSubfields": [
         {
-          "name": "凸优化",
-          "score": 4.38,
+          "name": "最优传输",
+          "score": 12.71,
           "confidence": 1,
+          "matchedSignals": [
+            "optimal transport",
+            "kantorovich"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.58,
+          "confidence": 0.2,
           "matchedSignals": [
             "convex"
           ]
@@ -9122,31 +9139,27 @@
         {
           "name": "变分分析",
           "score": 1.98,
-          "confidence": 0.45,
+          "confidence": 0.16,
           "matchedSignals": []
         },
         {
           "name": "双层优化",
           "score": 1.89,
-          "confidence": 0.43,
-          "matchedSignals": []
-        },
-        {
-          "name": "半定规划 / 锥优化",
-          "score": 1.77,
-          "confidence": 0.4,
+          "confidence": 0.15,
           "matchedSignals": []
         }
       ],
-      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "uncertaintyReason": "",
       "crossTags": [
-        "凸"
+        "凸",
+        "最优传输"
       ],
       "methodTags": [],
       "applicationTags": [],
-      "score": 8.1,
-      "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "2b634993-2121-4a59-be09-94c22253ce70"
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "2b634993-2121-4a59-be09-94c22253ce70",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.23979",
@@ -9213,7 +9226,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "de468335-7b93-476e-94e2-34cddacb3ea8"
+      "id": "de468335-7b93-476e-94e2-34cddacb3ea8",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24015",
@@ -9301,7 +9315,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "beb943fd-ace2-4fd2-8090-2d86590c1e0b"
+      "id": "beb943fd-ace2-4fd2-8090-2d86590c1e0b",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24294",
@@ -9382,7 +9397,8 @@
       "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "c07f3610-787d-44e9-9388-f4cd8d348f96"
+      "id": "c07f3610-787d-44e9-9388-f4cd8d348f96",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24318",
@@ -9451,42 +9467,52 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "db8d3b83-0999-403f-9e8c-82577d2a19ae"
+      "id": "db8d3b83-0999-403f-9e8c-82577d2a19ae",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24386",
-      "title": "Line Planning at Scale: Models, Methods and Insights",
+      "title": "Line Planning at Scale: Models, Methods, and Insights",
       "authors": [
         "Rolf van Lieshout",
         "Bart van Rossum"
       ],
-      "abstract": "Line planning, the problem of deciding which lines to operate and at what frequency, is a fundamental step in public transport planning. To accurately model passenger routing, the problem is traditionally defined on a change-and-go network (CGN), which captures transfers between lines exactly. However, this network grows large quickly and is hard to solve at scale. We compare the CGN against three more compact models, differing with respect to how transfers are approximated, and characterize how they relate in terms of solution quality and modeling accuracy. We develop state-of-the-art solution methods tailored to each model, and evaluate all four across 972 instances based on the Dutch and Swiss railway networks. Contrary to the CGN's canonical status, we find that it is competitive only on small or easy instances and often fails to find any feasible solution on large networks. Instead, a compact direct connection model performs best overall, finding the best solution on over 83\\% of instances. Our results indicate that carefully designed approximations, rather than exact transfer modeling, are the more promising foundation for large-scale line planning.",
+      "abstract": "Line planning, the problem of deciding which lines to operate and at what frequency, is a fundamental step in public transport planning. To accurately model passenger routing, the problem is traditionally defined on a change-and-go network (CGN), which captures transfers between lines exactly. However, this network grows large quickly and is hard to solve at scale. We compare the CGN against three more compact models, differing with respect to how transfers are approximated, and characterize how they relate in terms of solution quality and modeling accuracy. We develop state-of-the-art solution methods tailored to each model, and evaluate all four across 972 instances based on the Dutch and Swiss railway networks. Contrary to the CGN's canonical status, we find that it is competitive only on small or easy instances and often fails to find any feasible solution on large networks. Instead, a compact direct connection model performs best overall, finding the best solution on over 83% of instances. Our results indicate that carefully designed approximations, rather than exact transfer modeling, are the more promising foundation for large-scale line planning.",
       "categories": [
         "math.OC"
       ],
       "primaryCategory": "math.OC",
       "publishedAt": "2026-06-23",
-      "updatedAt": "2026-06-23",
+      "updatedAt": "2026-06-24",
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.24386",
       "pdfUrl": "https://arxiv.org/pdf/2606.24386",
       "keywords": [
+        "transport plan",
         "routing"
       ],
       "subfield": "无法确定分类",
       "secondarySubfields": [
+        "最优传输",
         "组合优化 / 整数规划",
-        "双层优化",
-        "变分分析"
+        "双层优化"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：组合优化 / 整数规划、双层优化、变分分析；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.64,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优传输、组合优化 / 整数规划、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.67,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
         {
+          "name": "最优传输",
+          "score": 4.72,
+          "confidence": 1,
+          "matchedSignals": [
+            "transport plan"
+          ]
+        },
+        {
           "name": "组合优化 / 整数规划",
           "score": 3.56,
-          "confidence": 1,
+          "confidence": 0.76,
           "matchedSignals": [
             "routing"
           ]
@@ -9494,19 +9520,13 @@
         {
           "name": "双层优化",
           "score": 1.8,
-          "confidence": 0.51,
+          "confidence": 0.38,
           "matchedSignals": []
         },
         {
           "name": "变分分析",
           "score": 1.8,
-          "confidence": 0.51,
-          "matchedSignals": []
-        },
-        {
-          "name": "半定规划 / 锥优化",
-          "score": 1.7,
-          "confidence": 0.48,
+          "confidence": 0.38,
           "matchedSignals": []
         }
       ],
@@ -9518,7 +9538,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "66453a0b-eecb-4d9a-9f41-b2bd0227aac1"
+      "id": "66453a0b-eecb-4d9a-9f41-b2bd0227aac1",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24493",
@@ -9588,7 +9609,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "ea5ec9f3-4452-4de8-97f0-d7eaec274b93"
+      "id": "ea5ec9f3-4452-4de8-97f0-d7eaec274b93",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24545",
@@ -9671,7 +9693,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "9c07b685-c1a0-4f50-ad00-65180d780465"
+      "id": "9c07b685-c1a0-4f50-ad00-65180d780465",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24558",
@@ -9737,7 +9760,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "e3970b05-8d51-4e63-91a7-912cf3ada543"
+      "id": "e3970b05-8d51-4e63-91a7-912cf3ada543",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24600",
@@ -9752,7 +9776,7 @@
       ],
       "primaryCategory": "math.OC",
       "publishedAt": "2026-06-23",
-      "updatedAt": "2026-06-23",
+      "updatedAt": "2026-06-24",
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.24600",
       "pdfUrl": "https://arxiv.org/pdf/2606.24600",
@@ -9827,7 +9851,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "b51dc2ee-611b-4f1c-a967-3701dc510942"
+      "id": "b51dc2ee-611b-4f1c-a967-3701dc510942",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24632",
@@ -9841,7 +9866,8 @@
       "abstract": "Linear Quadratic (LQ) control problems are at the heart of linear control theory and Model Predictive Control (MPC). While performant, standard approaches to solving such problems are inherently serial, limiting real-time scalability despite the parallel computing power available on modern multi-core CPUs. Contributing to addressing this challenge and motivated by ``divide and conquer'' strategies, we present a parallel-in-time approach that solves computationally demanding conic optimal control problems through the use of the alternating direction method of multipliers (ADMM). In particular, we formulate the inner primal update of ADMM as an LQ problem and split the reformulated problem along the time horizon. This enables us to derive a variant of the Riccati recursion using dynamic programming to solve each subproblem in parallel. Numerical benchmarks on two real-world applications demonstrate as much as a 5x speedup compared to existing related approaches on multi-core CPU hardware.",
       "categories": [
         "math.OC",
-        "cs.RO"
+        "cs.RO",
+        "eess.SY"
       ],
       "primaryCategory": "math.OC",
       "publishedAt": "2026-06-23",
@@ -9862,7 +9888,7 @@
       "candidateSubfields": [
         {
           "name": "最优控制",
-          "score": 13.29,
+          "score": 14.29,
           "confidence": 1,
           "matchedSignals": [
             "optimal control",
@@ -9873,18 +9899,18 @@
         {
           "name": "半定规划 / 锥优化",
           "score": 2.44,
-          "confidence": 0.18,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.96,
+          "confidence": 0.14,
           "matchedSignals": []
         },
         {
           "name": "双层优化",
           "score": 1.94,
-          "confidence": 0.15,
-          "matchedSignals": []
-        },
-        {
-          "name": "变分分析",
-          "score": 1.8,
           "confidence": 0.14,
           "matchedSignals": []
         }
@@ -9903,7 +9929,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6659847b-0dfb-43a3-89bb-3df0fb7de96a"
+      "id": "6659847b-0dfb-43a3-89bb-3df0fb7de96a",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24641",
@@ -9983,7 +10010,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "23d80264-f0ae-4d41-a0ca-d04521ea9a55"
+      "id": "23d80264-f0ae-4d41-a0ca-d04521ea9a55",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24656",
@@ -10054,7 +10082,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "3158e178-eefb-4cfc-9826-bc314306765b"
+      "id": "3158e178-eefb-4cfc-9826-bc314306765b",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24879",
@@ -10128,7 +10157,8 @@
       ],
       "score": 5.6,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "bdad5ae1-9e63-4452-a162-cb4ef7d7ac17"
+      "id": "bdad5ae1-9e63-4452-a162-cb4ef7d7ac17",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.23931",
@@ -10209,7 +10239,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "28789573-c19f-41c1-921a-a830145e8a69"
+      "id": "28789573-c19f-41c1-921a-a830145e8a69",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.23985",
@@ -10281,7 +10312,8 @@
       ],
       "score": 9.6,
       "recommendationReason": "主方向属于你关注的 优化与机器学习，作者 Yinyu Ye 在你的偏好名单中。",
-      "id": "1a482a7e-b272-4ea4-b4b7-64edd6f20979"
+      "id": "1a482a7e-b272-4ea4-b4b7-64edd6f20979",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24013",
@@ -10307,9 +10339,9 @@
       "secondarySubfields": [
         "双层优化",
         "变分分析",
-        "半定规划 / 锥优化"
+        "低秩优化"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化、变分分析、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化、变分分析、低秩优化；未命中足够明确的优化结构关键词。",
       "classificationConfidence": 0.05,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
@@ -10326,15 +10358,15 @@
           "matchedSignals": []
         },
         {
-          "name": "半定规划 / 锥优化",
-          "score": 0.95,
-          "confidence": 0.58,
+          "name": "低秩优化",
+          "score": 1,
+          "confidence": 0.61,
           "matchedSignals": []
         },
         {
-          "name": "通用算法理论与复杂度",
-          "score": 0.94,
-          "confidence": 0.57,
+          "name": "半定规划 / 锥优化",
+          "score": 0.95,
+          "confidence": 0.58,
           "matchedSignals": []
         }
       ],
@@ -10346,7 +10378,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "73367e36-b3a4-4222-a290-fe8ffda58526"
+      "id": "73367e36-b3a4-4222-a290-fe8ffda58526",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24212",
@@ -10410,7 +10443,8 @@
       "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "fb281750-607f-48e0-9e6a-e68dd4546eb2"
+      "id": "fb281750-607f-48e0-9e6a-e68dd4546eb2",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24284",
@@ -10485,7 +10519,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "409b8f5e-5176-4e6a-80e6-d54c6b59bd2e"
+      "id": "409b8f5e-5176-4e6a-80e6-d54c6b59bd2e",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24290",
@@ -10505,51 +10540,57 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.24290",
       "pdfUrl": "https://arxiv.org/pdf/2606.24290",
-      "keywords": [],
+      "keywords": [
+        "optimal transport"
+      ],
       "subfield": "无法确定分类",
       "secondarySubfields": [
-        "随机优化",
+        "最优传输",
         "最优控制",
         "双层优化"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、最优控制、双层优化；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.05,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优传输、最优控制、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.93,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
         {
-          "name": "随机优化",
-          "score": 1.64,
+          "name": "最优传输",
+          "score": 9.08,
           "confidence": 1,
-          "matchedSignals": []
+          "matchedSignals": [
+            "optimal transport"
+          ]
         },
         {
           "name": "最优控制",
           "score": 1.33,
-          "confidence": 0.81,
+          "confidence": 0.15,
           "matchedSignals": []
         },
         {
           "name": "双层优化",
           "score": 1.12,
-          "confidence": 0.68,
+          "confidence": 0.12,
           "matchedSignals": []
         },
         {
           "name": "半定规划 / 锥优化",
           "score": 1,
-          "confidence": 0.61,
+          "confidence": 0.11,
           "matchedSignals": []
         }
       ],
       "uncertaintyReason": "未命中足够明确的优化结构关键词。",
       "crossTags": [
+        "最优传输",
         "minimax"
       ],
       "methodTags": [],
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "ef333ae0-01fc-45c2-adcb-1350f7f5d885"
+      "id": "ef333ae0-01fc-45c2-adcb-1350f7f5d885",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24341",
@@ -10620,7 +10661,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "a0caab2c-6fc4-4872-9e97-1683618a36d3"
+      "id": "a0caab2c-6fc4-4872-9e97-1683618a36d3",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24397",
@@ -10673,8 +10715,8 @@
           "matchedSignals": []
         },
         {
-          "name": "变分分析",
-          "score": 1.02,
+          "name": "最优传输",
+          "score": 1.1,
           "confidence": 0.13,
           "matchedSignals": []
         }
@@ -10689,7 +10731,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "b987d421-58ed-4f58-bef2-9b3bb7f50de1"
+      "id": "b987d421-58ed-4f58-bef2-9b3bb7f50de1",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24500",
@@ -10763,7 +10806,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "55215533-f52d-461a-ab82-2223308ddb04"
+      "id": "55215533-f52d-461a-ab82-2223308ddb04",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24645",
@@ -10835,7 +10879,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "757289d2-be17-4f85-9435-9c8d0263e8bc"
+      "id": "757289d2-be17-4f85-9435-9c8d0263e8bc",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.24766",
@@ -10856,49 +10901,59 @@
       "announcementType": "new",
       "arxivUrl": "https://arxiv.org/abs/2606.24766",
       "pdfUrl": "https://arxiv.org/pdf/2606.24766",
-      "keywords": [],
-      "subfield": "无法确定分类",
-      "secondarySubfields": [
-        "半定规划 / 锥优化",
-        "变分分析",
-        "双层优化"
+      "keywords": [
+        "low rank"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、变分分析、双层优化；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.05,
-      "classificationStatus": "uncertain",
+      "subfield": "低秩优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 low rank，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
       "candidateSubfields": [
+        {
+          "name": "低秩优化",
+          "score": 8.57,
+          "confidence": 1,
+          "matchedSignals": [
+            "low rank"
+          ]
+        },
         {
           "name": "半定规划 / 锥优化",
           "score": 1.1,
-          "confidence": 1,
+          "confidence": 0.13,
           "matchedSignals": []
         },
         {
           "name": "变分分析",
           "score": 1.09,
-          "confidence": 0.99,
+          "confidence": 0.13,
           "matchedSignals": []
         },
         {
           "name": "双层优化",
           "score": 0.98,
-          "confidence": 0.9,
-          "matchedSignals": []
-        },
-        {
-          "name": "随机优化",
-          "score": 0.91,
-          "confidence": 0.83,
+          "confidence": 0.11,
           "matchedSignals": []
         }
       ],
-      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
-      "crossTags": [],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "低秩"
+      ],
       "methodTags": [],
       "applicationTags": [],
       "score": 9.8,
-      "recommendationReason": "主方向属于你关注的 无法确定分类，命中关键词 Low Rank、low-rank。",
-      "id": "90a0b18f-ddc8-474b-b625-516ffc5e8278"
+      "recommendationReason": "主方向属于你关注的 低秩优化，命中关键词 Low Rank、low-rank。",
+      "id": "90a0b18f-ddc8-474b-b625-516ffc5e8278",
+      "abstractTranslation": {
+        "language": "zh-CN",
+        "text": "样本协方差矩阵的集中不等式是高维概率中的基本工具。经典结果通常假设所选随机向量与选择规则相互独立。在本文中，我们研究了由独立同分布随机向量的任意、可能依赖于数据的子集构成的样本协方差矩阵的谱集中性质。这种依赖于数据的选择破坏了通常的独立性结构，使得标准的协方差集中界不再适用。对于独立同分布的高斯随机向量，我们证明了此类选定协方差矩阵的最小和最大特征值的高概率下界和上界。与直接的并集界论证相比，我们的结果提供了明显更尖锐的保证，并允许更小的子集比例。我们进一步讨论了从高斯随机向量到亚高斯随机向量的推广，以及从独立性到弱相关观测的推广，其中几何强混合高斯序列作为后者的代表性示例。最后，我们将推导出的集中不等式应用于低秩高斯混合模型下的 K-子空间聚类问题，其中最优聚类本质上依赖于数据。我们的结果给出了恢复保证，表明全局极小值的聚类误差随信噪比多项式衰减。",
+        "sourceHash": "427cf20a170411d6ec46344833a4ba6ca93d7d5920350c32bfeb1c66bc22eea3",
+        "provider": "glm",
+        "model": "general_translation",
+        "translatedAt": "2026-06-25T06:22:07.926Z"
+      }
     },
     {
       "arxivId": "2606.24782",
@@ -10960,7 +11015,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "f674b96c-1e33-4bd4-b321-16388bcc70d9"
+      "id": "f674b96c-1e33-4bd4-b321-16388bcc70d9",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2410.23480",
@@ -11028,7 +11084,8 @@
       "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "46378c04-ef5d-4132-abe5-09c81842148e"
+      "id": "46378c04-ef5d-4132-abe5-09c81842148e",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2505.02281",
@@ -11117,7 +11174,8 @@
       ],
       "score": 5.6,
       "recommendationReason": "副方向与偏好 通用算法理论与复杂度 接近。",
-      "id": "51dc5008-30dc-4c64-9514-c1e4added013"
+      "id": "51dc5008-30dc-4c64-9514-c1e4added013",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2506.03759",
@@ -11191,7 +11249,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "083e1753-5e9e-4258-8b86-117b77b30ac0"
+      "id": "083e1753-5e9e-4258-8b86-117b77b30ac0",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2509.22879",
@@ -11232,26 +11291,29 @@
           ]
         },
         {
+          "name": "最优传输",
+          "score": 8.92,
+          "confidence": 0.48,
+          "matchedSignals": [
+            "wasserstein"
+          ]
+        },
+        {
           "name": "鲁棒优化 / 分布鲁棒优化",
           "score": 2.31,
           "confidence": 0.13,
           "matchedSignals": []
         },
         {
-          "name": "双层优化",
-          "score": 2.09,
-          "confidence": 0.11,
-          "matchedSignals": []
-        },
-        {
-          "name": "在线优化 / 动态优化",
-          "score": 2.06,
-          "confidence": 0.11,
+          "name": "低秩优化",
+          "score": 2.12,
+          "confidence": 0.12,
           "matchedSignals": []
         }
       ],
       "uncertaintyReason": "",
       "crossTags": [
+        "最优传输",
         "机器学习"
       ],
       "methodTags": [],
@@ -11260,7 +11322,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "b9f40c0e-a9c4-40fc-b4e7-9ff011454b9c"
+      "id": "b9f40c0e-a9c4-40fc-b4e7-9ff011454b9c",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2510.11998",
@@ -11348,7 +11411,8 @@
       ],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 非凸优化 接近。",
-      "id": "af7e876b-0ec9-44f0-8d38-d91c8c28d259"
+      "id": "af7e876b-0ec9-44f0-8d38-d91c8c28d259",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2510.23586",
@@ -11419,7 +11483,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "67426c8d-0db5-4218-b30b-27c3a46e32c8"
+      "id": "67426c8d-0db5-4218-b30b-27c3a46e32c8",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2511.10421",
@@ -11498,7 +11563,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "d39313ed-d47c-4826-96a8-1c3ab3f9da6c"
+      "id": "d39313ed-d47c-4826-96a8-1c3ab3f9da6c",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2511.22251",
@@ -11565,7 +11631,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "4100e7f8-9cb1-4ffe-bc37-51dc8eadaebd"
+      "id": "4100e7f8-9cb1-4ffe-bc37-51dc8eadaebd",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2601.01634",
@@ -11629,7 +11696,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "061d1437-b9dc-4f83-8026-1a799b6d44c4"
+      "id": "061d1437-b9dc-4f83-8026-1a799b6d44c4",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2601.21860",
@@ -11708,7 +11776,8 @@
       ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "364d5196-ef82-4404-9357-1d9950dcc39a"
+      "id": "364d5196-ef82-4404-9357-1d9950dcc39a",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2602.04378",
@@ -11791,7 +11860,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度。",
-      "id": "b0495282-2f0b-4854-97ff-8c6ebc056d8c"
+      "id": "b0495282-2f0b-4854-97ff-8c6ebc056d8c",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2602.16982",
@@ -11861,7 +11931,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "7f52ab35-4811-4bec-8ec7-c15b84e0ffde"
+      "id": "7f52ab35-4811-4bec-8ec7-c15b84e0ffde",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2605.02701",
@@ -11948,7 +12019,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "de88007f-00f1-4f83-9ba4-b1deb3c4c90e"
+      "id": "de88007f-00f1-4f83-9ba4-b1deb3c4c90e",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.02195",
@@ -12020,7 +12092,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "6d583afa-05df-4d82-8b97-25d1d5e2ac1d"
+      "id": "6d583afa-05df-4d82-8b97-25d1d5e2ac1d",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2606.13524",
@@ -12094,7 +12167,8 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "71494b97-18b9-45d2-babe-5c591a266639"
+      "id": "71494b97-18b9-45d2-babe-5c591a266639",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2311.02960",
@@ -12124,11 +12198,14 @@
         "online",
         "deep learning",
         "representation learning",
-        "rl"
+        "rl",
+        "low rank"
       ],
       "subfield": "优化与机器学习",
-      "secondarySubfields": [],
-      "classificationReason": "主方向命中 deep learning、rl，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "secondarySubfields": [
+        "低秩优化"
+      ],
+      "classificationReason": "主方向命中 deep learning、rl，且与 arXiv 分类线索一致；副方向候选：低秩优化；分类置信度 98%。",
       "classificationConfidence": 0.98,
       "classificationStatus": "confident",
       "candidateSubfields": [
@@ -12140,6 +12217,14 @@
             "deep learning",
             "representation learning",
             "rl"
+          ]
+        },
+        {
+          "name": "低秩优化",
+          "score": 8.95,
+          "confidence": 0.83,
+          "matchedSignals": [
+            "low rank"
           ]
         },
         {
@@ -12155,16 +12240,11 @@
           "score": 2,
           "confidence": 0.18,
           "matchedSignals": []
-        },
-        {
-          "name": "随机优化",
-          "score": 1.9,
-          "confidence": 0.18,
-          "matchedSignals": []
         }
       ],
       "uncertaintyReason": "",
       "crossTags": [
+        "低秩",
         "在线/动态",
         "机器学习"
       ],
@@ -12174,7 +12254,8 @@
       ],
       "score": 9.8,
       "recommendationReason": "主方向属于你关注的 优化与机器学习，命中关键词 Low Rank、low-rank。",
-      "id": "0891f7bb-6157-445f-86c7-953df8713132"
+      "id": "0891f7bb-6157-445f-86c7-953df8713132",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2406.13041",
@@ -12261,7 +12342,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度。",
-      "id": "c226258e-c02b-44f3-9bb0-30e2ba6d0a25"
+      "id": "c226258e-c02b-44f3-9bb0-30e2ba6d0a25",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2407.06312",
@@ -12345,7 +12427,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "33444ac0-d374-496b-bf38-5feebbc6a5e8"
+      "id": "33444ac0-d374-496b-bf38-5feebbc6a5e8",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2410.20943",
@@ -12397,9 +12480,9 @@
           "matchedSignals": []
         },
         {
-          "name": "双层优化",
-          "score": 0.9,
-          "confidence": 0.51,
+          "name": "最优传输",
+          "score": 0.93,
+          "confidence": 0.53,
           "matchedSignals": []
         }
       ],
@@ -12409,7 +12492,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "628f0d58-c3b9-46df-852e-81216e9a1155"
+      "id": "628f0d58-c3b9-46df-852e-81216e9a1155",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2412.15505",
@@ -12431,16 +12515,17 @@
       "arxivUrl": "https://arxiv.org/abs/2412.15505",
       "pdfUrl": "https://arxiv.org/pdf/2412.15505",
       "keywords": [
-        "convex"
+        "convex",
+        "monge"
       ],
       "subfield": "无法确定分类",
       "secondarySubfields": [
         "凸优化",
-        "非凸优化",
-        "通用算法理论与复杂度"
+        "最优传输",
+        "非凸优化"
       ],
-      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、非凸优化、通用算法理论与复杂度；未命中足够明确的优化结构关键词。",
-      "classificationConfidence": 0.6,
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、最优传输、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.23,
       "classificationStatus": "uncertain",
       "candidateSubfields": [
         {
@@ -12449,6 +12534,14 @@
           "confidence": 1,
           "matchedSignals": [
             "convex"
+          ]
+        },
+        {
+          "name": "最优传输",
+          "score": 3.9,
+          "confidence": 0.98,
+          "matchedSignals": [
+            "monge"
           ]
         },
         {
@@ -12462,12 +12555,6 @@
           "score": 1.02,
           "confidence": 0.26,
           "matchedSignals": []
-        },
-        {
-          "name": "半定规划 / 锥优化",
-          "score": 0.96,
-          "confidence": 0.24,
-          "matchedSignals": []
         }
       ],
       "uncertaintyReason": "未命中足够明确的优化结构关键词。",
@@ -12478,7 +12565,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "6fa15499-0d46-4f82-afcb-064f5eb550cd"
+      "id": "6fa15499-0d46-4f82-afcb-064f5eb550cd",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2510.16866",
@@ -12541,7 +12629,8 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "19ff34dd-3f7c-4f3a-9f3e-78657f29ab50"
+      "id": "19ff34dd-3f7c-4f3a-9f3e-78657f29ab50",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2511.21056",
@@ -12618,7 +12707,8 @@
       ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "79ec89ed-493c-48df-af00-729fe8b0a607"
+      "id": "79ec89ed-493c-48df-af00-729fe8b0a607",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2602.16568",
@@ -12691,7 +12781,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "6586d019-062c-4ff1-8b10-2e623abbd096"
+      "id": "6586d019-062c-4ff1-8b10-2e623abbd096",
+      "abstractTranslation": null
     },
     {
       "arxivId": "2602.21321",
@@ -12760,7 +12851,8 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "398e9a50-4ad5-48ae-b1ce-efa3061a8d4f"
+      "id": "398e9a50-4ad5-48ae-b1ce-efa3061a8d4f",
+      "abstractTranslation": null
     }
   ]
 }
