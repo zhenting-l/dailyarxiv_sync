@@ -1,0 +1,4142 @@
+{
+  "reportDate": "2026-07-02",
+  "exportedAt": "2026-07-02T06:00:12.961Z",
+  "papers": [
+    {
+      "arxivId": "2606.25997",
+      "title": "Variable Bound Tightening for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games",
+      "authors": [
+        "Sam Ganzfried"
+      ],
+      "abstract": "There has been significant recent progress in algorithms for approximation of Nash equilibrium in large two-player zero-sum imperfect-information games and exact computation of Nash equilibrium in multiplayer strategic-form games. While counterfactual regret minimization and fictitious play are scalable to large games and have convergence guarantees in two-player zero-sum games, they do not guarantee convergence to Nash equilibrium in multiplayer games. Recently, an approach has been presented for exact computation of Nash equilibrium in multiplayer imperfect-information games that solves a quadratically constrained program based on a nonlinear complementarity problem formulation derived from the sequence-form game representation. This formulation was solved using Gurobi's nonconvex quadratic solver, which employs spatial branch-and-bound to iteratively refine variable bounds by solving convex relaxations of bilinear terms via McCormick envelopes. During presolve, Gurobi introduces auxiliary variables and, in some cases, binary variables, leading to an internal MIQCP reformulation. This approach was demonstrated to outperform prior algorithms from the Gambit software suite and quickly solve three-player Kuhn poker after removal of dominated actions; however, the algorithm was not able to solve the full version of the game within 24 hours. In this paper, we derive finite bounds on slack and multiplier variables in the nonlinear complementarity formulation. These bounds strengthen the convex relaxations used within spatial branch-and-bound and lead to substantial computational improvements. We demonstrate the impact of the proposed bounds on exact Nash equilibrium computation in three-player Kuhn poker.",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA",
+        "econ.TH",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.GT",
+      "publishedAt": "2026-06-24",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.25997",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25997",
+      "keywords": [
+        "nonconvex",
+        "online",
+        "complementarity",
+        "regret"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "变分分析",
+        "在线优化 / 动态优化",
+        "非凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：变分分析、在线优化 / 动态优化、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.57,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "变分分析",
+          "score": 8.47,
+          "confidence": 1,
+          "matchedSignals": [
+            "complementarity"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 8.35,
+          "confidence": 0.99,
+          "matchedSignals": [
+            "online",
+            "regret"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 7.98,
+          "confidence": 0.94,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 4.28,
+          "confidence": 0.51,
+          "matchedSignals": [
+            "branch and bound"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [
+        "branch-and-bound"
+      ],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "e241c4a3-1198-48e4-88a8-7ac72bbe0b46",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2606.29344",
+      "title": "An Exact Algorithm for Mixed-Integer Bilevel Stochastic Problem",
+      "authors": [
+        "Tomás Lagos",
+        "Dmytro Matsypura"
+      ],
+      "abstract": "We study a class of mixed-integer bilevel stochastic programs where the leader commits to a first-stage decision before uncertainty is realized, and the follower solves a subsequent mixed-integer optimization problem for each revealed scenario. Due to the hierarchical structure and the presence of discrete variables at both levels, these problems are inherently $Σ_2^p$-hard, making standard single-level reformulations computationally intractable. To address this significant computational challenge, we develop an exact algorithm that combines deterministic value-function reformulations with stochastic scenario-wise decomposition. Specifically, we propose an extended single-level reformulation and a corresponding relaxation that enable scenario decomposition. We then introduce a stochastic subgradient cutting-plane scheme that dynamically generates follower optimality cuts while updating the Lagrange multipliers. We prove that, under boundedness assumptions, our algorithm converges in finite time to a true global optimum while providing valid upper and lower bounds throughout its execution.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-28",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.29344",
+      "pdfUrl": "https://arxiv.org/pdf/2606.29344",
+      "keywords": [
+        "bilevel",
+        "stochastic"
+      ],
+      "subfield": "双层优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 bilevel，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "双层优化",
+          "score": 19.66,
+          "confidence": 1,
+          "matchedSignals": [
+            "bilevel"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 11.71,
+          "confidence": 0.6,
+          "matchedSignals": [
+            "mixed integer"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.97,
+          "confidence": 0.35,
+          "matchedSignals": [
+            "lower bound"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.65,
+          "confidence": 0.24,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "双层",
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "ebdb67b6-4584-477e-890b-a9799c4ba9a1",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2606.30530",
+      "title": "Computing the Integral R2 Indicator by Perspective Mapping and Box Decomposition",
+      "authors": [
+        "Michael T. M. Emmerich"
+      ],
+      "abstract": "The continuous integral R2 indicator is a Pareto-compliant refinement of the classical finite-weight-vector R2 indicator, used in performance assessment, bounded archiving for a-posteriori multi-objective optimization, and skyline selection in databases. This work introduces a bidirectional perspective mapping between continuous integral R2 computation and integration over unions of anchored axis-aligned boxes. After translating the ideal point of a minimization problem to the origin, approximation points become strictly positive loss vectors, and the subgraph of the lower weighted Tchebycheff envelope over the weight simplex maps to the complement of an anchored-box union in reciprocal objective space. The Jacobian gives an absolute R2 formula as a weighted complement volume with density $(x_1+\\cdots+x_N)^{-(N+1)}$, while differences of R2 values become finite weighted hypervolume differences. Hence, hypervolume algorithms that emit box decompositions can be reused by replacing ordinary box volumes with closed-form weighted box integrals. For $N$ objectives, this gives an output-sensitive overhead $O(2^N M)$ for an $M$-box decomposition, or $O(M)$ for fixed $N$. Using existing box-decomposition approaches, the integral R2 can be computed in $O(n \\log n)$ for $N=2,3$, in $O(n^2)$ for $N=4$, and in $O\\left(n^{\\lfloor (N-1)/2\\rfloor+1}\\right)$ for $N\\geq4$, with $n$ denoting the size of the approximation set. On the lower-bound side, exact value computation has an $Ω(n\\log n)$ lower bound in the algebraic decision-tree model already in two objectives, this bound lifts to every fixed $N\\geq2$, and exact computation is $\\#P$-hard when $N$ is part of the input. Together, the proposed perspective mapping provides a powerful tool for transferring algorithmic and structural results between anchored-box union and hypervolume theory and integral R2 computation.",
+      "categories": [
+        "cs.CG",
+        "cs.NE",
+        "math.NA",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.CG",
+      "publishedAt": "2026-06-29",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.30530",
+      "pdfUrl": "https://arxiv.org/pdf/2606.30530",
+      "keywords": [
+        "lower bound"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "低秩优化",
+        "双层优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、低秩优化、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.91,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.62,
+          "confidence": 1,
+          "matchedSignals": [
+            "lower bound"
+          ]
+        },
+        {
+          "name": "低秩优化",
+          "score": 1.22,
+          "confidence": 0.18,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.12,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.04,
+          "confidence": 0.16,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "f255eca8-a932-4d79-b8ac-f5eea5b7b638",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2509.17103",
+      "title": "Clarke Differentials and the Envelope Theorem in Dynamic Programming",
+      "authors": [
+        "Yuhki Hosoya"
+      ],
+      "abstract": "In this paper, we consider a deterministic dynamic programming model, and derive the envelope theorem using the Clarke differential. Compared with previous research, we do not require differentiability, convexity, or boundedness.",
+      "categories": [
+        "math.OC",
+        "econ.TH"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-09-21",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2509.17103",
+      "pdfUrl": "https://arxiv.org/pdf/2509.17103",
+      "keywords": [
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "凸优化",
+        "半定规划 / 锥优化",
+        "双层优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：凸优化、半定规划 / 锥优化、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.53,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 3.9,
+          "confidence": 1,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.27,
+          "confidence": 0.58,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 2.25,
+          "confidence": 0.58,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 2,
+          "confidence": 0.51,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "32db1e97-899f-4f91-9472-82e886b00198",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00091",
+      "title": "A Priori Integral Persistent Excitation in Conservative Polynomial ODEs with Higher-Order Interactions",
+      "authors": [
+        "Aleksandr Semenov",
+        "Alexander Fradkov"
+      ],
+      "abstract": "The paper proposes an approach for verifying integral persistent excitation, which is important in problems of parameter identification and adaptive control in nonlinear dynamical systems. The approach works for conservative polynomial ODEs a priori without knowledge of the parameters. Rigorous proofs of the corresponding theorems are provided. An example of a nonlinear dynamical system with higher-order interactions and the application of the proposed method to it are analyzed. The proof of the main result is formalized in the Lean formal verification language.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-30",
+      "updatedAt": "2026-06-30",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00091",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00091",
+      "keywords": [
+        "online",
+        "dynamical system"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "最优控制",
+        "通用算法理论与复杂度"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、最优控制、通用算法理论与复杂度；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.78,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.6,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 3.53,
+          "confidence": 0.63,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 2.12,
+          "confidence": 0.38,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.98,
+          "confidence": 0.35,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "ac23addc-e3c4-449f-81ab-a5e1963f6ed4",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00207",
+      "title": "Homogenization of $\\ell_2$-Adversarial Training in High-Dimensions: Exact Dynamics under Stochastic Gradient Descent",
+      "authors": [
+        "Fabrizzio Sabelli"
+      ],
+      "abstract": "We develop a framework for analyzing the learning dynamics of $\\ell_2$-adversarial training of single-index models on Gaussian mixtures in the high-dimensional limit under streaming stochastic gradient descent (SGD). We derive deterministic equivalents for a broad class of statistics of the SGD iterates, including the adversarial risk and distance to adversarial optimality, in terms of the solution to a system of ODEs. We use them to study two idealized learning rate schedules: the Polyak stepsize and exact line search. In the case of $\\ell_2$-adversarial least squares with a single class, we show that, unlike noiseless standard least squares, no constant learning rate guarantees monotone descent of SGD towards a minimizer of the adversarial risk. We identify anisotropic covariance and a mismatch in ridge parameters as the main sources of suboptimality of exact line search relative to the Polyak stepsize. We also introduce a stochastic differential equation (SDE), called adversarial homogenized SGD, that captures the evolution of statistics of the iterates of SGD. For $\\ell_2$-adversarial least squares, using this SDE, we show the evolution of the risk is equivalent, up to dimension-free constants, to that of SGD on standard least squares with an adaptive learning rate and adaptive $\\ell_2$-regularization. When the dynamics converge, the limiting adversarial risk and SGD iterate are determined by a fixed-point equation, with the limiting iterate being equivalent to the solution of a ridge regression problem whose regularization parameter is the limiting effective regularization of SGD.",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-30",
+      "updatedAt": "2026-06-30",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00207",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00207",
+      "keywords": [
+        "stochastic",
+        "sgd"
+      ],
+      "subfield": "随机优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 stochastic、sgd，且与 arXiv 分类线索一致；分类置信度 90%。",
+      "classificationConfidence": 0.9,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 9.95,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic",
+            "sgd"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 4.1,
+          "confidence": 0.41,
+          "matchedSignals": [
+            "line search"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.15,
+          "confidence": 0.32,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优传输",
+          "score": 2.94,
+          "confidence": 0.3,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "f03aa1ab-1dd0-455e-9a53-84adcb402b24",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00328",
+      "title": "Killing the Case for Randomization in Dynamic Assortment Optimization",
+      "authors": [
+        "Mikhail Fadin",
+        "Huseyin Topaloglu"
+      ],
+      "abstract": "One of the traditional approaches for constructing approximate policies for dynamic assortment optimization problems is to use sampling-based inventory-agnostic policies. Such policies are called sampling-based, as they sample an assortment of products from a fixed distribution at each time period to offer to a customer of each type. Such policies are called inventory-agnostic, as the sampled assortments may include products without remaining inventories, so if a customer chooses a product without remaining inventories, then she leaves without a purchase. Inventory-agnostic nature of a policy is not a concern, because it is known that if the policy samples an assortment that includes products without remaining inventories, then dropping the products without remaining inventories does not degrade the performance. However, sampling-based nature of a policy is a concern, because sampling brings another source of uncertainty in the performance. In this paper, we give an algorithm to de-randomize any sampling-based inventory-agnostic policy, so the de-randomized policy offers a deterministic sequence of assortments within the support of the original policy without degrading the performance. Furthermore, we give a variation of our de-randomization algorithm that searches for a deterministic sequence of assortments beyond the support of the original policy. We show that we can implement the latter variation efficiently as long as we can solve the static assortment optimization problem under the choice model governing the choice process of the customers. As our crowning technical contribution, we study locally-optimal deterministic policies, where changing any single one of the assortments in the policy does not improve the total expected revenue. We show that any locally-optimal policy has a performance guarantee of 1/2 - epsilon when compared with the best sampling-based policy.",
+      "categories": [
+        "math.OC",
+        "cs.DS"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00328",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00328",
+      "keywords": [
+        "dro",
+        "uncertainty"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 dro、uncertainty，且与 arXiv 分类线索一致；分类置信度 86%。",
+      "classificationConfidence": 0.86,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 7.43,
+          "confidence": 1,
+          "matchedSignals": [
+            "dro",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.19,
+          "confidence": 0.29,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.14,
+          "confidence": 0.29,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 2.02,
+          "confidence": 0.27,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "5c93b641-8689-4b9a-bdcd-6aa07eed8620",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00383",
+      "title": "Regularized Model Predictive Control via Contractivity and Implicit Lur'e Analysis",
+      "authors": [
+        "Ryotaro Shima",
+        "Anand Gokhale",
+        "Alexander Davydov",
+        "Francesco Bullo"
+      ],
+      "abstract": "This paper develops a contraction-based stability analysis for regularized model predictive control (MPC), whose feedback law is defined implicitly by a finite-horizon optimal control problem with an additional regularizing cost. The proposed approach interprets regularized MPC as an implicit Lur'e system, in which the regularizing cost perturbs the optimality conditions. We develop a multiplier-based contraction framework for implicit Lur'e systems and derive linear matrix inequality conditions for regularized MPC with three broad classes of regularizers: convex smooth stage costs, convex closed proper stage costs, and differentiable regularizers with Lipschitz gradients. Numerical studies on input and state soft penalties, hard input constraints, and sparsity-promoting penalties illustrate that regularization shapes closed-loop performance while retaining formal contraction-based stability guarantees.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00383",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00383",
+      "keywords": [
+        "optimal control",
+        "model predictive control",
+        "mpc"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal control、model predictive control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 14.16,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control",
+            "model predictive control",
+            "mpc"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 4.91,
+          "confidence": 0.35,
+          "matchedSignals": [
+            "linear matrix inequality"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.54,
+          "confidence": 0.18,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.21,
+          "confidence": 0.16,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "4d3c1abe-de46-46ec-a471-d811e875ac14",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00552",
+      "title": "L2-L2-gain bounds for quadratic output systems",
+      "authors": [
+        "Birgit Hillebrecht"
+      ],
+      "abstract": "We derive an explicit bound for the L2-L2-gain of linear time-invariant systems whose output is a quadratic function of the state and the input. Such systems appear naturally in many areas, for example for port-Hamiltonian systems, optimal-control, and stochastic problems. In case the output is purely quadratic in the state, the bound equals the L2-norm of the bivariate transfer function evaluated along the anti-diagonal $\\{(s,\\,-s)\\mid s\\in i\\mathbb R\\}$ of the $i \\mathbb R\\times i \\mathbb R$ frequency domain. Further, we show how the bound can be computed by solving linear matrix equations. This result provides a practical tool for assessing and reducing quadratic-output models.",
+      "categories": [
+        "math.OC",
+        "math.DS"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00552",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00552",
+      "keywords": [
+        "stochastic",
+        "optimal control"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "随机优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、随机优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.92,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 8.27,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 3.52,
+          "confidence": 0.43,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.1,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.87,
+          "confidence": 0.23,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "2dbffa9c-c622-44de-a5c3-187092673e3e",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00604",
+      "title": "Vehicle Routing Problem Meets Large Language Models: An Overview and Perspectives",
+      "authors": [
+        "Xianchao Xiu",
+        "Chong Shen",
+        "Yanjiao Zhu",
+        "Wanquan Liu"
+      ],
+      "abstract": "The vehicle routing problem (VRP) is a central optimization problem in artificial intelligence, logistics automation, transportation scheduling, and industrial decision-making. VRP and its variants are NP-hard, and practical routing tasks often combine time windows, vehicle capacities, pickup-and-delivery relations, dynamic requests, and other operational constraints, making both modeling and solving difficult. Large language models (LLMs) provide a flexible interface for routing optimization by processing natural-language requirements, generating code, reasoning over constraints, and interacting with external tools. This survey reviews LLM-driven research on VRP, covering the basic definition, main variants, major solver families, and LLM concepts needed for this topic. Existing studies are organized into three roles: modelers translate natural-language requirements into constraints and modeling code; designers generate heuristics, operators, or route plans; and coordinators organize tool calls, multi-agent collaboration, and connections with neural solvers. The survey also reviews standard benchmarks, real or near-real operational datasets, LLM-oriented evaluation frameworks, and two comparative experiments. The goal is to clarify current progress in LLM-assisted routing optimization and provide a structured reference for intelligent decision-making, advanced manufacturing, and industrial automation.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00604",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00604",
+      "keywords": [
+        "routing",
+        "scheduling",
+        "multi agent",
+        "vr"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "组合优化 / 整数规划",
+        "分布式优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：组合优化 / 整数规划、分布式优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.48,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 5.46,
+          "confidence": 1,
+          "matchedSignals": [
+            "routing",
+            "scheduling"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 5.12,
+          "confidence": 0.94,
+          "matchedSignals": [
+            "multi agent"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.46,
+          "confidence": 0.82,
+          "matchedSignals": [
+            "vr"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 3.16,
+          "confidence": 0.58,
+          "matchedSignals": [
+            "large language model"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "分布式/联邦",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "运筹应用"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "f39498fb-d110-491e-987b-e78be0f38566",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00611",
+      "title": "An semidefinite programming-based $\\varepsilon$-constraint method for the bi-objective single-row facility layout problem",
+      "authors": [
+        "Christof Brandstetter",
+        "Elisabeth Gaar",
+        "Markus Sinnl"
+      ],
+      "abstract": "In this work, we introduce a multi-objective version of the well-known single-row facility layout problem (SRFLP). In the SRFLP, a set of one-dimensional facilities should be placed along a single line such that the weighted sum of the center-to-center distances of each pair of facilities is minimized. In our multi-objective extension, there are multiple such weighted-sum objectives which we consider under the concept of Pareto optimality. We develop a solution algorithm based on the $\\varepsilon$-constraint method to solve the bi-objective SRFLP. Many existing works on the $\\varepsilon$-constraint method use integer linear programming (ILP) solvers in a black-box fashion for solving the problems at the individual iterations of the method. In contrast to that, we use our own branch-and-bound procedure based on semidefinite programming (SDP), as SDP relaxations are known to be more effective for solving the SRFLP than linear programming relaxations of ILPs. This allows us to propose several enhancements procedures for our $\\varepsilon$-constraint approach, such as non-binary branching and reusing of nodes within the branch-and-bound trees, which are usually not possible when using black-box solvers. We present a computational study to demonstrate the effectiveness of our solution approach and its enhancements.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00611",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00611",
+      "keywords": [
+        "semidefinite programming",
+        "semidefinite",
+        "sdp"
+      ],
+      "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 19.24,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite",
+            "sdp"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 4.83,
+          "confidence": 0.25,
+          "matchedSignals": [
+            "branch and bound"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 2.04,
+          "confidence": 0.11,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.95,
+          "confidence": 0.1,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [
+        "branch-and-bound"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "cf3a296e-5b2c-4606-883a-3039f9cab8dc",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00637",
+      "title": "Iterative graph lifting for automatic design of path-complete stability certificates",
+      "authors": [
+        "Léa Ninite",
+        "Raphaël M. Jungers"
+      ],
+      "abstract": "Stability of switched linear systems under arbitrary switching is a fundamental problem in control theory, closely related to the joint spectral radius (JSR), which characterizes the worst-case growth rate of system trajectories. In this paper, we contribute to the path-complete approach for approximating the JSR. This framework constructs algebraic stability certificates using labeled directed graphs, known as path-complete graphs. These certificates can be computed via an associated optimization problem. We propose an iterative algorithm that refines path-complete graphs in an efficient and parsimonious manner. The algorithm relies on a graph-theoretic analysis of the optimality conditions of the underlying optimization problem. In particular, we derive a sufficient condition under which the exact JSR is attained by a given path-complete graph. When this condition is not satisfied, we identify bottleneck nodes by analyzing the graph induced by the active constraints. We then use this information to refine the path-complete graph via local graph lifting (node splitting), and repeat the procedure. Numerical experiments demonstrate the effectiveness and scalability of the proposed approach, outperforming state-of-the-art methods on all challenging instances tested.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00637",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00637",
+      "keywords": [
+        "worst case",
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化",
+        "优化与机器学习",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、优化与机器学习、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.71,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.39,
+          "confidence": 1,
+          "matchedSignals": [
+            "worst case"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.35,
+          "confidence": 0.54,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.03,
+          "confidence": 0.46,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.95,
+          "confidence": 0.44,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "鲁棒",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "4d55d1ee-b51d-4528-bc0e-7b95ccb7650d",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00665",
+      "title": "Effective dynamics of the Sinkhorn algorithm in the regime of low entropy regularization",
+      "authors": [
+        "Guillaume Wang"
+      ],
+      "abstract": "The Sinkhorn algorithm is the de facto standard method for numerically solving entropy-regularized optimal transport problems over finite sets. In this work, we investigate a phenomenon arising when Sinkhorn is applied with a small regularization parameter $τ$: the evolution of the dual variables (the logarithm of the scaling factors) is approximately piecewise-linear, while the primal variables (the approximate transport plans) exhibit a saddle-to-saddle type behavior. We prove that as $τ\\to 0$, the Sinkhorn iterates indeed converge to a continuous-time curve consistent with these observations, when time is rescaled as $t = τk$, and we characterize the limiting \"cold Sinkhorn\" dynamics explicitly. In particular, we show that it acts as a dual optimization dynamics for the unregularized problem with properties analogous to the simplex algorithm. Notably, this dynamics converges in finite time to an unregularized solution, implying a novel guarantee for the Sinkhorn algorithm itself: it achieves $\\tilde{O}(τ)$ dual suboptimality in $k = O(τ^{-1})$ iterations, instead of $k = O(τ^{-2})$ as existing analyses would suggest.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00665",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00665",
+      "keywords": [
+        "optimal transport",
+        "transport plan",
+        "sinkhorn"
+      ],
+      "subfield": "最优传输",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal transport、sinkhorn，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优传输",
+          "score": 14.08,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal transport",
+            "sinkhorn",
+            "transport plan"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 1.88,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.84,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.83,
+          "confidence": 0.13,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "最优传输"
+      ],
+      "methodTags": [
+        "Sinkhorn"
+      ],
+      "applicationTags": [],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "af05e046-3d92-41c6-be42-cc3924e6cc2a",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00793",
+      "title": "Geometric Reduced-Attitude Tracking Under a Time-Varying Conic Constraint via Smooth Reference-Shaping",
+      "authors": [
+        "Pedro Santos",
+        "Joel Reis",
+        "Paulo Oliveira",
+        "Carlos Silvestre"
+      ],
+      "abstract": "This letter studies reduced-attitude tracking for a rigid body on the 2-sphere S2 under a time-varying conic constraint. Using a kinematic model on S2, we first propose a geometric tracking law that guarantees almostglobal asymptotic and regionally exponential convergence in the unconstrained case, where the angular velocity serves as the control input. We then introduce a smooth reference-shaping mechanism that adjusts the desired direction so that the reference provided to the controller satisfies the time-varying conic constraint while preserving the smoothness required by the tracking law. The resulting approach yields smooth continuous feedback and retains the stability guarantees of the unconstrained controller, albeit at the expense of enforcing a soft version of the original constraint. Simulation results illustrate the effectiveness of the method and highlight its suitability for applications where deterministic behavior, smooth control action, and strong stability guarantees are preferred over hard constraint satisfaction.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00793",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00793",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "半定规划 / 锥优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、半定规划 / 锥优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.25,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 2.69,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.14,
+          "confidence": 0.79,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.91,
+          "confidence": 0.71,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.87,
+          "confidence": 0.7,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "3bb6c747-b01f-4d7d-854d-081192e650b5",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00799",
+      "title": "Optimal control problem for reflected McKean--Vlasov stochastic differential equations with Poisson jumps",
+      "authors": [
+        "Wenrui Lu",
+        "Kai Wang"
+      ],
+      "abstract": "In this paper, we consider the optimal relaxed control problem for a class of one-dimensional reflected McKean--Vlasov stochastic differential equations with Poisson jumps. Due to the presence of the jump term, the state process generally belongs to the Skorokhod space $D([0,T],\\Rp)$, which makes the proof of tightness and the passage to the limit more complicated. Under Lipschitz conditions and suitable growth conditions, we establish uniform moment estimates for the state process and the reflecting process. Then, by using Aldous' tightness criterion, the continuity of the Skorokhod map, and the stability results for stochastic integrals, we prove the existence of an optimal relaxed control. Furthermore, under the Roxin convexity condition, we prove the existence of a strict optimal control. In the general case, we show that relaxed controls can be approximated by a sequence of strict controls.",
+      "categories": [
+        "math.OC",
+        "math.PR"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00799",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00799",
+      "keywords": [
+        "stochastic",
+        "optimal control"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 11.31,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.81,
+          "confidence": 0.42,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "最优传输",
+          "score": 2.21,
+          "confidence": 0.2,
+          "matchedSignals": []
+        },
+        {
+          "name": "凸优化",
+          "score": 2.1,
+          "confidence": 0.19,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "随机",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "44efdead-7297-484f-93f9-21f71986be6c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00844",
+      "title": "Experiment Design for Set-membership Identification: From Prior Knowledge to Universal Inputs",
+      "authors": [
+        "Amir Shakouri",
+        "Henk J. van Waarde",
+        "M. Kanat Camlibel"
+      ],
+      "abstract": "We consider the problem of designing input signals for an unknown linear time-invariant system in such a way that the resulting data, within a finite horizon, is suitable for identification with a desired accuracy. We consider both noise-free and noisy settings with $\\ell_\\infty$--bounded noise models. We will take into account general prior knowledge of the system parameters. Central in our study is the concept of universal inputs. An input is called universal for identification if, when applied to any system complying with the prior knowledge, it yields data suitable for accurate identification. We provide new methods for designing such universal inputs. Our results generalize the experiment design approach based on Willems et al.'s fundamental lemma that relies on persistently exciting inputs, and that is limited to prior knowledge on controllability. It turns out that for other types of prior knowledge, there exist universal inputs that outperform the persistently exciting ones, e.g., in terms of sample efficiency. Moreover, we investigate types of prior knowledge that enable experiment design for exact identification in the presence of noise.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00844",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00844",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "鲁棒优化 / 分布鲁棒优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、鲁棒优化 / 分布鲁棒优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.15,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 2.26,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.97,
+          "confidence": 0.87,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.96,
+          "confidence": 0.87,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.84,
+          "confidence": 0.82,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "ecfacacf-7568-4607-8cc1-08cbf9b5b007",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00882",
+      "title": "On directional local minimality and directional optimality conditions in nonsmooth optimization",
+      "authors": [
+        "Timm Baake",
+        "Patrick Mehlitz"
+      ],
+      "abstract": "This paper considers the unconstrained minimization of a lower semicontinuous function. Exploiting first and second subderivatives, directional limiting subdifferentials, and directional proximal subdifferentials, necessary and sufficient first- and second-order optimality conditions are derived that build upon the recently introduced notion of directional local minimality. These results then also yield optimality conditions for conventional nondirectional local minimality which are stated in terms of so-called critical directions and variational objects depending on them. Illustrative examples show that the derived conditions allow for a finer analysis than classical nondirectional optimality conditions.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00882",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00882",
+      "keywords": [
+        "proximal",
+        "subdifferential"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "变分分析",
+        "凸优化",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：变分分析、凸优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.91,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "变分分析",
+          "score": 9.12,
+          "confidence": 1,
+          "matchedSignals": [
+            "subdifferential"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.61,
+          "confidence": 0.4,
+          "matchedSignals": [
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.14,
+          "confidence": 0.24,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 2.03,
+          "confidence": 0.22,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑",
+        "约束",
+        "变分分析"
+      ],
+      "methodTags": [
+        "proximal",
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "7269de6e-3ead-4133-9def-2f57f0276b7b",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00944",
+      "title": "Influence of Routing and Speed Limits on Optimal Solutions in Traffic Emission Modeling",
+      "authors": [
+        "Marc-André Bach",
+        "Simone Göttlich",
+        "Alena Ulke"
+      ],
+      "abstract": "We investigate the influence of routing strategies and speed limit policies on optimal solutions in traffic emission models. Building on a first-order macroscopic traffic model coupled with an advection-diffusion model, we formulate single- and multi-objective optimization problems to simultaneously maximize traffic efficiency and minimize air pollution. We compare three control scenarios: optimizing only the routing strategy, optimizing only the speed limit policy, and optimizing both simultaneously. Numerical experiments on a small road network demonstrate that speed limit policies consistently achieve larger reductions in emissions and greater gains in traffic efficiency than routing strategies. Multi-objective optimization reveals the trade-off between the two goals and confirms that including speed limits in the control set yields Pareto-optimal solutions that are strictly superior to those obtained by routing control only. Our results provide quantitative guidance for traffic management seeking to balance mobility and environmental objectives.",
+      "categories": [
+        "math.OC",
+        "math.AP"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00944",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00944",
+      "keywords": [
+        "routing"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "组合优化 / 整数规划",
+        "最优控制",
+        "优化与机器学习"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：组合优化 / 整数规划、最优控制、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.78,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 5.02,
+          "confidence": 1,
+          "matchedSignals": [
+            "routing"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.38,
+          "confidence": 0.47,
+          "matchedSignals": []
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.19,
+          "confidence": 0.44,
+          "matchedSignals": [
+            "diffusion model"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 2.04,
+          "confidence": 0.41,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "运筹应用"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "40283fbd-21a2-4d9c-8eda-58bc3bf19794",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.01215",
+      "title": "Computationally Efficient Near-Optimal Control for Current Ripple Reduction and Optimization of Three-Phase Motors via LMIs",
+      "authors": [
+        "Huu-Thinh Do",
+        "Trung B. Tran",
+        "Jing Sun",
+        "Ilya Kolmanovsky"
+      ],
+      "abstract": "The optimal control of three-phase permanent-magnet synchronous motors (PMSMs) is challenging due to their nonlinearity and the discrete nature of the control set. Existing approaches either rely on mixed-integer trajectory optimization or require computationally intensive value-iteration procedures. This paper proposes a Linear Matrix Inequality (LMI)-based method for approximating the infinite-horizon value function using a quadratic parameterization and iterated Bellman inequalities, yielding a tractable convex program. The computed function can be obtained efficiently offline and used online as a tail cost in a horizon-one optimal control law. Simulation results show that the proposed approach achieves a favorable trade-off between switching effort and current ripple, with performance comparable to that of finite-control-set MPC but with a significantly lower computational cost.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.01215",
+      "pdfUrl": "https://arxiv.org/pdf/2607.01215",
+      "keywords": [
+        "online",
+        "optimal control",
+        "trajectory optimization",
+        "mpc"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal control、mpc，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 17.25,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control",
+            "mpc",
+            "trajectory optimization"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 8.65,
+          "confidence": 0.5,
+          "matchedSignals": [
+            "mixed integer"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 6.21,
+          "confidence": 0.36,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 5.21,
+          "confidence": 0.3,
+          "matchedSignals": [
+            "linear matrix inequality"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "ba386c6d-d96c-430a-bbd2-d38f5cd43fee",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00168",
+      "title": "Data Sharing and Competition in Learning-by-Deploying Industries: Insights from Robotics and Beyond",
+      "authors": [
+        "Yunjin Tong",
+        "Luca-Andrei Manea"
+      ],
+      "abstract": "Many modern technologies improve through use. Each unit deployed generates data that trains the next generation, so deployment is both production and an investment in a shared learning stock. We study how the architecture of this learning, whether pooled across firms or fragmented within them, interacts with firms' deployment decisions and with product-market competition. In a two-period model, symmetric firms make irreversible capacity choices, and capacity in use feeds a learning curve that raises future productivity. We call this learning-by-deploying, replacing the production experience of the classic learning-by-doing tradition with deployment-generated data. With exogenous prices, pooling raises welfare but firms underinvest in early deployment. Downstream Cournot competition overturns this: pooling depresses the price, so the private value of sharing falls with competition and can turn negative. We characterize a sustainability threshold governed, under general demand, by the elasticity of industry demand over the output range pooling induces, and confirm the patterns numerically.",
+      "categories": [
+        "cs.GT",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.GT",
+      "publishedAt": "2026-06-30",
+      "updatedAt": "2026-06-30",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00168",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00168",
+      "keywords": [
+        "rl"
+      ],
+      "subfield": "优化与机器学习",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 rl；分类置信度 58%。",
+      "classificationConfidence": 0.58,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 3.53,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 1.88,
+          "confidence": 0.53,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.67,
+          "confidence": 0.47,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.4,
+          "confidence": 0.4,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 优化与机器学习。",
+      "id": "a10710e6-6f79-44f8-9b02-154c7be5f730",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00252",
+      "title": "Distributionally Robust Linear Regression With Block Lewis Weights",
+      "authors": [
+        "Naren Sarayu Manoj",
+        "Kumar Kshitij Patel"
+      ],
+      "abstract": "We present an algorithm for the group distributionally robust (GDR) least squares problem. Given $m$ groups, a parameter vector in $\\mathbb{R}^d$, and stacked design matrices and responses $\\mathbf{A}$ and $\\mathbf{b}$, our algorithm obtains a $(1+\\varepsilon)$-multiplicative optimal solution using $\\widetilde{O}(\\min\\{\\mathsf{rank}(\\mathbf{A}),m\\}^{1/3}\\varepsilon^{-2/3})$ linear-system-solves of matrices of the form $\\mathbf{A}^{\\top}\\mathbf{B}\\mathbf{A}$ for block-diagonal $\\mathbf{B}$. Our technical methods follow from a recent geometric construction, block Lewis weights, that relates the empirical GDR problem to a carefully chosen least squares problem and an application of accelerated proximal methods. Our algorithm improves over known interior point methods for moderate accuracy regimes and matches the state-of-the-art guarantees for the special case of $\\ell_{\\infty}$ regression. We also give algorithms that smoothly interpolate between minimizing the average least squares loss and the distributionally robust loss.",
+      "categories": [
+        "cs.LG",
+        "cs.DS",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-06-30",
+      "updatedAt": "2026-06-30",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00252",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00252",
+      "keywords": [
+        "robust",
+        "proximal",
+        "distributionally robust"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 robust、distributionally robust，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 17.35,
+          "confidence": 1,
+          "matchedSignals": [
+            "distributionally robust",
+            "robust"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.21,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优传输",
+          "score": 2.18,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "低秩优化",
+          "score": 1.95,
+          "confidence": 0.11,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "非光滑",
+        "鲁棒"
+      ],
+      "methodTags": [
+        "proximal",
+        "interior point"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "4eed6acd-f06c-4fa3-8c98-d0d56687f9ff",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00376",
+      "title": "Distributed Prediction under Heterogeneity with Unidentifiable Parameter",
+      "authors": [
+        "Erbo Li",
+        "Zhaojun Hu",
+        "Ting Wei",
+        "Yifan Sun",
+        "Liping Zhu"
+      ],
+      "abstract": "Predicting a response based on covariates is a fundamental problem in statistics and machine learning. However, profound difficulties arise when the underlying low-dimensional structural parameters are unidentifiable, as typified in dimension reduction contexts. Specifically,estimating these non-identifiable parameters inherently introduces severe nonconvexity. In distributed settings, this difficulty is further compounded by the challenges of data heterogeneity and communication cost. To overcome these intertwined barriers, we propose a novel distributed semiparametric framework. We formulate an adaptive homogeneity pursuit utilizing a trace-similarity penalty to effectively address data heterogeneity. To resolve the ensuing severe nonconvexity and communication bottlenecks, we introduce an invex relaxation technique coupled with a multi-step local update algorithm, ensuring stable convergence to global optimality with significantly reduced communication overhead. Theoretically, we establish a non-asymptotic model-free prediction error bound and prove that our estimator achieves a two-phase minimax optimal convergence rate and an sharper model-free prediction error bound. Furthermore, we provide theoretical guarantees for algorithmic convergence and communication efficiency. Extensive simulations and a real-world multi-center medical application validate the superiority of our method.",
+      "categories": [
+        "stat.ME",
+        "math.OC",
+        "math.ST"
+      ],
+      "primaryCategory": "stat.ME",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00376",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00376",
+      "keywords": [
+        "nonconvex",
+        "distributed",
+        "local update",
+        "convergence rate"
+      ],
+      "subfield": "分布式优化",
+      "secondarySubfields": [
+        "非凸优化",
+        "通用算法理论与复杂度"
+      ],
+      "classificationReason": "主方向命中 distributed、local update，且与 arXiv 分类线索一致；副方向候选：非凸优化、通用算法理论与复杂度；分类置信度 83%。",
+      "classificationConfidence": 0.83,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "分布式优化",
+          "score": 8.79,
+          "confidence": 1,
+          "matchedSignals": [
+            "distributed",
+            "local update"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 7.86,
+          "confidence": 0.89,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 5.75,
+          "confidence": 0.65,
+          "matchedSignals": [
+            "convergence rate"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 3.32,
+          "confidence": 0.38,
+          "matchedSignals": [
+            "error bound"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "分布式/联邦",
+        "约束",
+        "minimax",
+        "算法复杂度",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 非凸优化 接近。",
+      "id": "8b899161-0863-4a8d-a108-1a1df38aa15a",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00459",
+      "title": "Optimization Algorithm for Determining the Source Surface Radius Based on Parker Solar Probe in situ Measurements from Encounters 1 to 19",
+      "authors": [
+        "Shiouhe Wang",
+        "Fang Shen",
+        "Yi Yang",
+        "Xueshang Feng",
+        "Jiansen He"
+      ],
+      "abstract": "The Potential Field Source Surface (PFSS) extrapolation is a method for estimating the large scale coronal magnetic field from photospheric magnetograms. The source surface serves as the outer boundary of its solution domain, and is typically a spherical surface. An appropriate source surface radius ($R_{ss}$) enables more accurate identification of the coronal magnetic field topology and estimation of the open flux, thereby potentially enhancing the accuracy of space weather modeling. We prove the well-posedness of the PFSS forward problem and establish the existence and uniqueness of the optimal source surface by combining compactness of the admissible set with continuity of the objective functional. The objective functional is the mean squared error (MSE) between PFSS extrapolation and Parker Solar Probe (PSP) radial magnetic field measurements after Parker spiral backmapping and radial scaling for Encounters 1-19. The optimization algorithm is validated with an analytical solution, and Advanced Composition Explorer (ACE) in situ measurements are used as an independent cross-validation dataset. Additional evaluation metrics and Pareto analysis are used to identify the dominant metrics between open flux and polarity prediction accuracy. Our results show that the optimal $R_{ss}$ derived from the algorithm generally increase from solar minimum into the ascending phase of solar cycle 25. The optimized solution improves open flux agreement while preserving or improving polarity prediction accuracy relative to $2.5R_{s}$. The Pareto frontiers show a transition for dominant metrics from open flux during solar minimum to polarity prediction accuracy during the ascending phase.",
+      "categories": [
+        "astro-ph.SR",
+        "math.OC",
+        "physics.space-ph"
+      ],
+      "primaryCategory": "astro-ph.SR",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00459",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00459",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "鲁棒优化 / 分布鲁棒优化",
+        "双层优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、鲁棒优化 / 分布鲁棒优化、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.12,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.08,
+          "confidence": 0.96,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.08,
+          "confidence": 0.96,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.06,
+          "confidence": 0.94,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "0f93ed96-4166-44c7-81e5-f7afead3f9fd",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.00644",
+      "title": "A Data-Enabled Primal-Dual Approach for Policy Learning with SDP Formulations",
+      "authors": [
+        "Han Wang",
+        "Feiran Zhao",
+        "Florian Dorfler"
+      ],
+      "abstract": "This paper develops a data-enabled primal-dual framework for learning optimal control policies for unknown linear discrete-time systems from online data. The proposed approach views the data-dependent control synthesis problem as a time-varying semidefinite program (SDP) whose coefficients are recursively updated from online closed-loop measurements. Instead of repeatedly solving a full SDP as new data arrive, the policy is updated online through lightweight primal-dual iterations, each consisting of a linear equation solve and a projection onto the positive semidefinite cone. The framework applies to both direct and indirect data-driven formulations and covers a broad class of control objectives, including LQR, $H_\\infty$ control, and safety-critical control. To characterize the coupling between online optimization and closed-loop data generation, we introduce two data-dependent quantities: the Sim-to-Real Gap, which measures the mismatch between noisy and noiseless data-induced SDPs, and the Difference-of-Signal, which measures the temporal variation of the SDP coefficients. Under persistency of excitation, suitable SDP regularity conditions, and sufficiently slow data variation, we establish a local linear tracking result up to residual terms governed by the latter two quantities. A global ergodic convergence bound is also derived for arbitrary initialization. Numerical examples on LQR, $H_\\infty$ control, and safe exploration demonstrate that the proposed method can efficiently improve control performance from online data while accommodating SDP constraints beyond the well-explored LQR policy-gradient formulations.",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.00644",
+      "pdfUrl": "https://arxiv.org/pdf/2607.00644",
+      "keywords": [
+        "online",
+        "semidefinite",
+        "sdp",
+        "optimal control",
+        "lqr"
+      ],
+      "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [
+        "最优控制"
+      ],
+      "classificationReason": "主方向命中 semidefinite，且与 arXiv 分类线索一致；副方向候选：最优控制；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 14.84,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite",
+            "sdp"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 12.93,
+          "confidence": 0.87,
+          "matchedSignals": [
+            "optimal control",
+            "lqr"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 8.25,
+          "confidence": 0.56,
+          "matchedSignals": [
+            "online optimization",
+            "online"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.99,
+          "confidence": 0.4,
+          "matchedSignals": [
+            "primal dual"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [
+        "primal-dual"
+      ],
+      "applicationTags": [
+        "强化学习",
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "db8fe61a-1fe7-4c9f-afa0-53e87705ca62",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.01037",
+      "title": "Quantum-Informed Portfolio Selection: An End-to-End Pipeline Validated on Trapped-Ion Hardware with Real Market Data",
+      "authors": [
+        "Romina Yalovetzky",
+        "Martin J. A. Schuetz",
+        "Zichang He",
+        "Jiayu Shen",
+        "Yue Sun",
+        "Rudy Raymond",
+        "Shauna Sahay",
+        "Kishore Perla",
+        "Ruben S. Andrist",
+        "Grant Salton",
+        "Helmut G. Katzgraber",
+        "Roger Bongiovanni",
+        "Niraj Kumar",
+        "Rob Otter"
+      ],
+      "abstract": "Portfolio diversification - a cornerstone of modern investment management - can be formulated as a Maximum Independent Set (MIS) problem on asset correlation graphs. Solving this problem at scale is computationally challenging, motivating the exploration of quantum algorithms for practical financial optimization. We propose an end-to-end pipeline leveraging qReduMIS, a recursive hybrid quantum-classical algorithm. Rather than using quantum optimization to directly produce a final solution, qReduMIS leverages independent set measurements from the Quantum Approximate Optimization Algorithm (QAOA) to identify frozen nodes - vertices likely to belong to optimal solutions - thereby guiding and unblocking subsequent (provably optimal) classical reductions on the remaining graph. We benchmark qReduMIS on real financial data from four major market indices with up to 225 assets, executing experiments on Quantinuum's 98-qubit trapped-ion Helios system, with QAOA circuits acting on kernels of up to 78 qubits and 1016 two-qubit gates. While standalone QAOA fails to find the optimal solution for two of the largest indices (S&P 100 and Nikkei 225), qReduMIS achieves success probabilities of $0.40$ and $0.95$, respectively, with average approximation ratios $\\geq 0.96$ across all four indices. We perform a systematic benchmark on the Quantinuum H2-1 noisy emulator over 73 asset correlation graphs of varying size showing that, for $p=2$ QAOA layers, the optimal time-to-solution scaling exponent of qReduMIS is $3.2$ times smaller than that of standalone QAOA.",
+      "categories": [
+        "quant-ph",
+        "cond-mat.dis-nn",
+        "math.OC"
+      ],
+      "primaryCategory": "quant-ph",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.01037",
+      "pdfUrl": "https://arxiv.org/pdf/2607.01037",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "双层优化",
+        "随机优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：双层优化、随机优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "双层优化",
+          "score": 1.16,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.1,
+          "confidence": 0.95,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.08,
+          "confidence": 0.93,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.06,
+          "confidence": 0.91,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "7495ee8a-9f1a-4327-8be8-8892461379da",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.01125",
+      "title": "ZO-Act: Efficient Zeroth-Order Fine-Tuning via One-Shot Activation-Informed Low-Rank Subspaces",
+      "authors": [
+        "Xun Dong",
+        "Yibo Xu",
+        "Naigang Wang",
+        "Xin Li",
+        "Penghang Yin",
+        "Zi Yang"
+      ],
+      "abstract": "Zeroth-order (ZO) optimization enables fine-tuning large language models when backpropagation is unavailable or memory-prohibitive, but existing methods often perturb full model weights or randomly constructed low-dimensional subspaces, yielding high-variance estimates and limited performance. We propose ZO-Act, an activation-informed ZO fine-tuning method that restricts perturbations to a fixed low-rank subspace derived from input activations. For each linear layer, ZO-Act computes a small activation basis once at initialization and optimizes only lightweight coefficient matrices using forward-only loss evaluations. This reduces the effective perturbation dimension, exposes explicit trainable variables compatible with momentum-based optimizers such as Adam, and naturally supports quantized LLM fine-tuning by keeping low-bit weights frozen. We analyze ZO-Act as zeroth-order optimization over a restricted coefficient space and show that perturbing the low-dimensional coefficients reduces both the variance-dependent convergence term and the finite-difference error of the ZO estimator, at the cost of a controlled subspace approximation bias that is mitigated by the low-rank structure of LLM activations and gradients. Experiments on Llama-3-8B, OPT-13B, and INT4 Llama-3-8B show consistent gains over strong ZO fine-tuning baselines across language understanding, question answering, and commonsense reasoning.",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.01125",
+      "pdfUrl": "https://arxiv.org/pdf/2607.01125",
+      "keywords": [
+        "low rank"
+      ],
+      "subfield": "低秩优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 low rank，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "低秩优化",
+          "score": 12.57,
+          "confidence": 1,
+          "matchedSignals": [
+            "low rank"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 7.3,
+          "confidence": 0.58,
+          "matchedSignals": [
+            "fine tuning",
+            "large language model"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.15,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 2.09,
+          "confidence": 0.17,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "低秩"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 9.8,
+      "recommendationReason": "主方向属于你关注的 低秩优化，命中关键词 Low Rank、low-rank。",
+      "id": "71047389-777c-4926-81e7-0a44a8dc2da5",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.01203",
+      "title": "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics",
+      "authors": [
+        "Jeffrey Fang",
+        "Keyi Shen",
+        "Anutam Srinivasan",
+        "Glen Chou"
+      ],
+      "abstract": "This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds (LEBs) to guarantee robust constraint satisfaction. We develop tight, differentiable, GPU-parallel LEBs for LTV approximations of nonlinear and neural network (NN) dynamics. For analytic dynamics, we introduce path-based Hessian bounds that are tighter than standard interval methods. For NN dynamics, we derive certified LEBs using NN verifier-generated affine relaxations and local Jacobian corrections. We adapt a GPU-parallel system-level synthesis LTV-based robust control solver to be compatible with these LEBs by extending it to handle right-invertible disturbance matrices and non-zero-centered disturbance sets for tight zonotopic uncertainty propagation. Our method, GPUSLS-LEO, enables online optimization of robust feedback policies that account for linearization error, producing tight, formally verified reachable tubes. On complex nonlinear and NN dynamics up to 168 state dimensions, our method can compute robust control policies on the GPU at rates up to 67 Hz, reducing solve times and conservativeness relative to baselines while preserving formal guarantees and real-time performance.",
+      "categories": [
+        "eess.SY",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-07-01",
+      "updatedAt": "2026-07-01",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.01203",
+      "pdfUrl": "https://arxiv.org/pdf/2607.01203",
+      "keywords": [
+        "robust",
+        "online",
+        "optimal control",
+        "uncertainty"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 12.68,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 9.43,
+          "confidence": 0.74,
+          "matchedSignals": [
+            "robust",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 7.98,
+          "confidence": 0.63,
+          "matchedSignals": [
+            "online optimization",
+            "online"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 4.23,
+          "confidence": 0.33,
+          "matchedSignals": [
+            "error bound"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "在线/动态",
+        "约束",
+        "控制",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统"
+      ],
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "7e5e0b8f-5716-4e49-911b-c59b4d804f7f",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2302.08627",
+      "title": "An Optimal Projection Framework for Structure-Preserving Model Reduction of Linear Systems",
+      "authors": [
+        "Xiaodong Cheng"
+      ],
+      "abstract": "This paper presents a structure-preserving model reduction framework for linear systems, in which the $\\mathcal{H}_2$ optimization is incorporated with the Petrov-Galerkin projection to preserve structural features of interest, including dissipativity, passivity, and bounded realness. The model reduction problem is formulated in a nonconvex optimization setting on a noncompact Stiefel manifold, aiming to minimize the $\\mathcal{H}_2$ norm of the approximation error between the full-order and reduced-order models. The explicit expression for the gradient of the objective function is derived, and two gradient descent procedures are applied to seek for a (local) minimum, followed by a theoretical analysis on the convergence properties of the algorithms. Finally, the performance of the proposed method is demonstrated by two numerical examples which consider stability-preserving and passivity-preserving model reduction problems, respectively.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2023-02-16",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2302.08627",
+      "pdfUrl": "https://arxiv.org/pdf/2302.08627",
+      "keywords": [
+        "nonconvex",
+        "convex optimization",
+        "convex"
+      ],
+      "subfield": "非凸优化",
+      "secondarySubfields": [
+        "凸优化"
+      ],
+      "classificationReason": "主方向命中 nonconvex，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 8.82,
+          "confidence": 1,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.79,
+          "confidence": 0.66,
+          "matchedSignals": [
+            "convex optimization",
+            "convex"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.19,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 2.16,
+          "confidence": 0.24,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 非凸优化。",
+      "id": "17c413ee-276e-49a9-abd3-a47615ecec63",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2305.01254",
+      "title": "Time-Domain Moment Matching for Second-Order Systems [Extended Version]",
+      "authors": [
+        "Xiaodong Cheng",
+        "Tudor C. Ionescu"
+      ],
+      "abstract": "The paper develops a second-order time-domain moment matching framework for the structure-preserving model reduction of high-dimensional second-order dynamical systems, avoiding the first-order double-sized equivalent representation. The moments of a second-order system are characterized by the solutions of second-order Sylvester equations, leading to families of parameterized second-order reduced models that match the moments of the original system at selected interpolation points. A two-sided moment matching problem is also addressed, yielding a unique second-order reduced system that matches two distinct sets of interpolation points. Furthermore, we construct reduced second-order systems that match the moments of both the transfer function and its first-order derivative. Then, we also discuss how the proposed framework can be extended to multiple-input multiple-output (MIMO) second-order systems through tangential interpolation, and we identify the main open difficulties in extending the derivative-matching and pole-zero placement results to the MIMO setting. The theory is illustrated on a numerical example of vibrating systems.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2023-05-02",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2305.01254",
+      "pdfUrl": "https://arxiv.org/pdf/2305.01254",
+      "keywords": [
+        "matching",
+        "dynamical system"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "组合优化 / 整数规划",
+        "通用算法理论与复杂度",
+        "最优控制"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：组合优化 / 整数规划、通用算法理论与复杂度、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.65,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 4.63,
+          "confidence": 1,
+          "matchedSignals": [
+            "matching"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 3.6,
+          "confidence": 0.78,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 3.27,
+          "confidence": 0.71,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.91,
+          "confidence": 0.63,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "控制"
+      ],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "5d5c5224-b429-42f4-b6c4-1fd828a697e2",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2407.14258",
+      "title": "Optimal Path Planning of Airborne Wind Energy Systems with a Flexible Tether",
+      "authors": [
+        "Omid Heydarnia",
+        "Jolan Wauters",
+        "Tom Lefebvre",
+        "Guillaume Crevecoeur"
+      ],
+      "abstract": "In this work, we establish an optimal control framework for airborne wind energy systems (AWESs) with flexible tethers. The AWES configuration, consisting of a six-degree-of-freedom aircraft, a flexible tether, and a winch, is formulated as an index-1 differential-algebraic system of equations (DAE). We achieve this by adopting a minimal coordinate representation that uses Euler angles to characterize the aircraft's attitude and employing a quasi-static approach for the tether. The presented method contrasts with other recent optimization studies that use an index-3 DAE approach. By doing so, our approach avoids related inconsistency condition problems. We use a homotopy strategy to solve the optimal control problem that ultimately generates optimal trajectories of the AWES with a flexible tether. We furthermore compare with a rigid tether model by investigating the resulting mechanical powers and tether forces. Simulation results demonstrate the efficacy of the presented methodology and the necessity to incorporate the flexibility of the tether when solving the optimal control problem.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2024-07-19",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2407.14258",
+      "pdfUrl": "https://arxiv.org/pdf/2407.14258",
+      "keywords": [
+        "optimal control"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 10.13,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.96,
+          "confidence": 0.19,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.95,
+          "confidence": 0.19,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.88,
+          "confidence": 0.19,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "能源系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "78b729b9-8e57-486b-a611-3883d1928b38",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2412.09978",
+      "title": "Congestion-Aware Charging Coordination for Electric Ride-Hailing Fleets under Stochastic Demand",
+      "authors": [
+        "Tai-Yu Ma",
+        "Richard D. Connors",
+        "Francesco Viti"
+      ],
+      "abstract": "Charging-station capacity strongly affects the profitability of electric ride-hailing systems. In this study, we develop a dynamic charging scheduling method that anticipates vehicles' energy needs and coordinates their charging operations with real-time energy prices to avoid long waiting time at charging stations and increase the total profit of the system. A sequential mixed integer linear programming model is proposed to devise vehicles' day-ahead charging plans based on their experienced charging waiting times and energy consumption. The developed charging policy is tested on a Manhattan-like study area using synthetic data drawn from NYC yellow taxi data with a fleet size of 100 vehicles given the scenarios of 3000 and 4000 customers/day. The computational results show that our method outperforms different benchmark policies with up to +19.32% profit and +20.03% service rate for 4000 customers relative to the weakest benchmark; relative to the strongest benchmark (OptChg), the corresponding gains are +3.91% profit and +4.60% service rate. Sensitivity analysis is conducted with different system parameters and managerial insights are discussed.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2024-12-13",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2412.09978",
+      "pdfUrl": "https://arxiv.org/pdf/2412.09978",
+      "keywords": [
+        "stochastic",
+        "mixed integer",
+        "scheduling"
+      ],
+      "subfield": "组合优化 / 整数规划",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 mixed integer、scheduling，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 11.5,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer",
+            "scheduling"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 3.78,
+          "confidence": 0.33,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.2,
+          "confidence": 0.19,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.87,
+          "confidence": 0.16,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "运筹应用"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "fcbb240f-5733-4d9a-8702-015d8031e6bd",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2502.15138",
+      "title": "Optimal Comfortable Consumption under Epstein-Zin utility",
+      "authors": [
+        "Dejian Tian",
+        "Weidong Tian",
+        "Jianjun Zhou",
+        "Zimu Zhu"
+      ],
+      "abstract": "We solve the optimal portfolio choice problem under Epstein--Zin utility with a time-varying consumption constraint, where closed-form expressions for neither the primal nor the dual value function are available. We establish the dynamic programming principle for the value function and prove that it is a viscosity solution of the corresponding Hamilton--Jacobi--Bellman equation. We further establish the $C^2$ regularity of the value function and derive a verification theorem using stochastic perturbation techniques. Finally, we provide an explicit characterization of the constrained region. The proposed methodology extends naturally to other constrained portfolio choice problems under the Epstein--Zin framework.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-02-21",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2502.15138",
+      "pdfUrl": "https://arxiv.org/pdf/2502.15138",
+      "keywords": [
+        "stochastic"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "随机优化",
+        "半定规划 / 锥优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、半定规划 / 锥优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.68,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 5.41,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.88,
+          "confidence": 0.35,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.85,
+          "confidence": 0.34,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.82,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机",
+        "约束"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "33a921bd-8e0e-4db5-b14e-34eba39570c0",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2503.03169",
+      "title": "The existence and stability for a class of fuzzy fractional boundary value problems constrained by variational inequalities",
+      "authors": [
+        "Zengbao Wu",
+        "Quanguo Zhang",
+        "Tao Chen",
+        "Yibin Xiao",
+        "Tianyin Wang",
+        "Chunyan Yang"
+      ],
+      "abstract": "In this paper, the existence and stability of a new system consisting of fuzzy fractional differential inclusions (FFDIs) with integral boundary conditions and variational inequalities are considered in Euclidean spaces. This system integrates the features of both FFDIs with integral boundary conditions and fractional differential variational inequalities in a unified framework. The existence of solutions for this system is established under some mild conditions. Moreover, the semicontinuity of the solution map for the perturbed system is investigated with respect to parameter perturbations. Finally, we use two numerical examples to show the validity of the above theoretical findings.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-03-05",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2503.03169",
+      "pdfUrl": "https://arxiv.org/pdf/2503.03169",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "变分分析",
+        "双层优化",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：变分分析、双层优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.5,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "变分分析",
+          "score": 2.82,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.9,
+          "confidence": 0.67,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.6,
+          "matchedSignals": []
+        },
+        {
+          "name": "低秩优化",
+          "score": 1.67,
+          "confidence": 0.59,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "32026f54-c811-4430-b47e-abcf53f9b408",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2503.24075",
+      "title": "Optimization on the Oblique Manifold for Sparse Simplex Constraints via Multiplicative Updates",
+      "authors": [
+        "Flavia Esposito",
+        "Andersen Ang"
+      ],
+      "abstract": "Low-rank optimization problems with sparse simplex constraints involve variables that must satisfy nonnegativity, sparsity, and sum-to-1 conditions, making their optimization particularly challenging due to the interplay between low-rank structures and constraints. These problems arise in various applications, including machine learning, signal processing, environmental fields, and computational biology. In this work, we propose a novel manifold optimization approach to efficiently tackle these problems. Our method leverages the geometry of oblique manifolds to reformulate the problem and introduces a new Riemannian optimization method based on Riemannian gradient descent that strictly maintains the simplex constraints. By exploiting the underlying manifold structure, our approach improves optimization efficiency. Experiments on synthetic and real datasets demonstrate the effectiveness of the proposed method compared to standard Euclidean and Riemannian methods, paving the way for broader applications.",
+      "categories": [
+        "math.OC",
+        "cs.LG"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-03-31",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2503.24075",
+      "pdfUrl": "https://arxiv.org/pdf/2503.24075",
+      "keywords": [
+        "low rank"
+      ],
+      "subfield": "低秩优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 low rank，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "低秩优化",
+          "score": 10.06,
+          "confidence": 1,
+          "matchedSignals": [
+            "low rank"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 3.25,
+          "confidence": 0.32,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 3.11,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.01,
+          "confidence": 0.3,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "低秩",
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "信号处理"
+      ],
+      "score": 9.8,
+      "recommendationReason": "主方向属于你关注的 低秩优化，命中关键词 Low Rank、low-rank。",
+      "id": "c514c469-883c-411b-a653-ea06ee947ff9",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2504.09951",
+      "title": "Towards Weaker Variance Assumptions for Stochastic Optimization",
+      "authors": [
+        "Ahmet Alacaoglu",
+        "Yura Malitsky",
+        "Stephen J. Wright"
+      ],
+      "abstract": "We revisit a classical assumption for analyzing stochastic gradient algorithms where the squared norm of the stochastic subgradient (or the variance for smooth problems) is allowed to grow as fast as the squared norm of the optimization variable. We contextualize this assumption in view of its inception in the 1960s, its seemingly independent appearance in the recent literature, its relationship to weakest-known variance assumptions for analyzing stochastic gradient algorithms, and its relevance in deterministic problems for non-Lipschitz nonsmooth convex optimization. We build on and extend a connection recently made between this assumption and the Halpern iteration. For convex nonsmooth, and potentially stochastic, optimization, we analyze horizon-free, anytime algorithms with last-iterate rates. For problems beyond simple constrained optimization, such as convex problems with functional constraints or regularized convex-concave min-max problems, we obtain rates for optimality measures that do not require boundedness of the feasible set.",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-04-14",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2504.09951",
+      "pdfUrl": "https://arxiv.org/pdf/2504.09951",
+      "keywords": [
+        "stochastic",
+        "stochastic optimization",
+        "convex optimization",
+        "convex",
+        "nonsmooth"
+      ],
+      "subfield": "随机优化",
+      "secondarySubfields": [
+        "凸优化"
+      ],
+      "classificationReason": "主方向命中 stochastic optimization，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 74%。",
+      "classificationConfidence": 0.74,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 8.47,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic optimization",
+            "stochastic"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 7.1,
+          "confidence": 0.84,
+          "matchedSignals": [
+            "convex optimization",
+            "convex",
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 3.25,
+          "confidence": 0.38,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.16,
+          "confidence": 0.37,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非光滑",
+        "随机",
+        "约束",
+        "minimax"
+      ],
+      "methodTags": [
+        "SGD"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.6,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "ca8837dc-3699-4242-86e8-9e8230b2da31",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2505.12529",
+      "title": "$\\mathcal{H}_\\infty$ model order reduction for quadratic output systems",
+      "authors": [
+        "Birgit Hillebrecht",
+        "Benjamin Unger"
+      ],
+      "abstract": "Linear time-invariant quadratic output (LTIQO) systems generalize linear time-invariant systems to nonlinear regimes. Problems of this class occur in multiple applications naturally, such as port-Hamiltonian systems, optimal control, and stochastical problems. We introduce an $\\mathcal{H}_\\infty$-norm for LTIQO systems with one or multiple outputs and propose an algorithm to optimize a reduced order model (ROM) to be close in the $\\mathcal{H}_\\infty$-norm to a given full order model. We illustrate the applicability and the performance with an established numerical example and compare the resulting ROMs with results from balanced truncation and $\\mathcal{H}_2$-focussed algorithms.",
+      "categories": [
+        "math.OC",
+        "math.DS"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-05-18",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2505.12529",
+      "pdfUrl": "https://arxiv.org/pdf/2505.12529",
+      "keywords": [
+        "stochastic",
+        "online",
+        "optimal control"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "在线优化 / 动态优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、在线优化 / 动态优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.94,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 8.53,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.5,
+          "confidence": 0.64,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 3.5,
+          "confidence": 0.41,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.12,
+          "confidence": 0.25,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机",
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "acdd2f39-933e-4c26-ab47-1dff4a1d7bc6",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2506.16739",
+      "title": "A class of nonconvex semidefinite programming in which every KKT point is globally optimal",
+      "authors": [
+        "Akatsuki Nishioka",
+        "Yoshihiro Kanno"
+      ],
+      "abstract": "We consider a special class of nonconvex semidefinite programming problems and show that every point satisfying the Karush--Kuhn--Tucker (KKT) conditions is globally optimal despite nonconvexity. This property is related to pseudoconvex optimization and fractional programming. We also present several applications to robust fractional programming and generalized eigenvalue optimization appearing in topology optimization, network control, finance, etc.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-06-20",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2506.16739",
+      "pdfUrl": "https://arxiv.org/pdf/2506.16739",
+      "keywords": [
+        "nonconvex",
+        "robust",
+        "semidefinite programming",
+        "semidefinite"
+      ],
+      "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 19.11,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 11.18,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.94,
+          "confidence": 0.31,
+          "matchedSignals": [
+            "convex optimization",
+            "convex"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.9,
+          "confidence": 0.31,
+          "matchedSignals": [
+            "robust"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "鲁棒"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "4b972eab-3786-4bcf-b3f6-bdde4baf03f7",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2507.02961",
+      "title": "Flow-Through Tensors: A Unified Computational Graph Architecture for Multi-Layer Transportation Network Optimization",
+      "authors": [
+        "Xuesong Zhou",
+        "Taehooie Kim",
+        "Mostafa Ameli",
+        "Henan Zhu",
+        "Yudai Honma",
+        "Ram M. Pendyala"
+      ],
+      "abstract": "Modern transportation network modeling increasingly involves the integration of diverse methodologies including sensor-based forecasting, reinforcement learning, classical flow optimization, and demand modeling that have traditionally been developed in isolation. This paper introduces Flow Through Tensors (FTT), a unified computational graph architecture that connects origin destination flows, path probabilities, and link travel times as interconnected tensors. Our framework makes three key contributions: first, it establishes a consistent mathematical structure that enables gradient-based optimization across previously separate modeling elements; second, it supports multidimensional analysis of traffic patterns over time, space, and user groups with precise quantification of system efficiency; third, it implements tensor decomposition techniques that maintain computational tractability for large scale applications. These innovations collectively enable real time control strategies, efficient coordination between multiple transportation modes and operators, and rigorous enforcement of physical network constraints. The FTT framework bridges the gap between theoretical transportation models and practical deployment needs, providing a foundation for next generation integrated mobility systems.",
+      "categories": [
+        "math.OC",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-06-30",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2507.02961",
+      "pdfUrl": "https://arxiv.org/pdf/2507.02961",
+      "keywords": [
+        "reinforcement learning"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "在线优化 / 动态优化",
+        "分布式优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、在线优化 / 动态优化、分布式优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.94,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 5.31,
+          "confidence": 1,
+          "matchedSignals": [
+            "reinforcement learning"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.26,
+          "confidence": 0.42,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 2.25,
+          "confidence": 0.42,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.13,
+          "confidence": 0.4,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "强化学习"
+      ],
+      "score": 9.8,
+      "recommendationReason": "主方向属于你关注的 无法确定分类，命中关键词 Tensor、Tensor Decomposition。",
+      "id": "df44b716-6188-4b01-9261-74dc3285860a",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2510.12456",
+      "title": "Micro-Macro Backstepping Control of Large-Scale Hyperbolic Systems (Extended Version)",
+      "authors": [
+        "Jukka-Pekka Humaloja",
+        "Nikolaos Bekiaris-Liberis"
+      ],
+      "abstract": "We introduce a control design and analysis framework for micro-macro, boundary control of large-scale, $n+m$ hyperbolic PDE systems. Specifically, we develop feedback laws for stabilization of hyperbolic systems at the micro level (i.e., of the large-scale system) that employ a) measurements obtained from the $n+m$ system (i.e., at micro level) and kernels constructed based on an $\\infty+\\infty$ continuum system counterpart (i.e., at macro level), or b) kernels and measurements both stemming from a continuum counterpart, or c) averaged-continuum kernels/measurements. We also address (d)) stabilization of the continuum (macro) system, employing continuum kernels and measurements. Towards addressing d) we derive in a constructive manner an $\\infty+\\infty$ continuum approximation of $n+m$ hyperbolic systems and establish that its solutions approximate, for large $n$ and $m$, the solutions of the $n+m$ system. We then construct a feedback law for stabilization of the $\\infty+\\infty$ system via introduction of a continuum-PDE backstepping transformation. We establish well-posedness of the resulting 4-D kernel equations and prove closed-loop stability via construction of a novel Lyapunov functional. Furthermore, under control configuration a) we establish that the closed-loop system is exponentially stable provided that $n$ and $m$ are large, by proving that the exact, stabilizing $n+m$ control kernels can be accurately approximated by the continuum kernels. While under control configurations b) and c), we establish closed-loop stability capitalizing on the established solutions' and kernels' approximation properties via employment of infinite-dimensional ISS arguments. We provide two numerical simulation examples to illustrate the effectiveness and potential limitations of our design approach.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-10-14",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2510.12456",
+      "pdfUrl": "https://arxiv.org/pdf/2510.12456",
+      "keywords": [
+        "stabilization"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [
+        "双层优化"
+      ],
+      "classificationReason": "主方向命中 stabilization，且与 arXiv 分类线索一致；副方向候选：双层优化；分类置信度 87%。",
+      "classificationConfidence": 0.87,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 5.55,
+          "confidence": 1,
+          "matchedSignals": [
+            "stabilization"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 2.34,
+          "confidence": 0.42,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 2,
+          "confidence": 0.36,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.88,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "d4ac78de-fb71-4e34-981b-0ac6a05c9a7c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2510.24755",
+      "title": "A Compressive Sensing Inspired Monte-Carlo Method for Combinatorial Optimization",
+      "authors": [
+        "Baptiste Chevalier",
+        "Shimpei Yamaguchi",
+        "Wojciech Roga",
+        "Masahiro Takeoka"
+      ],
+      "abstract": "In this paper, we present a Monte-Carlo Compressive Optimization algorithm, a new method to tackle combinatorial optimization problems, including Black-Box or complicated objective functions. The method relies on random queries to the objective function in order to estimate generalized moments. Next, a greedy algorithm from compressive sensing is repurposed to find the global optimum when not overfitting to the samples. We provide numerical results giving evidence that our method is competitive by comparing it with dual annealing. Moreover, we give theoretical justification for the success of the algorithm and analyze its properties. The practicality of our algorithm is enhanced by the ability to tune the heuristic parameters to the available computational resources. An end-to-end open-source implementation is available to use our method.",
+      "categories": [
+        "math.OC",
+        "quant-ph"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-10-20",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2510.24755",
+      "pdfUrl": "https://arxiv.org/pdf/2510.24755",
+      "keywords": [
+        "combinatorial optimization"
+      ],
+      "subfield": "组合优化 / 整数规划",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 combinatorial optimization，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 10.8,
+          "confidence": 1,
+          "matchedSignals": [
+            "combinatorial optimization"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.3,
+          "confidence": 0.21,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.23,
+          "confidence": 0.21,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 2.18,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "e2ea5a72-8682-4186-a4ac-47530b8c61b7",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2601.20181",
+      "title": "A Fokker-Planck Framework for Control of Epidemics",
+      "authors": [
+        "Christian Parkinson",
+        "Souvik Roy"
+      ],
+      "abstract": "We present a control framework for stochastic compartmental models in epidemiology. In this framework, rather than directly controlling the stochastic system, we perform optimal control of an associated Fokker-Planck equation, with the goal of steering the distribution of possible solutions of the stochastic system to some desirable state. In particular, this allows for robust control mechanism with uncertainty not only in the dynamics, but also in the initial data. We formulate and fully analyze a partial differential equation constrained optimization problem, including a proof of existence of optimal controls via analysis of the control-to-state map, and a characterization of optimal controls via the Pontryagin minimum principle. We describe the application of the sequential quadratic Hamiltonian method to our problem, which provides numerical approximations of optimal control maps. We demonstrate our method using a minimal stochastic susceptible-infected-recovered model with different choices of cost functionals that represent different policy-maker concerns.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-01-28",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2601.20181",
+      "pdfUrl": "https://arxiv.org/pdf/2601.20181",
+      "keywords": [
+        "stochastic",
+        "robust",
+        "optimal control",
+        "uncertainty"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 10.05,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 8.24,
+          "confidence": 0.82,
+          "matchedSignals": [
+            "robust",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.49,
+          "confidence": 0.45,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.98,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "鲁棒",
+        "约束",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "6f8f1145-3da9-4b22-8eca-43166317a38d",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2602.06730",
+      "title": "Wasserstein Robust Performative Prediction via Lagrangian Relaxation",
+      "authors": [
+        "Siyi Wang",
+        "Zifan Wang",
+        "Karl H. Johansson"
+      ],
+      "abstract": "In machine learning, predictive models are trained on historical data. Their deployment may incentivize agents to strategically adapt their behavior, thereby inducing a model-dependent distribution shift. This phenomenon is known as performativity. This paper develops a Wasserstein distributionally robust framework for performative prediction, where the predictive model only has access to limited data. Using these data, we construct an ambiguity set centered on the empirical distribution, and optimize the predictive model against the worst-case distribution. Furthermore, we reformulate the objective as a tractable min-max optimization problem via Lagrangian relaxation, and allow the penalty to depend on the prediction model. Based on this, we develop distributionally robust repeated risk minimization (DR-RRM) and repeated gradient descent (DR-RGD) algorithms to iteratively find a performative stable point amid distributional shifts and model retraining. We theoretically show that both algorithms converge to a stable point linearly under standard regularity conditions. When accounting for approximation errors in the optimization problems, both algorithms converge to a neighborhood of the stable point. Additionally, we establish theoretical bounds on the suboptimality gap between the stable point and the global performative optimum. Finally, numerical simulations of a dynamic credit scoring problem demonstrate the efficacy of the method.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-02-06",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2602.06730",
+      "pdfUrl": "https://arxiv.org/pdf/2602.06730",
+      "keywords": [
+        "robust",
+        "worst case",
+        "distributionally robust",
+        "distribution shift",
+        "ambiguity set",
+        "wasserstein robust"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 robust、distributionally robust，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 15.31,
+          "confidence": 1,
+          "matchedSignals": [
+            "distributionally robust",
+            "ambiguity set",
+            "distribution shift",
+            "robust"
+          ]
+        },
+        {
+          "name": "最优传输",
+          "score": 11.43,
+          "confidence": 0.75,
+          "matchedSignals": [
+            "wasserstein"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.05,
+          "confidence": 0.13,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.04,
+          "confidence": 0.13,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "最优传输",
+        "约束",
+        "minimax",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "4324625a-62d4-4f9b-b4fe-9f357bfef75c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2603.05624",
+      "title": "Mean-field games with unbounded controls: a weak formulation approach to global solutions",
+      "authors": [
+        "Ulrich Horst",
+        "Takashi Sato"
+      ],
+      "abstract": "We establish an existence of equilibrium result for a class of non-Markovian mean-field games with unbounded control space in weak formulation. Our result is based on new existence and stability results for quadratic-growth generalized McKean-Vlasov BSDEs. Unlike earlier approaches, our approach does not require boundedness assumptions on the model parameters or time horizons and allows for running costs that are quadratic in the control variable.",
+      "categories": [
+        "math.OC",
+        "math.PR",
+        "q-fin.MF"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-03-05",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2603.05624",
+      "pdfUrl": "https://arxiv.org/pdf/2603.05624",
+      "keywords": [
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "变分分析",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、变分分析、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.06,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.28,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.07,
+          "confidence": 0.91,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.07,
+          "confidence": 0.91,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.93,
+          "confidence": 0.85,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "566a1341-a17b-4298-9af4-0628f5662f0f",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2604.18926",
+      "title": "High-Fidelity Capacity Expansion Planning for Puerto Rico's Electric Power System",
+      "authors": [
+        "Elizabeth Glista",
+        "Tomas Valencia Zuluaga",
+        "Amelia Musselman",
+        "Minda Monteagudo",
+        "Juliette Franzman",
+        "Jean-Paul Watson"
+      ],
+      "abstract": "This study presents a mathematical optimization framework and analysis to inform practical long-term investment planning in Puerto Rico's electric power system. We utilize a high-resolution capacity expansion planning model to identify least-cost generation and storage investments that improve reliability. The model co-optimizes new investments with thermal retirements and includes detailed dispatch, unit commitment, fuel selection, storage operation, engineering limits, system constraints, fuel supply limits, and load balance. Key advances over prior studies on Puerto Rico's system include: (i) Nodal transmission representation at 38 kV and above; (ii) hourly chronological simulation for representative days; (iii) explicit unit commitment for existing and new thermal units with realistic ramping, minimum up and down times, and startup costs; (iv) system-wide fuel supply constraints; and (v) operational scenarios reflecting load variability, renewable availability, and high forced outage rates in legacy units. Using data from LUMA, the Puerto Rico Electric Power Authority (PREPA), U.S. Department of Energy, and public sources, the study builds representative Puerto Rico systems for 2024 and 2030, with the latter including planned generation and storage projects. It tests scenarios with different future load levels, fuel supply assumptions, planned additions, and allowed technologies. Under the study assumptions, least-cost portfolios that meet reliability targets require about 1.5 GW or more of new H-class combined cycle capacity, in addition to planned projects. These additions mainly replace unreliable legacy thermal units rather than serve new load. The new CC investments eliminate modeled load shedding in the bulk system and restore a robust reserve margin, even under stressed load and outage conditions.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-04-21",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2604.18926",
+      "pdfUrl": "https://arxiv.org/pdf/2604.18926",
+      "keywords": [
+        "robust",
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化",
+        "最优控制",
+        "优化与机器学习"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、最优控制、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.78,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.54,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.46,
+          "confidence": 0.44,
+          "matchedSignals": []
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.38,
+          "confidence": 0.43,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.88,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "鲁棒",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "能源系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "7d537188-d3db-44f4-bdbb-95298947516c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2604.20029",
+      "title": "Forward-looking evolutionary game dynamics subject to exploration cost",
+      "authors": [
+        "Hidekazu Yoshioka"
+      ],
+      "abstract": "We extend classical evolutionary game dynamics based on the momentary action choices of agents by accounting for two elements: forward-looking behavior and exploration cost. We focus on pairwise comparison protocols that cover major evolutionary game dynamics, such as replicator and logit models. In the proposed mathematical framework, agents update their actions by paying a cost so that a utility or its relative difference is maximized. We show that forward-looking behavior can be modeled as a coupling between the evolutionary game dynamic and static Hamilton-Jacobi-Bellman equation: a mean field game. The exploration cost and its constraint are naturally related to these equations as a function of the optimal Lagrangian multiplier serving as a relaxation parameter, and it is incorporated into the game as a constraint. We show that under certain conditions, our evolutionary game dynamic admits a unique solution. Finally, we computationally investigate one- and two-dimensional problems.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-04-21",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2604.20029",
+      "pdfUrl": "https://arxiv.org/pdf/2604.20029",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "双层优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、双层优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.14,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 2.19,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.97,
+          "confidence": 0.9,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.9,
+          "confidence": 0.86,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.85,
+          "confidence": 0.84,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "b1912d2c-0a40-4a67-85dc-3fec989bacf5",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2412.15965",
+      "title": "Optimization of Beyond Diagonal RIS: A Universal Framework Applicable to Arbitrary Architectures",
+      "authors": [
+        "Zheyu Wu",
+        "Bruno Clerckx"
+      ],
+      "abstract": "Reconfigurable intelligent surfaces (RISs) are envisioned as a promising technology for future wireless communication systems due to their ability to control the propagation environment in a hardware- and energy-efficient way. Recently, the concept of RISs has been extended to beyond-diagonal RISs (BD-RISs), which unlock the full potential of RISs thanks to the presence of tunable interconnections between RIS elements. While various algorithms have been proposed for BD-RIS optimization, they mainly focus on specific architectures whose scattering matrices exhibit very special structures. A universal optimization framework that can accommodate different BD-RIS circuit topologies is still lacking. In this paper, we bridge this research gap by proposing an architecture-independent framework for BD-RIS optimization, with the main focus on sum-rate maximization and transmit power minimization in multiuser multi-input single-output (MU-MISO) systems. Specifically, we first incorporate BD-RIS architectures into the models by connecting the scattering matrix with the admittance matrix and introducing appropriate constraints to the admittance matrix. The formulated problems are then solved by our custom-designed partially proximal alternating direction method of multipliers (pp-ADMM) algorithms. The pp-ADMM algorithms are computationally efficient, with each subproblem either admitting a closed-form solution or being easily solvable. Simulation results demonstrate that the proposed approaches achieve a better trade-off between performance and computational efficiency compared to existing methods.",
+      "categories": [
+        "eess.SP",
+        "cs.IT",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SP",
+      "publishedAt": "2024-12-20",
+      "updatedAt": "2026-06-30",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2412.15965",
+      "pdfUrl": "https://arxiv.org/pdf/2412.15965",
+      "keywords": [
+        "proximal"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "分布式优化",
+        "在线优化 / 动态优化",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：分布式优化、在线优化 / 动态优化、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "分布式优化",
+          "score": 1.6,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 1.44,
+          "confidence": 0.9,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.42,
+          "confidence": 0.89,
+          "matchedSignals": []
+        },
+        {
+          "name": "低秩优化",
+          "score": 1.37,
+          "confidence": 0.86,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑",
+        "约束"
+      ],
+      "methodTags": [
+        "proximal",
+        "ADMM",
+        "augmented Lagrangian"
+      ],
+      "applicationTags": [
+        "信号处理"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "a19ac599-4d8c-46dd-abf0-772d5c389b8d",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2505.18336",
+      "title": "Sampled-data Systems: Stability, Contractivity and Single-iteration Suboptimal MPC",
+      "authors": [
+        "Yiting Chen",
+        "Francesco Bullo",
+        "Emiliano Dall'Anese"
+      ],
+      "abstract": "This paper analyzes the stability of interconnected continuous-time (CT) and discrete-time (DT) systems coupled through sampling and zero-order hold mechanisms. The DT system updates its output at regular intervals $T>0$ by applying an $n$-fold composition of a given map. This setup is motivated by online and sampled-data implementations of optimization-based controllers - particularly model predictive control (MPC) - where the DT system models $n$ iterations of an algorithm approximating the solution of an optimization problem. We introduce the concept of a reduced model, defined as the limiting behavior of the sampled-data system as $T \\to 0^+$ and $n \\to +\\infty$. Our main theoretical contribution establishes that when the reduced model is contractive, there exists a threshold duration $T(n)$ for each iteration count $n$ such that the CT-DT interconnection achieves exponential stability for all sampling periods $T < T(n)$. Finally, under the stronger condition that both the CT and DT systems are contractive, we show exponential stability of their interconnection using a small-gain argument. Our theoretical results provide new insights into suboptimal MPC stability, showing that convergence guarantees hold even when using a single iteration of the optimization algorithm - a practically significant finding for real-time control applications.",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2025-05-23",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2505.18336",
+      "pdfUrl": "https://arxiv.org/pdf/2505.18336",
+      "keywords": [
+        "online",
+        "model predictive control",
+        "mpc"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 model predictive control，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 10.27,
+          "confidence": 1,
+          "matchedSignals": [
+            "model predictive control",
+            "mpc"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.17,
+          "confidence": 0.5,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.77,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.57,
+          "confidence": 0.15,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "b5fe12b0-6cb2-4cdd-a74a-c7a160bddb7b",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2506.03108",
+      "title": "Higher Order Rigidity and Energy",
+      "authors": [
+        "Steven J. Gortler",
+        "Miranda Holmes-Cerfon",
+        "Louis Theran"
+      ],
+      "abstract": "In this paper, we revisit the notion of higher-order rigidity of a bar-and-joint framework. In particular, we provide a link between the rigidity properties of a framework, and the growth order of an energy function defined on that framework. Using our approach, we propose a general definition for the rigidity order of a framework, and we show that this definition does not depend on the details of the chosen energy function. Then we show how this order can be studied using higher order derivative tests. Doing so, we obtain a new proof that the lack of a second order flex implies rigidity. Our proof relies on our construction of a fourth derivative test, which may be applied to a critical point when the second derivative test fails. We also obtain a new proof that when the dimension of non-trivial first-order flex coefficients $\\p'$ equals $1$, then the lack of a $k$th order flex for some $k$ implies a framework is rigid. The higher order derivative tests that we study here may have applications in more general optimization problems.",
+      "categories": [
+        "math.MG",
+        "math.OC"
+      ],
+      "primaryCategory": "math.MG",
+      "publishedAt": "2025-06-03",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2506.03108",
+      "pdfUrl": "https://arxiv.org/pdf/2506.03108",
+      "keywords": [
+        "critical point"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "非凸优化",
+        "通用算法理论与复杂度",
+        "半定规划 / 锥优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：非凸优化、通用算法理论与复杂度、半定规划 / 锥优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.27,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 2.86,
+          "confidence": 1,
+          "matchedSignals": [
+            "critical point"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 2.55,
+          "confidence": 0.89,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.71,
+          "confidence": 0.6,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 0.97,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "8d277d05-4415-4272-bc48-6a69b68ccb32",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2506.16886",
+      "title": "Properties of Adjoint Solutions of the Full-potential Equations for Two-Dimensional Subcritical Flow",
+      "authors": [
+        "Carlos Lozano",
+        "Jorge Ponsin"
+      ],
+      "abstract": "The adjoint full-potential equations are studied for two-dimensional (2D) steady subcritical flows. In contrast with the incompressible case, explicit closed-form solutions are generally not available in the compressible setting, so the emphasis is placed here on the underlying structure. Using the Green's-function approach and the relation between the adjoint full-potential and compressible adjoint Euler equations, we identify the adjoint potential and stream function with linear combinations of the Euler adjoint variables associated with point mass and vorticity sources. For lift-based cost functions, the corresponding adjoint solutions contain two unknown functions that encode the effect of perturbations to the Kutta condition. We show that these functions obey the linearized full-potential equations, are linked by generalized Cauchy-Riemann equations, and reduce in the incompressible limit to the Poisson kernel of the Laplacian on the exterior of the circle and its harmonic conjugate. Their properties are examined analytically and through numerical adjoint solutions. Finally, a continuous formulation of the Kutta condition for the adjoint full-potential equations is discussed and interpreted in terms of singular boundary forcing, Green-function kernels, and an equivalent Lagrange-multiplier formulation.",
+      "categories": [
+        "physics.flu-dyn",
+        "math.OC"
+      ],
+      "primaryCategory": "physics.flu-dyn",
+      "publishedAt": "2025-06-20",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2506.16886",
+      "pdfUrl": "https://arxiv.org/pdf/2506.16886",
+      "keywords": [
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "双层优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、双层优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.33,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.2,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 1.15,
+          "confidence": 0.52,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.11,
+          "confidence": 0.51,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 0.88,
+          "confidence": 0.4,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "42c16f32-15dc-4f64-9939-644165d57715",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2509.22557",
+      "title": "Self-Improving Neural Pruning: A Graph Neural Network Framework for Scalable Mixed Bundle Pricing",
+      "authors": [
+        "Liangyu Ding",
+        "Guokai Li",
+        "Zizhuo Wang",
+        "Chenghan Wu"
+      ],
+      "abstract": "Mixed bundle pricing is a classic revenue management problem arising in industries such as e-commerce, tourism, and video games. It refers to designing product combinations (i.e., bundles) and determining their prices to maximize expected profit. Exact mixed-bundling formulations capture this structure but are computationally intractable because the number of possible bundles grows exponentially with the number of products. We propose a graph neural network (GNN)-guided pruning framework for scalable (non-)additive bundle pricing. Instead of learning on the exponential bundle-level formulation, we encode each instance as a compact customer-product graph and train an edge-output GNN to learn the product-assignment probabilities from optimal mixed-bundling solutions. The predicted probabilities are then converted into restricted candidate bundle families through fixed cutoff pruning and progressive cutoff pruning; the final prices and assignments are obtained by solving the mixed bundling formulation over the retained bundles. We further introduce a GNN-guided local search and an iterative self-improvement procedure for larger instances. The local search refines the retained bundle family by prioritizing high-confidence add/drop moves, while the iterative self-improvement procedure generates high-quality solutions on larger instances for retraining. Theoretically, we show that under mild distinguishability conditions the proposed edge-output GNN class is expressive enough to recover the optimal product-assignment mapping. Experiments show that the proposed policies recover over 98% of the optimal profit on small instances and outperform bundle-size pricing on larger instances with substantial runtime savings.",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2025-09-26",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2509.22557",
+      "pdfUrl": "https://arxiv.org/pdf/2509.22557",
+      "keywords": [
+        "neural network",
+        "dro"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、鲁棒优化 / 分布鲁棒优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.39,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 5.6,
+          "confidence": 1,
+          "matchedSignals": [
+            "neural network"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.8,
+          "confidence": 0.86,
+          "matchedSignals": [
+            "dro"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 1.9,
+          "confidence": 0.34,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.81,
+          "confidence": 0.32,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "93abede2-7d50-4c41-b7e3-181dc76fd85e",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2602.03082",
+      "title": "Geometry-Preserving Neural Architectures on Manifolds with Boundary",
+      "authors": [
+        "Karthik Elamvazhuthi",
+        "Shiba Biswal",
+        "Kian Rosenblum",
+        "Arushi Katyal",
+        "Tianli Qu",
+        "Grady Ma",
+        "Rishi Sonthalia"
+      ],
+      "abstract": "A growing number of neural architectures have been proposed to enforce geometric constraints, including projection-based networks, exponential-map updates, constrained output layers, and manifold neural ODEs. We provide a unified framework for these geometry-preserving architectures by organizing them according to where and how constraints are enforced, either throughout the intermediate layers or only at the final output. This perspective reveals several gaps in the existing theory. To address these gaps, we prove high-level approximation theorems for projected neural ODEs, intermediate augmented architectures, and final augmented architectures on prox-regular constraint sets, including smooth manifolds with boundary. Numerical experiments on synthetic dynamics over S^2, the disk, SO(3), together with real-world protein backbone data on SE(3), demonstrate exact feasibility for analytic updates and show that the final augmentation have simpler architecture and outperform in most tasks considered. When the constraint set is unknown, we learn projections via small-time heat-kernel limits, showing diffusion/flow-matching can be used as data-based projections. Moreover, we also the demonstrate the usefulness of the architectures that enforce non-convex constraints for path planning on manifolds with boundary.",
+      "categories": [
+        "cs.LG",
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-02-03",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2602.03082",
+      "pdfUrl": "https://arxiv.org/pdf/2602.03082",
+      "keywords": [
+        "non convex",
+        "rl",
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "非凸优化",
+        "优化与机器学习",
+        "凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：非凸优化、优化与机器学习、凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.37,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 4.63,
+          "confidence": 1,
+          "matchedSignals": [
+            "non convex"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 4.39,
+          "confidence": 0.95,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.54,
+          "confidence": 0.77,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 3.08,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "matching"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "7734e62c-b2d8-420d-b5df-d8d6810aa93c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2604.14669",
+      "title": "Zeroth-Order Optimization at the Edge of Stability",
+      "authors": [
+        "Minhak Song",
+        "Liang Zhang",
+        "Bingcong Li",
+        "Niao He",
+        "Michael Muehlebach",
+        "Sewoong Oh"
+      ],
+      "abstract": "Zeroth-order (ZO) methods are widely used when gradients are unavailable or prohibitively expensive, including black-box learning and memory-efficient fine-tuning of large models, yet their optimization dynamics in deep learning remain underexplored. In this work, we provide an explicit step size condition that exactly captures the (mean-square) linear stability of a family of ZO methods based on the standard two-point estimator. Our characterization reveals a sharp contrast with first-order (FO) methods: whereas FO stability is governed solely by the largest Hessian eigenvalue, mean-square stability of ZO methods depends on the entire Hessian spectrum. Since computing the full Hessian spectrum is infeasible in practical neural network training, we further derive tractable stability bounds that depend only on the largest eigenvalue and the Hessian trace. Empirically, we find that full-batch ZO methods operate at the edge of stability: ZO-GD, ZO-GDM, and ZO-Adam consistently stabilize near the predicted stability boundary across a range of deep learning training problems. Our results highlight an implicit regularization effect specific to ZO methods, where large step sizes primarily regularize the Hessian trace, whereas in FO methods they regularize the top eigenvalue.",
+      "categories": [
+        "cs.LG",
+        "math.DS",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-04-16",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2604.14669",
+      "pdfUrl": "https://arxiv.org/pdf/2604.14669",
+      "keywords": [
+        "deep learning",
+        "neural network",
+        "fine tuning"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、鲁棒优化 / 分布鲁棒优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.97,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 8.84,
+          "confidence": 1,
+          "matchedSignals": [
+            "deep learning",
+            "neural network",
+            "fine tuning"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.71,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.61,
+          "confidence": 0.3,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.29,
+          "confidence": 0.26,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "fdc1ab8c-39c4-4e08-ae82-7952a88f4878",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2605.30253",
+      "title": "Wasserstein Contraction of Coordinate Ascent Variational Inference",
+      "authors": [
+        "Rocco Caprio",
+        "Adrien Corenflos",
+        "Sam Power"
+      ],
+      "abstract": "We study the non-asymptotic contraction in Wasserstein distance of the sequential, parallel, and random-scan coordinate ascent variational inference algorithms. This is shown to hold under a functional smoothness condition of the optimality maps and a transportation-information inequality at their fixed points. Our results are sharp and general, and as opposed to those based on global strong log-concavity assumptions, they allow for local convergence on smooth, non-smooth, and discrete manifolds, including within the context of data augmentation. We consider many applications in statistical physics and Bayesian statistics. These include pairwise Markov Random field models such as Ising and Curie-Weiss, unbalanced Bayesian Gaussian Mixture Models, high-dimensional Bayesian Probit Regression, and high-dimensional Logistic Regression with Pólya--Gamma random variables (i.e. Jaakkola-Jordan's algorithm). In many of these models, these represent the first available convergence results of their kind.",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.FA",
+        "math.OC",
+        "math.PR",
+        "stat.CO"
+      ],
+      "primaryCategory": "stat.ML",
+      "publishedAt": "2026-05-28",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2605.30253",
+      "pdfUrl": "https://arxiv.org/pdf/2605.30253",
+      "keywords": [
+        "wasserstein",
+        "wasserstein distance"
+      ],
+      "subfield": "最优传输",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 wasserstein，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优传输",
+          "score": 12.69,
+          "confidence": 1,
+          "matchedSignals": [
+            "wasserstein",
+            "wasserstein distance"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.42,
+          "confidence": 0.19,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 2,
+          "confidence": 0.16,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.91,
+          "confidence": 0.15,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "非光滑",
+        "最优传输"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "a5ee66a9-0af2-4ecf-87ca-9a713b767876",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2606.18218",
+      "title": "Finite-Time Queue Peak Laws in Stochastic Networks: Logarithmic Scaling After Geometric Thresholds",
+      "authors": [
+        "Hao Liang",
+        "Cheng Tang",
+        "Yunzong Xu"
+      ],
+      "abstract": "We study finite-horizon queue peaks in generalized switches, a standard stochastic-network model in which many queues share constrained service resources. Arrivals may be dependent, nonstationary, and responsive to the system history; the only load condition is uniform interior slack, meaning the conditional mean arrival vector stays in a fixed contraction of the capacity region. We show that this slack reshapes the finite-time peak law for drift-minimizing scheduling policies such as MaxWeight. The square-root envelope that is sharp without slack persists only up to a geometry-dependent threshold; beyond that threshold, the running maximum grows only logarithmically with the horizon, both with high probability and in expectation. The mechanism is self-normalization: in the current queue direction, the projected fluctuation scale is normalized by the stabilizing drift scale. This removes capacity geometry from the logarithmic coefficient, while geometry remains in the threshold. Matching lower bounds show that both the logarithmic term and a geometric threshold are unavoidable. When finite-time state-space collapse is available, the threshold can be sharpened using local bottleneck geometry. For generalized input-queued switches, we obtain finite-time peak bounds with tight logarithmic coefficients. Simulations illustrate the two-phase envelope, local geometric refinements, and variance-sensitive improvements predicted by the theory.",
+      "categories": [
+        "math.PR",
+        "cs.LG",
+        "eess.SY",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "math.PR",
+      "publishedAt": "2026-06-16",
+      "updatedAt": "2026-07-01",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.18218",
+      "pdfUrl": "https://arxiv.org/pdf/2606.18218",
+      "keywords": [
+        "stochastic",
+        "lower bound"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "随机优化",
+        "通用算法理论与复杂度",
+        "组合优化 / 整数规划"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、通用算法理论与复杂度、组合优化 / 整数规划；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.43,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 6.9,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.23,
+          "confidence": 0.9,
+          "matchedSignals": [
+            "lower bound"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 3.33,
+          "confidence": 0.48,
+          "matchedSignals": [
+            "matching",
+            "scheduling"
+          ]
+        },
+        {
+          "name": "最优传输",
+          "score": 2.35,
+          "confidence": 0.34,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "随机",
+        "约束",
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "控制系统",
+        "运筹应用"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "59c5f7bf-e264-46b3-abcc-2540a5acd26d",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2509.25618",
+      "title": "Quadratic Programming Approach for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games",
+      "authors": [
+        "Sam Ganzfried"
+      ],
+      "abstract": "There has been significant recent progress in algorithms for approximation of Nash equilibrium in large two-player zero-sum imperfect-information games and exact computation of Nash equilibrium in multiplayer strategic-form games. While counterfactual regret minimization and fictitious play are scalable to large games and have convergence guarantees in two-player zero-sum games, they do not guarantee convergence to Nash equilibrium in multiplayer games. We present an approach for exact computation of Nash equilibrium in multiplayer imperfect-information games that solves a quadratically-constrained program based on a nonlinear complementarity problem formulation from the sequence-form game representation. This approach capitalizes on recent advances for solving nonconvex quadratic programs. Our algorithm is able to quickly solve three-player Kuhn poker after removal of dominated actions. Of the available algorithms in the Gambit software suite, only the logit quantal response approach is successfully able to solve the game; however, the approach takes longer than our algorithm and also involves a degree of approximation. Our formulation also leads to a new approach for computing Nash equilibrium in multiplayer strategic-form games which we demonstrate to outperform a previous quadratically-constrained program formulation.",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primaryCategory": "cs.GT",
+      "publishedAt": "2025-09-30",
+      "updatedAt": "2026-06-30",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2509.25618",
+      "pdfUrl": "https://arxiv.org/pdf/2509.25618",
+      "keywords": [
+        "nonconvex",
+        "online",
+        "regret",
+        "complementarity"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "变分分析",
+        "非凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、变分分析、非凸优化；候选方向 在线优化 / 动态优化 与 变分分析 分数接近。",
+      "classificationConfidence": 0.51,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 7.53,
+          "confidence": 1,
+          "matchedSignals": [
+            "online",
+            "regret"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 7.25,
+          "confidence": 0.96,
+          "matchedSignals": [
+            "complementarity"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 7.06,
+          "confidence": 0.94,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 1.56,
+          "confidence": 0.21,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "候选方向 在线优化 / 动态优化 与 变分分析 分数接近。",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "3c1341cc-f2b2-416e-89d3-c54e6bf789f0",
+      "abstractTranslation": null
+    }
+  ]
+}
