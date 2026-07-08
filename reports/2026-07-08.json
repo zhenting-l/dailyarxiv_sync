@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-07-08",
-  "exportedAt": "2026-07-08T02:24:53.092Z",
+  "exportedAt": "2026-07-08T03:00:31.735Z",
   "papers": [
     {
       "arxivId": "2606.30343",
@@ -307,7 +307,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "5391dca1-1893-47fa-bcf2-20d0eb27b878",
+      "id": "e44e3509-4646-4793-ab53-b9f3e6b00f3d",
       "abstractTranslation": null
     },
     {
@@ -377,7 +377,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "d4bf8d7e-3da5-415b-a2e1-410a2c0c44d3",
+      "id": "ecf616c0-0b4e-4806-b1c5-d70094b86633",
       "abstractTranslation": null
     },
     {
@@ -447,7 +447,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "66782449-e46b-4d4f-b9ea-e916c80c010a",
+      "id": "31d40a76-fa35-4e46-9606-077d70f34036",
       "abstractTranslation": null
     },
     {
@@ -519,7 +519,7 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "09e7c482-6d94-4d3a-9d8a-44a8bdab337c",
+      "id": "c69ac97c-759b-4dfe-936b-95139b713c39",
       "abstractTranslation": null
     },
     {
@@ -597,7 +597,7 @@
       "applicationTags": [],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "8213a069-2668-446b-9cba-9ef902294369",
+      "id": "20a286c4-2a1a-4789-a65f-dec305071a2e",
       "abstractTranslation": null
     },
     {
@@ -666,7 +666,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "8c658c1e-f879-4899-ac4d-84af91290b4a",
+      "id": "4a77b041-c6a5-43a7-9224-e1caeaa2028b",
       "abstractTranslation": null
     },
     {
@@ -748,7 +748,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "e6347d99-e965-4971-b53e-bfaefb4c4124",
+      "id": "f15d24ef-440e-4a78-8389-9888abeeee7c",
       "abstractTranslation": null
     },
     {
@@ -816,7 +816,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
-      "id": "1c2949b0-72e4-4086-bd4e-fb4bf89573c7",
+      "id": "0699f90a-067d-48f3-bbf5-61f99e7e29dc",
       "abstractTranslation": null
     },
     {
@@ -892,7 +892,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度。",
-      "id": "3576ce9a-9609-4210-857a-498a31d2fb3e",
+      "id": "16e1dfd2-c5c4-4b0e-aae7-918eeed5d7dc",
       "abstractTranslation": null
     },
     {
@@ -976,7 +976,7 @@
       ],
       "score": 9.6,
       "recommendationReason": "主方向属于你关注的 无法确定分类，作者 Defeng Sun 在你的偏好名单中。",
-      "id": "57dca35c-3c4c-403c-abd0-b3d89eed01b4",
+      "id": "53acdc93-4935-41bd-abb3-b9c19ddd2da6",
       "abstractTranslation": null
     },
     {
@@ -1055,7 +1055,7 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "1425b34e-4ce6-44ad-80f2-1b37df0377d0",
+      "id": "47b830c2-c4f8-40b1-ad9c-88ac8d601941",
       "abstractTranslation": null
     },
     {
@@ -1125,7 +1125,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "47ec49a7-fe6f-47c3-82c7-3b49c064ed9b",
+      "id": "61201aff-0cab-4bde-8d73-e3c4028633c7",
       "abstractTranslation": null
     },
     {
@@ -1204,7 +1204,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "56967f9d-d454-40c3-8d10-789f1b890732",
+      "id": "338fadb6-3e7b-493d-8841-ff4d0c77dc35",
       "abstractTranslation": null
     },
     {
@@ -1274,7 +1274,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "101656ce-57ed-450b-aae6-8b9bc0593949",
+      "id": "a2867947-44af-4828-ac21-82c77fe92311",
       "abstractTranslation": null
     },
     {
@@ -1344,7 +1344,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "94f303a7-255f-481c-9f42-04e437a5a75f",
+      "id": "7a686553-0810-4753-841b-bd1a0d70c290",
       "abstractTranslation": null
     },
     {
@@ -1422,7 +1422,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "681d76b1-a928-445d-8bf6-b5018281b8cb",
+      "id": "769e76ec-c4b0-40ea-bb91-f5ce0a7f7c1a",
       "abstractTranslation": null
     },
     {
@@ -1496,7 +1496,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "1d4fb625-f6b2-49d6-b575-f44653de8bde",
+      "id": "6185abd5-af5b-47ab-b989-9b4262df5c3f",
       "abstractTranslation": null
     },
     {
@@ -1568,7 +1568,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "1027ac9b-d935-4439-a1f3-d7c20806d599",
+      "id": "5529d2e6-1308-4f14-ae48-64921c1b4a57",
       "abstractTranslation": null
     },
     {
@@ -1657,7 +1657,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 优化与机器学习。",
-      "id": "dddc7bfa-ec3d-4727-be95-0ec267034c9f",
+      "id": "df7b3f90-40fb-44cc-9c34-09d433207934",
       "abstractTranslation": null
     },
     {
@@ -1729,7 +1729,7 @@
       ],
       "score": 9.8,
       "recommendationReason": "主方向属于你关注的 低秩优化，命中关键词 Low Rank、low-rank。",
-      "id": "fe2aa1e0-f10c-41ee-8ea9-b7883ee53999",
+      "id": "47ef638b-2af8-4d48-8034-f83560f9a9db",
       "abstractTranslation": null
     },
     {
@@ -1807,7 +1807,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "c37eb37f-e4e5-4a9d-b831-87fbfb104120",
+      "id": "8ecb37c6-892c-4732-bd53-b83875d58d8c",
       "abstractTranslation": null
     },
     {
@@ -1883,7 +1883,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "3b3247f4-534e-45d1-ac3b-61b92a8cc358",
+      "id": "540b36bc-fb1f-411a-9849-c7007680a6bb",
       "abstractTranslation": null
     },
     {
@@ -1955,7 +1955,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "921030b5-36ab-43bf-b38a-2fd6def55c72",
+      "id": "6c5ba5c6-3e05-4e1b-9132-9bd1428c3ee6",
       "abstractTranslation": null
     },
     {
@@ -2028,7 +2028,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "e7ea56b9-6889-4136-965e-3a2655814ed4",
+      "id": "eafabc2b-3734-4676-9172-f2771a2c8cb0",
       "abstractTranslation": null
     },
     {
@@ -2097,7 +2097,7 @@
       ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "b977a3b2-69b0-4d51-9cc1-be3bbcf13a02",
+      "id": "6bf8ff65-6890-4be6-9ed9-ab571338f261",
       "abstractTranslation": null
     },
     {
@@ -2179,7 +2179,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "728556ef-9e85-4283-98f4-836d03e7b2d0",
+      "id": "22f58a77-d575-4f86-aaf7-01447bad49e6",
       "abstractTranslation": null
     },
     {
@@ -2250,7 +2250,7 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "50f57cc9-ccab-45a4-9acb-915a249775b1",
+      "id": "7d8e4dd0-68e7-4046-92aa-623de38116b2",
       "abstractTranslation": null
     },
     {
@@ -2340,7 +2340,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 非凸优化。",
-      "id": "4061daf4-3f62-449e-8d57-be847e2058b8",
+      "id": "3647aba0-9954-45e4-8b67-d1fc57ebe131",
       "abstractTranslation": null
     },
     {
@@ -2410,7 +2410,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "aaff30bc-0f3a-4d90-9264-2bafc2d639a9",
+      "id": "be306734-5158-40ec-8860-d51de22ddeab",
       "abstractTranslation": null
     },
     {
@@ -2489,7 +2489,7 @@
       "applicationTags": [],
       "score": 9.6,
       "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度，作者 Yinyu Ye 在你的偏好名单中。",
-      "id": "b178882f-1721-49f4-afb0-f5394574523c",
+      "id": "04727c15-272b-4038-8bec-ca63d788112f",
       "abstractTranslation": null
     },
     {
@@ -2561,7 +2561,7 @@
       "applicationTags": [],
       "score": 6.4,
       "recommendationReason": "副方向与偏好 凸优化 接近。",
-      "id": "97ad4e0e-0232-450d-9508-d2395bca684f",
+      "id": "17d02fe6-2ee8-4e05-a35e-5908daeadd6c",
       "abstractTranslation": null
     },
     {
@@ -2635,7 +2635,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "c369f7bd-7464-4b63-9645-53ef73ab8e3c",
+      "id": "5b352cf1-f3c0-4ac4-8809-b4435ec55b70",
       "abstractTranslation": null
     },
     {
@@ -2716,7 +2716,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "fbbcf176-8a39-4b18-b16a-ea2e37e9534f",
+      "id": "5facd8c5-f849-4038-a40f-cc46502ecbd1",
       "abstractTranslation": null
     },
     {
@@ -2796,7 +2796,7 @@
       ],
       "score": 5.5,
       "recommendationReason": "",
-      "id": "e575b61e-3f47-4697-903b-02a60ad6a165",
+      "id": "5fad195b-f717-4e59-95e1-9331028d63b8",
       "abstractTranslation": null
     },
     {
@@ -2869,7 +2869,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "59129c36-6355-46a1-8748-e9212be69f8e",
+      "id": "80fb606f-7fd1-4303-b57f-193f0656f985",
       "abstractTranslation": null
     },
     {
@@ -2951,7 +2951,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 凸优化。",
-      "id": "7d3d1ce9-9dbb-42da-b4c3-449c860cc4b3",
+      "id": "6db1da76-3382-413f-8f44-1a9cc8727879",
       "abstractTranslation": null
     },
     {
@@ -3025,7 +3025,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 优化与机器学习。",
-      "id": "3fc5c0c5-4f2d-41f7-831f-3ba6a1a4d7c2",
+      "id": "88ae766c-be92-49eb-8d10-b0fe38c7bfb0",
       "abstractTranslation": null
     },
     {
@@ -3102,7 +3102,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "04e746d8-01b7-4519-b72f-8ee7589285c3",
+      "id": "2730253c-0246-4468-9b1b-99f5e994ebb0",
       "abstractTranslation": null
     },
     {
@@ -3170,7 +3170,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "6d8ebcde-39e7-40d8-95a9-eba3096ea316",
+      "id": "cb6228a5-8f84-4d52-b1e2-311ea3df0375",
       "abstractTranslation": null
     },
     {
@@ -3249,7 +3249,7 @@
       ],
       "score": 5.6,
       "recommendationReason": "副方向与偏好 优化与机器学习 接近。",
-      "id": "6a78dc01-e791-4eec-8a84-35513549242e",
+      "id": "1c1ea5a6-076c-4832-a394-ad6426774328",
       "abstractTranslation": null
     },
     {
@@ -3327,7 +3327,7 @@
       ],
       "score": 4.7,
       "recommendationReason": "",
-      "id": "79c22a03-188b-49bd-ae27-08ae15249576",
+      "id": "daf60642-096a-4347-932a-e753af01c368",
       "abstractTranslation": null
     },
     {
@@ -3400,7 +3400,7 @@
       "applicationTags": [],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "378a913b-489e-4320-8bbe-5332ea78357a",
+      "id": "52ccfee6-fa5c-4425-94dd-a762767ee1fc",
       "abstractTranslation": null
     },
     {
@@ -3477,7 +3477,7 @@
       ],
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 无法确定分类。",
-      "id": "a0966602-60d0-4314-af5c-9d2b0ae99db0",
+      "id": "18adfec5-c0bc-47f5-9802-4a837e4d96e9",
       "abstractTranslation": null
     }
   ]
