@@ -1,0 +1,3484 @@
+{
+  "reportDate": "2026-07-08",
+  "exportedAt": "2026-07-08T02:24:53.092Z",
+  "papers": [
+    {
+      "arxivId": "2606.30343",
+      "title": "Infinite-Horizon Linear-Quadratic Difference Games with Coupled Affine Inequality Constraints: Open-Loop Generalized Nash Equilibria",
+      "authors": [
+        "Partha Sarathi Mohapatra"
+      ],
+      "abstract": "In this technical note, we study a class of infinite-horizon linear-quadratic difference games with coupled affine inequality constraints involving both state and control variables. We derive necessary conditions for the existence of open-loop generalized Nash equilibria and establish their sufficiency under additional assumptions. Sufficient conditions are characterized in terms of the existence of square-summable solutions to associated infinite-horizon linear complementarity systems. We further reformulate these conditions and show that computing open-loop generalized Nash equilibria reduces to solving a large-scale linear complementarity problem together with verifying additional conditions. Finally, we illustrate our results using a vehicle platooning example with constraints.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-06-29",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.30343",
+      "pdfUrl": "https://arxiv.org/pdf/2606.30343",
+      "keywords": [
+        "complementarity"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "变分分析",
+        "半定规划 / 锥优化",
+        "双层优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：变分分析、半定规划 / 锥优化、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.93,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "变分分析",
+          "score": 8.66,
+          "confidence": 1,
+          "matchedSignals": [
+            "complementarity"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.14,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.8,
+          "confidence": 0.21,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.7,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "b01239a9-8f17-4ae7-8715-eed63ee7d2c9",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2606.30530",
+      "title": "Computing the Integral R2 Indicator by Perspective Mapping and Box Decomposition",
+      "authors": [
+        "Michael T. M. Emmerich"
+      ],
+      "abstract": "The continuous integral R2 indicator is a Pareto-compliant refinement of the classical finite-weight-vector R2 indicator, used in performance assessment, bounded archiving for a-posteriori multi-objective optimization, and skyline selection in databases. This work introduces a bidirectional perspective mapping between continuous integral R2 computation and integration over unions of anchored axis-aligned boxes. After translating the ideal point of a minimization problem to the origin, approximation points become strictly positive loss vectors, and the subgraph of the lower weighted Tchebycheff envelope over the weight simplex maps to the complement of an anchored-box union in reciprocal objective space. The Jacobian gives an absolute R2 formula as a weighted complement volume with density $(x_1+\\cdots+x_N)^{-(N+1)}$, while differences of R2 values become finite weighted hypervolume differences. Hence, hypervolume algorithms that emit box decompositions can be reused by replacing ordinary box volumes with closed-form weighted box integrals. For $N$ objectives, this gives an output-sensitive overhead $O(2^N M)$ for an $M$-box decomposition, or $O(M)$ for fixed $N$. Using existing box-decomposition approaches, the integral R2 can be computed in $O(n \\log n)$ for $N=2,3$, in $O(n^2)$ for $N=4$, and in $O\\left(n^{\\lfloor (N-1)/2\\rfloor+1}\\right)$ for $N\\geq4$, with $n$ denoting the size of the approximation set. On the lower-bound side, exact value computation has an $Ω(n\\log n)$ lower bound in the algebraic decision-tree model already in two objectives, this bound lifts to every fixed $N\\geq2$, and exact computation is $\\#P$-hard when $N$ is part of the input. Together, the proposed perspective mapping provides a powerful tool for transferring algorithmic and structural results between anchored-box union and hypervolume theory and integral R2 computation.",
+      "categories": [
+        "cs.CG",
+        "cs.NE",
+        "math.NA",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.CG",
+      "publishedAt": "2026-06-29",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2606.30530",
+      "pdfUrl": "https://arxiv.org/pdf/2606.30530",
+      "keywords": [
+        "lower bound"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "低秩优化",
+        "双层优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、低秩优化、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.91,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.62,
+          "confidence": 1,
+          "matchedSignals": [
+            "lower bound"
+          ]
+        },
+        {
+          "name": "低秩优化",
+          "score": 1.22,
+          "confidence": 0.18,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.12,
+          "confidence": 0.17,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.04,
+          "confidence": 0.16,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "f255eca8-a932-4d79-b8ac-f5eea5b7b638",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2509.25618",
+      "title": "Quadratic Programming Approach for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games",
+      "authors": [
+        "Sam Ganzfried"
+      ],
+      "abstract": "There has been significant recent progress in algorithms for approximation of Nash equilibrium in large two-player zero-sum imperfect-information games and exact computation of Nash equilibrium in multiplayer strategic-form games. While counterfactual regret minimization and fictitious play are scalable to large games and have convergence guarantees in two-player zero-sum games, they do not guarantee convergence to Nash equilibrium in multiplayer games. We present an approach for exact computation of Nash equilibrium in multiplayer imperfect-information games that solves a quadratically-constrained program based on a nonlinear complementarity problem formulation from the sequence-form game representation. This approach capitalizes on recent advances for solving nonconvex quadratic programs. Our algorithm is able to quickly solve three-player Kuhn poker after removal of dominated actions. Of the available algorithms in the Gambit software suite, only the logit quantal response approach is successfully able to solve the game; however, the approach takes longer than our algorithm and also involves a degree of approximation. Our formulation also leads to a new approach for computing Nash equilibrium in multiplayer strategic-form games which we demonstrate to outperform a previous quadratically-constrained program formulation.",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.GT",
+      "publishedAt": "2025-09-30",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2509.25618",
+      "pdfUrl": "https://arxiv.org/pdf/2509.25618",
+      "keywords": [
+        "nonconvex",
+        "online",
+        "regret",
+        "complementarity"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "变分分析",
+        "非凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、变分分析、非凸优化；候选方向 在线优化 / 动态优化 与 变分分析 分数接近。",
+      "classificationConfidence": 0.5,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 8.33,
+          "confidence": 1,
+          "matchedSignals": [
+            "online",
+            "regret"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 8.15,
+          "confidence": 0.98,
+          "matchedSignals": [
+            "complementarity"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 7.81,
+          "confidence": 0.94,
+          "matchedSignals": [
+            "nonconvex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.21,
+          "confidence": 0.27,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "候选方向 在线优化 / 动态优化 与 变分分析 分数接近。",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "3c1341cc-f2b2-416e-89d3-c54e6bf789f0",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05539",
+      "title": "On The Linear Convergence of Bregman Proximal Gradient Methods with Applications to Kullback--Leibler regression",
+      "authors": [
+        "Jonathan Chirinos-Rodríguez",
+        "Christian Daniele",
+        "Cédric Févotte",
+        "Emmanuel Soubies"
+      ],
+      "abstract": "Bregman Proximal Gradient methods (BPGM) exploit the underlying geometry of the objective function through a carefully chosen mirror map. In this work, we introduce a novel notion of strong convexity, termed Restricted Relative Strong Convexity, and establish linear convergence rates for BPGM under this condition. We then exploit the proposed theoretical framework to provide an in-depth analysis of the convergence of BPGM for (regularized) Kullback--Leibler regression problems, covering scenarios with both unique and non-unique minimizers, as well as regularized and unregularized formulations. Specifically, we demonstrate that using the popular Burg's entropy as a distance-generating function may only yield linear convergence for certain KL regression problems. In contrast, we show that employing a smoothed version of the Burg's entropy induces the suitable geometry required to guarantee linear convergence. We conclude with numerical experiments that nicely align with our theoretical findings.",
+      "categories": [
+        "math.OC",
+        "math.NA"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05539",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05539",
+      "keywords": [
+        "proximal",
+        "convergence rate",
+        "convex",
+        "proximal gradient"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "凸优化",
+        "非凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、凸优化、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.92,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.9,
+          "confidence": 1,
+          "matchedSignals": [
+            "convergence rate"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.72,
+          "confidence": 0.68,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 4.63,
+          "confidence": 0.67,
+          "matchedSignals": [
+            "proximal gradient"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.3,
+          "confidence": 0.33,
+          "matchedSignals": [
+            "rl"
+          ]
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非光滑",
+        "算法复杂度"
+      ],
+      "methodTags": [
+        "proximal"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "5391dca1-1893-47fa-bcf2-20d0eb27b878",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05687",
+      "title": "Sphere Constraints and Harmonic Map Flow: Controllability and Reachability by Low-Mode Forcing",
+      "authors": [
+        "Debopriya Mukherjee",
+        "Kistosil Fahim",
+        "Erika Hausenblas"
+      ],
+      "abstract": "We study the controllability and reachability of sphere-constrained evolution equations under degenerate (low-mode) forcing, with the harmonic map heat flow as the principal application. Exploiting the underlying geometric structure, we reformulate the problem as an infinite-dimensional control-affine system in Fourier variables and analyze the Lie algebra generated by the controlled vector fields. We prove that iterated Lie brackets generate new admissible directions, providing a mechanism through which finitely many control modes propagate their influence across infinitely many Fourier components. The results provide a Lie-algebraic framework for controlling manifold-valued evolution equations.",
+      "categories": [
+        "math.OC",
+        "math.AP"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05687",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05687",
+      "keywords": [
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "低秩优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、低秩优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.05,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 2.2,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "低秩优化",
+          "score": 2,
+          "confidence": 0.91,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.96,
+          "confidence": 0.89,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 1.82,
+          "confidence": 0.83,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "d4bf8d7e-3da5-415b-a2e1-410a2c0c44d3",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05697",
+      "title": "Stability and Dual Valuation of Contingent Claims under Rockafellian Perturbations",
+      "authors": [
+        "Wolfgang Breytmann",
+        "Julio Deride",
+        "Nicolás Hernández"
+      ],
+      "abstract": "We study the stability of solutions to the discrete-time contingent-claim problem over a finite investment horizon when uncertainty is modeled by random variables with finite discrete support. Our main contribution is to use Rockafellian perturbations as a framework for this stability analysis: we construct perturbations of the underlying probability distribution, of the contingent claim, and of both jointly, and we establish epi-convergence of the corresponding approximating Rockafellians for the primal problem. The associated hypo-convergent approximations yield stable dual problems which, in turn, imply convergence of the dual variables, interpreted as shadow prices. This analysis reveals a connection between the duality gap and the value of perfect information and it provides conditions under which strong duality holds. We also construct examples in which epi-convergence fails due to critical scenarios with vanishing probabilities but unbounded impacts, illustrating the boundary between well-behaved and ill-conditioned contingent-claim problems.",
+      "categories": [
+        "math.OC",
+        "q-fin.MF"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05697",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05697",
+      "keywords": [
+        "uncertainty"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化",
+        "优化与机器学习",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、优化与机器学习、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.61,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 3.53,
+          "confidence": 1,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.2,
+          "confidence": 0.62,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.15,
+          "confidence": 0.61,
+          "matchedSignals": []
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 1.86,
+          "confidence": 0.53,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "66782449-e46b-4d4f-b9ea-e916c80c010a",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05730",
+      "title": "Traveling Salesman Tardiness",
+      "authors": [
+        "Haoyue Liu",
+        "Sheng Liu"
+      ],
+      "abstract": "How fragile is the routing time window of delivery systems against spatial distributional uncertainty? We study the tardiness risk of Traveling Salesman Problem (TSP) solutions with respect to a service deadline (target) over the routing time. Using the robust satisficing model, we introduce the TSP tardiness index to quantify the target's fragility under distributional uncertainty in customer locations. Assuming there are m potential customer locations from historical samples on a service region D (of area |D|), we prove that the TSP tardiness index is Θ(n * sqrt(|D|m) / τ) for n realized locations with respect to the routing time target τ, under non-boundary conditions. This result establishes a new scaling law that extends beyond the existing deterministic and probabilistic TSP bounds. We further extend it to a multi-vehicle case and derive simple partition rules for managing delivery systems. Our numerical experiments using synthetic and real-world routing data validate the value of the TSP tardiness index in characterizing and managing the overtime risk of routing systems.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05730",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05730",
+      "keywords": [
+        "robust",
+        "uncertainty"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 robust、uncertainty，且与 arXiv 分类线索一致；分类置信度 90%。",
+      "classificationConfidence": 0.9,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 8.34,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust",
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 3.82,
+          "confidence": 0.46,
+          "matchedSignals": [
+            "routing"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.38,
+          "confidence": 0.29,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.83,
+          "confidence": 0.22,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "运筹应用"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "09e7c482-6d94-4d3a-9d8a-44a8bdab337c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05731",
+      "title": "Distributionally Robust Optimization via Targeted Integral Probability Metrics for General Data Processes",
+      "authors": [
+        "Lanran Fang",
+        "Jianqiang Cheng",
+        "Grani A. Hanasusanto",
+        "Yijie Wang"
+      ],
+      "abstract": "Distributionally robust optimization (DRO) provides a principled framework for decision-making under distributional uncertainty. Classical data-driven DRO frameworks typically construct ambiguity sets from distributional information, such as moment constraints, divergence neighborhoods, or Wasserstein balls, specified before the downstream loss is considered. We propose a task-aware DRO framework based on targeted integral probability metrics. The ambiguity set is defined directly through the loss functions induced by feasible decisions, thereby controlling the loss discrepancy between an adversarial distribution and a data-driven reference distribution. This construction leads to an expected hinge-constrained formulation that is equivalent to an infinitely constrained loss-discrepancy formulation. It also yields finite-sample guarantees that bypass the ambient curse of dimensionality: whenever an appropriate scalar pointwise concentration inequality is available for the induced loss estimator, the ambiguity radius can be calibrated at the canonical $\\widetilde{\\mathcal O}(N^{-1/2})$ rate after uniformization over the decision class. As a result, the framework applies broadly to settings including heavier-tailed sub-Weibull losses, Markovian data, outlier-corrupted data, and incomplete data. We derive exact infinite-dimensional dual reformulations, establish out-of-sample and excess-risk guarantees, and develop a conservative Monte Carlo approximation scheme with convergence and suboptimality guarantees. For piecewise affine losses, the sampled problems admit tractable conic reformulations. Numerical experiments in inventory management under heavy-tailed demand and regression with outlier corruption demonstrate strong out-of-sample performance relative to existing approaches.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05731",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05731",
+      "keywords": [
+        "robust",
+        "robust optimization",
+        "distributionally robust",
+        "ambiguity set",
+        "dro",
+        "uncertainty"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 robust optimization、distributionally robust、uncertainty，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 19.56,
+          "confidence": 1,
+          "matchedSignals": [
+            "distributionally robust",
+            "robust optimization",
+            "ambiguity set",
+            "robust"
+          ]
+        },
+        {
+          "name": "最优传输",
+          "score": 8.35,
+          "confidence": 0.43,
+          "matchedSignals": [
+            "wasserstein"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.08,
+          "confidence": 0.11,
+          "matchedSignals": []
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.02,
+          "confidence": 0.1,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "最优传输",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "8213a069-2668-446b-9cba-9ef902294369",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05829",
+      "title": "Commutator-Driven Stability Bounds for Periodic Switching",
+      "authors": [
+        "Debanjan Mallik",
+        "Nikhil Chopra"
+      ],
+      "abstract": "Averaged models are widely used to analyze periodically switched linear systems, yet the stability of the averaged flow does not automatically guarantee the stability of the true switched dynamics. The discrepancy arises from noncommutativity among the subsystem generators, so stability certificates benefit from bounds that expose this dependence in a form compatible with Lyapunov contraction metrics. We derive an explicit operator-norm bound for the one-period mismatch between the switched and averaged propagators, in which the leading-order error depends explicitly on the pairwise commutator norms of the scaled mode generators, with a closed-form prefactor depending only on the generator norms. This bound yields a computable threshold for the switching period below which the switched system inherits exponential stability from its averaged model, uniformly certified over admissible duty fractions. The analysis extends to an arbitrary number of switching modes via telescoping induction, and a semidefinite program provides sampled duty-dependent Lyapunov metrics for implementing the certificate.",
+      "categories": [
+        "math.OC",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05829",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05829",
+      "keywords": [
+        "semidefinite"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "半定规划 / 锥优化",
+        "变分分析",
+        "最优控制"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：半定规划 / 锥优化、变分分析、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.9,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 9.15,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.27,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优控制",
+          "score": 2.24,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.85,
+          "confidence": 0.2,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "8c658c1e-f879-4899-ac4d-84af91290b4a",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05836",
+      "title": "On the Condition Number Upper Bound of the L-BFGS Inverse Hessian Approximation Matrix with a Two-Sided Geometric Envelope Safeguarding Mechanism",
+      "authors": [
+        "Don Li"
+      ],
+      "abstract": "The limited-memory BFGS (L-BFGS) algorithm is a cornerstone of large-scale optimization due to its linear memory and computational costs. However, in ill-conditioned or non-convex landscapes, the implicit inverse Hessian approximation can suffer from an exploding condition number, leading to numerical instability and degraded convergence. To address this, we propose Two-Sided L-BFGS, a safeguarded variant that dynamically constrains the condition number of the inverse Hessian operator via a two-sided geometric envelope. Moreover, we show that Two-Sided L-BFGS preserves accumulated curvature information and maintains standard $O(mn)$ memory and per-iteration time complexities. We prove that this geometric envelope yields a uniform bound on the condition number of every inverse Hessian approximation generated by the algorithm. By tracking the algebraic evolution of the extreme eigenvalues through $m$ consecutive quasi-Newton updates starting from a scaled identity matrix, the resulting bound is expressed explicitly as a function of the memory depth, problem dimension, and envelope hyperparameters. Moreover, we show that Two-Sided L-BFGS preserves asymptotic global convergence in non-convex regimes under standard smoothness and strong Wolfe line-search assumptions, matching the theoretical guarantees of L-BFGS variants utilizing the Li-Fukushima cautious update rule. Numerical experiments on high-dimensional optimization problems demonstrate that the proposed method maintains well-conditioned inverse Hessian approximations and improves robustness and convergence behavior on ill-conditioned benchmarks.",
+      "categories": [
+        "math.OC",
+        "cs.LG",
+        "math.NA"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05836",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05836",
+      "keywords": [
+        "robust",
+        "non convex",
+        "landscape"
+      ],
+      "subfield": "非凸优化",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 non convex、landscape，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化；分类置信度 85%。",
+      "classificationConfidence": 0.85,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 8.17,
+          "confidence": 1,
+          "matchedSignals": [
+            "non convex",
+            "landscape"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.85,
+          "confidence": 0.72,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 4.69,
+          "confidence": 0.57,
+          "matchedSignals": [
+            "line search"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.52,
+          "confidence": 0.55,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "鲁棒"
+      ],
+      "methodTags": [
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 非凸优化。",
+      "id": "e6347d99-e965-4971-b53e-bfaefb4c4124",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05935",
+      "title": "Spectral-gauge cuts for semidefinite programming",
+      "authors": [
+        "Antonio Sasaki",
+        "Sophie Demassey",
+        "Valentina Sessa"
+      ],
+      "abstract": "We use symmetric gauge theory to develop a general class of cutting-plane algorithms for semidefinite programming. We formulate a separation problem based on spectral normalizations induced by gauges and derive a closed-form separation oracle. This oracle yields an implementable cut-generation procedure that, by varying the gauge, recovers standard cut families and generates new ones with tunable spectral structure. We embed the oracle within Kelley's method and characterize convergence as a function of the chosen gauge and initial conic relaxation. Numerical experiments on small and large instances of box-constrained quadratic programming and sparse principal component analysis illustrate the versatility and performance of the proposed framework.",
+      "categories": [
+        "math.OC",
+        "math.SP"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05935",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05935",
+      "keywords": [
+        "semidefinite programming",
+        "semidefinite"
+      ],
+      "subfield": "半定规划 / 锥优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 semidefinite programming，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 18.81,
+          "confidence": 1,
+          "matchedSignals": [
+            "semidefinite programming",
+            "semidefinite"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.9,
+          "confidence": 0.1,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.87,
+          "confidence": 0.1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.6,
+          "confidence": 0.09,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 半定规划 / 锥优化。",
+      "id": "1c2949b0-72e4-4086-bd4e-fb4bf89573c7",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05947",
+      "title": "Higher-Order Derivatives Do Not Accelerate the Computation of Fixed Points",
+      "authors": [
+        "Uijeong Jang",
+        "Ernest K. Ryu"
+      ],
+      "abstract": "The Picard iteration converges to the unique fixed point of a $q$-contractive operator at a linear rate $q^N$, and a lower bound with an affine construction shows that no deterministic method querying only operator values can do better. But what about higher-order methods that query derivatives? A single Jacobian evaluation reveals an affine map entirely, so the affine construction says nothing about higher-order methods. In this work, we show that finite-order derivative information still does not accelerate the worst-case complexity for smooth contractive fixed-point computation. This contrasts with higher-order smooth minimization, where higher-order derivatives do improve worst-case rates for convex and non-convex minimization.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05947",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05947",
+      "keywords": [
+        "lower bound",
+        "worst case complexity"
+      ],
+      "subfield": "通用算法理论与复杂度",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 lower bound，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 8.56,
+          "confidence": 1,
+          "matchedSignals": [
+            "lower bound",
+            "worst case complexity"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.05,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "convex",
+            "smooth minimization"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 4.83,
+          "confidence": 0.56,
+          "matchedSignals": [
+            "non convex"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.33,
+          "confidence": 0.51,
+          "matchedSignals": [
+            "worst case"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "鲁棒",
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度。",
+      "id": "3576ce9a-9609-4210-857a-498a31d2fb3e",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05991",
+      "title": "A Semismooth Newton Augmented Lagrangian Method for Sparse Spectral Risk Optimization",
+      "authors": [
+        "Rufeng Xiao",
+        "Rujun Jiang",
+        "Xudong Li",
+        "Defeng Sun"
+      ],
+      "abstract": "Empirical risk minimization is a standard and effective paradigm for learning predictive models by minimizing average loss. In high-stakes decision-making, however, an average-loss criterion may underrepresent rare but severe losses. Spectral risk measures (SRMs) provide a principled framework by incorporating weighted order statistics of losses, but the induced nonsmoothness and nonseparability from sorting make the resulting optimization problems challenging. We propose a relative inexact proximal augmented Lagrangian method with a semismooth Newton subproblem solver for solving SRM-based optimization problems. Exploiting a dual reformulation and properties of the Moreau envelope, we reduce the subproblems to structured dual-variable formulations, significantly simplifying computation. We provide explicit generalized Jacobian characterizations and tailor the pool adjacent violators algorithm for their efficient evaluation. Numerical results on synthetic and real-data instances show that the proposed method attains lower running times than the tested ADMM baseline while producing comparable stationarity residuals and sparse solutions.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05991",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05991",
+      "keywords": [
+        "proximal",
+        "empirical risk minimization",
+        "nonsmooth",
+        "stationarity"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "凸优化",
+        "非凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、凸优化、非凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.62,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 5.21,
+          "confidence": 1,
+          "matchedSignals": [
+            "empirical risk minimization"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.67,
+          "confidence": 0.9,
+          "matchedSignals": [
+            "nonsmooth"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 3.84,
+          "confidence": 0.74,
+          "matchedSignals": [
+            "stationarity"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.37,
+          "confidence": 0.45,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "非光滑"
+      ],
+      "methodTags": [
+        "proximal",
+        "ADMM",
+        "Newton/quasi-Newton",
+        "augmented Lagrangian"
+      ],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 9.6,
+      "recommendationReason": "主方向属于你关注的 无法确定分类，作者 Defeng Sun 在你的偏好名单中。",
+      "id": "57dca35c-3c4c-403c-abd0-b3d89eed01b4",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06139",
+      "title": "Optimal control problems of Stochastic Volterra integral equations under Volatility Ambiguity",
+      "authors": [
+        "Bingru Zhao",
+        "Mingshang Hu"
+      ],
+      "abstract": "In this paper, we study the optimal control problems for stochastic Volterra integral equations driven by G-Brownian motion under Volatility Ambiguity. With the help of G-stochastic analysis techniques and the weak convergence methods, we obtain the variation of the cost functional and the variational inequality. Under the convexity assumptions, we establish the stochastic maximum principle, which serves as both a necessary and sufficient condition for optimal control.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06139",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06139",
+      "keywords": [
+        "stochastic",
+        "optimal control",
+        "variational inequality"
+      ],
+      "subfield": "最优控制",
+      "secondarySubfields": [
+        "变分分析"
+      ],
+      "classificationReason": "主方向命中 optimal control，且与 arXiv 分类线索一致；副方向候选：变分分析；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 11.52,
+          "confidence": 1,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 9.02,
+          "confidence": 0.78,
+          "matchedSignals": [
+            "variational inequality"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 5.07,
+          "confidence": 0.44,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 2.1,
+          "confidence": 0.18,
+          "matchedSignals": [
+            "convex"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "随机",
+        "变分分析",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "1425b34e-4ce6-44ad-80f2-1b37df0377d0",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06314",
+      "title": "Gradient descent with exponentially increasing stepsizes and restarts",
+      "authors": [
+        "François Clément",
+        "Stefan Steinerberger"
+      ],
+      "abstract": "Let $f:\\mathbb{R}^d \\rightarrow \\mathbb{R}$. We consider gradient descent $x_{n+1} = x_n - τ_n \\nabla f(x_n)$, where the stepsize $τ_n = τ\\cdot e^{rn}$ is exponentially growing (with $τ> 0$ and $0 < r \\ll 1$). This diverges for almost all initial values. We show that restarting the algorithm whenever $\\|x_{n+1} - x_n\\| \\geq e^r\\|x_n - x_{n-1}\\|$ has good properties: it works very well in practice; we determine the limiting convergence rate in the case of convergence to a non-degenerate local minimum: it improves on classic gradient descent even though computational cost is comparable. The precise choice of $0 < r \\ll 1$ does not matter much and the method is virtually independent of an initial stepsize $τ$ that is too small: while the convergence rate for gradient descent decays linearly as $τ\\rightarrow 0$, it decays as $1/\\log(1/τ)$ in this modified version; numerical examples illustrate the results.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06314",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06314",
+      "keywords": [
+        "convergence rate"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "优化与机器学习",
+        "双层优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、优化与机器学习、双层优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.91,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.47,
+          "confidence": 1,
+          "matchedSignals": [
+            "convergence rate"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.38,
+          "confidence": 0.37,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 1.8,
+          "confidence": 0.28,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.8,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "47ec49a7-fe6f-47c3-82c7-3b49c064ed9b",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06316",
+      "title": "Does Financial Trading Smooth Non-Convex Markets?",
+      "authors": [
+        "Nicolas Stevens",
+        "Peter Cramton",
+        "Martial Toniotti"
+      ],
+      "abstract": "In non-convex markets, a competitive equilibrium may fail to exist. This turns out to be an important issue in real-world non-convex auction markets, such as electricity markets, as it complicates pricing and requires the auctioneer to resort to out-of-market discriminatory side payments to sustain an equilibrium. We investigate whether the introduction of convex financial trading induces a smoothing effect, mitigating the issues arising from non-convexities. We develop a two-stage non-convex market model (a forward market followed by a spot market) in which convex financial traders participate in the forward market. Our model predicts that financial trading reduces the magnitude of side payments required to support the cleared allocation. To test the prediction of our model, we examine the introduction of a transaction fee on financial traders in 2020 by PJM, the US's largest electricity market. We show that the substantial decline in financial trading volume caused by this policy coincided with a significant increase in side payments, in line with our theoretical predictions.",
+      "categories": [
+        "math.OC",
+        "econ.GN",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06316",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06316",
+      "keywords": [
+        "non convex",
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "非凸优化",
+        "凸优化",
+        "优化与机器学习"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：非凸优化、凸优化、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.5,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 6.29,
+          "confidence": 1,
+          "matchedSignals": [
+            "non convex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.94,
+          "confidence": 0.94,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.42,
+          "confidence": 0.38,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.26,
+          "confidence": 0.36,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "非凸"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "56967f9d-d454-40c3-8d10-789f1b890732",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06343",
+      "title": "Sharp Logarithmic Thresholds for Cut Schedules in an Abstract Branch-and-Cut Model",
+      "authors": [
+        "Hongyi Jiang"
+      ],
+      "abstract": "Branch-and-cut interleaves branching with cutting-plane generation. How the two operations share the work of proving a bound is a basic theoretical question. We study an abstract model in which a tree certifies a target bound $Z$. Each branch node improves the bound by $\\ell$ on one child and by $r$ on the other, where $0<\\ell\\le r$. The $i$th cut along a root-to-node path improves it by $c_i\\ge0$, with cumulative improvement $C_k=\\sum_{i=1}^k c_i$. Asymmetric branching enters through the rate $λ^{\\star}>0$ defined by $e^{-λ^{\\star}\\ell}+e^{-λ^{\\star}r}=1$. We establish uniform two-sided bounds of order $e^{λ^{\\star}Z}$ on the minimal leaf count of pure branching trees. We then identify $\\log k$ as the sharp threshold scale for the power of cutting. For cut schedules with extended limit $γ=\\lim_{k\\to\\infty}C_k/\\log k\\in[0,\\infty]$, minimal-size trees obey a trichotomy. If $γ=\\infty$, cuts prove asymptotically all of the target. If $0\\leγ<\\infty$, the limiting fraction of the bound proved by cuts is $γλ^{\\star}/(1+γλ^{\\star})$. If $γ=0$, branch-and-cut has the same exponential size rate as pure branch-and-bound. This resolves open questions raised by Kazachkov, Le Bodic, and Sankaranarayanan on minimal-size trees under harmonically-worsening cuts, and generalizes their results to asymmetric branching and to all cut schedules in the model with this logarithmic limit. Finally, we show that branch-and-cut attains polynomial size in terms of $Z$ if and only if polynomially many cuts reduce the residual bound to $O(\\log Z)$.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06343",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06343",
+      "keywords": [
+        "branch and bound",
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "组合优化 / 整数规划",
+        "优化与机器学习",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：组合优化 / 整数规划、优化与机器学习、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.82,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 5.14,
+          "confidence": 1,
+          "matchedSignals": [
+            "branch and bound"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.35,
+          "confidence": 0.46,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.93,
+          "confidence": 0.38,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.91,
+          "confidence": 0.37,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [
+        "branch-and-bound"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "101656ce-57ed-450b-aae6-8b9bc0593949",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06369",
+      "title": "Feature Learning for the High Dimensional Stationary Schödinger Equation with Deep Ritz Method",
+      "authors": [
+        "Yao Yao",
+        "Yulong Lu",
+        "Gilad Lerman"
+      ],
+      "abstract": "This paper investigates feature learning within the framework of the deep Ritz method for solving the stationary Schrödinger equation with Neumann boundary conditions. We first analyze the convergence of Riemannian gradient descent in an agnostic setting, where the hypothesis function is restricted to a single-index model while the PDE solution is arbitrary. We prove that gradient descent reaches an approximate global minimum: after T = O(log(1/ε)) iterations, the loss is within εof a constant multiple of the optimal loss. We then examine the loss landscape when the source term of the PDE itself follows a single-index model, considering hypothesis functions given by either a single-index model or a two-neuron multi-index model. In the single-index case, we show that the minimum Ritz energy is attained at the feature vector aligned with that of the source term. In the two-neuron case, we study the landscape of regularized Ritz losses and characterize how a second feature emerges, given that the first feature is aligned with the source, as the regularization parameter varies. Finally, numerical experiments are presented to validate the feature emergence theory in the two-neuron setting.",
+      "categories": [
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06369",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06369",
+      "keywords": [
+        "landscape"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "非凸优化",
+        "鲁棒优化 / 分布鲁棒优化",
+        "最优传输"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：非凸优化、鲁棒优化 / 分布鲁棒优化、最优传输；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.69,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 4.22,
+          "confidence": 1,
+          "matchedSignals": [
+            "landscape"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.15,
+          "confidence": 0.51,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优传输",
+          "score": 2.13,
+          "confidence": 0.51,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.1,
+          "confidence": 0.5,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "94f303a7-255f-481c-9f42-04e437a5a75f",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05448",
+      "title": "iSTAR: an algebraic-collapse framework for variational reduction in quantum-inspired continuous Ising solvers",
+      "authors": [
+        "Bowen Liu",
+        "Dongmei Xiao"
+      ],
+      "abstract": "Continuous Ising solvers embed a discrete optimization problem into a continuous dynamical system and recover the spin configuration by sign readout, but dense interaction evaluation gives an $O(N^2)$-per-step cost. We show that this cost is not intrinsic: during late-stage simulated bifurcation the trajectory collapses onto a lower-dimensional active subspace, and saturated coordinates can be eliminated exactly by a variational frozen-set identity whose couplings fold into an induced field on the unresolved subsystem. We prove large-parameter recovery for the external-field quartic model, the hard-box limit of ballistic confinement, and a robust-margin freezing criterion. The resulting algorithm, iSTAR (Ising Stable-set Tail-Aware Reduction), exploits this collapse by detecting stabilized coordinates and continuing only on the active tail. An online certified implementation on the G-set benchmark preserves the same-seed baseline in all runs and removes on average 64.4% of the dense interaction work.",
+      "categories": [
+        "math.NA",
+        "math.OC",
+        "quant-ph"
+      ],
+      "primaryCategory": "math.NA",
+      "publishedAt": "2026-07-05",
+      "updatedAt": "2026-07-05",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05448",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05448",
+      "keywords": [
+        "robust",
+        "online",
+        "dynamical system"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "鲁棒优化 / 分布鲁棒优化",
+        "最优控制"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、鲁棒优化 / 分布鲁棒优化、最优控制；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.42,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.05,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.96,
+          "confidence": 0.98,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.75,
+          "confidence": 0.54,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        },
+        {
+          "name": "低秩优化",
+          "score": 1.75,
+          "confidence": 0.35,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "鲁棒",
+        "在线/动态",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "681d76b1-a928-445d-8bf6-b5018281b8cb",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05640",
+      "title": "Input-to-State Stability Implications in Contraction Theory",
+      "authors": [
+        "Yu Kawano",
+        "Francesco Bullo"
+      ],
+      "abstract": "For nonlinear control systems on normed vector spaces, we characterize an incremental input-to-state stability (ISS) type property in which the overshoot constant multiplies both the initial-condition and the input terms. Working through the associated variational system, we show that two properties are equivalent: an ISS-type bound on the variational system, and the incremental ISS-type bound on the original system. We further establish the equivalence between an infinitesimal contraction condition, expressed through a Lyapunov-type function, and an incremental Lyapunov condition. Each of these equivalent conditions yields a necessary condition and a sufficient condition for the ISS-type bounds, differing only in the input Lipschitz constant of the vector field. When the overshoot constant equals one, the infinitesimal contraction condition reduces to the standard norm-based contraction conditions. We establish these implications under mere continuous differentiability of the vector field, and we illustrate the results through sensitivity matrices and Lyapunov characteristic exponents.",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05640",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05640",
+      "keywords": [
+        "online",
+        "control system"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "在线优化 / 动态优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、在线优化 / 动态优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.39,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 4.81,
+          "confidence": 1,
+          "matchedSignals": [
+            "control system"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.64,
+          "confidence": 0.96,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.39,
+          "confidence": 0.29,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.35,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "1d4fb625-f6b2-49d6-b575-f44653de8bde",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05653",
+      "title": "Orthogonal Dendritic Intrinsic Networks: An Architecture for Significance-Ordered, Orthogonal Latent Spaces",
+      "authors": [
+        "Jeanie Schreiber",
+        "Tyrus Berry",
+        "Zeeshan Ahmed"
+      ],
+      "abstract": "Principal Component Analysis or PCA-like properties (orthogonality, variance ranking) are seldom realized in deep autoencoder architectures. In this work, we present ODIN (Orthogonal Dendritic Intrinsic Network), a novel autoencoder architecture that recovers PCA-like latent structure in a fully non-linear regime. By incorporating a set of geometric constraints directly into the training objective, ODIN encourages latent dimensions to be mutually orthogonal and ordered by explained variance, mirroring the interpretable decomposition of PCA while retaining the expressive power of deep networks. We provide theoretical grounding for these constraints and demonstrate their compatibility with standard encoder-decoder frameworks. We also establish empirical results for both synthetic and real world datasets, establishing a principled path toward interpretable, structured feature learning and dimensionality reduction.",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05653",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05653",
+      "keywords": [
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、鲁棒优化 / 分布鲁棒优化、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.62,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 4.67,
+          "confidence": 1,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.08,
+          "confidence": 0.45,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.05,
+          "confidence": 0.44,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.75,
+          "confidence": 0.37,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "1027ac9b-d935-4439-a1f3-d7c20806d599",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05683",
+      "title": "Deep Reinforcement Learning for Dynamic Battery Management of Autonomous Order Pickers",
+      "authors": [
+        "Taniya Shaji",
+        "Abhay Sobhanan",
+        "Christof Defryn"
+      ],
+      "abstract": "Battery charging of Autonomous Mobile Robots (AMRs) in warehouses is a critical operational challenge that heavily impacts both order processing times and throughput. In this study, we address the dynamic AMR charging problem under stochastic order arrivals, where robots must learn optimal charging decisions. Traditional fixed-rule heuristics often prove suboptimal in dynamic environments and fail to account for multi-AMR coordination, leading to severe resource inefficiencies. To overcome these limitations, we propose a Proximal Policy Optimization (PPO)-based Deep Reinforcement Learning (DRL) framework designed for multi-block warehouses with fixed charging stations. Our model dynamically learns two key decisions: charging station selection and optimal charging duration, explicitly accounting for anticipated queuing times at the stations. Extensive numerical experiments benchmark the proposed model against state-of-the-art DRL and traditional heuristic approaches. Results demonstrate that our PPO framework increases order-completion rates by up to 6\\% compared to the strongest baseline, while significantly reducing the total time dedicated to recharging operations. Furthermore, we validate the model's robustness across diverse warehouse configurations and stochastic arrival rates. Finally, we interpret the learned DRL policy, offering valuable operational insights into its superiority over standard benchmarks.",
+      "categories": [
+        "cs.LG",
+        "cs.MA",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-06",
+      "updatedAt": "2026-07-06",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05683",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05683",
+      "keywords": [
+        "stochastic",
+        "robust",
+        "proximal",
+        "policy optimization",
+        "reinforcement learning",
+        "rl"
+      ],
+      "subfield": "优化与机器学习",
+      "secondarySubfields": [
+        "随机优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 policy optimization，且与 arXiv 分类线索一致；副方向候选：随机优化、鲁棒优化 / 分布鲁棒优化；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 7.79,
+          "confidence": 1,
+          "matchedSignals": [
+            "policy optimization",
+            "reinforcement learning",
+            "rl"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 5.74,
+          "confidence": 0.74,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.66,
+          "confidence": 0.73,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "分布式优化",
+          "score": 2.14,
+          "confidence": 0.27,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "非光滑",
+        "随机",
+        "鲁棒",
+        "机器学习"
+      ],
+      "methodTags": [
+        "proximal"
+      ],
+      "applicationTags": [
+        "机器学习训练",
+        "强化学习"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 优化与机器学习。",
+      "id": "dddc7bfa-ec3d-4727-be95-0ec267034c9f",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.05872",
+      "title": "No Subspace to Track: Non-Identifiability and Optimizer State in Low-Rank Training",
+      "authors": [
+        "Noel Thomas"
+      ],
+      "abstract": "Memory-efficient optimizers such as GaLore train large language models by projecting gradients onto a rank-r subspace recomputed every T steps, assuming this subspace is a slowly drifting object that can be tracked. We show that beyond a small reproducible core, there is no such object. Two estimates of the top-r subspace computed at the same step from disjoint minibatches disagree as much as estimates computed T steps apart (0.73 vs 0.74 of the maximal chordal distance sqrt(2r), at Pythia-160M with r=128): the apparent rotation at each refresh is dominated by estimator noise. This holds across four model families in three architecture classes from 70M to 6.9B parameters, strengthening with scale, and more weakly in a vision transformer. Only ~39 of 128 directions are reproducible across minibatches, and averaging cannot recover the rest: under N-fold averaging the gradient's spectral tail shrinks as N^(-1/4) rather than the N^(-1/2) of pure noise, so no averaging budget makes the subspace well defined. What helps instead follows from treating each refresh as a change of coordinates for Adam's state. Carrying the second moment blindly is provably about (r-k*)/2 worse than the best rotation-blind estimator, while the first moment transports exactly through the rotation, the optimal linear map under isotropic gradients and the rule LDAdam uses. At 1B over 40k steps (3 seeds), full LDAdam reaches 18.7 perplexity at beta2=0.999, beating untransported GaLore after its best beta2 fix (19.3); shortening the second-moment memory to beta2=0.99 helps the refreshing optimizers, though for canonical GaLore the effect is small and a full-rank control reverses it. One measurable fact, subspace non-identifiability, clarifies why GaLore works, which patches work, and what to check before trusting a low-rank assumption: the reproducible rank k*.",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.05872",
+      "pdfUrl": "https://arxiv.org/pdf/2607.05872",
+      "keywords": [
+        "low rank"
+      ],
+      "subfield": "低秩优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 low rank，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "低秩优化",
+          "score": 12.78,
+          "confidence": 1,
+          "matchedSignals": [
+            "low rank"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.99,
+          "confidence": 0.23,
+          "matchedSignals": [
+            "large language model"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 2.55,
+          "confidence": 0.2,
+          "matchedSignals": [
+            "minibatch"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.45,
+          "confidence": 0.19,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "低秩"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 9.8,
+      "recommendationReason": "主方向属于你关注的 低秩优化，命中关键词 Low Rank、low-rank。",
+      "id": "fe2aa1e0-f10c-41ee-8ea9-b7883ee53999",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06013",
+      "title": "Stability Annealing Selects the Implicit Bias of Smoothed Sign Descent: A Rate-Indexed Barrier Path on Separable Data",
+      "authors": [
+        "Xiangwu Wang",
+        "Chengwei Cao",
+        "Yicheng Song",
+        "Ran Bi",
+        "Peilin Yu"
+      ],
+      "abstract": "Adaptive gradient methods can favor max-margin separators that differ from gradient descent, yet a fixed positive numerical stability constant eventually changes the update geometry again. This paper studies the rate-controlled middle case for full-batch linear classification on separable data. For memoryless stability-annealed smoothed-sign descent with weighted exponential loss, we prove that the normalized iterates converge to the minimizer of a convex Burg-type barrier over a margin slice. The proof rewrites the dynamics exactly as entropic mirror ascent on a concave dual objective, controls the dual gap by a KL recursion, and yields an explicit S_t^{-1/2} normalized-iterate envelope. The static barrier geometry is fully characterized, including KKT conditions and both endpoint limits. Experiments validate the exact dual identities to floating-point error, illustrate the predicted path and rate diagram, and show an empirical fixed-epsilon crossover scaling in cumulative time. We further report robustness and boundary diagnostics for logistic tails, fixed-epsilon crossover, and adaptive-method variants, delineating the scope of the proved smoothed-sign theory.",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06013",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06013",
+      "keywords": [
+        "robust",
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化",
+        "凸优化",
+        "优化与机器学习"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：鲁棒优化 / 分布鲁棒优化、凸优化、优化与机器学习；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.78,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.66,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.87,
+          "confidence": 0.68,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 2.12,
+          "confidence": 0.37,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.98,
+          "confidence": 0.35,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "鲁棒"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "c37eb37f-e4e5-4a9d-b831-87fbfb104120",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06017",
+      "title": "Learning When to Automate: Queue Control in Human-AI Service Systems",
+      "authors": [
+        "Giovanni Montanari",
+        "Marco Scarsini",
+        "Vianney Perchet"
+      ],
+      "abstract": "We study a human-AI service system in which tasks arrive sequentially and are processed through a two-stage architecture: an automated chatbot followed, when necessary, by a human agent. We consider $T$ sequentially arriving tasks, each belonging to one of $K$ heterogeneous types. For each task the decision maker chooses how many resources to allocate to the chatbot, whose type-dependent success probabilities are initially unknown. Tasks not resolved by the chatbot enter type-dependent human-service queues, where they are processed by a human agent with unknown service rates. This model captures a central tradeoff in hybrid service systems: relying more on automation reduces human congestion but increases chatbot costs, while insufficient automation may overload the human agent. We propose the UCB-DPP policy, which combines Upper Confidence Bounds with Drift-Plus-Penalty control to learn the unknown parameters of the system while making queue-aware decisions. We prove that UCB-DPP achieves regret $\\widetilde{\\mathcal{O}}(K\\sqrt{T})$ and guarantees mean-rate stability of the human-service queues. Simulations on synthetic instances show that the proposed policy outperforms natural baselines.",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06017",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06017",
+      "keywords": [
+        "regret",
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、优化与机器学习、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.33,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 4.23,
+          "confidence": 1,
+          "matchedSignals": [
+            "regret"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 4.11,
+          "confidence": 0.97,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.02,
+          "confidence": 0.48,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2,
+          "confidence": 0.47,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "3b3247f4-534e-45d1-ac3b-61b92a8cc358",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06425",
+      "title": "Adaptive and Neural Operator Control of Nonlinear Volterra Hyperbolic PDEs",
+      "authors": [
+        "Miroslav Krstic"
+      ],
+      "abstract": "Adaptive control learns the plant online; neural-operator control learns the control gains offline. We bring the two together for a class of nonlinear hyperbolic PDEs whose dynamics are governed by an unknown Volterra series of arbitrarily many kernels. An observer-based passive identifier learns a truncation of this series online. The infinite-dimensional map that synthesizes the backstepping kernels from the parameter estimates -- a cascade of PDEs on simplex domains of increasing dimension, prohibitive to solve in real time -- is approximated once, offline, by a neural operator. The closed loop then carries two learning processes in series: online learning of the plant feeds an offline-learned PDE solver, whose output is the online control gains. We prove closed-loop stability and asymptotic regulation of the plant state, observer state, and input, on a basin that recovers the exact-kernel basin as the neural-operator accuracy improves. With a single Lyapunov function we absorb at once the perturbations -- all vanishing -- of truncating an infinite Volterra series, of identifying the plant online, and of approximating the gains.",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06425",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06425",
+      "keywords": [
+        "online",
+        "online learning"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "最优控制",
+        "分布式优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、最优控制、分布式优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.77,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.05,
+          "confidence": 1,
+          "matchedSignals": [
+            "online learning",
+            "online"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 3.9,
+          "confidence": 0.77,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.35,
+          "confidence": 0.27,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.3,
+          "confidence": 0.26,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "921030b5-36ab-43bf-b38a-2fd6def55c72",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06490",
+      "title": "Convergent realizations of Lie subalgebras",
+      "authors": [
+        "Karine Beauchard",
+        "Jérémy Le Borgne",
+        "Frédéric Marbach"
+      ],
+      "abstract": "It is known since the seminal work of Guillemin and Sternberg that Lie subalgebras of finite codimension can be realized as subalgebras of formal vector fields over formal power series. In this note, we characterize the Lie subalgebras which admit a convergent realization in the sense of locally analytic vector fields. We give generalizations of these properties for the problem of output realization. We give reformulations and applications of these algebraic results in the context of control theory. In particular, we recover and clarify previous results on the realization of Chen-Fliess series for control-affine systems, the equivalence of control systems, the existence of embedded or canonical systems.",
+      "categories": [
+        "math.DG",
+        "math.OC",
+        "math.RT"
+      ],
+      "primaryCategory": "math.DG",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06490",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06490",
+      "keywords": [
+        "control system"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "优化与机器学习",
+        "随机优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、优化与机器学习、随机优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.72,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 3.52,
+          "confidence": 1,
+          "matchedSignals": [
+            "control system"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 1.8,
+          "confidence": 0.51,
+          "matchedSignals": [
+            "generalization"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 1.04,
+          "confidence": 0.3,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 0.98,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "e7ea56b9-6889-4136-965e-3a2655814ed4",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2607.06532",
+      "title": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
+      "authors": [
+        "Xiaolei Guo",
+        "Chenyu Zhou",
+        "Jianghao Lin",
+        "Dongdong Ge"
+      ],
+      "abstract": "Mixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines. A generator must keep the structure that solvers and learned policies rely on. Existing general generators usually choose their generation unit from a formulation template, summary statistics, local graph edits, or blocks found after recombination. These units do not explicitly record how a local part of the MILP is coupled to the rest of the instance. We propose GraphBU, a graph-native generator whose basic unit is a local subproblem plus its interface. The method promotes coupling nodes into master constraints or boundary variables and uses the resulting block units for compatibility-checked replacement. The analysis focuses on the properties needed by this construction: promotion separates interfaces, replacement can preserve feasibility under an interface-slack condition, and the graph construction is invariant to row-column permutations. On MILP instances generation, this unit keeps graph statistics close to the source family, preserves feasibility on most datasets, and improves downstream Predict-and-Search training. Genrated by GraphBU, The average graph-statistical similarity was approximately 0.934, the average feasibility was approximately 96.7%, and the average increase in the main index of downstream PS was approximately 8.0%.",
+      "categories": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2026-07-07",
+      "updatedAt": "2026-07-07",
+      "announcementType": "new",
+      "arxivUrl": "https://arxiv.org/abs/2607.06532",
+      "pdfUrl": "https://arxiv.org/pdf/2607.06532",
+      "keywords": [
+        "mixed integer"
+      ],
+      "subfield": "组合优化 / 整数规划",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 mixed integer，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 7.96,
+          "confidence": 1,
+          "matchedSignals": [
+            "mixed integer"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2,
+          "confidence": 0.25,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.85,
+          "confidence": 0.23,
+          "matchedSignals": []
+        },
+        {
+          "name": "非凸优化",
+          "score": 1.68,
+          "confidence": 0.21,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "b977a3b2-69b0-4d51-9cc1-be3bbcf13a02",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2211.10942",
+      "title": "On the Convergence Analysis of DCA",
+      "authors": [
+        "Yi-Shuai Niu"
+      ],
+      "abstract": "Difference-of-Convex (DC) programming, which seeks to minimize a function expressed as the difference of two convex functions, arises in a wide range of applications in machine learning, signal processing, and operations research. A classical and widely used algorithm for solving DC programs is the Difference-of-Convex Algorithm (DCA). In this paper, we revisit DCA from a distinctly DC-specific perspective. We first separate well-definedness from asymptotic convergence and introduce an additional assumption ensuring the solvability of the DCA subproblems, which clarifies why the choice of DC decomposition matters. We then develop a Lyapunov-descent-regularity framework in which the descent estimate is read directly from the convex subproblems and the regularity estimate is verified from DCA optimality conditions. This yields global convergence of the iterates $\\{x^k\\}$ for both standard and convex-constrained DC programs under either the classical Lojasiewicz subgradient inequality or the broader Kurdyka-Lojasiewicz (KL) property. We further explain how stronger regularity regimes, such as the Polyak-Lojasiewicz (PL) condition, fit into the same framework and sharpen the resulting convergence rates. Consequently, we obtain finite-time, linear, and sublinear rates for objective values and iterates in a way that cleanly separates well-definedness, DCA-specific structure, and KL/PL regularity, and that is readily transferable to DCA-type variants.",
+      "categories": [
+        "math.OC",
+        "math.NA"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2022-11-20",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2211.10942",
+      "pdfUrl": "https://arxiv.org/pdf/2211.10942",
+      "keywords": [
+        "convergence analysis",
+        "convergence rate",
+        "difference of convex",
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "非凸优化",
+        "凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、非凸优化、凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.93,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 8.15,
+          "confidence": 1,
+          "matchedSignals": [
+            "convergence rate",
+            "convergence analysis"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 5.07,
+          "confidence": 0.62,
+          "matchedSignals": [
+            "difference of convex"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.81,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.1,
+          "confidence": 0.26,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "约束",
+        "算法复杂度",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "信号处理"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "728556ef-9e85-4283-98f4-836d03e7b2d0",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2505.08317",
+      "title": "Stationary Mean-Field Games of Singular Control under Knightian Uncertainty",
+      "authors": [
+        "Giorgio Ferrari",
+        "Ioannis Tzouanas"
+      ],
+      "abstract": "In this work, we study a class of stationary mean-field games of singular stochastic control under model uncertainty. The representative agent adjusts the dynamics of an Itô diffusion via one-sided singular stochastic control, aiming to maximize a long-term average reward criterion. The mean-field interaction is of scalar type through the stationary distribution of the population. Due to the presence of uncertainty, the problem involves the study of a stochastic zero-sum game, where the decision maker chooses the best singular control policy, while the adversarial player selects the worst probability measure. Using a constructive approach, we prove existence and uniqueness of a stationary mean-field equilibrium. Finally, we provide a stylized numerical benchmark of dirty-capacity reduction under ambiguity and analyze the impact of uncertainty on the mean-field equilibrium.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-05-13",
+      "updatedAt": "2026-07-06",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2505.08317",
+      "pdfUrl": "https://arxiv.org/pdf/2505.08317",
+      "keywords": [
+        "stochastic",
+        "uncertainty"
+      ],
+      "subfield": "随机优化",
+      "secondarySubfields": [
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "主方向命中 stochastic，且与 arXiv 分类线索一致；副方向候选：鲁棒优化 / 分布鲁棒优化；分类置信度 67%。",
+      "classificationConfidence": 0.67,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 5.99,
+          "confidence": 1,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.84,
+          "confidence": 0.81,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.41,
+          "confidence": 0.4,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.8,
+          "confidence": 0.3,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "博弈/经济"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "50f57cc9-ccab-45a4-9acb-915a249775b1",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2506.05974",
+      "title": "A Proximal Variable Smoothing for Minimization of Nonlinearly Composite Nonsmooth Function -- Finite-Max Minimization and MIMO Applications",
+      "authors": [
+        "Keita Kume",
+        "Isao Yamada"
+      ],
+      "abstract": "We propose a proximal variable smoothing algorithm for a nonsmooth optimization problem whose cost function is the sum of three functions including a weakly convex composite function. The proposed algorithm has a single-loop structure inspired by a proximal gradient-type method. More precisely, the proposed algorithm consists of two steps: (i) a gradient descent of a time-varying smoothed surrogate function designed partially with the Moreau envelope of the weakly convex function; (ii) an application of the proximity operator of the remaining function not covered by the smoothed surrogate function. For the proposed algorithm, we present a subsequential convergence guarantee in terms of a stationary point, and a convergence rate ${O}(ε^{-3})$ for achieving an $ε$-stationary point. Numerical experiments demonstrate the effectiveness of the proposed algorithm in two scenarios: (i) robust target localization and (ii) multiple-input-multiple-output (MIMO) signal detection.",
+      "categories": [
+        "math.OC",
+        "eess.SP"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-06-06",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2506.05974",
+      "pdfUrl": "https://arxiv.org/pdf/2506.05974",
+      "keywords": [
+        "robust",
+        "proximal",
+        "online",
+        "weakly convex",
+        "proximal gradient",
+        "convergence rate"
+      ],
+      "subfield": "非凸优化",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "在线优化 / 动态优化"
+      ],
+      "classificationReason": "主方向命中 weakly convex、proximal gradient，且与 arXiv 分类线索一致；副方向候选：通用算法理论与复杂度、在线优化 / 动态优化；分类置信度 89%。",
+      "classificationConfidence": 0.89,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "非凸优化",
+          "score": 7.9,
+          "confidence": 1,
+          "matchedSignals": [
+            "weakly convex",
+            "proximal gradient"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.38,
+          "confidence": 0.81,
+          "matchedSignals": [
+            "convergence rate"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.95,
+          "confidence": 0.75,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.68,
+          "confidence": 0.72,
+          "matchedSignals": [
+            "convex",
+            "nonsmooth"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非凸",
+        "非光滑",
+        "鲁棒",
+        "在线/动态",
+        "算法复杂度"
+      ],
+      "methodTags": [
+        "proximal"
+      ],
+      "applicationTags": [
+        "信号处理"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 非凸优化。",
+      "id": "4061daf4-3f62-449e-8d57-be847e2058b8",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2506.15217",
+      "title": "Contribution of expert aggregation to temperature prediction part I",
+      "authors": [
+        "Leo Pfitzner",
+        "Olivier Wintenberger",
+        "Olivier Mestre",
+        "Marion Riverain"
+      ],
+      "abstract": "Many Numerical Weather Prediction (NWP) models and their associated Model Output Statistics (MOS) are available. Combining all of these predictions in an optimal way is however not straightforward. This can be achieved thanks to Expert Aggregation (EA) [Cesa-Bianchi and Lugosi, 2006, Gaillard et al., 2014, Wintenberger, 2024] which has many advantages, such as being online, being adaptive to model changes and having theoretical guarantees. Hence, in this paper, we propose a method for making deterministic temperature predictions with EA strategies and show how this can improve temperature predictions, even those of post processed NWP models. We also compare different EA strategies in various settings and discuss certain limitations.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-06-18",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2506.15217",
+      "pdfUrl": "https://arxiv.org/pdf/2506.15217",
+      "keywords": [
+        "online"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "双层优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、双层优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.8,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.82,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 1.82,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "变分分析",
+          "score": 1.8,
+          "confidence": 0.31,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.7,
+          "confidence": 0.29,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "aaff30bc-0f3a-4d90-9264-2bafc2d639a9",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2511.00680",
+      "title": "Accelerating Trust-Region Methods: An Attempt to Balance Global and Local Efficiency",
+      "authors": [
+        "Yuntian Jiang",
+        "Chuwen Zhang",
+        "Bo Jiang",
+        "Yinyu Ye"
+      ],
+      "abstract": "Balancing global efficiency and local convergence remains a central challenge in second-order methods for unconstrained convex optimization problems. Newton's method enjoys fast local convergence but may diverge when initialized far from the solution. In contrast, accelerated second-order methods provide global guarantees but typically suffer from slower local convergence. This raises the fundamental question of to what extent global acceleration can be achieved without sacrificing strong local convergence. In this paper, we tackle this challenge by proposing the first accelerated trust-region-type methods and leveraging their inherent primal-dual information. Our primary contribution is the Accelerated Trust-Region method with Local Detection, which utilizes the Lagrange multiplier to detect local regions and achieves a global oracle complexity of \\tilde{O}(ε^{-1/3}), while maintaining quadratic local convergence. We further examine the trade-off that arises when global convergence is pushed to the limit. Specifically, we introduce the Accelerated Trust-Region Extragradient Method, which achieves a global oracle complexity of \\tilde{O}(ε^{-2/7}) but no longer enjoys quadratic local convergence. This reveals a phase-transition-like phenomenon in accelerated trust-region-type methods: quadratic local convergence is preserved under moderate global acceleration, but it breaks down when pursuing extreme global efficiency. Numerical experiments are consistent with the theoretical predictions and illustrate the global-local trade-off.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-11-01",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2511.00680",
+      "pdfUrl": "https://arxiv.org/pdf/2511.00680",
+      "keywords": [
+        "second order method",
+        "oracle complexity",
+        "acceleration"
+      ],
+      "subfield": "通用算法理论与复杂度",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 second order method、oracle complexity、acceleration，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 13.57,
+          "confidence": 1,
+          "matchedSignals": [
+            "oracle complexity",
+            "second order method",
+            "acceleration"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 8.78,
+          "confidence": 0.65,
+          "matchedSignals": [
+            "convex optimization",
+            "primal dual",
+            "convex"
+          ]
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 1.95,
+          "confidence": 0.14,
+          "matchedSignals": []
+        },
+        {
+          "name": "双层优化",
+          "score": 1.85,
+          "confidence": 0.14,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "约束",
+        "算法复杂度"
+      ],
+      "methodTags": [
+        "primal-dual",
+        "Newton/quasi-Newton"
+      ],
+      "applicationTags": [],
+      "score": 9.6,
+      "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度，作者 Yinyu Ye 在你的偏好名单中。",
+      "id": "b178882f-1721-49f4-afb0-f5394574523c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2512.12954",
+      "title": "Linear convergence of relocated fixed-point iterations",
+      "authors": [
+        "Felipe Atenas",
+        "Farhana Ahmed Simi",
+        "Matthew K Tam"
+      ],
+      "abstract": "We establish linear convergence of relocated fixed-point iterations as introduced by Atenas et al. (2026) DOI: 10.1137/25M1776810 assuming the algorithmic operator satisfies a linear error bound. In particular, this framework applies to the setting where the algorithmic operator is a contraction. As a key application of our framework, we obtain linear convergence of the relocated Douglas--Rachford algorithm for finding a zero in the sum of two monotone operators in a setting with Lipschitz continuity and strong monotonicity assumptions. We also apply the framework to deduce linear convergence of variable stepsize resolvent splitting algorithms for multioperator monotone inclusions.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2025-12-15",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2512.12954",
+      "pdfUrl": "https://arxiv.org/pdf/2512.12954",
+      "keywords": [
+        "monotone inclusion",
+        "error bound",
+        "monotone operator"
+      ],
+      "subfield": "变分分析",
+      "secondarySubfields": [
+        "凸优化"
+      ],
+      "classificationReason": "主方向命中 monotone inclusion、error bound，且与 arXiv 分类线索一致；副方向候选：凸优化；分类置信度 84%。",
+      "classificationConfidence": 0.84,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "变分分析",
+          "score": 7.92,
+          "confidence": 1,
+          "matchedSignals": [
+            "monotone inclusion",
+            "error bound"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 5.35,
+          "confidence": 0.68,
+          "matchedSignals": [
+            "monotone operator"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 2.18,
+          "confidence": 0.27,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.09,
+          "confidence": 0.26,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [],
+      "methodTags": [
+        "operator splitting"
+      ],
+      "applicationTags": [],
+      "score": 6.4,
+      "recommendationReason": "副方向与偏好 凸优化 接近。",
+      "id": "97ad4e0e-0232-450d-9508-d2395bca684f",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2601.11467",
+      "title": "The XL Instances and the CVRPLib Best Known Solution Challenge",
+      "authors": [
+        "Eduardo Queiroga",
+        "Rafael Martinelli",
+        "Anand Subramanian",
+        "Eduardo Uchoa",
+        "Thibaut Vidal"
+      ],
+      "abstract": "This paper introduces the XL set, a new collection of large-scale benchmark instances for the capacitated vehicle routing problem (CVRP). The set extends previous benchmarks by covering instances with 1,000 to 10,000 customers and a wide range of structural characteristics, following established generation principles from prior CVRP studies. To provide strong reference solutions, we conducted an extensive computational study with several state-of-the-art algorithms and retained the best solutions obtained as the starting point for a community-driven BKS challenge hosted on the CVRPLib website. The XL instances are publicly available to support the experimental evaluation and comparison of future solution methods. The post-competition results demonstrate the impact of the challenge: over 30 days, participating teams submitted 1,932 BKS improvements, substantially refining the initial solution set and highlighting promising research directions for solving large-scale CVRPs, notably through LLM-assisted algorithm discovery.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-01-16",
+      "updatedAt": "2026-07-06",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2601.11467",
+      "pdfUrl": "https://arxiv.org/pdf/2601.11467",
+      "keywords": [
+        "vr",
+        "routing"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "随机优化",
+        "组合优化 / 整数规划",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：随机优化、组合优化 / 整数规划、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.59,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "随机优化",
+          "score": 5.1,
+          "confidence": 1,
+          "matchedSignals": [
+            "vr"
+          ]
+        },
+        {
+          "name": "组合优化 / 整数规划",
+          "score": 3.66,
+          "confidence": 0.72,
+          "matchedSignals": [
+            "routing"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 2.12,
+          "confidence": 0.42,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.83,
+          "confidence": 0.36,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "运筹应用"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "c369f7bd-7464-4b63-9645-53ef73ab8e3c",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2603.18454",
+      "title": "Fundamental Limits for Sensor-Based Control via the Gibbs Variational Principle",
+      "authors": [
+        "Vincent Pacelli",
+        "Evangelos A. Theodorou"
+      ],
+      "abstract": "Fundamental limits on the performance of feedback controllers are essential for benchmarking algorithms, guiding sensor selection, and certifying task feasibility -- yet few general-purpose tools exist for computing them. Existing information-theoretic approaches overestimate the information a sensor must provide by evaluating it against the uncontrolled system, producing bounds that degrade precisely when feedback is most valuable. We derive a lower bound on the minimum expected cost of any causal feedback controller under partial observations by applying the Gibbs variational principle to the joint path measure over states and observations. The bound applies to nonlinear, nonholonomic, and hybrid dynamics with unbounded costs and admits a self-consistent refinement: any good controller concentrates the state, which limits the information the sensor can extract, which tightens the bound. The resulting fixed-point equation has a unique solution computable by bisection, and we provide conditions under which the free energy minimization is provably convex, yielding a certifiably correct numerical bound. On a scalar LQG problem the self-consistent bound captures over 80% of the known optimal cost at moderate sensor noise, and on a nonlinear Dubins car tracking problem it remains informative across all noise levels where a bound using the uncontrolled state distribution is vacuous.",
+      "categories": [
+        "math.OC",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-03-19",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2603.18454",
+      "pdfUrl": "https://arxiv.org/pdf/2603.18454",
+      "keywords": [
+        "online",
+        "lower bound",
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "通用算法理论与复杂度",
+        "在线优化 / 动态优化",
+        "凸优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：通用算法理论与复杂度、在线优化 / 动态优化、凸优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.89,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 7.03,
+          "confidence": 1,
+          "matchedSignals": [
+            "lower bound"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.6,
+          "confidence": 0.8,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 4.18,
+          "confidence": 0.59,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 2.84,
+          "confidence": 0.4,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "在线/动态",
+        "约束",
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "fbbcf176-8a39-4b18-b16a-ea2e37e9534f",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2604.04795",
+      "title": "Sample Complexity for Markov Decision Processes and Stochastic Optimal Control with Static Risk Measures",
+      "authors": [
+        "Cristian Chávez",
+        "Yan Li"
+      ],
+      "abstract": "We present an elementary state augmentation method for a class of static risk measure applied to the total cost for both Markov decision processes (MDPs) and stochastic optimal control (SOC), such that dynamic programming equations can be derived on the augmented space. Through this we discuss the sample complexities of these two problem classes. We demonstrate the application of the proposed approach by developing a general framework for studying risk-averse MDPs and SOCs with distributionally robust functional generated by $φ$-divergences, and obtain new sample complexity results for commonly used divergence functions.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-04-06",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2604.04795",
+      "pdfUrl": "https://arxiv.org/pdf/2604.04795",
+      "keywords": [
+        "stochastic",
+        "robust",
+        "distributionally robust",
+        "optimal control"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [
+        "最优控制"
+      ],
+      "classificationReason": "主方向命中 robust、distributionally robust，且与 arXiv 分类线索一致；副方向候选：最优控制；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 13.36,
+          "confidence": 1,
+          "matchedSignals": [
+            "distributionally robust",
+            "robust"
+          ]
+        },
+        {
+          "name": "最优控制",
+          "score": 11.22,
+          "confidence": 0.84,
+          "matchedSignals": [
+            "optimal control"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 4.51,
+          "confidence": 0.34,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "双层优化",
+          "score": 1.92,
+          "confidence": 0.14,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "随机",
+        "鲁棒",
+        "控制"
+      ],
+      "methodTags": [
+        "MPC/dynamic programming"
+      ],
+      "applicationTags": [
+        "控制系统"
+      ],
+      "score": 5.5,
+      "recommendationReason": "",
+      "id": "e575b61e-3f47-4697-903b-02a60ad6a165",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2605.00396",
+      "title": "Riemannian Optimization over Symmetric Positive Definite Matrices with the Alpha-Procrustes Geometry",
+      "authors": [
+        "Derun Zhou",
+        "Keisuke Yano",
+        "Mahito Sugiyama"
+      ],
+      "abstract": "In Riemannian optimization, it is well known that the condition number of the Riemannian Hessian at an optimum strongly influences the asymptotic convergence behavior of optimization algorithms. On the manifold of symmetric positive definite (SPD) matrices, several commonly used metrics for optimization, such as the Affine-Invariant (AI) and Bures--Wasserstein (BW) metrics, tend to become ill-conditioned as the underlying SPD matrix becomes ill-conditioned. As a result, even when the Euclidean Hessian remains uniformly well-conditioned on the SPD manifold, optimization may still become difficult near an optimum associated with an ill-conditioned SPD matrix. In this paper, we address this issue through the Alpha-Procrustes (AP) geometry on the SPD manifold. This geometry generalizes several well-known metrics, including the Log-Euclidean (LE) metric for \\(α=0\\) and the BW metric for \\(α=1/2\\). We first show that, when \\(α=1\\), all eigenvalues of the Riemannian metric operator induced by the AP geometry are uniformly bounded independently of the underlying SPD matrix. Therefore, under the assumption that the Euclidean Hessian satisfies the uniform spectral bounds, all the eigenvalues of the corresponding Riemannian Hessian are uniformly bounded independently of the underlying SPD matrix. Consequently, the case \\(α=1\\) provides a robust geometric framework for several Riemannian optimization problems involving ill-conditioned SPD matrices. Finally, we validate our theoretical findings through extensive numerical experiments across a range of applications.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-05-01",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2605.00396",
+      "pdfUrl": "https://arxiv.org/pdf/2605.00396",
+      "keywords": [
+        "robust",
+        "wasserstein"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优传输",
+        "鲁棒优化 / 分布鲁棒优化",
+        "在线优化 / 动态优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优传输、鲁棒优化 / 分布鲁棒优化、在线优化 / 动态优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.89,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优传输",
+          "score": 8.31,
+          "confidence": 1,
+          "matchedSignals": [
+            "wasserstein"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 5.81,
+          "confidence": 0.7,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 2.39,
+          "confidence": 0.29,
+          "matchedSignals": []
+        },
+        {
+          "name": "半定规划 / 锥优化",
+          "score": 2.24,
+          "confidence": 0.27,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "鲁棒",
+        "最优传输"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "59129c36-6355-46a1-8748-e9212be69f8e",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2605.20805",
+      "title": "Weak convergence of the stochastic proximal point method in metric spaces",
+      "authors": [
+        "Nicholas Pischke"
+      ],
+      "abstract": "We prove the almost sure weak convergence of a stochastic proximal point method for minimizing a convex integral function in the general nonlinear context of complete geodesic metric spaces of nonpositive curvature (so-called Hadamard spaces), solving a problem of M. Bačák. This method, formulated in the context of a mild growth condition on the function which generalizes Lipschitz continuity, was previously only considered in the context of strong metric regularity conditions or in the context of locally compact spaces (all of which immediately induce strong convergence). In particular, this result is novel already over Hilbert spaces. The proof is a combination of a weak almost sure convergence theorem for stochastic processes in Hadamard spaces which confine to a stochastic variant of quasi-Fejér monotonicity, due to previous work of the author, together with a new argument for proving the almost sure convergence of the mean function values of the process towards the minimal value.",
+      "categories": [
+        "math.OC"
+      ],
+      "primaryCategory": "math.OC",
+      "publishedAt": "2026-05-20",
+      "updatedAt": "2026-07-06",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2605.20805",
+      "pdfUrl": "https://arxiv.org/pdf/2605.20805",
+      "keywords": [
+        "stochastic",
+        "proximal",
+        "online",
+        "convex",
+        "proximal point"
+      ],
+      "subfield": "凸优化",
+      "secondarySubfields": [
+        "随机优化",
+        "在线优化 / 动态优化"
+      ],
+      "classificationReason": "主方向命中 convex、proximal point，且与 arXiv 分类线索一致；副方向候选：随机优化、在线优化 / 动态优化；分类置信度 87%。",
+      "classificationConfidence": 0.87,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "凸优化",
+          "score": 7.98,
+          "confidence": 1,
+          "matchedSignals": [
+            "convex",
+            "proximal point"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 6.11,
+          "confidence": 0.77,
+          "matchedSignals": [
+            "stochastic"
+          ]
+        },
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.48,
+          "confidence": 0.69,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 4.27,
+          "confidence": 0.53,
+          "matchedSignals": [
+            "metric regularity"
+          ]
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "凸",
+        "非光滑",
+        "随机",
+        "在线/动态"
+      ],
+      "methodTags": [
+        "proximal"
+      ],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 凸优化。",
+      "id": "7d3d1ce9-9dbb-42da-b4c3-449c860cc4b3",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2210.16286",
+      "title": "A Functional-Space Mean-Field Theory of Partially-Trained Three-Layer Neural Networks",
+      "authors": [
+        "Zhengdao Chen",
+        "Eric Vanden-Eijnden",
+        "Joan Bruna"
+      ],
+      "abstract": "To understand the training dynamics of neural networks, prior studies have considered the mean-field limit of two-layer neural networks as the width tends to infinity, establishing theoretical guarantees for its convergence under gradient flow training as well as approximation and generalization capabilities. In this work, we study the infinite-width limit of a type of three-layer neural network where the first-layer weights are randomly sampled and untrained. To rigorously define the limiting model, we extend the mean-field theory by lifting the representation of neurons from Euclidean to functional spaces. This allows us to establish the mean-field training dynamics as a functional gradient flow with a time-varying kernel that remains positive-definite under suitable assumptions, thus proving a linear-rate convergence of its training loss. Furthermore, we define novel function spaces that contain the solutions obtained through the mean-field training dynamics and prove Rademacher complexity bounds for these spaces. Notably, our analysis applies to a range of scaling choices of the model, resulting in two distinct regimes of the mean-field limit that both exhibit feature learning through training.",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "math.PR",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2022-10-28",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2210.16286",
+      "pdfUrl": "https://arxiv.org/pdf/2210.16286",
+      "keywords": [
+        "neural network",
+        "generalization"
+      ],
+      "subfield": "优化与机器学习",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 neural network、generalization，且与 arXiv 分类线索一致；分类置信度 87%。",
+      "classificationConfidence": 0.87,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 9.28,
+          "confidence": 1,
+          "matchedSignals": [
+            "neural network",
+            "generalization"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 4.4,
+          "confidence": 0.47,
+          "matchedSignals": [
+            "complexity bound"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 2.8,
+          "confidence": 0.3,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优传输",
+          "score": 2.56,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 优化与机器学习。",
+      "id": "3fc5c0c5-4f2d-41f7-831f-3ba6a1a4d7c2",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2505.11602",
+      "title": "Regularity and Stability Properties of Selective SSMs with Discontinuous Gating",
+      "authors": [
+        "Nikola Zubić",
+        "Davide Scaramuzza"
+      ],
+      "abstract": "Selective State-Space Models (SSMs) such as Mamba have become central to long-sequence modeling. Still, their stability is poorly understood: their state-space coefficients are modulated online by a token-dependent gating signal, making the recurrence neither linear time-invariant nor classically nonlinear. We study continuous-time selective SSMs through passivity, dissipativity, and Input-to-State Stability (ISS), explicitly separating the selection signal $x(\\cdot)$ from the driving input $u(\\cdot)$. We obtain four results: exponential forgetting under strict dissipativity; a canonical $\\mathrm{AUC}_{\\mathrm{loc}}$ quadratic storage for the frozen-selection subsystem that accommodates discontinuous gating; a parametric LMI together with universal kernel constraints and \"irreversible forgetting\" under universal quadratic storage; and sufficient conditions for global ISS uniformly over admissible selection schedules. We then bridge to practice by deriving a sampled block LMI for the Mamba selective-scan core, which is used as a differentiable training-time regularizer. Across seven standard time-series datasets and four prediction horizons, the regularizer reduces sampled Mamba-core LMI violations by roughly $92\\%$ in $28/28$ pairs at a clean-MSE cost of less than $0.018\\%$. It improves internal Mamba passivity and state-norm diagnostics under injected perturbations. Our results turn classical control-theoretic tools into verifiable structural and training criteria for selective SSMs, while honestly scoping which guarantees transfer to a deep selective-scan architecture.",
+      "categories": [
+        "cs.LG",
+        "math.DS",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2025-05-16",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2505.11602",
+      "pdfUrl": "https://arxiv.org/pdf/2505.11602",
+      "keywords": [
+        "online",
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "在线优化 / 动态优化",
+        "优化与机器学习",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：在线优化 / 动态优化、优化与机器学习、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.46,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 5.59,
+          "confidence": 1,
+          "matchedSignals": [
+            "online"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 5.14,
+          "confidence": 0.92,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.45,
+          "confidence": 0.44,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 2.38,
+          "confidence": 0.43,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "在线/动态",
+        "约束"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "04e746d8-01b7-4519-b72f-8ee7589285c3",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2506.19565",
+      "title": "On finite-horizon approximation of an infinite-horizon feedback Nash equilibrium in discrete-time LQ games",
+      "authors": [
+        "Shengyuan Huang",
+        "Xiaoguang Yang",
+        "Yifen Mu",
+        "Wenjun Mei"
+      ],
+      "abstract": "In infinite-horizon discrete-time linear-quadratic (LQ) dynamic games, computing feedback Nash equilibria (FNEs) remains computationally challenging. Motivated by this, we study a finite-horizon strategy for approximating one of the infinite-horizon FNEs. The finite-horizon strategy is as follows. Each player $i$ has an individual prediction horizon $T^i$. In the infinite-horizon game, at each stage, each player $i$ computes its control in the following way: player $i$ envisions an auxiliary $T^i$-stage game in which the same set of players play, computes the unique FNE of the auxiliary game using a standard method, and implements only the first-stage control. Our main result is, under suitable conditions, the total cost under these finite-horizon strategies converges to that under one of the infinite-horizon FNEs when all players' prediction horizons tend to infinity. Moreover, we derive an explicit cubic-polynomial upper bound on this cost gap with respect to the distance between the corresponding strategy matrices. This strategy is tractable and implementable, as it avoids the direct solution of the coupled algebraic Riccati equations (CARE) of infinite-horizon LQ games.",
+      "categories": [
+        "eess.SY",
+        "math.OC"
+      ],
+      "primaryCategory": "eess.SY",
+      "publishedAt": "2025-06-24",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2506.19565",
+      "pdfUrl": "https://arxiv.org/pdf/2506.19565",
+      "keywords": [],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "鲁棒优化 / 分布鲁棒优化",
+        "分布式优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、鲁棒优化 / 分布鲁棒优化、分布式优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.58,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 3.17,
+          "confidence": 1,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.35,
+          "confidence": 0.43,
+          "matchedSignals": []
+        },
+        {
+          "name": "分布式优化",
+          "score": 1.35,
+          "confidence": 0.43,
+          "matchedSignals": []
+        },
+        {
+          "name": "随机优化",
+          "score": 1.14,
+          "confidence": 0.36,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [],
+      "methodTags": [],
+      "applicationTags": [
+        "控制系统",
+        "博弈/经济"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "6d8ebcde-39e7-40d8-95a9-eba3096ea316",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2510.06505",
+      "title": "Medix: Out-of-Distribution Detection from Unlabeled Wild Data via Robust Gradient Statistics",
+      "authors": [
+        "Momin Abbas",
+        "Ali Falahati",
+        "Hossein Goli",
+        "Mohammad Mohammadi Amiri"
+      ],
+      "abstract": "Out-of-distribution (OOD) detection plays a crucial role in ensuring the robustness of machine learning systems deployed in real-world applications. Recent approaches have explored the use of unlabeled data, showing potential for enhancing OOD detection capabilities. However, effectively utilizing unlabeled in-the-wild data remains challenging due to the mixed nature of both in-distribution (InD) and OOD samples. The lack of a distinct set of OOD samples complicates the task of training an optimal OOD classifier. In this work, we introduce Medix, a novel framework designed to identify potential outliers from unlabeled data using the median-based robust gradient statistics. We use the median because it provides a stable estimate of the central tendency, as an OOD detection mechanism, due to its robustness against noise and outliers. Using these identified outliers, along with labeled InD data, we train a robust OOD classifier. From a theoretical perspective, we derive error bounds that demonstrate Medix achieves a low error rate. Empirical results further substantiate our claims, as Medix outperforms existing methods across the board in open-world settings.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primaryCategory": "cs.LG",
+      "publishedAt": "2025-10-07",
+      "updatedAt": "2026-07-06",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2510.06505",
+      "pdfUrl": "https://arxiv.org/pdf/2510.06505",
+      "keywords": [
+        "robust",
+        "rl"
+      ],
+      "subfield": "鲁棒优化 / 分布鲁棒优化",
+      "secondarySubfields": [
+        "优化与机器学习"
+      ],
+      "classificationReason": "主方向命中 robust，且与 arXiv 分类线索一致；副方向候选：优化与机器学习；分类置信度 81%。",
+      "classificationConfidence": 0.81,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 7.14,
+          "confidence": 1,
+          "matchedSignals": [
+            "robust"
+          ]
+        },
+        {
+          "name": "优化与机器学习",
+          "score": 5.83,
+          "confidence": 0.82,
+          "matchedSignals": [
+            "rl"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 3.37,
+          "confidence": 0.47,
+          "matchedSignals": [
+            "error bound"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 2.48,
+          "confidence": 0.35,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "鲁棒",
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 5.6,
+      "recommendationReason": "副方向与偏好 优化与机器学习 接近。",
+      "id": "6a78dc01-e791-4eec-8a84-35513549242e",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2512.00517",
+      "title": "No-Regret Gaussian Process Optimization of Time-Varying Functions",
+      "authors": [
+        "Eliabelle Mauduit",
+        "Eloïse Berthier",
+        "Andrea Simonetto"
+      ],
+      "abstract": "Sequential optimization of black-box functions from noisy evaluations has been widely studied, with Gaussian Process bandit algorithms such as GP-UCB guaranteeing no-regret in stationary settings. However, for time-varying objectives, no-regret is unattainable under pure bandit feedback unless strong and often unrealistic assumptions are imposed. We propose a novel method for optimizing time-varying rewards in the frequentist setting, where the objective has bounded RKHS norm almost surely. Time variations are captured through uncertainty injection, enabling heteroscedastic Gaussian process regression that adapts past observations to the current time step. As no-regret is unattainable in general in the strict bandit setting, we relax the latter allowing additional queries on previously observed points. Building on sparse inference and the effect of uncertainty injection on regret, we propose W-SparQ-GP-UCB, an online algorithm that achieves no-regret with a vanishing number of additional queries per iteration. To assess the theoretical limits of this approach, we establish a lower bound on the number of additional queries required for no-regret, proving the efficiency of our method. Finally, we provide a comprehensive analysis linking the temporal regime of the function to achievable regret rates, together with upper and lower bounds on the number of additional queries needed in each regime.",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.OC"
+      ],
+      "primaryCategory": "stat.ML",
+      "publishedAt": "2025-11-29",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2512.00517",
+      "pdfUrl": "https://arxiv.org/pdf/2512.00517",
+      "keywords": [
+        "online",
+        "regret",
+        "bandit"
+      ],
+      "subfield": "在线优化 / 动态优化",
+      "secondarySubfields": [],
+      "classificationReason": "主方向命中 online、regret、bandit，且与 arXiv 分类线索一致；分类置信度 98%。",
+      "classificationConfidence": 0.98,
+      "classificationStatus": "confident",
+      "candidateSubfields": [
+        {
+          "name": "在线优化 / 动态优化",
+          "score": 16.04,
+          "confidence": 1,
+          "matchedSignals": [
+            "bandit",
+            "online",
+            "regret"
+          ]
+        },
+        {
+          "name": "通用算法理论与复杂度",
+          "score": 6.42,
+          "confidence": 0.4,
+          "matchedSignals": [
+            "lower bound"
+          ]
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 4.47,
+          "confidence": 0.28,
+          "matchedSignals": [
+            "uncertainty"
+          ]
+        },
+        {
+          "name": "非凸优化",
+          "score": 2.12,
+          "confidence": 0.13,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "",
+      "crossTags": [
+        "在线/动态",
+        "算法复杂度"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练"
+      ],
+      "score": 4.7,
+      "recommendationReason": "",
+      "id": "79c22a03-188b-49bd-ae27-08ae15249576",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2601.13990",
+      "title": "Eigensets and invariant sets of switching dynamical systems",
+      "authors": [
+        "Vladimir Protasov"
+      ],
+      "abstract": "We consider reachable sets of switching systems, which are families of linear ODE $\\dot x(t) \\, = \\, \\, A(t) \\, x(t)$ with a function $A(\\cdot)$ taking values on a given compact set of $d\\times d$ matrices. An eigenset is a compact set $M \\ne \\{0\\}$ that possesses the following property: the closure of the set of points reachable by trajectories $x(\\cdot)$ starting from $M$ in time $t$ is equal to $e^{\\, αt}M, \\, t\\ge 0$. This concept introduced recently in the literature generalizes the notion of an eigenvector of a matrix to an arbitrary compact set of matrices. We prove the existence of eigensets, analyse their structure and properties, and find the corresponding ``eigenvalues'' $α$. The relation of eigensets to the stability of the systems, to their Lyapunov exponents, invariant sets, and invariant norms is established. The question of which compact sets can be presented as eigensets of suitable systems is studied. In particular, for $d=2$, we show that every convex $n$-gone for $n=3,4,5$, is en eigenset, while for $n\\ge 6$, this is not true.",
+      "categories": [
+        "math.DS",
+        "math.MG",
+        "math.OC"
+      ],
+      "primaryCategory": "math.DS",
+      "publishedAt": "2026-01-20",
+      "updatedAt": "2026-07-06",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2601.13990",
+      "pdfUrl": "https://arxiv.org/pdf/2601.13990",
+      "keywords": [
+        "dynamical system",
+        "convex"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "最优控制",
+        "凸优化",
+        "变分分析"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：最优控制、凸优化、变分分析；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.39,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "最优控制",
+          "score": 4.06,
+          "confidence": 1,
+          "matchedSignals": [
+            "dynamical system"
+          ]
+        },
+        {
+          "name": "凸优化",
+          "score": 3.41,
+          "confidence": 0.84,
+          "matchedSignals": [
+            "convex"
+          ]
+        },
+        {
+          "name": "变分分析",
+          "score": 1.47,
+          "confidence": 0.36,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 1.32,
+          "confidence": 0.32,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "凸",
+        "控制"
+      ],
+      "methodTags": [],
+      "applicationTags": [],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "378a913b-489e-4320-8bbe-5332ea78357a",
+      "abstractTranslation": null
+    },
+    {
+      "arxivId": "2605.12410",
+      "title": "Model-based Bootstrap of Controlled Markov Chains",
+      "authors": [
+        "Ziwei Su",
+        "Imon Banerjee",
+        "Diego Klabjan"
+      ],
+      "abstract": "We propose and analyze a model-based bootstrap for transition kernels in finite controlled Markov chains (CMCs) with possibly nonstationary or history-dependent control policies, a setting that arises naturally in offline reinforcement learning (RL) when the behavior policy generating the data is unknown. We establish distributional consistency of the bootstrap transition estimator in both a single long-chain regime and the episodic offline RL regime. The key technical tools are a novel bootstrap law of large numbers (LLN) for the visitation counts and a novel use of the martingale central limit theorem (CLT) for the bootstrap transition increments. We extend bootstrap distributional consistency to the downstream targets of offline policy evaluation (OPE) and optimal policy recovery (OPR) via the delta method by verifying Hadamard differentiability of the Bellman operators, yielding asymptotically valid confidence intervals for value and $Q$-functions. Experiments on the RiverSwim problem show that the proposed bootstrap confidence intervals (CIs), especially the percentile CIs, outperform the episodic bootstrap and plug-in CLT CIs, and are often close to nominal ($50\\%$, $90\\%$, $95\\%$) coverage, while the baselines are poorly calibrated at small sample sizes and short episode lengths.",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.OC",
+        "math.ST"
+      ],
+      "primaryCategory": "stat.ML",
+      "publishedAt": "2026-05-12",
+      "updatedAt": "2026-07-07",
+      "announcementType": "revised",
+      "arxivUrl": "https://arxiv.org/abs/2605.12410",
+      "pdfUrl": "https://arxiv.org/pdf/2605.12410",
+      "keywords": [
+        "reinforcement learning",
+        "rl"
+      ],
+      "subfield": "无法确定分类",
+      "secondarySubfields": [
+        "优化与机器学习",
+        "随机优化",
+        "鲁棒优化 / 分布鲁棒优化"
+      ],
+      "classificationReason": "分类置信度较低，暂放入无法确定分类。候选方向：优化与机器学习、随机优化、鲁棒优化 / 分布鲁棒优化；未命中足够明确的优化结构关键词。",
+      "classificationConfidence": 0.94,
+      "classificationStatus": "uncertain",
+      "candidateSubfields": [
+        {
+          "name": "优化与机器学习",
+          "score": 7.79,
+          "confidence": 1,
+          "matchedSignals": [
+            "reinforcement learning",
+            "rl"
+          ]
+        },
+        {
+          "name": "随机优化",
+          "score": 2.37,
+          "confidence": 0.3,
+          "matchedSignals": []
+        },
+        {
+          "name": "鲁棒优化 / 分布鲁棒优化",
+          "score": 2.3,
+          "confidence": 0.3,
+          "matchedSignals": []
+        },
+        {
+          "name": "最优传输",
+          "score": 2.16,
+          "confidence": 0.28,
+          "matchedSignals": []
+        }
+      ],
+      "uncertaintyReason": "未命中足够明确的优化结构关键词。",
+      "crossTags": [
+        "机器学习"
+      ],
+      "methodTags": [],
+      "applicationTags": [
+        "机器学习训练",
+        "强化学习"
+      ],
+      "score": 8.1,
+      "recommendationReason": "主方向属于你关注的 无法确定分类。",
+      "id": "a0966602-60d0-4314-af5c-9d2b0ae99db0",
+      "abstractTranslation": null
+    }
+  ]
+}
