@@ -1,6 +1,6 @@
 {
   "reportDate": "2026-07-08",
-  "exportedAt": "2026-07-08T03:01:47.567Z",
+  "exportedAt": "2026-07-08T03:04:14.381Z",
   "papers": [
     {
       "arxivId": "2606.30343",
@@ -893,7 +893,14 @@
       "score": 8.1,
       "recommendationReason": "主方向属于你关注的 通用算法理论与复杂度。",
       "id": "16e1dfd2-c5c4-4b0e-aae7-918eeed5d7dc",
-      "abstractTranslation": null
+      "abstractTranslation": {
+        "language": "zh-CN",
+        "text": "Picard 迭代以线性速率 $q^N$ 收敛到 $q$-压缩算子的唯一不动点，且基于仿射构造的下界表明，任何仅查询算子值的确定性方法都无法做得更好。但是，查询导数的高阶方法又如何呢？一次雅可比评估即可完全揭示仿射映射，因此仿射构造对高阶方法没有任何说明。在这项工作中，我们表明有限阶导数信息仍然不能加速光滑压缩不动点计算的最坏情况复杂度。这与高阶光滑最小化形成对比，其中高阶导数确实改善了凸和非凸最小化的最坏情况速率。",
+        "sourceHash": "b3f81abf1278bff190c90095eaefb2f7f761fe6b1819c79b29b817f95ff778c9",
+        "provider": "glm",
+        "model": "general_translation",
+        "translatedAt": "2026-07-08T03:04:14.336Z"
+      }
     },
     {
       "arxivId": "2607.05991",
